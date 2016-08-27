@@ -1,0 +1,1013 @@
+\begin{thebibliography}{100}
+
+\bibitem{attili14}
+A.~Attili, F.~Bisetti, M.~E. Mueller, and H.~Pitsch.
+\newblock {Formation, growth, and transport of soot in a three-dimensional
+  turbulent non-premixed jet flame}.
+\newblock {\em Combust. Flame}, 161:1849--1865, 2014.
+
+\bibitem{attili15}
+A.~Attili, F.~Bisetti, M.~E. Mueller, and H.~Pitsch.
+\newblock {Damk\"{o}hler number effects on soot formation and growth in
+  turbulent nonpremixed flames}.
+\newblock {\em Proc. Combust. Inst.}, 35:1215--1223, 2015.
+
+\bibitem{axelbaum91}
+R.~L. Axelbaum and C.~K. Law.
+\newblock Soot formation and inert addition in diffusion flames.
+\newblock {\em Proc. Combust. Inst.}, 23:1517--1523, 1991.
+
+\bibitem{berta06}
+P.~Berta, S.~K. Aggarwal, and I.~K. Puri.
+\newblock An experimental and numerical investigation of $n$-heptane/air
+  counterflow partially premixed flames and emission of {NO}$_x$ and {PAH}
+  species.
+\newblock {\em Combust. Flame}, 145:740--764, 2006.
+
+\bibitem{bhagatwala15}
+A.~Bhagatwala, Z.~Luo, H.~Shen, J.~A. Sutton, T.~Lu, and J.~H. Chen.
+\newblock {Numerical and experimental investigation of turbulent DME jet
+  flames}.
+\newblock {\em Proc. Combust. Inst.}, 35:1157--1166, 2015.
+
+\bibitem{bisetti12}
+F.~Bisetti, G.~Blanquart, M.~E. Mueller, and H.~Pitsch.
+\newblock On the formation and early evolution of soot in turbulent nonpremixed
+  flames.
+\newblock {\em Combust. Flame}, 159:317--335, 2012.
+
+\bibitem{bladh08}
+H.~Bladh and P.~E. Johnsson, J.~Bengtsson.
+\newblock {On the dependence of the laser-induced incandescence (LII) signal on
+  soot volume fraction for variations in particle size}.
+\newblock {\em Appl. Phys. B}, 90:109--125, 2008.
+
+\bibitem{blanquart09b}
+G.~Blanquart, P.~Pepiot, and H.~Pitsch.
+\newblock Chemical mechanism for high temperature combustion of engine relevant
+  fuels with emphasis on soot precursors.
+\newblock {\em Combust. Flame}, 156:588--607, 2009.
+
+\bibitem{blanquart09c}
+G.~Blanquart and Heinz Pitsch.
+\newblock A joint volume-surface-hydrogen multi-variate model for soot
+  formation.
+\newblock In H.~Bockhorn, A.~D'Anna, A.~Sarofim, and H.~Wang, editors, {\em
+  {Combustion Generated Fine Carbonaceous Particles}}, pages 439--466. {KIT}
+  {S}cientific {P}ublishing, 2009.
+
+\bibitem{buckmaster02}
+J.~Buckmaster.
+\newblock {Edge-flames}.
+\newblock {\em Prog. Energy Combust. Sci.}, 28:435--475, 2002.
+
+\bibitem{buipham91}
+M.~Bui-Pham and K.~Seshadri.
+\newblock Comparison between experimental measurements and numerical
+  calculations of the structure of heptane-air diffusion flames.
+\newblock {\em Combust. Sci. Technol.}, 79:293--310, 1991.
+
+\bibitem{buxton13}
+O.~R.~H. Buxton, R.~A. Burns, and N.~T. Clemens.
+\newblock {Simultaneous krypton PLIF, LII and PIV measurements in a sooting jet
+  flame}.
+\newblock {\em 51st AIAA Aerospace Sciences Meeting}, pages 2013--0479, 2013.
+
+\bibitem{camacho13}
+J.~Camacho, S.~Lieb, and H.~Wang.
+\newblock Evolution of size distribution of nascent soot in $n$- and
+  $i$-butanol flames.
+\newblock {\em Proc. Combust. Inst.}, 34:1853--1860, 2013.
+
+\bibitem{choi10}
+B.~C. Choi and S.~H. Chung.
+\newblock {Autoignited laminar lifted flames of methane, ethylene, ethane, and
+  $n$-butane jets in coflow air with elevated temperature}.
+\newblock {\em Combust. Flame}, 157(12):2348--2356, 2010.
+
+\bibitem{choi12}
+B.~C. Choi and S.~H. Chung.
+\newblock {Autoignited laminar lifted flames of methane/hydrogen mixtures in
+  heated coflow air}.
+\newblock {\em Combust. Flame}, 159(4):1481--1488, 2012.
+
+\bibitem{choi09}
+B.~C. Choi, K.~N. Kim, and S.~H. Chung.
+\newblock {Autoignited laminar lifted flames of propane in coflow jets with
+  tribrachial edge and mild combustion}.
+\newblock {\em Combust. Flame}, 156(2):396--404, 2009.
+
+\bibitem{chung07}
+S.~H. Chung.
+\newblock {Stabilization, propagation and instability of tribrachial triple
+  flames}.
+\newblock {\em Proc. Combust. Inst.}, 31(1):877--892, 2007.
+
+\bibitem{ciezki93}
+H.~K. Ciezki and G.~Adomeit.
+\newblock {Shock-tube investigation of self-ignition of $n$-heptane-air
+  mixtures under engine relevant conditions}.
+\newblock {\em Combust. Flame}, 93(4):421--433, 1993.
+
+\bibitem{cohen96}
+S.~D. Cohen, A.~C. Hindmarsh, and P.~F. Dubois.
+\newblock {CVODE, a stiff/nonstiff ODE solver in C}.
+\newblock {\em Comput. Phys.}, 10(2):138--143, 1996.
+
+\bibitem{cook94}
+A.~W. Cook and J.~J. Riley.
+\newblock {A subgrid model for equilibrium chemistry in turbulent flows}.
+\newblock {\em Phys. Fluids}, 6:2868--2870, 1994.
+
+\bibitem{curran00}
+H.~J. Curran, S.~L. Fischer, and F.~L. Dryer.
+\newblock {Reaction kinetics of dimethyl ether. II: low-temperature oxidation
+  in flow reactors}.
+\newblock {\em Int. J. Chem. Kinet.}, 32(12):741--759, 2000.
+
+\bibitem{curran98}
+H.~J. Curran, W.~J. Pitz, C.~K. Westbrook, P.~Dagaut, J.-C. Boettner, and
+  M.~Cathonnet.
+\newblock {A wide range modeling study of dimethyl ether oxidation}.
+\newblock {\em Int. J. Chem. Kinet.}, 30(3):229--241, 1998.
+
+\bibitem{dagaut95}
+P.~Dagaut, M.~Reuillon, and M.~Cathonnet.
+\newblock {Experimental study of the oxidation of $n$-heptane in a jet stirred
+  reactor from low to high temperature and pressures up to 40 atm}.
+\newblock {\em Combust. Flame}, 101:132--140, 1995.
+
+\bibitem{dally98a}
+B.~B. Dally, D.~F. Fletcher, and A.~R. Masri.
+\newblock {Flow and mixing fields of turbulent bluff-body jets and flames}.
+\newblock {\em Combust. Theor. Model.}, 2:193--219, 1998.
+
+\bibitem{dally98b}
+B.~B. Dally, A.~R. Masri, R.~S. Barlow, and G.~J. Fiechtner.
+\newblock {Instantaneous and mean compositional structure of bluff-body
+  stabilized nonpremixed flames}.
+\newblock {\em Combust. Flame}, 114:119--148, 1998.
+
+\bibitem{dally96}
+B.~B. Dally, A.~R. Masri, R.~S. Barlow, G.~J. Fiechtner, and D.~F. Fletcher.
+\newblock {Measurements of NO in turbulent non-premixed flames stabilized on a
+  bluff body}.
+\newblock {\em Proc. Combust. Inst.}, 26:2191--2197, 1996.
+
+\bibitem{davy17}
+H.~Davy.
+\newblock {Some new experiments and observations on the combustion of gaseous
+  mixtures, with an account of a method of preserving a continued light in
+  mixtures of inflammable gases and air without flame}.
+\newblock {\em Philos. Trans. R. Soc. Lond.}, 107:77--86, 1817.
+
+\bibitem{dearden68}
+P.~Dearden and R.~Long.
+\newblock {Soot formation in ethylene and propane diffusion flames}.
+\newblock {\em J. Appl. Chem.}, 18:243--251, 1968.
+
+\bibitem{desjardins08}
+O.~Desjardins, G.~Blanquart, G.~Balarac, and H.~Pitsch.
+\newblock {High order conservative finite difference scheme for variable
+  density low Mach number turbulent flows}.
+\newblock {\em J. Comput. Phys.}, 227(15):7125--7159, 2008.
+
+\bibitem{di14}
+H.~Di, X.~He, P.~Zhang, Z.~Wang, M.~S. Wooldridge, C.~K. Law, C.~Wang,
+  S.~Shuai, and J.~Wang.
+\newblock {Effects of buffer gas composition on low temperature ignition of
+  $iso$-octane and $n$-heptane}.
+\newblock {\em Combust. Flame}, 161:2531--2538, 2014.
+
+\bibitem{dixon-lewis85}
+G.~Dixon-Lewis, T.~David, P.~H. Gaskell, S.~Fukutani, H.~Jinno, J.~A. Miller,
+  R.~J. Kee, M.~D. Smooke, N.~Peters, E.~Effelsberg, J.~Warnatz, and
+  F.~Behrendt.
+\newblock {Calculation of the structure and extinction limit of a methane-air
+  counterflow diffusion flame in the forward stagnation region of a porous
+  cylinder}.
+\newblock {\em Proc. Combust. Inst.}, 20:1893--1904, 1985.
+
+\bibitem{dold89}
+J.~W. Dold.
+\newblock {Flame propagation in a nonuniform mixture: Analysis of a slowly
+  varying Triple Flame}.
+\newblock {\em Combust. Flame}, 76(1):71--88, 1989.
+
+\bibitem{donaldson05}
+K.~Donaldson, L.~Tran, L.~A. Jimenz, R.~Duffin, D.~E. Newby, N.~Mills,
+  W.~MacNee, and V.~Stone.
+\newblock {Combustion-derived nanoparticles: A review of their toxicology
+  following inhalation exposure}.
+\newblock {\em Part. Fibre Toxicol.}, 2:1--14, 2005.
+
+\bibitem{du89}
+D.~X. Du, R.~L. Axelbaum, and C.~K. Law.
+\newblock Experiments on the sooting limits of aerodynamically-strained
+  diffusion flames.
+\newblock {\em Proc. Combust. Inst.}, 22:387--394, 1989.
+
+\bibitem{du91}
+D.~X. Du, R.~L. Axelbaum, and C.~K. Law.
+\newblock The influence of carbon dioxide and oxygen as additives on soot
+  formation in diffusion flames.
+\newblock {\em Proc. Combust. Inst.}, 23:1501--1507, 1991.
+
+\bibitem{du95}
+D.~X. Du, R.~L. Axelbaum, and C.~K. Law.
+\newblock {Soot formation in strained diffusion flames with gaseous additives}.
+\newblock {\em Comb. Flame}, 102:11--20, 1995.
+
+\bibitem{dworkin07}
+S.~B. Dworkin, B.~C. Connelly, A.~M. Schaffer, B.A.~V. Bennett, M.~B. Long,
+  M.~D. Smooke, M.~P. Puccio, B.~McAndrews, and J.~H. Miller.
+\newblock {Computational and experimental study of a forced, time-dependent,
+  methane-air coflow diffusion flame}.
+\newblock {\em Proc. Combust. Inst.}, 31:971--978, 2007.
+
+\bibitem{eiasrag09}
+H.~EI-Asrag and S.~Menon.
+\newblock {Large eddy simulation of soot formation in a turbulent nonpremixed
+  jet flame}.
+\newblock {\em Combust. Flame}, 156:385--395, 2009.
+
+\bibitem{farouk15}
+T.~I. Farouk, M.~C. Hicks, and F.~L. Dryer.
+\newblock {Multistage oscillatory "cool flame" behavior for isolated alkane
+  droplet-combustion in elevated pressure microgravity condition}.
+\newblock {\em Proc. Combust. Inst.}, 35:1701--1708, 2015.
+
+\bibitem{feng12}
+Q.~Feng, A.~Jalali, A.~M. Fincham, Y.~L. Wang, T.~T. Tsotsis, and F.~N.
+  Egolfopoulos.
+\newblock Soot formation in flames of model biodiesel fuels.
+\newblock {\em Combust. Flame}, 159:1876--1893, 2012.
+
+\bibitem{fischer00}
+S.~L. Fischer, F.~L. Dryer, and H.~J. Curran.
+\newblock {Reaction kinetics of dimethyl ether. I: high-temperature pyrolysis
+  and oxidation in flow reactors}.
+\newblock {\em Int. J. Chem. Kinet.}, 32(12):713--740, 2000.
+
+\bibitem{fotache95}
+C.~G. Fotache, T.~G. Kreutz, D.~L. Zhu, and C.~K. Law.
+\newblock {An Experimental Study of Ignition in Nonpremixed Counterflowing
+  Hydrogen versus Heated Air}.
+\newblock {\em Combust. Sci. Technol.}, 109:373--393, 1995.
+
+\bibitem{fotache98}
+C.~G. Fotache, C.~J. Sung, and C.~K. Law.
+\newblock {Mild oxidation regimes and multiple criticality in nonpremixed
+  hydroge$n$-air counterflow}.
+\newblock {\em Combust. Flame}, 112:457--471, 1998.
+
+\bibitem{frenklach87}
+M.~Frenklach and S.~J. Harris.
+\newblock Aerosol dynamics modeling using the method of moments.
+\newblock {\em J. Coll. Int. Sci.}, 118:252--261, 1987.
+
+\bibitem{frenklach91}
+M.~Frenklach and H.~Wang.
+\newblock Detailed modeling of soot particle nucleation and growth.
+\newblock {\em Proc. Combust. Inst.}, 23:1559--1566, 1991.
+
+\bibitem{friedlander00}
+S.~K. Friedlander.
+\newblock {\em Smoke, Dust, and Haze: Fundamentals of Aerosol Dynamics}.
+\newblock Oxford University Press, New York, 2000.
+
+\bibitem{frijters06}
+P.~J.~M. Frijters and R.~S.~G. Baert.
+\newblock Oxygenated fuels for clean heavy-duty diesel engines.
+\newblock {\em Int. J. Veh. Des.}, 41:242--255, 2006.
+
+\bibitem{gail08}
+S.~Ga\"il, S.~M. Sarathy, M.~J. Thomson, P.~Di\'evart, and P.~Dagaut.
+\newblock Experimental and chemical kinetic modeling study of small methyl
+  esters oxidation: Methyl(e)-2-butenoate and methyl butanoate.
+\newblock {\em Combust. Flame}, 155:635--650, 2008.
+
+\bibitem{gaydonbook}
+A.~G. Gaydon.
+\newblock {\em {The Spectroscopy of Flames}}.
+\newblock Chapman and Hall, 1974.
+
+\bibitem{germano91}
+M.~Germano, U.~Piomelli, P.~Moin, and W.~H. Cabot.
+\newblock {A dynamic subgrid-scale eddy viscosity model}.
+\newblock {\em Phys. Fluids A}, 3:1760--1765, 1991.
+
+\bibitem{ghosal00}
+S.~Ghosal and L.~Vervisch.
+\newblock {Theoretical and numerical study of a symmetrical triple flame using
+  the parabolic flame path approximation}.
+\newblock {\em J. Fluid Mech.}, 415:227--260, 2000.
+
+\bibitem{giovangigli87}
+V.~Giovangigli and M.~D. Smooke.
+\newblock {Calculation of extinction limits for premixed laminar flames in a
+  stagnation point flow}.
+\newblock {\em J. Comput. Phys.}, 68(2):327--345, 1987.
+
+\bibitem{graboski98}
+M.~S. Graboski and R.~L. McCormick.
+\newblock Combustion of fat and vegetable oil derived fuels in diesel engines.
+\newblock {\em Prog. Energy Combust.}, 24:125--164, 1998.
+
+\bibitem{griffiths02}
+J.~F. Griffiths, J.~P. MacNamara, C.~G.~W. Sheppard, D.~A. Turton, and B.~J.
+  Whitaker.
+\newblock {The relationship of knock during controlled autoignition to
+  temperature inhomogeneities and fuel reactivity}.
+\newblock {\em Fuel}, 81:2219--2225, 2002.
+
+\bibitem{griffiths87}
+J.~F. Griffiths and S.~K. Scott.
+\newblock {Thermokinetic interactions: fundamentals of spontaneous ignition and
+  cool flames}.
+\newblock {\em Prog. Energy Combust. Sci.}, 13:161--197, 1987.
+
+\bibitem{grosshandler93}
+W.~L. Grosshandler.
+\newblock {RADCAL: A narrow-band model for radiation calculations in a
+  combustion environment}.
+\newblock {\em NIST technical note}, 1402, 1993.
+
+\bibitem{gulder96}
+\"{O}.~L. G\"{u}lder, D.~R. Snelling, and R.~A. Sawchuk.
+\newblock {Influence of hydrogen addition to fuel on temperature field and soot
+  formation in diffusion flames}.
+\newblock {\em Proc. Combust. Inst.}, 26:2351--2358, 1996.
+
+\bibitem{guo06}
+H.~Guo, F.~Liu, G.~J. Smallwood, and \"{O}.~L. G\"{u}lder.
+\newblock {Numerical study on the influence of hydrogen addition on soot
+  formation in a laminar ethylene-air diffusion flame}.
+\newblock {\em Combust. Flame}, 145:324--338, 2006.
+
+\bibitem{hartley91}
+L.~J. Hartley and J.~W. Dold.
+\newblock {Flame propagation in a nonuniform mixture: Analysis of a propagating
+  triple-flame}.
+\newblock {\em Combust. Sci. Technol.}, 80(1-3):23--46, 1991.
+
+\bibitem{herrmann06}
+M.~Herrmann, G.~Blanquart, and V.~Raman.
+\newblock {Flux corrected finite volume scheme for preserving scalar
+  boundedness in reacting large-eddy simulations}.
+\newblock {\em AIAA J.}, 44:2879--2886, 2006.
+
+\bibitem{herzler05}
+J.~Herzler, L.~Jerig, and P.~Roth.
+\newblock {Shock tube study of the ignition of lean $n$-heptane/air mixtures at
+  intermediate temperatures and high pressures}.
+\newblock {\em Proc. Combust. Inst.}, 30:1147--1153, 2005.
+
+\bibitem{hwang08}
+W.~Hwang, J.~Dec, and M.~Sjoberg.
+\newblock {Spectroscopic and chemical-kinetic analysis of the phases of HCCI
+  autoignition and combustion for single- and two-stage ignition fuels}.
+\newblock {\em Combust. Flame}, 154:387--409, 2008.
+
+\bibitem{ihme08}
+M.~Ihme and H.~Pitsch.
+\newblock {Modeling of radiation and nitric oxide formation in turbulent
+  nonpremixed flames using a flamelet/progress variable formulation}.
+\newblock {\em Phys. Fluids}, 20:055110, 2008.
+
+\bibitem{ihme08b}
+M.~Ihme and H.~Pitsch.
+\newblock {Prediction of extinction and reignition in nonpremixed turbulent
+  flames using a flamelet/progress variable model. 2. Application in LES of
+  sandia flames D and E}.
+\newblock {\em Combust. Flame}, 155:90--107, 2008.
+
+\bibitem{im99}
+H.~G. Im and J.~H. Chen.
+\newblock {Structure and propagation of triple flames in partially premixed
+  hydrogen-air mixtures}.
+\newblock {\em Combust. Flame}, 119:436--454, 1999.
+
+\bibitem{jensen97}
+E.~J. Jensen and O.~B. Toon.
+\newblock {The potential impact of soot particles from aircraft exhaust on
+  cirrus clouds}.
+\newblock {\em Geophys. Res. Let.}, 24:249--252, 1997.
+
+\bibitem{jensen07}
+K.~A. Jensen, J.~M. Suo-Antilla, and L.~G. Blevins.
+\newblock {Measurement of soot morphology, chemistry, and optical properties in
+  the visible and near-infrared spectrum in the flame zone and overfire region
+  of large JP-8 pool fires}.
+\newblock {\em Combust. Sci. Technol.}, 179:2453--2487, 2007.
+
+\bibitem{ju16}
+Y.~Ju, J.~K. Lefkowitz, C.~B. Reuter, S.~H. Won, X.~Yang, S.~Yang, W.~Sun,
+  Z.~Jiang, and Q.~Chen.
+\newblock {Plasma assisted low temperature combustion}.
+\newblock {\em Plasma Chem. Plasma Process}, 36:85--105, 2016.
+
+\bibitem{kioni99}
+P.~N. K\~{\i}oni, K.~N.~C. Bray, D.~A. Greenhalgh, and B.~Rogg.
+\newblock {Experimental and numerical studies of a triple flame}.
+\newblock {\em Combust. Flame}, 116(1-2):192--206, 1999.
+
+\bibitem{kaiser00}
+E.~W. Kaiser, T.~J. Wailington, M.~D. Hurley, J.~Platz, H.~J. Curran, W.~J.
+  Pitz, C.~K. Westbrook, and T.~J. Wallington.
+\newblock {Experimental and modeling study of premixed atmospheric-pressure
+  dimethyl ether-air flames}.
+\newblock {\em J. Phy. Chem. A}, 104(35):8194--8206, 2000.
+
+\bibitem{kazakov95}
+A.~Kazakov, H.~Wang, and M.~Frenklach.
+\newblock Detailed modeling of soot formation in laminar premixed ethylene
+  flames at a pressure of 10 bar.
+\newblock {\em Combust. Flame}, 100:111--120, 1995.
+
+\bibitem{kee83}
+R.~J. Kee, F.~M. Rupley, and J.~A. Miller.
+\newblock {A Fortran computer code package for the evaluation of gas-phase
+  viscosities, conductivities, and diffusion coefficients, Report No. SAND
+  83-8209, Sandia National Laboratories}, 1983.
+
+\bibitem{kee89}
+R.~J. Kee, F.~M. Rupley, and J.~A. Miller.
+\newblock {CHEMKIN-II A Fortran chemical kinetics package for the analysis of
+  gas phase chemical kinetics, Report No. SAND 89-8009B, Sandia National
+  Laboratories}, 1989.
+
+\bibitem{chemkin}
+R.~J. Kee, F.~M. Rupley, and J.~A. Miller.
+\newblock {CHEMKIN} {C}ollection, {R}elease 3.6, {R}eaction {D}esign, {I}nc.,
+  {S}an {D}iego, {CA}, 2000.
+
+\bibitem{kikui15}
+S.~Kikui, T.~Kamada, H.~Nakamura, T.~Tezuka, S.~Hasegawa, and K.~Maruta.
+\newblock {Characteristics of $n$-butane weak flames at elevated pressures in a
+  micro flow reactor with a controlled temperature profile}.
+\newblock {\em Proc. Combust. Inst.}, 35:3405--3412, 2015.
+
+\bibitem{kim07}
+M.~K. Kim, S.~H. Won, and S.~H. Chung.
+\newblock {Effect of velocity gradient on propagation speed of tribrachial
+  flames in laminar coflow jets}.
+\newblock {\em Proc. Combust. Inst.}, 31(1):901--908, 2007.
+
+\bibitem{koert94}
+D.~N. Koert, D.~L. Miller, and N.~P. Cernansky.
+\newblock {Experimental studies of propane oxidation through the negative
+  temperature coefficient region at 10 and 15 atmospheres}.
+\newblock {\em Combust. Flame}, 96:34--49, 1994.
+
+\bibitem{kokjohn11}
+S.~L. Kokjohn, R.~M. Hanson, D.~A. Splitter, and R.~D. Reitz.
+\newblock {Fuel reactivity controlled compression ignition (RCCI): a pathway to
+  controlled high-efficiency clean combustion}.
+\newblock {\em Int. J. Engine Res.}, 12:209--226, 2011.
+
+\bibitem{kreutz94}
+T.~G. Kreutz, M.~Nishioka, and C.~K. Law.
+\newblock {The role of kinetic versus thermal feedback in nonpremixed ignition
+  of hydrogen versus heated air}.
+\newblock {\em Combust. Flame}, 99(3-4):758--766, 1994.
+
+\bibitem{krisman15}
+A.~Krisman, E.~R. Hawkes, M.~Talei, A.~Bhagatwala, and J.~H. Chen.
+\newblock {Polybrachial structures in dimethyl ether edge-flames at negative
+  temperature coefficient conditions}.
+\newblock {\em Proc. Combust. Inst.}, 35:999--1006, 2015.
+
+\bibitem{lawbook}
+C.~K. Law.
+\newblock {\em {Combustion Physics}}.
+\newblock Cambridge University Press, New York, 2006.
+
+\bibitem{law12}
+C.~K. Law and P.~Zhao.
+\newblock {NTC-affected ignition in nonpremixed counterflow}.
+\newblock {\em Combust. Flame}, 159(3):1044--1054, 2012.
+
+\bibitem{lee97}
+B.~J. Lee and S.~H. Chung.
+\newblock {Stabilization of lifted tribrachial flames in a laminar nonpremixed
+  jet}.
+\newblock {\em Combust. Flame}, 109(1-2):163--172, 1997.
+
+\bibitem{lee09}
+S.-Y. Lee, S.~R. Turns, and R.~J. Santoro.
+\newblock {Measurements of soot, OH, and PAH concentrations in turbulent
+  ethylene/air jet flames}.
+\newblock {\em Combust. Flame}, 156:2264--2275, 2009.
+
+\bibitem{lignell08}
+D.~O. Lignell, J.~H. Chen, and P.~J. Smith.
+\newblock {Three-dimensional direct numerical simulation of soot formation and
+  transport in a temporally evolving nonpremixed ethylene jet flame}.
+\newblock {\em Combust. Flame}, 155:316--333, 2008.
+
+\bibitem{lignell07}
+D.~O. Lignell, J.~H. Chen, P.~J. Smith, T.~Lu, and C.~K. Law.
+\newblock {The effect of flame structure on soot formation and transport in
+  turbulent nonpremixed flames using direct numerical simulation}.
+\newblock {\em Combust. Flame}, 151(1-2):2--28, 2007.
+
+\bibitem{liu10a}
+W.~Liu, A.~P. Kelley, and C.~K. Law.
+\newblock {Flame propagation and counterflow nonpremixed ignition of mixtures
+  of methane and ethylene}.
+\newblock {\em Combust. Flame}, 157(5):1027--1036, 2010.
+
+\bibitem{liu11}
+W.~Liu, A.~P. Kelley, and C.~K. Law.
+\newblock Non-premixed ignition, laminar flame propagation, and mechanism
+  reduction of $n$-butanol, $iso$-butanol, and methyl butanoate.
+\newblock {\em Proc. Combust. Inst.}, 33:995--1002, 2011.
+
+\bibitem{liu11b}
+W.~Liu, J.~A. Koch, and C.~K. Law.
+\newblock {Nonpremixed ignition of C$_7$-C$_{16}$ normal alkanes in stagnating
+  liquid pool}.
+\newblock {\em Combust. Flame}, 158:2145--2148, 2011.
+
+\bibitem{liu09}
+W.~Liu, C.~K. Law, and T.~F. Lu.
+\newblock {Multiple criticality and staged ignition of methane in the
+  counterflow}.
+\newblock {\em Int. J. Chem. Kinet.}, 41(12):764--776, 2009.
+
+\bibitem{liu10}
+W.~Liu, D.~Zhu, N.~Wu, and C.~K. Law.
+\newblock Ignition of $n$-heptane pool by heated stagnating oxidizing flow.
+\newblock {\em Combust. Flame}, 157:259--266, 2010.
+
+\bibitem{liu94}
+X.~Liu, S.~Osher, and T.~Chan.
+\newblock {Weighted Essentially Non-oscillatory Schemes}.
+\newblock {\em J. Comput. Phys.}, 115(1):200--212, 1994.
+
+\bibitem{lu09}
+T.~Lu and C.~K. Law.
+\newblock {Toward accommodating realistic fuel chemistry in large-scale
+  computations}.
+\newblock {\em Prog. Energy Combust. Sci.}, 35:192--215, 2009.
+
+\bibitem{lu10}
+T.~F. Lu, C.~S. Yoo, J.~H. Chen, and C.~K. Law.
+\newblock {Three-dimensional direct numerical simulation of a turbulent lifted
+  hydrogen jet flame in heated coflow: a chemical explosive mode analysis}.
+\newblock {\em J. Fluid Mech.}, 652:45--64, 2010.
+
+\bibitem{lu11}
+X.~Lu, D.~Han, and Z.~Huang.
+\newblock {Fuel design and management for the control of advanced
+  compression-ignition combustion modes}.
+\newblock {\em Prog. Energy Combust. Sci.}, 37:741--783, 2011.
+
+\bibitem{marchisio05}
+D.~L. Marchisio and R.~O. Fox.
+\newblock {Solution of population balance equations using the Direct Quadrature
+  Method of Moments}.
+\newblock {\em J. Aerosol Sci.}, 36:43--73, 2005.
+
+\bibitem{mcenally05}
+C.~S. McEnally and L.~D. Pfefferle.
+\newblock Fuel decomposition and hydrocarbon growth processes for oxygenated
+  hydrocarbons: butyl alcohols.
+\newblock {\em Proc. Combust. Inst.}, 30:1363--1370, 2005.
+
+\bibitem{mcenally11}
+C.~S. McEnally and L.~D. Pfefferle.
+\newblock Sooting tendencies of oxygenated hydrocarbons in laboratory-scale
+  flames.
+\newblock {\em Environ. Sci. Technol.}, 45:2498--2503, 2011.
+
+\bibitem{meneveau96}
+C.~Meneveau, T.~S. Lund, and W.~H. Cabot.
+\newblock {A Lagrangian dynamic subgrid-scale model of turbulence}.
+\newblock {\em J. Fluid Mech.}, 319:353--385, 1996.
+
+\bibitem{mitchell98}
+P.~Mitchell and M.~Frenklach.
+\newblock Monte {C}arlo simulation of soot aggregation with simultaneous
+  surface growth: {W}hy primary particles appear spherical.
+\newblock {\em Proc. Combust. Inst.}, 27:1507--1514, 1998.
+
+\bibitem{mitchell03}
+P.~Mitchell and M.~Frenklach.
+\newblock Particle aggregation with simultaneous surface growth.
+\newblock {\em Phys. Rev. E}, 67:061407--1--061407--11, 2003.
+
+\bibitem{mittal08}
+G.~Mittal, M.~Chaos, C.~J. Sung, and F.~L. Dryer.
+\newblock {Dimethyl ether autoignition in a rapid compression machine:
+  Experiments and chemical kinetic modeling}.
+\newblock {\em Fuel Process. Technol.}, 89:1244--1254, 2008.
+
+\bibitem{mohammed98}
+R.~K. Mohammed, M.~A. Tanoff, M.~D. Smooke, A.~M. Schaffer, and M.~B. Long.
+\newblock {Computational and experimental study of a forced, timevarying,
+  axisymmetric, laminar diffusion flame}.
+\newblock {\em Proc. Combust. Inst.}, 27:693--702, 1998.
+
+\bibitem{mueller09b}
+M.~E. Mueller, G.~Blanquart, and H.~Pitsch.
+\newblock {H}ybrid {M}ethod of {M}oments for modeling soot formation and
+  growth.
+\newblock {\em Combust. Flame}, 156:1143--1155, 2009.
+
+\bibitem{mueller09a}
+M.~E. Mueller, G.~Blanquart, and H.~Pitsch.
+\newblock A joint {V}olume-{S}urface model of soot aggregation with the method
+  of moments.
+\newblock {\em Proc. Combust. Inst.}, 32:785--792, 2009.
+
+\bibitem{mueller11a}
+M.~E. Mueller, G.~Blanquart, and H.~Pitsch.
+\newblock Modeling the oxidation-induced fragmentation of soot aggregates in
+  laminar flames.
+\newblock {\em Proc. Combust. Inst.}, 33:667--674, 2011.
+
+\bibitem{mueller13}
+M.~E. Mueller, Q.~N. Chan, N.~H. Qamar, Bassam Dally, and H.~Pitsch.
+\newblock {Experimental and computational study of soot evolution in a
+  turbulent nonpremixed bluff body ethylene flame}.
+\newblock {\em Combust. Flame}, 160:1298--1309, 2013.
+
+\bibitem{mueller11b}
+M.~E. Mueller and H.~Pitsch.
+\newblock {LES subfilter modeling of soot-turbulence interactions}.
+\newblock {\em Phys. Fluids}, 23:115104, 2011.
+
+\bibitem{mueller12}
+M.~E. Mueller and H.~Pitsch.
+\newblock {LES model for sooting turbulent nonpremixed flames}.
+\newblock {\em Combust. Flame}, 159:2166--2180, 2012.
+
+\bibitem{narayanaswamy10}
+K.~Narayanaswamy, G.~Blanquart, and H.~Pitsch.
+\newblock A consistent chemical mechanism for oxidation of substituted aromatic
+  species.
+\newblock {\em Combust. Flame}, 157:1879--1898, 2010.
+
+\bibitem{nayagam12}
+V.~Nayagam, D.~L. Dietrich, P.~V. Ferkul, M.~C. Hicks, and F.~A. Williams.
+\newblock {Can cool flames support quasi-steady alkane droplet burning?}
+\newblock {\em Combust. Flame}, 159:3583--3588, 2012.
+
+\bibitem{nayagam15}
+V.~Nayagam, D.~L. Dietrich, M.~C. Hicks, and F.~A. Williams.
+\newblock {Cool-flame extinction during $n$-alkane droplet combustion in
+  microgravity}.
+\newblock {\em Combust. Flame}, 162:2140--2147, 2015.
+
+\bibitem{neoh81}
+K.~G. Neoh, J.~B. Howard, and A.~F. Sarofim.
+\newblock Soot oxidation in flames.
+\newblock In {\em {P}articulate {C}arbon {F}ormation during {C}ombustion},
+  pages 162--282. Plenum Press, 1981.
+
+\bibitem{niemann10}
+U.~Niemann, R.~Seiser, and K.~Seshadri.
+\newblock Ignition and extinction of low molecular weight esters in nonpremixed
+  flows.
+\newblock {\em Combust. Theory Model.}, 14:875--891, 2010.
+
+\bibitem{nishioka96}
+M.~Nishioka, C.~K. Law, and T.~Takeno.
+\newblock {A flame-controlling continuation method for generating S-curve
+  responses with detailed chemistry}.
+\newblock {\em Combust. Flame}, 104:328--342, 1996.
+
+\bibitem{ohta91}
+Y.~Ohta and M.~Furutani.
+\newblock {Identification of cool and blue flames in compression ignition}.
+\newblock {\em Arch. Combust.}, 11:43--52, 1991.
+
+\bibitem{park03}
+S.~H. Park and S.~N. Rogak.
+\newblock A one-dimensionalmodel for coagulation, sintering, and surface growth
+  of aerosol agglomerates.
+\newblock {\em Aerosol Sci. Tech.}, 37:947--960, 2003.
+
+\bibitem{pepiot08}
+P.~Pepiot, H.~Pitsch, R.~Malhotra, S.~R. Kirby, and A.~L. Boehman.
+\newblock Structure group analysis for soot reduction tendency of oxygenated
+  fuels.
+\newblock {\em Combust. Flame}, 154:191--205, 2008.
+
+\bibitem{petersbook}
+N.~Peters.
+\newblock {\em {Turbulent Combustion}}.
+\newblock Cambridge University Press, 2000.
+
+\bibitem{pierce01}
+C.~D. Pierce.
+\newblock {\em {Progress-variable Approach for Large-Eddy Simulation of
+  Turbulent Combustion}}.
+\newblock PhD thesis, Stanford University, 2001.
+
+\bibitem{flamemaster}
+H.~Pitsch.
+\newblock {FlameMaster, A C++ computer program for 0D combustion and 1D laminar
+  flame calculations.}
+
+\bibitem{pitsch98a}
+H.~Pitsch, M.~Chen, and N.~Peters.
+\newblock {Unsteady flamelet modeling of turbulent hydrogen-air diffusion
+  flames}.
+\newblock {\em Proc. Combust. Inst.}, 27(1):1057--1064, 1998.
+
+\bibitem{pitsch98b}
+H.~Pitsch and N.~Peters.
+\newblock {A consistent flamelet formulation for non-premixed combustion
+  considering differential diffusion effects}.
+\newblock {\em Combust. Flame}, 114(1-2):26--40, 1998.
+
+\bibitem{plessing98}
+T.~Plessing, P.~Terhoeven, N.~Peters, and M.~S. Mansour.
+\newblock {An experimental and numerical study of a laminar triple flame}.
+\newblock {\em Combust. Flame}, 115(3):335--353, 1998.
+
+\bibitem{polingbook}
+B.~E. Poling, J.~M. Prausnitz, and J.~P. O'Connell.
+\newblock {\em The Properties of Gases and Liquids}.
+\newblock McGraw-Hill, New York, {F}ifth edition, 2000.
+
+\bibitem{pope88}
+S.~B. Pope.
+\newblock {The evolution of surfaces in turbulence}.
+\newblock {\em Int. J. Eng. Sci.}, 26(5):445--469, 1988.
+
+\bibitem{qamar09}
+N.~H. Qamar, Z.~T. Alwahabi, Q.~N. Chan, G.~J. Nathan, D.~Roekaerts, and K.~D.
+  King.
+\newblock {Soot volume fraction in a piloted turbulent jet non-premixed flame
+  of natural gas}.
+\newblock {\em Combust. Flame}, 156:1339--1347, 2009.
+
+\bibitem{qamar05}
+N.~H. Qamar, G.~J. Nathan, Z.~T. Alwahabi, and K.~D. King.
+\newblock {The effect of global mixing on soot volume fraction: measurement in
+  simple jet, precessing jet, and bluff body flames}.
+\newblock {\em Proc. Combust. Inst.}, 30:1493--1500, 2005.
+
+\bibitem{qin05}
+X.~Qin and Y.~Ju.
+\newblock {Measurements of burning velocities of dimethyl ether and air
+  premixed flames at elevated pressures}.
+\newblock {\em Proc. Combust. Inst.}, 30:233--240, 2005.
+
+\bibitem{ruetsch95}
+G.~R. Ruetsch, L.~Vervisch, and A.~Li\~{n}\'{a}n.
+\newblock {Effects of heat release on triple flames}.
+\newblock {\em Phys. Fluids}, 7(6):1447, 1995.
+
+\bibitem{sanchezsanz10}
+M.~S\'{a}nchez-Sanz, B.~A.~V. Bennett, M.~D. Smooke, and A.~Li\~{n}\'{a}n.
+\newblock {Influence of Strouhal number on pulsating methane-air coflow jet
+  diffusion flames}.
+\newblock {\em Combust. Theory Modell.}, 14:453--478, 2010.
+
+\bibitem{sarathy09}
+S.~M. Sarathy, M.~J. Thomson, C.~Togb\'{e}, P.~Dagaut, F.~Halter, and
+  C.~Mounaim-Rousselle.
+\newblock An experimental and kinetic modeling study of $n$-butanol combustion.
+\newblock {\em Combust. Flame}, 156:852--864, 2009.
+
+\bibitem{schuetz02}
+C.~A. Schuetz and M.~Frenklach.
+\newblock Nucleation of soot: molecular dynamics simulations of pyrene
+  dimerization.
+\newblock {\em Proc. Combust. Inst.}, 29:2307--2314, 2002.
+
+\bibitem{schulz06}
+C.~Schulz, B.~F. Kock, M.~Hofmann, H.~Michelsen, S.~Will, B.~Bougie, R.~Suntz,
+  and G.~Smallwood.
+\newblock {Laser-induced incandescence: recent trends and current questions}.
+\newblock {\em Appl. Phys. B}, 83:333--354, 2006.
+
+\bibitem{seinfeldbook98}
+J.~H. Seinfeld and S.~N. Pandis.
+\newblock {\em {Atmospheric Chemistry and Physics: From Air Pollution to
+  Climate Change}}.
+\newblock John Wiley \& Sons, New York, 1998.
+
+\bibitem{seiser00}
+R.~Seiser, H.~Pitsch, K.~Seshadri, W.~J. Pitz, and H.~J. Curran.
+\newblock {Extinction and autoignition of {n}-heptane in counterflow
+  configuration}.
+\newblock {\em Proc. Combust. Inst.}, 28:2029--2037, 2000.
+
+\bibitem{seshadri08}
+K.~Seshadri, S.~Humer, and R.~Seiser.
+\newblock Activation-energy asymptotic theory of autoignition of condensed
+  hydrocarbon fuels in non-premixed flows with comparison to experiment.
+\newblock {\em Combust. Theory Model.}, 12:831--855, 2008.
+
+\bibitem{shaddix94}
+C.~R. Shaddix, J.~E. Harrington, and K.~C. Smyth.
+\newblock {Quantitiative measurements of enhanced soot production in a
+  flickering methan/air diffusion flame}.
+\newblock {\em Combust. Flame}, 99:723--732, 1994.
+
+\bibitem{shan12}
+R.~Shan, C.~S. Yoo, J.~H. Chen, and T.~Lu.
+\newblock {Computational diagnostics for $n$-heptane flames with chemical
+  explosive mode analysis}.
+\newblock {\em Combust. Flame}, 159(10):3119--3127, 2012.
+
+\bibitem{sheinson73}
+R.~S. Sheinson and F.~W. Williams.
+\newblock {Chemiluminescence spectra from cool and blue flames: Electronically
+  excited formaldehyde}.
+\newblock {\em Combust. Flame}, 21(2):221--230, 1973.
+
+\bibitem{silke05}
+E.~J. Silke, H.~J. Curran, and J.~M. Simmie.
+\newblock {The influence of fuel structure on combustion as demonstrated by the
+  isomers of heptane: a rapid compression machine study}.
+\newblock {\em Proc. Combust. Inst.}, 30:2639--2647, 2005.
+
+\bibitem{skaggs96}
+R.~R. Skaggs and J.~H. Miller.
+\newblock {Tunable diode laser absorption measurement of carbon monoxide and
+  temperature in a time-varying methane-air non-premixed flame}.
+\newblock {\em Proc. Combust. Inst.}, 26:1181--1188, 1996.
+
+\bibitem{smooke88}
+M.~D. Smooke, I.~K. Puri, and K.~Seshadri.
+\newblock {A comparison between numerical calculations and experimental
+  measurements of the structure of a counterflow diffusion flame burning
+  diluted methane in diluted air}.
+\newblock {\em Proc. Combust. Inst.}, 21:1783--1792, 1988.
+
+\bibitem{strawa89}
+A.~W. Strawa and B.~J. Cantwell.
+\newblock {Investigation of an excited jet diffusion flame at elevated
+  pressure}.
+\newblock {\em J. Fluid Mech.}, 200:309--336, 1989.
+
+\bibitem{sun15}
+Z.~W. Sun, Z.~T. Alwahabi, D.~H. Gu, S.~M. Mahmoud, G.~J. Nathan, and B.~B.
+  Dally.
+\newblock {Planar laser-induced incandescence of turbulent soot flames: the
+  influence of beam steering and signal trapping}.
+\newblock {\em Appl. Phys. B}, 119:731--743, 2015.
+
+\bibitem{temme12}
+J.~E. Temme, P.~M. Allison, and J.~F. Driscoll.
+\newblock {Low frequency combustion instabilities imaged in a gas turbine
+  combustor flame tube}.
+\newblock {\em 50th AIAA Aerospace Sciences Meeting}, AIAA 2012-0542.
+
+\bibitem{tesner58}
+P.~A Tesner.
+\newblock {Formation of dispersed carbon by thermal decomposition of
+  hydrocarbons}.
+\newblock {\em Proc. Combust. Inst.}, 7:546--553, 1958.
+
+\bibitem{tsuji71}
+H.~Tsuji and I.~Yamaoka.
+\newblock Structure analysis of counterflow diffusion flames in the forward
+  stagnation region of a porous cylinder.
+\newblock {\em Proc. Combust. Inst.}, 13:723--731, 1971.
+
+\bibitem{vandsburger85}
+U.~Vandsburger, I.~M. Kennedy, and I.~Glassman.
+\newblock Sooting counter-flow diffusion flames with varying velocity
+  gradients.
+\newblock {\em Proc. Combust. Inst.}, 20:1105--1112, 1985.
+
+\bibitem{vasu08}
+S.~S. Vasu, D.~F. Davidson, and R.~K. Hanson.
+\newblock {Jet fuel ignition delay times: shock tube experiments over wide
+  conditions and surrogate model predictions}.
+\newblock {\em Combust. Flame}, 152:125--143, 2008.
+
+\bibitem{veloo13}
+P.~S. Veloo, P.~Dagaut, C.~Togbe, G.~Dayma, S.~M. Sarathy, C.~K. Westbrook, and
+  F.~N. Egolfopoulos.
+\newblock {Jet-stirred reactor and flame studies of propanal oxidation}.
+\newblock {\em Proc. Combust. Inst.}, 34(1):599--606, 2013.
+
+\bibitem{waldmann66}
+L.~Waldmann and K.~H. Schmitt.
+\newblock Thermophoresis and diffusiophoresis of aerosols.
+\newblock In C.~N. Davies, editor, {\em Aerosol Science}. Academic Press, 1966.
+
+\bibitem{wang11}
+H.~Wang.
+\newblock Formation of nascent soot and other condensed-phase materials in
+  flames.
+\newblock {\em Proc. Combust. Inst.}, 33:41--67, 2011.
+
+\bibitem{wang14}
+Y.~Wang and S.~H. Chung.
+\newblock {Effect of strain rate on sooting limits in counterflow diffusion
+  flames of gaseous hydrocarbon fuels: Sooting temperature index and sooting
+  sensitivity index}.
+\newblock {\em Combust. Flame}, 161:1224--1234, 2014.
+
+\bibitem{wangyl11}
+Y.~L. Wang, Q.~Feng, F.~N. Egolfopoulos, and T.~T. Tsotsis.
+\newblock Studies of {C}$_4$ and {C}$_{10}$ ester flames.
+\newblock {\em Combust. Flame}, 158:1507--1519, 2011.
+
+\bibitem{westbrook00}
+C.~K. Westbrook.
+\newblock {Chemical kinetics of hydrocarbon ignition in practical combustion
+  systems}.
+\newblock {\em Proc. Combust. Inst.}, 28:1563--1577, 2000.
+
+\bibitem{westbrook06}
+C.~K. Westbrook, W.~J. Pitz, and H.~J. Curran.
+\newblock Chemical kinetic modeling study of the effects of oxygenated
+  hydrocarbons on soot emissions from diesel engines.
+\newblock {\em J. Phys. Chem. A}, 110:6912--6922, 2006.
+
+\bibitem{won15}
+S.~H. Won, B.~Jiang, P.~Dievart, C.~H. Sohn, and Y.~Ju.
+\newblock {Self-sustaining $n$-heptane cool diffusion flames activated by
+  ozone}.
+\newblock {\em Proc. Combust. Inst.}, 35:881--888, 2015.
+
+\bibitem{wong09}
+D.~Wong, C.~A. Schuetz, and M.~Frenklach.
+\newblock Molecular dynamics of {PAH} dimerization.
+\newblock In H.~Bockhorn, A.~D'Anna, A.~Sarofim, and H.~Wang, editors, {\em
+  {Combustion Generated Fine Carbonaceous Particles}}, pages 247--257. {KIT}
+  {S}cientific {P}ublishing, 2009.
+
+\bibitem{xuan15}
+Y.~Xuan and G.~Blanquart.
+\newblock {Effects of aromatic chemistry-turbulence interactions on soot
+  formation in a turbulent non-premixed flame}.
+\newblock {\em Proc. Combust. Inst.}, 35:1911--1919, 2015.
+
+\bibitem{yoo07}
+C.~S. Yoo and H.~G. Im.
+\newblock {Transient soot dynamics in turbulent nonpremixed ethylene-air
+  counterflow flames}.
+\newblock {\em Proc. Combust. Inst.}, 31:701--708, 2007.
+
+\bibitem{yoo13}
+C.~S. Yoo, Z.~Luo, T.~Lu, H.~Kim, and J.~H. Chen.
+\newblock {A DNS study of ignition characteristics of a lean $iso$-octane/air
+  mixture under HCCI and SACI conditions}.
+\newblock {\em Proc. Combust. Inst.}, 34:2985--2993, 2013.
+
+\bibitem{yoo09}
+C.~S. Yoo, R.~Sankaran, and J.~H. Chen.
+\newblock {Three-dimensional direct numerical simulation of a turbulent lifted
+  hydrogen jet flame in heated coflow: flame stabilization and structure}.
+\newblock {\em J. Fluid Mech.}, 640:453--481, 2009.
+
+\bibitem{zhang11}
+J.~Zhang, C.~R. Shaddix, and R.~W. Schefer.
+\newblock {Design of "model-friendly" turbulent non-premixed jet burners for
+  C$_{2+}$} hydrocarbon fuels.
+\newblock {\em Rev. Sci. Instrum.}, 82:074101, 2011.
+
+\bibitem{zhao05}
+B.~Zhao, Z.~Yang, M.~V. Johnston, and H.~Wang.
+\newblock {Particle size distribution function of incipient soot in laminar
+  premixed ethylene flames: Effect of flame temperature}.
+\newblock {\em Proc. Combust. Inst.}, 30:1441--1448, 2005.
+
+\bibitem{zhao14}
+H.~Zhao, R.~Stone, and B.~Williams.
+\newblock {Investigation of the soot formation in ethylene laminar diffusion
+  flames when diluted with helium or supplemented by hydrogen}.
+\newblock {\em Energy Fuels}, 28:2144--2151, 2014.
+
+\bibitem{zhao13}
+P.~Zhao and C.~K. Law.
+\newblock {The role of global and detailed kinetics in the first-stage ignition
+  delay in NTC-affected phenomena}.
+\newblock {\em Combust. Flame}, 160(11):2352--2358, 2013.
+
+\bibitem{zhao16}
+P.~Zhao, W.~Liang, S.~Deng, and C.~K. Law.
+\newblock {Initiation and propagation of laminar premixed cool flames}.
+\newblock {\em {Fuel}}, 166:477--487, 2016.
+
+\bibitem{zhao08}
+Z.~Zhao, M.~Chaos, A.~Kazakov, and F.~L. Dryer.
+\newblock {Thermal decomposition reaction and a comprehensive kinetic model of
+  dimethyl ether}.
+\newblock {\em Int. J. Chem. Kinet.}, 40(1):1--18, 2008.
+
+\bibitem{zheng06}
+X.~L. Zheng.
+\newblock {\em Studies on ignition of hydrogen and hydrocarbons}.
+\newblock PhD thesis, Princeton University, USA, 2006.
+
+\bibitem{zheng05}
+X.~L. Zheng, T.~F. Lu, C.~K. Law, C.~K. Westbrook, H.~J. Curran, T.~Berces, and
+  F.~L. Dryer.
+\newblock {Experimental and computational study of nonpremixed ignition of
+  dimethyl ether in counterflow}.
+\newblock {\em Proc. Combust. Inst.}, 30:1101--1109, 2005.
+
+\end{thebibliography}

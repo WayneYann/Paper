@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: NTC.aux
+The style file: elsarticle-num-CNF.bst
+Database file #1: NTC.bib
+Warning--empty pages in bansal11
+Warning--empty pages in deng13
+You've used 30 entries,
+            2555 wiz_defined-function locations,
+            733 strings with 9071 characters,
+and the built_in function-call counts, 17181 in all, are:
+= -- 1286
+> -- 854
+< -- 11
++ -- 318
+- -- 288
+* -- 2179
+:= -- 2665
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 218
+chr.to.int$ -- 30
+cite$ -- 32
+duplicate$ -- 1012
+empty$ -- 1053
+format.name$ -- 384
+if$ -- 3021
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 239
+newline$ -- 95
+num.names$ -- 120
+pop$ -- 254
+preamble$ -- 1
+purify$ -- 244
+quote$ -- 0
+skip$ -- 287
+stack$ -- 0
+substring$ -- 929
+swap$ -- 919
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 264
+warning$ -- 2
+while$ -- 134
+width$ -- 0
+write$ -- 280
+(There were 2 warnings)

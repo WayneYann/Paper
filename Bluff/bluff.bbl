@@ -1,0 +1,269 @@
+\begin{thebibliography}{47}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Wang(2011)}]{wang11}
+\bibinfo{author}{H.~Wang}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{33} (\bibinfo{year}{2011}) \bibinfo{pages}{41--67}.
+
+\bibitem[{Yoo and Im(2007)}]{yoo07}
+\bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{H.~G. Im},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{31}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{701--708}.
+
+\bibitem[{Lignell et~al.(2007)Lignell, Chen, Smith, Lu, and Law}]{lignell07}
+\bibinfo{author}{D.~O. Lignell}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{author}{P.~J. Smith}, \bibinfo{author}{T.~Lu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{151} (\bibinfo{year}{2007}) \bibinfo{pages}{2--28}.
+
+\bibitem[{Lignell et~al.(2008)Lignell, Chen, and Smith}]{lignell08}
+\bibinfo{author}{D.~O. Lignell}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{author}{P.~J. Smith}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{155} (\bibinfo{year}{2008}) \bibinfo{pages}{316--333}.
+
+\bibitem[{Bisetti et~al.(2012)Bisetti, Blanquart, Mueller, and
+  Pitsch}]{bisetti12}
+\bibinfo{author}{F.~Bisetti}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{317--335}.
+
+\bibitem[{Attili et~al.(2014)Attili, Bisetti, Mueller, and Pitsch}]{attili14}
+\bibinfo{author}{A.~Attili}, \bibinfo{author}{F.~Bisetti},
+  \bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{161}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{1849--1865}.
+
+\bibitem[{Attili et~al.(2015)Attili, Bisetti, Mueller, and Pitsch}]{attili15}
+\bibinfo{author}{A.~Attili}, \bibinfo{author}{F.~Bisetti},
+  \bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1215--1223}.
+
+\bibitem[{Qamar et~al.(2005)Qamar, Nathan, Alwahabi, and King}]{qamar05}
+\bibinfo{author}{N.~H. Qamar}, \bibinfo{author}{G.~J. Nathan},
+  \bibinfo{author}{Z.~T. Alwahabi}, \bibinfo{author}{K.~D. King},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{30}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{1493--1500}.
+
+\bibitem[{Qamar et~al.(2009)Qamar, Alwahabi, Chan, Nathan, Roekaerts, and
+  King}]{qamar09}
+\bibinfo{author}{N.~H. Qamar}, \bibinfo{author}{Z.~T. Alwahabi},
+  \bibinfo{author}{Q.~N. Chan}, \bibinfo{author}{G.~J. Nathan},
+  \bibinfo{author}{D.~Roekaerts}, \bibinfo{author}{K.~D. King},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{156}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{1339--1347}.
+
+\bibitem[{Lee et~al.(2009)Lee, Turns, and Santoro}]{lee09}
+\bibinfo{author}{S.-Y. Lee}, \bibinfo{author}{S.~R. Turns},
+  \bibinfo{author}{R.~J. Santoro}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{156} (\bibinfo{year}{2009}) \bibinfo{pages}{2264--2275}.
+
+\bibitem[{Zhang et~al.(2011)Zhang, Shaddix, and Schefer}]{zhang11}
+\bibinfo{author}{J.~Zhang}, \bibinfo{author}{C.~R. Shaddix},
+  \bibinfo{author}{R.~W. Schefer}, \bibinfo{journal}{Rev. Sci. Instrum.}
+  \bibinfo{volume}{82} (\bibinfo{year}{2011}) \bibinfo{pages}{074101}.
+
+\bibitem[{EI-Asrag and Menon(2009)}]{eiasrag09}
+\bibinfo{author}{H.~EI-Asrag}, \bibinfo{author}{S.~Menon},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{156}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{385--395}.
+
+\bibitem[{Mueller and Pitsch(2012)}]{mueller12}
+\bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{2166--2180}.
+
+\bibitem[{Xuan and Blanquart(2015)}]{xuan15}
+\bibinfo{author}{Y.~Xuan}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1911--1919}.
+
+\bibitem[{Mueller et~al.(2013)Mueller, Chan, Qamar, Dally, and
+  Pitsch}]{mueller13}
+\bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{Q.~N. Chan},
+  \bibinfo{author}{N.~H. Qamar}, \bibinfo{author}{B.~Dally},
+  \bibinfo{author}{H.~Pitsch}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{160} (\bibinfo{year}{2013}) \bibinfo{pages}{1298--1309}.
+
+\bibitem[{Tesner(1958)}]{tesner58}
+\bibinfo{author}{P.~A. Tesner}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{7} (\bibinfo{year}{1958}) \bibinfo{pages}{546--553}.
+
+\bibitem[{Dearden and Long(1968)}]{dearden68}
+\bibinfo{author}{P.~Dearden}, \bibinfo{author}{R.~Long}, \bibinfo{journal}{J.
+  Appl. Chem.} \bibinfo{volume}{18} (\bibinfo{year}{1968})
+  \bibinfo{pages}{243--251}.
+
+\bibitem[{Du et~al.(1995)Du, Axelbaum, and Law}]{du95}
+\bibinfo{author}{D.~X. Du}, \bibinfo{author}{R.~L. Axelbaum},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Comb. Flame}
+  \bibinfo{volume}{102} (\bibinfo{year}{1995}) \bibinfo{pages}{11--20}.
+
+\bibitem[{G\"{u}lder et~al.(1996)G\"{u}lder, Snelling, and Sawchuk}]{gulder96}
+\bibinfo{author}{O.~L. G\"{u}lder}, \bibinfo{author}{D.~R. Snelling},
+  \bibinfo{author}{R.~A. Sawchuk}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{26} (\bibinfo{year}{1996}) \bibinfo{pages}{2351--2358}.
+
+\bibitem[{Guo et~al.(2006)Guo, Liu, Smallwood, and G\"{u}lder}]{guo06}
+\bibinfo{author}{H.~Guo}, \bibinfo{author}{F.~Liu}, \bibinfo{author}{G.~J.
+  Smallwood}, \bibinfo{author}{O.~L. G\"{u}lder}, \bibinfo{journal}{Combust.
+  Flame} \bibinfo{volume}{145} (\bibinfo{year}{2006})
+  \bibinfo{pages}{324--338}.
+
+\bibitem[{Zhao et~al.(2014)Zhao, Stone, and Williams}]{zhao14}
+\bibinfo{author}{H.~Zhao}, \bibinfo{author}{R.~Stone},
+  \bibinfo{author}{B.~Williams}, \bibinfo{journal}{Energy Fuels}
+  \bibinfo{volume}{28} (\bibinfo{year}{2014}) \bibinfo{pages}{2144--2151}.
+
+\bibitem[{Dally et~al.(1996)Dally, Masri, Barlow, Fiechtner, and
+  Fletcher}]{dally96}
+\bibinfo{author}{B.~B. Dally}, \bibinfo{author}{A.~R. Masri},
+  \bibinfo{author}{R.~S. Barlow}, \bibinfo{author}{G.~J. Fiechtner},
+  \bibinfo{author}{D.~F. Fletcher}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{26} (\bibinfo{year}{1996}) \bibinfo{pages}{2191--2197}.
+
+\bibitem[{Dally et~al.(1998)Dally, Fletcher, and Masri}]{dally98a}
+\bibinfo{author}{B.~B. Dally}, \bibinfo{author}{D.~F. Fletcher},
+  \bibinfo{author}{A.~R. Masri}, \bibinfo{journal}{Combust. Theor. Model.}
+  \bibinfo{volume}{2} (\bibinfo{year}{1998}) \bibinfo{pages}{193--219}.
+
+\bibitem[{Schulz et~al.(2006)Schulz, Kock, Hofmann, Michelsen, Will, Bougie,
+  Suntz, and Smallwood}]{schulz06}
+\bibinfo{author}{C.~Schulz}, \bibinfo{author}{B.~F. Kock},
+  \bibinfo{author}{M.~Hofmann}, \bibinfo{author}{H.~Michelsen},
+  \bibinfo{author}{S.~Will}, \bibinfo{author}{B.~Bougie},
+  \bibinfo{author}{R.~Suntz}, \bibinfo{author}{G.~Smallwood},
+  \bibinfo{journal}{Appl. Phys. B} \bibinfo{volume}{83} (\bibinfo{year}{2006})
+  \bibinfo{pages}{333--354}.
+
+\bibitem[{Sun et~al.(2015)Sun, Alwahabi, Gu, Mahmoud, Nathan, and
+  Dally}]{sun15}
+\bibinfo{author}{Z.~W. Sun}, \bibinfo{author}{Z.~T. Alwahabi},
+  \bibinfo{author}{D.~H. Gu}, \bibinfo{author}{S.~M. Mahmoud},
+  \bibinfo{author}{G.~J. Nathan}, \bibinfo{author}{B.~B. Dally},
+  \bibinfo{journal}{Appl. Phys. B} \bibinfo{volume}{119} (\bibinfo{year}{2015})
+  \bibinfo{pages}{731--743}.
+
+\bibitem[{Bladh and Johnsson(2008)}]{bladh08}
+\bibinfo{author}{H.~Bladh}, \bibinfo{author}{P.~E. Johnsson, J.~Bengtsson},
+  \bibinfo{journal}{Appl. Phys. B} \bibinfo{volume}{90} (\bibinfo{year}{2008})
+  \bibinfo{pages}{109--125}.
+
+\bibitem[{Schuetz and Frenklach(2002)}]{schuetz02}
+\bibinfo{author}{C.~A. Schuetz}, \bibinfo{author}{M.~Frenklach},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{29}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{2307--2314}.
+
+\bibitem[{Wong et~al.(2009)Wong, Schuetz, and Frenklach}]{wong09}
+\bibinfo{author}{D.~Wong}, \bibinfo{author}{C.~A. Schuetz},
+  \bibinfo{author}{M.~Frenklach}, in: \bibinfo{editor}{H.~Bockhorn},
+  \bibinfo{editor}{A.~D'Anna}, \bibinfo{editor}{A.~Sarofim},
+  \bibinfo{editor}{H.~Wang} (Eds.), \bibinfo{booktitle}{{Combustion Generated
+  Fine Carbonaceous Particles}}, {KIT} {S}cientific {P}ublishing,
+  \bibinfo{year}{2009}, pp. \bibinfo{pages}{247--257}.
+
+\bibitem[{Blanquart and Pitsch(2009)}]{blanquart09c}
+\bibinfo{author}{G.~Blanquart}, \bibinfo{author}{H.~Pitsch}, in:
+  \bibinfo{editor}{H.~Bockhorn}, \bibinfo{editor}{A.~D'Anna},
+  \bibinfo{editor}{A.~Sarofim}, \bibinfo{editor}{H.~Wang} (Eds.),
+  \bibinfo{booktitle}{{Combustion Generated Fine Carbonaceous Particles}},
+  {KIT} {S}cientific {P}ublishing, \bibinfo{year}{2009}, pp.
+  \bibinfo{pages}{439--466}.
+
+\bibitem[{Mueller et~al.(2009)Mueller, Blanquart, and Pitsch}]{mueller09b}
+\bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{H.~Pitsch}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{156} (\bibinfo{year}{2009}) \bibinfo{pages}{1143--1155}.
+
+\bibitem[{Frenklach and Wang(1991)}]{frenklach91}
+\bibinfo{author}{M.~Frenklach}, \bibinfo{author}{H.~Wang},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{23}
+  (\bibinfo{year}{1991}) \bibinfo{pages}{1559--1566}.
+
+\bibitem[{Kazakov et~al.(1995)Kazakov, Wang, and Frenklach}]{kazakov95}
+\bibinfo{author}{A.~Kazakov}, \bibinfo{author}{H.~Wang},
+  \bibinfo{author}{M.~Frenklach}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{100} (\bibinfo{year}{1995}) \bibinfo{pages}{111--120}.
+
+\bibitem[{Neoh et~al.(1981)Neoh, Howard, and Sarofim}]{neoh81}
+\bibinfo{author}{K.~G. Neoh}, \bibinfo{author}{J.~B. Howard},
+  \bibinfo{author}{A.~F. Sarofim}, in: \bibinfo{booktitle}{{P}articulate
+  {C}arbon {F}ormation during {C}ombustion}, Plenum Press,
+  \bibinfo{year}{1981}, pp. \bibinfo{pages}{162--282}.
+
+\bibitem[{Mueller et~al.(2011)Mueller, Blanquart, and Pitsch}]{mueller11a}
+\bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{H.~Pitsch}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{33} (\bibinfo{year}{2011}) \bibinfo{pages}{667--674}.
+
+\bibitem[{Ihme and Pitsch(2008)}]{ihme08}
+\bibinfo{author}{M.~Ihme}, \bibinfo{author}{H.~Pitsch}, \bibinfo{journal}{Phys.
+  Fluids} \bibinfo{volume}{20} (\bibinfo{year}{2008}) \bibinfo{pages}{055110}.
+
+\bibitem[{Dally et~al.(1998)Dally, Masri, Barlow, and Fiechtner}]{dally98b}
+\bibinfo{author}{B.~B. Dally}, \bibinfo{author}{A.~R. Masri},
+  \bibinfo{author}{R.~S. Barlow}, \bibinfo{author}{G.~J. Fiechtner},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{114}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{119--148}.
+
+\bibitem[{Mueller and Pitsh(2011)}]{mueller11b}
+\bibinfo{author}{M.~E. Mueller}, \bibinfo{author}{H.~Pitsh},
+  \bibinfo{journal}{Phys. Fluids} \bibinfo{volume}{23} (\bibinfo{year}{2011})
+  \bibinfo{pages}{115104}.
+
+\bibitem[{Cook and Riley(1994)}]{cook94}
+\bibinfo{author}{A.~W. Cook}, \bibinfo{author}{J.~J. Riley},
+  \bibinfo{journal}{Phys. Fluids} \bibinfo{volume}{6} (\bibinfo{year}{1994})
+  \bibinfo{pages}{2868--2870}.
+
+\bibitem[{Ihme and Pitsch(2008)}]{ihme08b}
+\bibinfo{author}{M.~Ihme}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{155}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{90--107}.
+
+\bibitem[{Germano et~al.(1991)Germano, Piomelli, Moin, and Cabot}]{germano91}
+\bibinfo{author}{M.~Germano}, \bibinfo{author}{U.~Piomelli},
+  \bibinfo{author}{P.~Moin}, \bibinfo{author}{W.~H. Cabot},
+  \bibinfo{journal}{Phys. Fluids A} \bibinfo{volume}{3} (\bibinfo{year}{1991})
+  \bibinfo{pages}{1760--1765}.
+
+\bibitem[{Meneveau et~al.(1996)Meneveau, Lund, and Cabot}]{meneveau96}
+\bibinfo{author}{C.~Meneveau}, \bibinfo{author}{T.~S. Lund},
+  \bibinfo{author}{W.~H. Cabot}, \bibinfo{journal}{J. Fluid Mech.}
+  \bibinfo{volume}{319} (\bibinfo{year}{1996}) \bibinfo{pages}{353--385}.
+
+\bibitem[{Pitsch(????)}]{FlameMaster}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{title}{Flame{M}aster, a {C}++ computer
+  program for 0{D} combustion and 1{D} laminar flame calculations.}
+
+\bibitem[{Blanquart et~al.(2009)Blanquart, Pepiot, and Pitsch}]{blanquart09b}
+\bibinfo{author}{G.~Blanquart}, \bibinfo{author}{P.~Pepiot},
+  \bibinfo{author}{H.~Pitsch}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{156} (\bibinfo{year}{2009}) \bibinfo{pages}{588--607}.
+
+\bibitem[{Narayanaswamy et~al.(2010)Narayanaswamy, Blanquart, and
+  Pitsch}]{narayanaswamy10}
+\bibinfo{author}{K.~Narayanaswamy}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{H.~Pitsch}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{157} (\bibinfo{year}{2010}) \bibinfo{pages}{1879--1898}.
+
+\bibitem[{Desjardins et~al.(2008)Desjardins, Blanquart, Balarac, and
+  Pitsch}]{desjardins08}
+\bibinfo{author}{O.~Desjardins}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{G.~Balarac}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{J. Comput. Phys.} \bibinfo{volume}{227}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{7125--7159}.
+
+\bibitem[{Herrmann et~al.(2006)Herrmann, Blanquart, and Raman}]{herrmann06}
+\bibinfo{author}{M.~Herrmann}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{V.~Raman}, \bibinfo{journal}{AIAA J.} \bibinfo{volume}{44}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{2879--2886}.
+
+\bibitem[{Buxton et~al.(2013)Buxton, Burns, and Clemens}]{buxton13}
+\bibinfo{author}{O.~R.~H. Buxton}, \bibinfo{author}{R.~A. Burns},
+  \bibinfo{author}{N.~T. Clemens}, \bibinfo{journal}{51st AIAA Aerospace
+  Sciences Meeting}  (\bibinfo{year}{2013}) \bibinfo{pages}{2013--0479}.
+
+\end{thebibliography}

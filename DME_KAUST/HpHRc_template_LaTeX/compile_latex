@@ -1,0 +1,8 @@
+latex hphrc_template.tex
+latex hphrc_template.tex
+bibtex hphrc_template
+latex hphrc_template.tex
+latex hphrc_template.tex
+latex hphrc_template.tex
+dvips hphrc_template -Ppdf -t a4 -o
+ps2pdf hphrc_template.ps

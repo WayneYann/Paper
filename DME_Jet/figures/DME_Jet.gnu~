@@ -1,0 +1,9 @@
+
+
+
+set style line 1 lt 1 lw 5 lc 1 #Solid Red (Nominal)
+set style line 2 lt 2 lw 5 lc 2 #Dashed Green (Half)
+set style line 3 lt 3 lw 5 lc 3 #Dotted Blue (Double)
+set style line 4 lt 5 lw 5 lc 4 #Dash-Dotted Magenta
+set style line 999 pt 5 lc -1
+

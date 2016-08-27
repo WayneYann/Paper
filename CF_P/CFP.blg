@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/dev)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: CFP.aux
+The style file: model1-num-names.bst.bst
+Database file #1: CFP.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 42 entries,
+            2907 wiz_defined-function locations,
+            855 strings with 12200 characters,
+and the built_in function-call counts, 28365 in all, are:
+= -- 2088
+> -- 1361
+< -- 10
++ -- 508
+- -- 465
+* -- 3655
+:= -- 4230
+add.period$ -- 42
+call.type$ -- 42
+change.case$ -- 363
+chr.to.int$ -- 41
+cite$ -- 42
+duplicate$ -- 1771
+empty$ -- 1783
+format.name$ -- 591
+if$ -- 5096
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 445
+newline$ -- 221
+num.names$ -- 168
+pop$ -- 426
+preamble$ -- 1
+purify$ -- 365
+quote$ -- 0
+skip$ -- 431
+stack$ -- 0
+substring$ -- 1471
+swap$ -- 1640
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 372
+warning$ -- 0
+while$ -- 178
+width$ -- 0
+write$ -- 556

@@ -1,0 +1,278 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticle}
+\documentclass[review,3p,times]{elsarticle}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{cleveref}
+\usepackage{xcolor}
+\definecolor{Rev1}{rgb}{0,0,255}
+\usepackage{subdepth}
+%\usepackage[nomarkers,lists]{endfloat}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Combustion and Flame}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Flame dynamics in oscillating flows under autoignitive conditions}
+
+\author[Princeton]{Sili~Deng\corref{cor}}
+\author[Princeton,Oakland]{Peng~Zhao}
+\author[Princeton]{Michael E.~Mueller}
+\author[Princeton]{Chung K.~Law}
+\cortext[cor]{Corresponding Author: silideng@princeton.edu}
+
+\address[Princeton]{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+\address[Oakland]{Department of Mechanical Engineering, Oakland University, Rochester, MI 48309, USA}
+
+\begin{abstract}
+
+The structure and dynamics of laminar nonpremixed dimethyl ether (DME)/air coflow flames were investigated at elevated temperatures and pressures.  Computations with detailed chemistry were performed for DME and heated coflow air at $30$ atm with uniform but sinusoidally oscillating inlet velocities.  These unsteady cases were compared with the steady results from Deng~\emph{et al.} (\emph{Combust. Flame}, 162 (2015) 4471-4478) to elucidate the effect of oscillation frequency on the flame dynamics.  To benchmark the unsteady cases, a normalized displacement velocity was defined to differentiate flame propagation from autoignition, and this definition was validated against the steady cases.  In the oscillating reacting flow, transition between a multibrachial autoignition front and a tribrachial flame occurs periodically.  However, unlike the harmonic velocity oscillation, the combustion mode transition is hysteretic.  The oscillation cycle starts with the largest inlet velocity, with the multibrachial thermal structure, located downstream, being governed by autoignition chemistry.  As flow velocity decreases, the autoignition front moves upstream and transitions to a tribrachial flame near the lower velocity limit, similar to the steady flow, as autoignition chemistry becomes weaker with decreasing upstream residence time.  As the flow velocity increases again, the tribrachial flame is convected downstream, and, ultimately, due to the radical and heat accumulation in time, autoignition eventually occurs and becomes the dominant pathway.  The finite induction time for autoignition results in the hysteretic behavior during the decreasing- and increasing-velocity cycles, which diminishes at lower oscillation frequency as there is more time for chemistry to respond to the hydrodynamic changes and consequently approach steady state.  \textcolor{Rev1}{At the relatively low oscillation frequencies investigated in the current study, first-stage NTC chemistry is less affected by flow dynamics with only second-stage autoignition and flame chemistry, which accounts for the majority heat release, coupled with the flow oscillation.}
+
+\end{abstract}
+
+\begin{keyword} 
+Flame dynamics \sep Nonpremixed coflow flame \sep Autoignition \sep Negative temperature coefficient (NTC) \sep Dimethyl ether (DME) 
+\end{keyword}
+
+\end{frontmatter}
+
+
+%\clearpage % For word count
+%==============================================================
+
+\section{Introduction}
+
+Fuel injection and its subsequent mixing and reaction with either a coflowing air stream or a highly turbulent oxidizing environment is an integral process in the operation of many combustors.  Due to experimental and computational limitations, simplifications are usually made to obtain fundamental understanding of these reacting flows that are then extrapolated to more complex conditions.  For example, laminar nonpremixed coflow flames at normal ambient temperatures have been studied to elucidate the coupling between fluid dynamics and chemistry, leading to the observation that, in the fuel and oxidizer mixing layer, a two-dimensional tribrachial structure (also known as triple flame)~\cite{buckmaster02} is obtained.  Specifically, both lean and rich premixed flame branches and a trailing diffusion flame tail intersect at a triple point.  Based on the observation of such tribrachial laminar flames, the partially premixed flamelet model~\cite{muller94} was proposed to explain lifted flames in nonpremixed turbulent jets~\cite{chung07}.
+
+Previous studies have indicated that this classical tribrachial flame structure can be modified in unsteady flows.  For example, in the experimental investigation of Strawa and Cantwell~\cite{strawa89}, flow instability and flame breakup was achieved by imposing a small-amplitude, periodic velocity fluctuation to nonpremixed jet flames at elevated pressures and low Reynolds numbers.  Later, in the computational study of S\'{a}nchez-Sanz~\emph{et al.}~\cite{sanchezsanz10}, perturbation frequency effects on the thermal and chemical properties of the flame in such periodically time-varying flows were evaluated.  Three regimes were found depending on the flame's Strouhal number, $S = Df/2U$, with $D$ and $f$ denoting the fuel jet diameter and perturbation frequency, respectively.  For small Strouhal numbers ($S = 0.1$), perturbations can travel far downstream, resulting in an oscillating flame.  Flame surface flickering was observed when $S\simeq 0.2$, and vigorous flame pinch-off was observed at $S = 0.5$.  Larger values of $S$ confine the oscillation to the jet's near-exit region with the pulsation having minimal effects on temperature and concentration values.  The unsteadiness in flickering flames also increases pollutant formation, such as soot~\cite{shaddix94} and carbon monoxide~\cite{skaggs96}.  Mohammed~\emph{et al.}~\cite{mohammed98} followed by Dworkin~\emph{et al.}~\cite{dworkin07} conducted computational and experimental studies of $20$ Hz periodically-forced methane/air coflow diffusion flames.  Acetylene production increased~\cite{mohammed98} and the oxidation of CO to CO$_2$ was inhibited~\cite{dworkin07} in the downstream region of the flame at certain times during the flame's cyclic history.       
+
+Although demonstrating unsteady effects on flow-chemistry coupling, these experimental and computational investigations mainly focused on simple fuels, such as methane, and were limited to nonautoignitive conditions.  \textcolor{Rev1}{However, as demonstrated by Chung and co-workers through a series of experiments on laminar lifted C{$_0$} to C{$_8$} flames in heated coflow, autoignition can be activated even at atmospheric pressure~\cite{choi10,ainoman15}.  For methane and propane, the lifted height correlates well with the ignition delay time.}  Under more realistic engine conditions of elevated temperature and pressure with practical fuels that have more complex chemical kinetics, more complicated transport-chemistry coupling has been observed.  Computationally, Krisman~\emph{et al.}~\cite{krisman14} first demonstrated that, besides the traditional tribrachial flame, autoignition is also a relevant combustion process or even the dominant one under certain conditions.  Their findings were confirmed and further discussed by Deng~\emph{et al.}~\cite{deng15,deng15b} through a series of computational studies of nonpremixed dimethyl ether (DME)/air coflow flames at $30$ atm with varying inlet velocities and coflow temperatures, recognizing that DME possesses the low-temperature chemistry (LTC), negative temperature coefficient (NTC) behavior.  A regime diagram was proposed demonstrating that the tribrachial flame is favored at lower inlet velocity and higher coflow temperature, while autoignition is dominant at higher inlet velocity and relatively lower coflow temperature.
+
+In the present study, unsteady nonpremixed DME/air coflow flames under autoignitive conditions are computationally studied to elucidate the coupling between unsteady fluid dynamics and chemical kinetics.  Various oscillation frequencies were imposed on the inlet velocity, with the maximum and minimum velocities maintained the same as those in the previous steady study~\cite{deng15b}, which correspond to an autoignition front and a tribrachial flame, respectively.  \textcolor{Rev1}{The current study focuses on low frequency oscillation ranging from 25 to 100 Hz, which covers buoyancy-driven instability frequencies~\cite{mohammed98,dworkin07} and acoustic-driven oscillation frequencies in gas turbines~\cite{temme12}.}  The objective of the current study is threefold.  The first objective is to capture the transition in combustion mode.  As the steady cases correspond to different combustion modes, it is expected that, at certain frequencies of velocity oscillation, the dominant combustion process will shift between the nonpremixed tribrachial flame mode and the autoignition mode.  The second objective is to assess the thermal and chemical differences during such transition and to elucidate the transition mechanism.  The third objective is to demonstrate the effects of oscillation frequency on the coupling of fluid dynamics and chemical kinetics.               
+
+ 
+%===============================================================
+
+\section{Computational details} \label{sec:computation}
+
+The geometry in this work is the same as that in Deng~\emph{et al.}~\cite{deng15b}.  Briefly, axisymmetric coflow flames at $30$ atmospheres were computed, in which a $300$ K DME stream is surrounded by a $900$ K air stream.  The diameter ($D$) of the fuel nozzle is $0.8$ mm, which is $20$ times the thickness of the adiabatic, no-slip wall, separating fuel and coflow.  The outer diameter of the coflow is $3.9$ mm.  Adiabatic, slip wall conditions were specified at the outer radial boundary.  The same inlet velocities were imposed for both streams and are uniform in space and sinusoidally oscillating in time.  The maximum ($8.0$ m/s) and minimum ($2.4$ m/s) velocities were set to match the fastest and slowest steady cases as in Deng~\emph{et al.}~\cite{deng15b}.  Three oscillation frequencies ($25$, $50$, and $100$ Hz) were investigated, with the maximum Strouhal number, based on the velocity and jet radius, estimated to be less than $0.02$ to avoid flame pinch-off.  The domain length is $15$ mm, with a convective outflow boundary condition.  The computational results were not affected by further widening or lengthening of the domain.  Discretization of the domain was guided by previous convergence studies~\cite{deng15}, with a $3072$ ($x$) by $176$ ($r$) grid.  Uniform spacing in the axial direction was set to $\Delta x = 4.8$ ${\rm \mu}$m, and nonuniform spacing in the radial direction was set to minimum $\Delta r = 2.5$ ${\rm \mu}$m to resolve the mixing layer near the thin wall.  The grid stretch rate is less than $3$\%.
+
+The Navier-Stokes equations with buoyancy effects in the streamwise direction and the conservation equations of mass, species, and temperature were solved.  The species diffusivities were determined assuming constant, nonunity Lewis numbers and kept the same as in Deng~\emph{et al.}~\cite{deng15}.  The conserved scalar mixture fraction ($Z$) was specified as unity and zero for the fuel stream and coflow, respectively, and was computed by solving a conserved scalar transport equation with unity Lewis number~\cite{pitsch98b}.  DME was chosen as the fuel, for it is one of the simplest fuels that has NTC chemistry~\cite{deng14}, as noted earlier.  A skeletal mechanism of $39$ species~\cite{bhagatwala15}, which was reduced from the well-validated detailed mechanism of Zhao \emph{et al.}~\cite{zhao08}, was adopted as the chemical model.    
+
+A low-Mach number code NGA~\cite{desjardins08} was adopted to solve the discretized governing equations on a staggered mesh.  A second-order centered scheme was used for the momentum equations, while a third-order WENO scheme~\cite{liu94} was used for the scalar equations.  An iterative second-order semi-implicit midpoint scheme was adopted for temporal integration~\cite{pierce01} utilizing Strang splitting between transport and chemistry in the scalar equations\textcolor{Rev1}{~\cite{macart16}}.  The chemical source terms for the species and temperature equations were integrated using the CVODE package~\cite{cohen96}.
+
+%===============================================================
+
+\section{Results and discussion}
+
+In this section, the thermal structure of the unsteady nonpremixed DME/air coflow flame is first described and compared qualitatively with the previous steady study by Deng~\emph{et al.}~\cite{deng15b}.  The definition of normalized displacement velocity is then introduced and validated against the steady cases to differentiate the combustion modes.  Finally, oscillation frequency effects on the evolution of the combustion modes are analyzed.   
+
+\subsection{Thermal structure}
+
+As the largest and smallest inlet velocity cases were designed to match the two extreme cases in Deng~\emph{et al.}~\cite{deng15b}, which are of different thermal structures, it is expected that similar thermal structures will be obtained.  Furthermore, these thermal structures might transition back and forth in response to the oscillating flow field.  Indeed, such transitions were observed for all three frequencies.  For example, the evolution of the thermal structure of the $100$ Hz case, in terms of the heat release rate profile, is demonstrated in Fig.~\ref{fig:HRR_100Hz}.  The oscillation cycle starts with the largest inlet velocity of $8.0$ m/s, and the minimum inlet velocity ($2.4$ m/s) is achieved at half cycle.  
+
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.10in}
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=1.0\textwidth]{HRR_100Hz.png}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Heat release rate [W/m$^3$] profile evolution during one oscillation cycle at $100$ Hz.  The iso-contours of $Z_{\rm st} = 0.1$, $Z = 0.2$, and $Z = 0.3$ are outlined from right to left in solid lines, respectively.}
+  \label{fig:HRR_100Hz}
+\end{figure*}
+
+
+At $8.0$ m/s, the multibrachial thermal structure is located furthest downstream.  The leading point, which is defined as the most upstream point that has the heat release rate value of $10^{12}$ W/m$^3$, is located at mixture fraction $Z = 0.24$.  As the inlet velocity decreases, the multibrachial structure moves upstream, without obvious change of the leading point location, in terms of mixture fraction.  When the inlet velocity reaches its minimum, the multibrachial structure transitions to a tribrachial structure, and the leading point switches to $Z = 0.14$.  As the flow velocity increases, the tribrachial structure is pushed downstream, and both its tribrachial shape and its leading point mixture fraction remain unchanged.  The thermal structure returns to that of multibrachial when the flow velocity further increases.  Such transitions in structure repeat once a new oscillation cycle starts.
+
+\subsection{Differentiation of combustion mode}
+
+As mentioned in the Introduction, Deng~\emph {et al.}~\cite{deng15b} were able to relate the morphology of the thermal structures to two different combustion modes: tribrachial flame and autoignition.  Specifically, at steady state, the multibrachial structure in the $8.0$ m/s case is an autoignition front, while the $2.4$ m/s case is a tribrachial flame.  In this previous study, species mass fraction profiles at the inlet of the two-dimensional computation were treated as the initial conditions for one-dimensional Lagrangian Flamelet Analysis~\cite{pitsch98a}, which only considers diffusion processes parallel to the mixture fraction gradient and neglects those in the normal direction.  When the LFA prediction agreed with the CFD result, transport in the normal direction of the mixture fraction gradient was negligible, and autoignition was the dominant combustion process.  However, due to the unsteadiness in the current study, such comparison between LFA and CFD is no longer applicable, and a new criterion to differentiate the modes of tribrachial flame and autoignition needs to be identified and validated against the steady cases.
+
+A density-weighted displacement speed, $S_d$, is often used to distinguish between deflagrations and spontaneous ignition fronts in HCCI combustion~\cite{yoo13}, which is defined from an iso-line of species $k$ as~\cite{ruetsch95,im99}:
+
+\begin{equation} \label{eq:sd}
+S_d = \frac{1}{\rho{_u} |\nabla Y_k|} \left(\dot{\omega}{_k} - \pp{\rho Y_k V_{j,k}}{x_j} \right),
+\end{equation}
+where $Y_k$, $V_{j,k}$, and $\dot{\omega}{_k}$ denote species mass fraction, diffusion velocity in the $j$-direction, and net production rate, respectively, and $\rho {_u}$ is the density of the unburnt mixture.  The choice of species $k$ and its iso-line value can be ambiguous.  Therefore, major products, such as CO$_2$, H$_2$O, H$_2$, CO, and combinations of these products have been tested, and the sampling location is chosen as the leading point, as defined above, to enable further comparison with the steady cases.  $S_d$ at the leading point is insensitive to the choice of species in the current study, for less than $5$\% difference was observed across all the combinations.  Consequently, H$_2$O was chosen for simplicity.  Both the laminar flame speed $S_L$ and the unburnt mixture density $\rho {_u}$ were obtained from laminar flame speed calculations using the FlameMaster code~\cite{flamemaster}.  The composition and temperature boundary conditions for the laminar flame speed calculations were based on the sampled mixture fraction at the leading point and linearly interpolated, in the mixture fraction space, between the corresponding inlet values of the fuel and coflow streams.  
+
+Following the above procedure, displacement velocities were calculated for all three oscillation frequency cases, with $20$ points per cycle, to demonstrate their evolution.  Furthermore, as shown in Fig.~\ref{fig:sd_evo}, $S_d/S_L$ for the two steady cases ($2.4$ and $8.0$ m/s) were similarly calculated to validate this definition of normalized displacement velocity and differentiate between tribrachial flame and autoignition.  \textcolor{Rev1}{For clarity, only the 100 Hz case is included in Fig.~\ref{fig:sd_evo} to elucidate its evolution, and the effect of the oscillation frequency will be discussed in Sec.\ref{sec:frq}.}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.5\textwidth}{!}{\input{sd_evo.tex}}
+  \normalsize
+  \caption{Normalized displacement velocity (red) and leading point location (blue) time history profiles at $100$ Hz.}
+  \label{fig:sd_evo}
+\end{figure}
+
+
+The normalized displacement velocities for the steady autoignition front and tribrachial flame are shown in Fig.~\ref{fig:sd_evo} as the top and bottom horizontal lines, respectively.  The $S_d/S_L$ for the steady tribrachial flame is around unity, while this value is around eight for the autoignition front.  These values are similar to those in HCCI combustion studies~\cite{yoo13} and therefore can be used to benchmark the unsteady cases.  The periodic time history profile of $S_d/S_L$ is bounded by but does not fully reach the two steady values, indicating that, while the chemical structure responds to the flow dynamics, such response is not fast enough to reach steady-state.  
+
+When $S_d/S_L$ approaches the tribrachial flame limit, its value is almost constant, while the change near the autoignition limit is more sinusoidal.  Moreover, $S_d/S_L$ changes more abruptly when the combustion mode switches from tribrachial flame to autoignition.  Compared to the profile of the normalized leading point location ($x_d/D$), which is almost sinusoidal, the profile of the normalized displacement velocity is asymmetric, indicating that the transition from tribrachial flame to autoignition as the inlet velocity increases is not an exact reverse process of the transition from autoignition to tribrachial flame.  Indeed, as shown in Fig.~\ref{fig:HRR_100Hz}, although the inlet velocities at $0.25$ and $0.75$ cycle are the same, the structures demonstrate different morphologies during the cycle of decreasing- and increasing-velocity: there is hysteresis during the transition.
+
+Such hysteresis is demonstrated more clearly in Fig.~\ref{fig:sd_hys}, where $S_d/S_L$ is plotted against the inlet velocity.  Given the same inlet velocity, the reacting fronts have different displacement velocities during the cycle of decreasing- and increasing-velocity.  Additional evidence of hysteresis, shown in Fig.~\ref{fig:HRR_100Hz}, is the shift in the location of the leading point in the mixture fraction space: $Z = 0.14$ when the tribrachial flame dominates and $Z = 0.24$ when autoignition dominates.  The shift in the leading point mixture fraction as well as the displacement velocity indicates different dominant chemical reactions, and analysis of the dominant chemical reactions will reveal the mechanism of the hysteresis.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.5\textwidth}{!}{\input{sd_hys_100Hz.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{\textcolor{Rev1}{Normalized displacement velocities at various inlet velocities for two steady cases and the 100 Hz oscillating unsteady cases.}}
+  \label{fig:sd_hys}
+\end{figure}
+
+From the steady case analysis~\cite{deng15b}, the dominant chemical pathways are found to be different at the leading point of the tribrachial flame and autoignition front.  Specifically, the hydrogen peroxide branching reaction (H$_2$O$_2$ + M $\Longleftrightarrow$ OH + OH + M) is the dominant chain branching reaction at the leading point of the autoignition front, while the H radical branching reaction (H + O$_2$ $\Longleftrightarrow$ O + OH) is the most important chain branching reaction at the tribrachial flame leading point.  Due to the longer residence time, hydrogen peroxide accumulation is much higher upstream of the autoignition front compared to the tribrachial flame front.  
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.49\textwidth}{!}{\input{H2O2_up_Z14.tex}}
+  \resizebox{0.49\textwidth}{!}{\input{H2O2_down_Z14.tex}}
+    \resizebox{0.49\textwidth}{!}{\input{H2O2_up_Z24.tex}}
+  \resizebox{0.49\textwidth}{!}{\input{H2O2_down_Z24.tex}}
+  \vspace{-0.2in}
+  \normalsize
+  \caption{\textcolor{Rev1}{Comparison of hydrogen peroxide mass fraction profiles along the $Z = 0.14$ and $Z = 0.24$ iso-contours at steady state and at $100$ Hz during the decreasing-velocity cycle (left) and increasing-velocity cycle (right).}}
+  \label{fig:H2O2_updown}
+\end{figure}
+
+\textcolor{Rev1}{As hydrogen peroxide plays different roles in the tribrachial flame and autoignition front, its spatial profiles along the $Z = 0.14$ and $Z = 0.24$ iso-contours are compared in Fig.~\ref{fig:H2O2_updown}, with the left and right subfigures corresponding to the decreasing-velocity and increasing-velocity half cycles, respectively.  Qualitatively, the evolution of hydrogen peroxide profiles shows similar trends along both mixture fraction iso-contours.  The left figures show that hydrogen peroxide accumulates until either autoignition occurs or it is consumed at the flame front, resulting in a sharp drop in its mass fraction.  However, depending on the mixture fraction, the peak value of the hydrogen peroxide mass fraction differs by three to five times between a steady autoignition front (the steady 8.0 m/s case) and a tribrachial flame (the steady 2.4 m/s case), which implies its different significance in these two combustion modes and sets the benchmark for the unsteady evolution.}  As the inlet velocity decreases from $8.0$ m/s, the peak $Y_{\rm H{_2}O{_2}}$ almost remains constant, indicating that the chemical structure is very close to the steady autoignition case.  As a consequence, the dominant chemical pathway remains H$_2$O$_2$ + M $\Longleftrightarrow$ OH + OH + M, and autoignition is the dominant combustion process, resulting in larger $S_d/S_L$.  However, as the flow velocity decreases, a larger gradient is achieved, resulting in steeper profiles and smaller $S_d/S_L$, according to Eq.~(\ref{eq:sd}).  \textcolor{Rev1}{The large gradient results in enhanced back diffusion from the reacting front to the unburnt upstream mixture and ultimately invokes the transition into a tribrachial flame.}       
+
+Even when the inlet velocity reaches the minimum $2.4$ m/s, which is the same as the steady case, the reacting front continues to move upstream.  Inlet velocity changes slowest around the half cycle, allowing the chemical structure to respond to the hydrodynamic changes.  As shown on the right of Fig.~\ref{fig:H2O2_updown}, the peak $Y_{\rm H{_2}O{_2}}$ decreases from $0.5$ to $0.65$ of the cycle.  At this stage, autoignition is not fully activated, since the peak $Y_{\rm H{_2}O{_2}}$ is lower than the steady autoignition case.  However, the peak $Y_{\rm H{_2}O{_2}}$ is still larger than the steady tribrachial flame.  Therefore, the $S_d/S_L$ of the tribrachial structure is close to but slightly larger than a steady flame, for it is propagating into a partially reacted mixture.  
+
+\textcolor{Rev1}{As the inlet velocity further increases from $0.65$ to $0.75$ of the cycle, the propagation speed of the tribrachial flame cannot keep up with the flow incoming velocity, and the flame structure is therefore convected downstream.  During this flame blow-off process, $S_d/S_L$ remains essentially constant, which is demonstrated as the flattened bottom in Fig.~\ref{fig:sd_hys}.  Meanwhile, the unburnt mixture upstream of the flame accumulates radicals and heat as it moves downstream, and eventually triggers autoignition, indicated by a sudden jump of $S_d/S_L$.  The time difference between the half cycle (where the inlet velocity is 2.4 m/s) and the last sample point before the sudden jump of $S_d/S_L$ is defined as the induction period, as indicated in Fig.~\ref{fig:sd_hys}.} 
+
+\subsection{Effects of oscillation frequency} \label{sec:frq}
+
+\textcolor{Rev1}{To better understand the coupling between hydrodynamics and chemistry and the hysteretic behavior in Fig.~\ref{fig:sd_hys}, the effects of oscillation frequency are analyzed.}  Compared to the $100$ Hz case, the other two cases of lower oscillation frequency are similar qualitatively but with some quantitative differences.  \textcolor{Rev1}{Figure~\ref{fig:xd_evo} shows the evolution of the normalized leading point location ($x_d/D$) for the three oscillating cases, compared with the steady benchmark cases.  The peak-to-peak variation represents the oscillation amplitude during a cycle.  Two distinct trends are evident.  First, as the oscillation frequency increases, the oscillation amplitude decreases.  Extrapolating, if the oscillation frequency were much faster than any chemical or transport times scale, the oscillation amplitude would be zero, since the thermal structure could not respond to the velocity changes.}  
+
+\textcolor{Rev1}{Second and more interestingly, for all three frequencies, the most downstream points during the oscillation are almost identical to the steady case at 8.0 m/s.  However, as the frequency increases, the most upstream point during the oscillation deviates more from the steady case at 2.4 m/s.  The different effects of oscillation frequency on the most downstream and upstream point are attributed to the difference in the combustion mode at these two locations.  As demonstrated in the Fig.~\ref{fig:sd_hys}, the 100 Hz oscillating case has already established quasi-steady state when the boundary velocity is at 8.0 m/s when the combustion mode is kinetically controlled by autoignition.  In a Lagrangian sense, the location of an autoignition front is directly related to the ignition delay time, determined by chemical kinetics.  Therefore, the location of the autoignition front at this quasi-steady state is almost the same as the steady case with the same boundary velocity, which can be crudely estimated as the product of the ignition delay time and the boundary velocity.  For even lower frequency cases, such quasi-steady state is even easier to achieve.  Consequently, for all three oscillation frequencies, the most downstream points remain very close to the steady autoignition governed case with the boundary velocity of 8.0 m/s.  Conversely, the stabilization mechanism for the steady case at 2.4 m/s is kinematically controlled by the balance between the tribrachial flame propagation speed and incoming flow speed.  For the 100 Hz case, however, such kinematic balance never achieves quasi-steady state, as discussed in the previous section.  The location of the tribrachial flame is then determined kinematically both by the velocity difference between the unsteady tribrachial flame propagation speed and the flow speed and the time allowed for such displacement to occur.  At lower oscillation frequencies, longer time is allowed for the tribrachial flame to propagate upstream into the partially reacted mixture, while the displacement velocity decreases gradually due to reduced reactivity upstream.  The most upstream point location will then asymptotically approaches the steady state case when the oscillation frequency is sufficiently low.  This explains why the minimum $x_d/D$ approaches the steady state case at 2.4 m/s more closely at lower oscillation frequency in Fig.~\ref{fig:xd_evo}.}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.5\textwidth}{!}{\input{xd_evo.tex}}
+  \normalsize
+  \caption{\textcolor{Rev1}{Normalized leading point location time history profiles at 25, 50, and 100 Hz.}}
+  \label{fig:xd_evo}
+\end{figure}
+
+
+\textcolor{Rev1}{Besides the oscillation amplitude, the hysteretic behavior is also affected by the oscillation frequency.}  As shown in Fig.~\ref{fig:sd_hys_frq}, the hysteresis of decreasing and increasing velocity is diminished as the oscillation frequency decreases, denoted by the shrinking of the enclosed area.  Hysteresis remains at slower inlet velocities since the decreasing-velocity branch is still autoignition dominated, but it takes finite induction time for the increasing-velocity unburnt mixture to achieve autoignition.  At higher inlet velocities, both branches are autoignition dominant and therefore collapse to a single path at sufficiently low frequency, approaching the quasi-steady limit.  \textcolor{Rev1}{Ideally, the quasi-steady limit could be achieved by investigating even lower frequencies, such as 0.1 Hz; however, such calculation would be extraordinarily intensive, requiring more than 20 million core-hours.  Instead, three steady state cases reported previously~\cite{deng15b} and a new steady case at the boundary velocity of 6.4 m/s are also included in Fig.~\ref{fig:sd_hys_frq} to illustrate the steady state limit.}  
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.5\textwidth}{!}{\input{sd_hys_frq.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{\textcolor{Rev1}{Normalized displacement velocities at various inlet velocities for four steady cases and three oscillating unsteady cases at different frequencies.  Induction periods for the unsteady cases can also been defined similar to Fig.~\ref{fig:sd_hys} but are not shown here for clarity.}}
+  \label{fig:sd_hys_frq}
+\end{figure}
+
+\textcolor{Rev1}{In terms of the relative portion of the oscillation cycle, the 100 Hz case demonstrates a more pronounced hysteresis and longer induction period.  However, in term of the absolute time, shown in Table.~\ref{table:ind}, the 25 Hz case takes a longer time to achieve the transition from small $S_d/S_L$ to larger values during the increasing-velocity portion of the cycle (noting that the time intervals between sampling points in Fig.~\ref{fig:sd_hys_frq} are not the same for the three frequencies, being $0.5$, $1.0$, and $2.0$ ms for 100, 50, and 25 Hz, respectively).}
+
+\begin{table*}
+  \caption{\textcolor{Rev1}{Induction time at different oscillation frequencies.}}
+  \label{table:ind}
+  \centering
+  \normalsize
+  \resizebox{0.3\textwidth}{!}{
+  \begin{tabular}{lc*{2}{c}}
+    \hline
+    Frequency [Hz]& $25$  & $50$  & $100$   \\
+    \hline
+    Induction Time [ms]& $6$ & $4$ & $2.5$\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+
+
+This counter-intuitive finding is explained with Fig.~\ref{fig:ind_frq}.  Here, \textcolor{Rev1}{the temperature, hydrogen peroxide, and methoxy\-methyl\-peroxy radical (CH$_3$OCH$_2$O$_2$)} profiles are compared for the three frequency cases for both decreasing- and increasing-velocity branches at the same inlet velocity of $3.2$ m/s and benchmarked with the corresponding steady computation.  According to previous studies~\cite{deng15,deng15b}, this steady case is autoignition dominated and stabilized at $Z = 0.24$.  
+
+\textcolor{Rev1}{According to the temperature profiles, the steady and unsteady cases all demonstrate two heat release stages, with the first and second stage correlated well with the depletion of the CH$_3$OCH$_2$O$_2$ radical and hydrogen peroxide, respectively.  The CH$_3$OCH$_2$O$_2$ radical is often chosen to represent the NTC chemistry~\cite{krisman14}.  As demonstrated in previous studies~\cite{deng15,deng15b}, NTC chemistry is important in the upstream of both tribrachial flame and autoignition front, and NTC chemistry is still important for the unsteady cases.  It is seen from Fig.~\ref{fig:ind_frq} that, irrespective of the oscillation frequency and traveling direction, at the same inlet velocity, $Y_{\rm CH_3OCH_2O_2}$ matches with its steady state profile, indicating that NTC chemistry responds to the flow oscillation relatively fast, and therefore is decoupled from flow dynamics.}
+
+\textcolor{Rev1}{Conversely, the coupling between fluid dynamics and second-stage autoignition/flame chemistry is important, for the hydrogen peroxide profiles of the unsteady cases fail to collapse onto that of the steady case.  Although three unsteady profiles on the decreasing-velocity branch show similar peak values, the lower the frequency, the closer the profile matches the steady case, which is expected from Fig.~\ref{fig:sd_hys_frq}.  However, the unsteady profiles on the increasing-velocity branch show lower peak values than the steady structure, with the $100$ Hz case profile being closer to the steady counterpart.  Noting from Fig.~\ref{fig:sd_hys_frq} that the minimum $S_d/S_L$ in all three cases are larger than the steady $2.4$ m/s case and at lower frequency the unburnt mixture has longer time to relax to steady state, the $25$ Hz case should match the $2.4$ m/s steady case closer, that is, a tribrachial flame with low H$_2$O$_2$ accumulation.  Therefore, a longer time is required to accumulate this lost H$_2$O$_2$ and activate autoignition.  Conversely, the $100$ Hz case allows less time to relax to a steady flame structure and therefore has larger $Y_{\rm H_2O_2}$ to start with during the increasing-velocity cycle, resulting in a shorter induction time for autoignition.}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.8\textwidth}{!}{\input{T_32.tex}}
+  \resizebox{0.8\textwidth}{!}{\input{RO2_32.tex}}
+  \resizebox{0.8\textwidth}{!}{\input{H2O2_32.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{\textcolor{Rev1}{Temperature, methyoxymethylperoxy radical, and hydrogen peroxide mass fraction profiles along the $Z = 0.24$ iso-contour at $3.2$ m/s.  DV: decreasing-velocity, and IV: increasing-velocity.}}
+  \label{fig:ind_frq}
+\end{figure}
+
+\textcolor{Rev1}{The different effects of oscillation frequency on the first-stage NTC chemistry and second-stage autoignition/flame chemistry can be understood by comparing the characteristic time scales of these processes.  The ignition delay time for the first-stage ignition facilitated by NTC chemistry is relatively short ($\sim 0.3$ ms~\cite{deng15b}) compared to the major autoignition process induced by the hydrogen peroxide branching reaction ($\sim 1$ ms~\cite{deng15b}) and the characteristic hydrodynamic oscillation time ($10$-$40$ ms in the current work).  Therefore, for the low frequency oscillations investigated in the current study, the fluid dynamics and second-stage autoignition/flame chemistry coupling is mainly responsible for the hysteretic behavior and deviation from the steady state.}
+
+\textcolor{Rev1}{Even higher oscillation frequency cases were attempted, however, due to the high pressure nature of the condition, an instability was triggered, resulting in shedded vortices, broken flames, and local extinction.  Lower pressure and smaller fuel jet diameter cases would be helpful to allow for higher oscillation frequencies and will be investigated in future.}  
+
+
+%====================================================================
+
+\section{Conclusions}
+
+Axisymmetric laminar nonpremixed DME coflow flames at elevated temperatures and pressures with sinusoidally oscillating inlet velocities were computationally investigated.  The inlet velocity oscillates between $2.4$ and $8.0$ m/s at $25$, $50$, and $100$ Hz.  Flame dynamics in such oscillating flows and frequency effects on the hydrodynamics-chemistry coupling were analyzed.
+
+The heat release rate profiles were examined to describe the thermal structure.  The morphology of the thermal structure transitions between tribrachial and multibrachial.  The multibrachial structure is favored when the inlet velocity is higher, although there is hysteresis during the transition.  Such structures agree well with the steady cases in Deng~\emph{et al.}~\cite{deng15b}, which correspond to different combustion modes: tribrachial flame and autoignition.  Normalized displacement velocity was defined to differentiate these two modes in the current study and compare with the steady cases.  
+
+According to the steady results, the normalized displacement velocity for a tribrachial flame is around unity and is larger for autoignition.  The same criterion was applied to the unsteady cases to elucidate the evolution of combustion mode.  As the inlet velocity decreases, autoignition is the dominant combustion process until flame chemistry takes over around the most upstream location and slowest inlet velocity.  The tribrachial flame is convected downstream as the flow velocity increases.  The radical and heat accumulation upstream of the tribrachial flame finally results in autoignition, showing a sudden increase in the normalized displacement velocity.  
+
+\textcolor{Rev1}{Oscillation frequency effects on the hydrodynamics-chemistry coupling were analyzed by examining temperature, methyoxymethylperoxy radical, and hydrogen peroxide profiles during the oscillation process.  It is found that, at the three frequencies investigated, the tribrachial structure does not have sufficient time to reach steady state, and the transition from tribrachial flame to a multibrachial autoignition front occurs over a finite induction time as velocity increases.  Consequently, the decreasing-velocity and increasing-velocity cycles have different normalized displacement velocities and hence demonstrate hysteresis.  At lower frequency, such hysteresis is less pronounced, for longer relaxation time is allowed to approach the quasi-steady state condition.}  
+
+\textcolor{Rev1}{NTC chemistry represented by methyoxymethylperoxy radical accumulation and depletion has shorter time scales, and therefore is able to respond to the hydrodynamic changes.  However, autoignition and flame establishment have comparable time scales to the oscillation period and are therefore coupled with the flow dynamics.  At lower oscillation frequency, chemical kinetics is closer to reaching the two steady state conditions with the maximum and minimum boundary velocities.}
+
+\section*{Acknowledgments}
+This research was supported in part by the Air Force Office of Scientific Research (AFOSR) under the technical management of Dr. Mitat Birkan.
+
+%====================================================================
+
+\section*{References}
+\bibliographystyle{model1-num-names.bst}
+\bibliography{unsteady}
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+\clearpage
+%\listoffigures
+
+\end{document}
+
+
+
+
+
+  

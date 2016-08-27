@@ -1,0 +1,222 @@
+\begin{thebibliography}{40}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Buckmaster(2002)}]{buckmaster02}
+\bibinfo{author}{J.~Buckmaster}, \bibinfo{journal}{Prog. Energy Combust. Sci.}
+  \bibinfo{volume}{28} (\bibinfo{year}{2002}) \bibinfo{pages}{435--475}.
+
+\bibitem[{Chung(2007)}]{chung07}
+\bibinfo{author}{S.~H. Chung}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{31} (\bibinfo{year}{2007}) \bibinfo{pages}{877--892}.
+
+\bibitem[{Dold(1989)}]{dold89}
+\bibinfo{author}{J.~W. Dold}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{76} (\bibinfo{year}{1989}) \bibinfo{pages}{71--88}.
+
+\bibitem[{Hartley and Dold(1991)}]{hartley91}
+\bibinfo{author}{L.~J. Hartley}, \bibinfo{author}{J.~W. Dold},
+  \bibinfo{journal}{Combust. Sci. Technol.} \bibinfo{volume}{80}
+  (\bibinfo{year}{1991}) \bibinfo{pages}{23--46}.
+
+\bibitem[{Ghosal and Vervisch(2000)}]{ghosal00}
+\bibinfo{author}{S.~Ghosal}, \bibinfo{author}{L.~Vervisch},
+  \bibinfo{journal}{J. Fluid Mech.} \bibinfo{volume}{415}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{227--260}.
+
+\bibitem[{Kim et~al.(2007)Kim, Won, and Chung}]{kim07}
+\bibinfo{author}{M.~K. Kim}, \bibinfo{author}{S.~H. Won},
+  \bibinfo{author}{S.~H. Chung}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{31} (\bibinfo{year}{2007}) \bibinfo{pages}{901--908}.
+
+\bibitem[{Ruetsch et~al.(1995)Ruetsch, Vervisch, and Li\~{n}\'{a}n}]{ruetsch95}
+\bibinfo{author}{G.~R. Ruetsch}, \bibinfo{author}{L.~Vervisch},
+  \bibinfo{author}{A.~Li\~{n}\'{a}n}, \bibinfo{journal}{Phys. Fluids}
+  \bibinfo{volume}{7} (\bibinfo{year}{1995}) \bibinfo{pages}{1447}.
+
+\bibitem[{Lee and Chung(1997)}]{lee97}
+\bibinfo{author}{B.~J. Lee}, \bibinfo{author}{S.~H. Chung},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{109}
+  (\bibinfo{year}{1997}) \bibinfo{pages}{163--172}.
+
+\bibitem[{Plessing et~al.(1998)Plessing, Terhoeven, Peters, and
+  Mansour}]{plessing98}
+\bibinfo{author}{T.~Plessing}, \bibinfo{author}{P.~Terhoeven},
+  \bibinfo{author}{N.~Peters}, \bibinfo{author}{M.~S. Mansour},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{115}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{335--353}.
+
+\bibitem[{K\~{\i}oni et~al.(1999)K\~{\i}oni, Bray, Greenhalgh, and
+  Rogg}]{kioni99}
+\bibinfo{author}{P.~N. K\~{\i}oni}, \bibinfo{author}{K.~N.~C. Bray},
+  \bibinfo{author}{D.~A. Greenhalgh}, \bibinfo{author}{B.~Rogg},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{116}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{192--206}.
+
+\bibitem[{Choi et~al.(2009)Choi, Kim, and Chung}]{choi09}
+\bibinfo{author}{B.~C. Choi}, \bibinfo{author}{K.~N. Kim},
+  \bibinfo{author}{S.~H. Chung}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{156} (\bibinfo{year}{2009}) \bibinfo{pages}{396--404}.
+
+\bibitem[{Choi and Chung(2010)}]{choi10}
+\bibinfo{author}{B.~C. Choi}, \bibinfo{author}{S.~H. Chung},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{157}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{2348--2356}.
+
+\bibitem[{Choi and Chung(2012)}]{choi12}
+\bibinfo{author}{B.~C. Choi}, \bibinfo{author}{S.~H. Chung},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{1481--1488}.
+
+\bibitem[{Z\'{a}dor et~al.(2011)Z\'{a}dor, Taatjes, and Fernandes}]{zador11}
+\bibinfo{author}{J.~Z\'{a}dor}, \bibinfo{author}{C.~A. Taatjes},
+  \bibinfo{author}{R.~X. Fernandes}, \bibinfo{journal}{Prog. Energy Combust.
+  Sci.} \bibinfo{volume}{37} (\bibinfo{year}{2011}) \bibinfo{pages}{371--421}.
+
+\bibitem[{Law and Zhao(2012)}]{law12}
+\bibinfo{author}{C.~K. Law}, \bibinfo{author}{P.~Zhao},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{1044--1054}.
+
+\bibitem[{Zhao and Law(2013)}]{zhao13}
+\bibinfo{author}{P.~Zhao}, \bibinfo{author}{C.~K. Law},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{160}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{2352--2358}.
+
+\bibitem[{Deng et~al.(2014)Deng, Zhao, Zhu, and Law}]{deng14}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{D.~Zhu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{161} (\bibinfo{year}{2014}) \bibinfo{pages}{1993--1997}.
+
+\bibitem[{Krisman et~al.(2015)Krisman, Hawkes, Talei, Bhagatwala, and
+  Chen}]{krisman14}
+\bibinfo{author}{A.~Krisman}, \bibinfo{author}{E.~R. Hawkes},
+  \bibinfo{author}{M.~Talei}, \bibinfo{author}{A.~Bhagatwala},
+  \bibinfo{author}{J.~H. Chen}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{35} (\bibinfo{year}{2015}) \bibinfo{pages}{999--1006}.
+
+\bibitem[{Pitsch and Peters(1998)}]{pitsch98b}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{author}{N.~Peters},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{114}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{26--40}.
+
+\bibitem[{Curran et~al.(1998)Curran, Pitz, Westbrook, Dagaut, Boettner, and
+  Cathonnet}]{curran98}
+\bibinfo{author}{H.~J. Curran}, \bibinfo{author}{W.~J. Pitz},
+  \bibinfo{author}{C.~K. Westbrook}, \bibinfo{author}{P.~Dagaut},
+  \bibinfo{author}{J.-C. Boettner}, \bibinfo{author}{M.~Cathonnet},
+  \bibinfo{journal}{Int. J. Chem. Kinet.} \bibinfo{volume}{30}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{229--241}.
+
+\bibitem[{Fischer et~al.(2000)Fischer, Dryer, and Curran}]{fischer00}
+\bibinfo{author}{S.~L. Fischer}, \bibinfo{author}{F.~L. Dryer},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{journal}{Int. J. Chem. Kinet.}
+  \bibinfo{volume}{32} (\bibinfo{year}{2000}) \bibinfo{pages}{713--740}.
+
+\bibitem[{Curran et~al.(2000)Curran, Fischer, and Dryer}]{curran00}
+\bibinfo{author}{H.~J. Curran}, \bibinfo{author}{S.~L. Fischer},
+  \bibinfo{author}{F.~L. Dryer}, \bibinfo{journal}{Int. J. Chem. Kinet.}
+  \bibinfo{volume}{32} (\bibinfo{year}{2000}) \bibinfo{pages}{741--759}.
+
+\bibitem[{Zhao et~al.(2008)Zhao, Chaos, Kazakov, and Dryer}]{zhao08}
+\bibinfo{author}{Z.~Zhao}, \bibinfo{author}{M.~Chaos},
+  \bibinfo{author}{A.~Kazakov}, \bibinfo{author}{F.~L. Dryer},
+  \bibinfo{journal}{Int. J. Chem. Kinet.} \bibinfo{volume}{40}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{1--18}.
+
+\bibitem[{Kaiser et~al.(2000)Kaiser, Wailington, Hurley, Platz, Curran, Pitz,
+  Westbrook, and Wallington}]{kaiser00}
+\bibinfo{author}{E.~W. Kaiser}, \bibinfo{author}{T.~J. Wailington},
+  \bibinfo{author}{M.~D. Hurley}, \bibinfo{author}{J.~Platz},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{author}{W.~J. Pitz},
+  \bibinfo{author}{C.~K. Westbrook}, \bibinfo{author}{T.~J. Wallington},
+  \bibinfo{journal}{J. Phy. Chem. A} \bibinfo{volume}{104}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{8194--8206}.
+
+\bibitem[{Zheng et~al.(2005)Zheng, Lu, Law, Westbrook, Curran, Berces, and
+  Dryer}]{zheng05}
+\bibinfo{author}{X.~L. Zheng}, \bibinfo{author}{T.~F. Lu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{author}{C.~K. Westbrook},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{author}{T.~Berces},
+  \bibinfo{author}{F.~L. Dryer}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{30} (\bibinfo{year}{2005}) \bibinfo{pages}{1101--1109}.
+
+\bibitem[{Qin and Ju(2005)}]{qin05}
+\bibinfo{author}{X.~Qin}, \bibinfo{author}{Y.~Ju}, \bibinfo{journal}{Proc.
+  Combust. Inst.} \bibinfo{volume}{30} (\bibinfo{year}{2005})
+  \bibinfo{pages}{233--240}.
+
+\bibitem[{Bhagatwala et~al.(2015)Bhagatwala, Luo, Shen, Sutton, Lu, and
+  Chen}]{bhagatwala15}
+\bibinfo{author}{A.~Bhagatwala}, \bibinfo{author}{Z.~Luo},
+  \bibinfo{author}{H.~Shen}, \bibinfo{author}{J.~A. Sutton},
+  \bibinfo{author}{T.~Lu}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1157--1166}.
+
+\bibitem[{Desjardins et~al.(2008)Desjardins, Blanquart, Balarac, and
+  Pitsch}]{desjardins08}
+\bibinfo{author}{O.~Desjardins}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{G.~Balarac}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{journal}{J. Comput. Phys.} \bibinfo{volume}{227}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{7125--7159}.
+
+\bibitem[{Liu et~al.(1994)Liu, Osher, and Chan}]{liu94}
+\bibinfo{author}{X.~Liu}, \bibinfo{author}{S.~Osher},
+  \bibinfo{author}{T.~Chan}, \bibinfo{journal}{J. Comput. Phys.}
+  \bibinfo{volume}{115} (\bibinfo{year}{1994}) \bibinfo{pages}{200--212}.
+
+\bibitem[{Pierce and Moin(2001)}]{pierce01}
+\bibinfo{author}{C.~D. Pierce}, \bibinfo{author}{P.~Moin},
+  \bibinfo{title}{{Progress-variable Approach for Large-Eddy Simulation of
+  Turbulent Combustion}}, \bibinfo{type}{{Ph.D. thesis}}, Stanford University,
+  \bibinfo{year}{2001}.
+
+\bibitem[{Cohen et~al.(1996)Cohen, Hindmarsh, and Dubois}]{cohen96}
+\bibinfo{author}{S.~D. Cohen}, \bibinfo{author}{A.~C. Hindmarsh},
+  \bibinfo{author}{P.~F. Dubois}, \bibinfo{journal}{Comput. Phys.}
+  \bibinfo{volume}{10} (\bibinfo{year}{1996}) \bibinfo{pages}{138}.
+
+\bibitem[{Yoo et~al.(2009)Yoo, Sankaran, and Chen}]{yoo09}
+\bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{R.~Sankaran},
+  \bibinfo{author}{J.~H. Chen}, \bibinfo{journal}{J. Fluid Mech.}
+  \bibinfo{volume}{640} (\bibinfo{year}{2009}) \bibinfo{pages}{453--481}.
+
+\bibitem[{Lu et~al.(2010)Lu, Yoo, Chen, and Law}]{lu10}
+\bibinfo{author}{T.~F. Lu}, \bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{J.~H.
+  Chen}, \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{J. Fluid Mech.}
+  \bibinfo{volume}{652} (\bibinfo{year}{2010}) \bibinfo{pages}{45--64}.
+
+\bibitem[{Shan et~al.(2012)Shan, Yoo, Chen, and Lu}]{shan12}
+\bibinfo{author}{R.~Shan}, \bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{J.~H.
+  Chen}, \bibinfo{author}{T.~Lu}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{159} (\bibinfo{year}{2012}) \bibinfo{pages}{3119--3127}.
+
+\bibitem[{Westbrook(2000)}]{westbrook00}
+\bibinfo{author}{C.~K. Westbrook}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{28} (\bibinfo{year}{2000}) \bibinfo{pages}{1563--1577}.
+
+\bibitem[{Pitsch et~al.(1998)Pitsch, Chen, and Peters}]{pitsch98a}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{author}{M.~Chen},
+  \bibinfo{author}{N.~Peters}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{27} (\bibinfo{year}{1998}) \bibinfo{pages}{1057--1064}.
+
+\bibitem[{Pitsch(????)}]{flamemaster}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{title}{{Flame{M}aster, A {C}++ computer
+  program for 0{D} combustion and 1{D} laminar flame calculations.}}
+
+\bibitem[{Pope(1988)}]{pope88}
+\bibinfo{author}{S.~B. Pope}, \bibinfo{journal}{Int. J. Eng. Sci.}
+  \bibinfo{volume}{26} (\bibinfo{year}{1988}) \bibinfo{pages}{445--469}.
+
+\bibitem[{Lignell et~al.(2007)Lignell, Chen, Smith, Lu, and Law}]{lignell07}
+\bibinfo{author}{D.~O. Lignell}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{author}{P.~J. Smith}, \bibinfo{author}{T.~Lu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{151} (\bibinfo{year}{2007}) \bibinfo{pages}{2--28}.
+
+\bibitem[{Peters(2000)}]{petersbook}
+\bibinfo{author}{N.~Peters}, \bibinfo{title}{{Turbulent Combustion}}, Cambridge
+  University Press, \bibinfo{year}{2000}.
+
+\end{thebibliography}

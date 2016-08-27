@@ -1,0 +1,20 @@
+\begin{table*}
+  \caption{Computational domain and number of grid points.}
+  \label{table:domain}
+  \centering
+  \normalsize
+  \resizebox{0.5\textwidth}{!}{
+  \begin{tabular}{lc*{3}{c}}
+    \hline
+    Coflow Temperature [K]& $700$  & $800$  & $900$  & $1100$   \\
+    \hline
+    $L_x$ [mm]& $28$ & $7$ & $3.5$ & $3$\\
+    $L_r$ [mm]& $6$ & $3.9$ & $3.9$  & $6$\\
+    $N_x$ & $12290$ & $3072$ & $1536$  & $1282$\\
+    $N_r$ & $192$ & $176$ & $176$  & $192$\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+\efloatseparator
+ 

@@ -1,0 +1,11 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Velocity, temperature, and H$_2$O$_2$ profiles along $Z_{\rm st}$ on the nominal and two times coarser (in each direction) meshes for an air temperature of $800$ K.}}{14}
+\contentsline {figure}{\numberline {2}{\ignorespaces Heat release rate [J/m$^3$-s] profiles. The iso-contours of $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ are outlined from right to left in solid lines, respectively. The CEMA sampling points at $800$ and $1100$ K are indicated along the iso-contours.}}{15}
+\contentsline {figure}{\numberline {3}{\ignorespaces A schematic of the thermal structure of the $800$ K case. LPF, RPF, and NPF denotes the lean premixed, rich premixed, and nonpremixed flame branches on the tribrachial structure, respectively. LB and RB denotes the leaner and richer branches of the reacting front, respectively.}}{16}
+\contentsline {figure}{\numberline {4}{\ignorespaces Hydroxyl (OH) radical mass fraction profiles. The mixture fraction iso-contours are the same as in Fig.\nobreakspace {}2\hbox {}.}}{17}
+\contentsline {figure}{\numberline {5}{\ignorespaces Methoxymethylperoxy (CH$_3$OCH$_2$O$_2$) radical mass fraction profiles. The mixture fraction iso-contours are the same as in Fig.\nobreakspace {}2\hbox {}.}}{18}
+\contentsline {figure}{\numberline {6}{\ignorespaces Hydroperoxyl (HO$_2$) radical mass fraction profiles. The mixture fraction iso-contours are the same as in Fig.\nobreakspace {}2\hbox {}.}}{19}
+\contentsline {figure}{\numberline {7}{\ignorespaces Hydrogen peroxide (H$_2$O$_2$) mass fraction profiles. The mixture fraction iso-contours are the same as in Fig.\nobreakspace {}2\hbox {}.}}{20}
+\contentsline {figure}{\numberline {8}{\ignorespaces Normalized participation index at $800$ K and $1100$ K. Sampled locations are indicated in Fig.\nobreakspace {}2\hbox {}.}}{21}
+\contentsline {figure}{\numberline {9}{\ignorespaces $\frac {\chi (Z)}{f(Z;Z_{\rm st})}$, using Eq.\nobreakspace {}4\hbox {}, from the two-dimensional calculations at $800$ K.}}{22}
+\contentsline {figure}{\numberline {10}{\ignorespaces Comparison between 2D-CFD and 1D-LFA results.}}{23}
+\contentsline {figure}{\numberline {11}{\ignorespaces Extended regimes of the stabilization mechanism as the coflow boundary temperature increases.}}{24}

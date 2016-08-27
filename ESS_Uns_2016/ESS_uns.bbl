@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{buckmaster02}
+J.~Buckmaster.
+\newblock {\em Prog. Energy Combust. Sci.}, 28 (2002) 435--475.
+
+\bibitem{muller94}
+C.~M. M\"{u}ller, H.~Breitbach, and N.~Peters.
+\newblock {\em Proc. Combust. Inst.}, 25 (1994) 1099--1106.
+
+\bibitem{chung07}
+S.~H. Chung.
+\newblock {\em Proc. Combust. Inst.}, 31 (2007) 877--892.
+
+\bibitem{strawa89}
+A.~W. Strawa and B.~J. Cantwell.
+\newblock {\em J. Fluid Mech.}, 200 (1989) 309--336.
+
+\bibitem{sanchezsanz10}
+M.~S\'{a}nchez-Sanz, B.~A.~V. Bennett, M.~D. Smooke, and A.~Li\~{n}\'{a}n.
+\newblock {\em Combust. Theory Modell.}, 14 (2010) 453--478.
+
+\bibitem{shaddix94}
+C.~R. Shaddix, J.~E. Harrington, and K.~C. Smyth.
+\newblock {\em Combust. Flame}, 99 (1994) 723--732.
+
+\bibitem{skaggs96}
+R.~R. Skaggs and J.~H. Miller.
+\newblock {\em Proc. Combust. Inst.}, 26 (1996) 1181--1188.
+
+\bibitem{mohammed98}
+R.~K. Mohammed, M.~A. Tanoff, M.~D. Smooke, A.~M. Schaffer, and M.~B. Long.
+\newblock {\em Proc. Combust. Inst.}, 27 (1998) 693--702.
+
+\bibitem{dworkin07}
+S.~B. Dworkin, B.~C. Connelly, A.~M. Schaffer, B.A.~V. Bennett, M.~B. Long,
+  M.~D. Smooke, M.~P. Puccio, B.~McAndrews, and J.~H. Miller.
+\newblock {\em Proc. Combust. Inst.}, 31 (2007) 971--978.
+
+\bibitem{krisman14}
+A.~Krisman, E.~R. Hawkes, M.~Talei, A.~Bhagatwala, and J.~H. Chen.
+\newblock {\em Proc. Combust. Inst.}, 35 (2015) 999--1006.
+
+\bibitem{deng15}
+S.~Deng, P.~Zhao, M.~E. Mueller, and C.~K. Law.
+\newblock {\em Combust. Flame}, 162 (2015) 3437--3445.
+
+\bibitem{deng15b}
+S.~Deng, P.~Zhao, M.~E. Mueller, and C.~K. Law.
+\newblock {\em Combust. Flame}, 162 (2015) 4471--4478.
+
+\bibitem{desjardins08}
+O.~Desjardins, G.~Blanquart, G.~Balarac, and H.~Pitsch.
+\newblock {\em J. Comput. Phys.}, 227 (2008) 7125--7159.
+
+\bibitem{pitsch98b}
+H.~Pitsch and N.~Peters.
+\newblock {\em Combust. Flame}, 114 (1998) 26--40.
+
+\bibitem{deng14}
+S.~Deng, P.~Zhao, D.~Zhu, and C.~K. Law.
+\newblock {\em Combust. Flame}, 161 (2014) 1993--1997.
+
+\bibitem{bhagatwala15}
+A.~Bhagatwala, Z.~Luo, H.~Shen, J.~A. Sutton, T.~Lu, and J.~H. Chen.
+\newblock {\em Proc. Combust. Inst.}, 35 (2015) 1157--1166.
+
+\bibitem{zhao08}
+Z.~Zhao, M.~Chaos, A.~Kazakov, and F.~L. Dryer.
+\newblock {\em Int. J. Chem. Kinet.}, 40 (2008) 1--18.
+
+\bibitem{yoo13}
+C.~S. Yoo, Z.~Luo, T.~Lu, H.~Kim, and J.~H. Chen.
+\newblock {\em Proc. Combust. Inst.}, 34 (2013) 2985--2993.
+
+\bibitem{ruetsch95}
+G.~R. Ruetsch, L.~Vervisch, and A.~Li\~{n}\'{a}n.
+\newblock {\em Phys. Fluids}, 7 (1995) 1447.
+
+\bibitem{im99}
+H.~G. Im and J.~H. Chen.
+\newblock {\em Combust. Flame}, 119 (1999) 436--454.
+
+\bibitem{flamemaster}
+H.~Pitsch.
+\newblock {Flame{M}aster, A {C}++ computer program for 0{D} combustion and 1{D}
+  laminar flame calculations.}
+
+\end{thebibliography}

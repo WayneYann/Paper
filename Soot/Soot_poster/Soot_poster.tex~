@@ -1,0 +1,49 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticleUS}
+\documentclass[review,3p,times]{elsarticleUS}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{subdepth}
+\usepackage[nomarkers,lists]{endfloat}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Proceedings of the Combustion Institute}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol, and Methyl Butanoate Flames: Experimental Determination and Mechanistic Analysis}
+
+\author{Sili~Deng\corref{cor}}
+\cortext[cor]{Corresponding Author: silideng@princeton.edu}
+\author{Jeremy A.~Koch}
+\author{Michael E.~Mueller}
+\author{Chung K.~Law}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+

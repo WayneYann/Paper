@@ -1,0 +1,1703 @@
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.11.9)  16 AUG 2016 17:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 76 languages loaded.
+(./puthesis.cls
+Document Class: puthesis 2008/05/02 v1.4 Princeton University Thesis class
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@subyear=\count79
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks20
+\labelindent=\skip46
+\enit@outerparindent=\dimen112
+\enit@toks=\toks21
+\enit@inbox=\box28
+\enitdp@description=\count102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count103
+\LTcapwidth=\dimen116
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count104
+\LT@rows=\count105
+\c@LT@tables=\count106
+\c@LT@chunks=\count107
+\LT@p@ftn=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen130
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count114
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count115
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen131
+\Fld@menulength=\count116
+\Field@Width=\dimen132
+\Fld@charsize=\dimen133
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 107.
+
+
+\@input{abstract/abstract.aux}
+\openout2 = `abstract/abstract.aux'.
+
+(./abstract/abstract.tex)
+\@input{acknowledgements/acknowledgements.aux}
+\openout2 = `acknowledgements/acknowledgements.aux'.
+
+(./acknowledgements/acknowledgements.tex) (./thesis.aux (./ch-intro/intro.aux)
+(./ch-NTC/NTC.aux) (./ch-dynamics/dynamics.aux) (./ch-biofuel/biofuel.aux)
+(./ch-bluff/bluff.aux) (./ch-conclusions/conclusions.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen134
+\scratchbox=\box33
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen135
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 223.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count128
+)
+LaTeX Info: Redefining \ref on input line 223.
+LaTeX Info: Redefining \pageref on input line 223.
+LaTeX Info: Redefining \nameref on input line 223.
+
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write3
+\openout3 = `thesis.out'.
+
+ [1
+
+
+
+
+
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 224.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 224.
+
+[2
+
+] [3
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 224.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 224.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4] [5] [6
+
+] [7]
+[8] (./thesis.toc [9
+
+
+] [10])
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
+
+ [11] (./thesis.lot)
+\tf@lot=\write5
+\openout5 = `thesis.lot'.
+
+ [12
+
+
+] (./thesis.lof [13
+
+
+]
+[14] [15] [16] [17] [18] [19])
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
+
+ [20] [21]
+\openout2 = `ch-intro/intro.aux'.
+
+ (./ch-intro/intro.tex
+Chapter 1.
+[1
+
+
+
+
+] [2] [3] <ch-intro/scurve-zhao.png, id=833, 887.56593pt x 555.57562pt>
+File: ch-intro/scurve-zhao.png Graphic file (type png)
+
+<use ch-intro/scurve-zhao.png>
+Package pdftex.def Info: ch-intro/scurve-zhao.png used on input line 28.
+(pdftex.def)             Requested size: 433.62pt x 271.4206pt.
+ [4] [5 <./ch-intro/scurve-zhao.png>]
+<ch-intro/triple_flame.png, id=885, 373.395pt x 427.3566pt>
+File: ch-intro/triple_flame.png Graphic file (type png)
+
+<use ch-intro/triple_flame.png>
+Package pdftex.def Info: ch-intro/triple_flame.png used on input line 45.
+(pdftex.def)             Requested size: 216.81pt x 252.37791pt.
+ [6 <./ch-intro/triple_flame.png>] [7] [8]
+[9] <ch-intro/soot.png, id=953, 1090.3134pt x 409.53pt>
+File: ch-intro/soot.png Graphic file (type png)
+
+<use ch-intro/soot.png>
+Package pdftex.def Info: ch-intro/soot.png used on input line 76.
+(pdftex.def)             Requested size: 433.62pt x 162.87175pt.
+ [10] <ch-intro/TEM.jpg, id=981, 289.08pt x 228.49pt>
+File: ch-intro/TEM.jpg Graphic file (type jpg)
+
+<use ch-intro/TEM.jpg>
+Package pdftex.def Info: ch-intro/TEM.jpg used on input line 87.
+(pdftex.def)             Requested size: 260.17464pt x 205.65303pt.
+ [11 <./ch-intro/soot.png>] [12 <./ch-intro/TEM.jpg>]
+[13] [14] [15] [16] [17]) [18]
+\openout2 = `ch-NTC/NTC.aux'.
+
+ (./ch-NTC/NTC.tex
+Chapter 2.
+[19
+
+
+
+] <ch-NTC/Experimental_Setup.png, id=1132, 713.064pt x 431.4519pt>
+File: ch-NTC/Experimental_Setup.png Graphic file (type png)
+
+<use ch-NTC/Experimental_Setup.png>
+Package pdftex.def Info: ch-NTC/Experimental_Setup.png used on input line 14.
+(pdftex.def)             Requested size: 433.62pt x 262.37552pt.
+ [20] [21 <./ch-NTC/Experimental_Setup.png>] <ch-NTC/counterflow.png, id=1160, 
+480.3546pt x 377.2494pt>
+File: ch-NTC/counterflow.png Graphic file (type png)
+
+<use ch-NTC/counterflow.png>
+Package pdftex.def Info: ch-NTC/counterflow.png used on input line 34.
+(pdftex.def)             Requested size: 346.89731pt x 272.44252pt.
+ [22] [23 <./ch-NTC/counterflow.png>] [24]
+<ch-NTC/M.png, id=1198, 445.665pt x 375.65344pt>
+File: ch-NTC/M.png Graphic file (type png)
+ <use ch-NTC/M.png>
+Package pdftex.def Info: ch-NTC/M.png used on input line 73.
+(pdftex.def)             Requested size: 303.53267pt x 255.85365pt.
+
+<ch-NTC/PMT.png, id=1200, 773.289pt x 591.8913pt>
+File: ch-NTC/PMT.png Graphic file (type png)
+ <use ch-NTC/PMT.png>
+Package pdftex.def Info: ch-NTC/PMT.png used on input line 84.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [25 <./ch-NTC/M.png>] <ch-NTC/Scurve-SR.png, id=1207, 773.289pt x 591.8913pt>
+File: ch-NTC/Scurve-SR.png Graphic file (type png)
+
+<use ch-NTC/Scurve-SR.png>
+Package pdftex.def Info: ch-NTC/Scurve-SR.png used on input line 95.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+ <ch-NTC/IR.png, id=1208, 362.3136pt x 97.3236pt>
+File: ch-NTC/IR.png Graphic file (type png)
+
+<use ch-NTC/IR.png>
+Package pdftex.def Info: ch-NTC/IR.png used on input line 107.
+(pdftex.def)             Requested size: 346.89731pt x 93.18156pt.
+ [26 <./ch-NTC/PMT.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [27 <./ch-NTC/Scurve-SR.png>]
+<ch-NTC/Ign-SR.png, id=1223, 773.289pt x 591.8913pt>
+File: ch-NTC/Ign-SR.png Graphic file (type png)
+ <use ch-NTC/Ign-SR.png>
+Package pdftex.def Info: ch-NTC/Ign-SR.png used on input line 120.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+[28 <./ch-NTC/IR.png>] <ch-NTC/Sen_SR.png, id=1230, 773.289pt x 430.0065pt>
+File: ch-NTC/Sen_SR.png Graphic file (type png)
+
+<use ch-NTC/Sen_SR.png>
+Package pdftex.def Info: ch-NTC/Sen_SR.png used on input line 129.
+(pdftex.def)             Requested size: 433.62pt x 241.1235pt.
+ [29 <./ch-NTC/Ign-SR.png>]
+<ch-NTC/Ign-Con.png, id=1239, 773.289pt x 591.8913pt>
+File: ch-NTC/Ign-Con.png Graphic file (type png)
+ <use ch-NTC/Ign-Con.png>
+Package pdftex.def Info: ch-NTC/Ign-Con.png used on input line 142.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+[30 <./ch-NTC/Sen_SR.png>] [31 <./ch-NTC/Ign-Con.png>] [32] [33]
+<ch-NTC/S-Curve.png, id=1274, 771.1209pt x 590.205pt>
+File: ch-NTC/S-Curve.png Graphic file (type png)
+ <use ch-NTC/S-Curve.png>
+Package pdftex.def Info: ch-NTC/S-Curve.png used on input line 170.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+
+<ch-NTC/UV.png, id=1278, 606.1044pt x 510.2262pt>
+File: ch-NTC/UV.png Graphic file (type png)
+ <use ch-NTC/UV.png>
+Package pdftex.def Info: ch-NTC/UV.png used on input line 181.
+(pdftex.def)             Requested size: 433.62pt x 365.02695pt.
+ [34]
+<ch-NTC/cmp_demo.png, id=1285, 771.1209pt x 590.205pt>
+File: ch-NTC/cmp_demo.png Graphic file (type png)
+
+<use ch-NTC/cmp_demo.png>
+Package pdftex.def Info: ch-NTC/cmp_demo.png used on input line 192.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+ [35 <./ch-NTC/S-Curve.png>] [36 <./ch-NTC/UV.png>]
+[37 <./ch-NTC/cmp_demo.png>] <ch-NTC/HRR.png, id=1305, 771.1209pt x 590.205pt>
+File: ch-NTC/HRR.png Graphic file (type png)
+
+<use ch-NTC/HRR.png>
+Package pdftex.def Info: ch-NTC/HRR.png used on input line 210.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [38 <./ch-NTC/HRR.png>]
+<ch-NTC/sp_a.png, id=1318, 771.1209pt x 590.205pt>
+File: ch-NTC/sp_a.png Graphic file (type png)
+ <use ch-NTC/sp_a.png>
+Package pdftex.def Info: ch-NTC/sp_a.png used on input line 221.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+
+<ch-NTC/sp_b.png, id=1321, 771.1209pt x 590.205pt>
+File: ch-NTC/sp_b.png Graphic file (type png)
+ <use ch-NTC/sp_b.png>
+Package pdftex.def Info: ch-NTC/sp_b.png used on input line 230.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+
+<ch-NTC/sp_c.png, id=1324, 771.1209pt x 590.205pt>
+File: ch-NTC/sp_c.png Graphic file (type png)
+ <use ch-NTC/sp_c.png>
+Package pdftex.def Info: ch-NTC/sp_c.png used on input line 239.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+
+[39] [40 <./ch-NTC/sp_a.png>]
+<ch-NTC/SA.png, id=1342, 595.023pt x 324.13095pt>
+File: ch-NTC/SA.png Graphic file (type png)
+ <use ch-NTC/SA.png>
+Package pdftex.def Info: ch-NTC/SA.png used on input line 252.
+(pdftex.def)             Requested size: 433.62pt x 236.213pt.
+ [41 <./ch-NTC/sp_b.png>] [42 <./ch-NTC/sp_c.png>]
+<ch-NTC/cmp_demo_mod.png, id=1357, 771.1209pt x 590.205pt>
+File: ch-NTC/cmp_demo_mod.png Graphic file (type png)
+
+<use ch-NTC/cmp_demo_mod.png>
+Package pdftex.def Info: ch-NTC/cmp_demo_mod.png used on input line 267.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+ [43 <./ch-NTC/SA.png>] [44 <./ch-NTC/cmp_demo_mod.png>] <ch-NTC/eff_P.png, id=
+1370, 771.1209pt x 590.205pt>
+File: ch-NTC/eff_P.png Graphic file (type png)
+
+<use ch-NTC/eff_P.png>
+Package pdftex.def Info: ch-NTC/eff_P.png used on input line 284.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+ <ch-NTC/cmp_P.png, id=1372, 771.1209pt x 590.205pt>
+File: ch-NTC/cmp_P.png Graphic file (type png)
+
+<use ch-NTC/cmp_P.png>
+Package pdftex.def Info: ch-NTC/cmp_P.png used on input line 295.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+ [45]
+<ch-NTC/cmp_P_mod.png, id=1380, 771.1209pt x 590.205pt>
+File: ch-NTC/cmp_P_mod.png Graphic file (type png)
+
+<use ch-NTC/cmp_P_mod.png>
+Package pdftex.def Info: ch-NTC/cmp_P_mod.png used on input line 306.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [46 <./ch-NTC/eff_P.png>]
+<ch-NTC/eff_O2.png, id=1392, 771.1209pt x 590.205pt>
+File: ch-NTC/eff_O2.png Graphic file (type png)
+ <use ch-NTC/eff_O2.png>
+Package pdftex.def Info: ch-NTC/eff_O2.png used on input line 317.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+
+[47 <./ch-NTC/cmp_P.png>] <ch-NTC/cmp_O2.png, id=1400, 771.1209pt x 590.205pt>
+File: ch-NTC/cmp_O2.png Graphic file (type png)
+
+<use ch-NTC/cmp_O2.png>
+Package pdftex.def Info: ch-NTC/cmp_O2.png used on input line 328.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+
+<ch-NTC/cmp_O2_mod.png, id=1403, 771.1209pt x 590.205pt>
+File: ch-NTC/cmp_O2_mod.png Graphic file (type png)
+
+<use ch-NTC/cmp_O2_mod.png>
+Package pdftex.def Info: ch-NTC/cmp_O2_mod.png used on input line 339.
+(pdftex.def)             Requested size: 433.62pt x 331.89043pt.
+ [48 <./ch-NTC/cmp_P_mod.png>]) [49 <./ch-NTC/eff_O2.png>] [50 <./ch-NTC/cmp_O2
+.png>] [51 <./ch-NTC/cmp_O2_mod.png>]
+\openout2 = `ch-dynamics/dynamics.aux'.
+
+
+(./ch-dynamics/dynamics.tex
+Chapter 3.
+[52
+
+
+
+] <ch-dynamics/coflow.png, id=1431, 700.5372pt x 284.7438pt>
+File: ch-dynamics/coflow.png Graphic file (type png)
+
+<use ch-dynamics/coflow.png>
+Package pdftex.def Info: ch-dynamics/coflow.png used on input line 12.
+(pdftex.def)             Requested size: 433.62pt x 176.24821pt.
+ [53 <./ch-dynamics/coflow.png>] [54]
+(./ch-dynamics/conv_zst_U.tex
+Package epstopdf Info: Source file: <ch-dynamics/conv_zst_U.eps>
+(epstopdf)                    date: 2016-05-23 16:40:37
+(epstopdf)                    size: 39574 bytes
+(epstopdf)             Output file: <ch-dynamics/conv_zst_U-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2016-05-28 17:09:45
+(epstopdf)                    size: 9328 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/conv_zst_U-eps
+-converted-to.pdf ch-dynamics/conv_zst_U.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/conv_zst_U-eps-converted-to.pdf, id=1458, 162.6075pt x 126.4725pt>
+File: ch-dynamics/conv_zst_U-eps-converted-to.pdf Graphic file (type pdf)
+<use ch-dynamics/conv_zst_U-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/conv_zst_U-eps-converted-to.pdf used on in
+put line 101.
+(pdftex.def)             Requested size: 162.6071pt x 126.47218pt.
+)
+(./ch-dynamics/conv_zst_T.tex
+Package epstopdf Info: Source file: <ch-dynamics/conv_zst_T.eps>
+(epstopdf)                    date: 2016-05-23 16:40:37
+(epstopdf)                    size: 38120 bytes
+(epstopdf)             Output file: <ch-dynamics/conv_zst_T-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2016-05-28 17:09:05
+(epstopdf)                    size: 7100 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/conv_zst_T-eps
+-converted-to.pdf ch-dynamics/conv_zst_T.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/conv_zst_T-eps-converted-to.pdf, id=1459, 180.675pt x 126.4725pt>
+File: ch-dynamics/conv_zst_T-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/conv_zst_T-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/conv_zst_T-eps-converted-to.pdf used on in
+put line 102.
+(pdftex.def)             Requested size: 180.67455pt x 126.47218pt.
+)
+(./ch-dynamics/conv_zst_H2O2.tex
+Package epstopdf Info: Source file: <ch-dynamics/conv_zst_H2O2.eps>
+(epstopdf)                    date: 2016-05-23 16:40:37
+(epstopdf)                    size: 39230 bytes
+(epstopdf)             Output file: <ch-dynamics/conv_zst_H2O2-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-05-28 17:09:06
+(epstopdf)                    size: 9047 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/conv_zst_H2O2-
+eps-converted-to.pdf ch-dynamics/conv_zst_H2O2.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/conv_zst_H2O2-eps-converted-to.pdf, id=1460, 187.70125pt x 126.472
+5pt>
+File: ch-dynamics/conv_zst_H2O2-eps-converted-to.pdf Graphic file (type pdf)
+ <use ch-dynamics/conv_zst_H2O2-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/conv_zst_H2O2-eps-converted-to.pdf used on
+ input line 102.
+(pdftex.def)             Requested size: 187.70079pt x 126.47218pt.
+)
+<ch-dynamics/HRR_T.png, id=1463, 729.927pt x 320.8788pt>
+File: ch-dynamics/HRR_T.png Graphic file (type png)
+
+<use ch-dynamics/HRR_T.png>
+Package pdftex.def Info: ch-dynamics/HRR_T.png used on input line 70.
+(pdftex.def)             Requested size: 433.62pt x 190.62413pt.
+ [55] [56 <./ch-dynamics/conv_zst_U-eps-converted-to.pdf> <./ch-dynamics/conv_z
+st_T-eps-converted-to.pdf> <./ch-dynamics/conv_zst_H2O2-eps-converted-to.pdf>]
+<ch-dynamics/schematic_800.png, id=1481, 230.3004pt x 323.7696pt>
+File: ch-dynamics/schematic_800.png Graphic file (type png)
+
+<use ch-dynamics/schematic_800.png>
+Package pdftex.def Info: ch-dynamics/schematic_800.png used on input line 83.
+(pdftex.def)             Requested size: 173.44534pt x 243.83937pt.
+ [57 <./ch-dynamics/HRR_T.png>] [58 <./ch-dynamics/schematic_800.png>]
+<ch-dynamics/OH_T.png, id=1497, 729.927pt x 320.8788pt>
+File: ch-dynamics/OH_T.png Graphic file (type png)
+
+<use ch-dynamics/OH_T.png>
+Package pdftex.def Info: ch-dynamics/OH_T.png used on input line 102.
+(pdftex.def)             Requested size: 433.62pt x 190.62413pt.
+ [59]
+<ch-dynamics/RO2_T.png, id=1505, 729.927pt x 321.3606pt>
+File: ch-dynamics/RO2_T.png Graphic file (type png)
+
+<use ch-dynamics/RO2_T.png>
+Package pdftex.def Info: ch-dynamics/RO2_T.png used on input line 111.
+(pdftex.def)             Requested size: 433.62pt x 190.91035pt.
+
+<ch-dynamics/HO2_T.png, id=1508, 729.927pt x 320.8788pt>
+File: ch-dynamics/HO2_T.png Graphic file (type png)
+
+<use ch-dynamics/HO2_T.png>
+Package pdftex.def Info: ch-dynamics/HO2_T.png used on input line 120.
+(pdftex.def)             Requested size: 433.62pt x 190.62413pt.
+
+<ch-dynamics/H2O2_T.png, id=1511, 729.927pt x 320.8788pt>
+File: ch-dynamics/H2O2_T.png Graphic file (type png)
+
+<use ch-dynamics/H2O2_T.png>
+Package pdftex.def Info: ch-dynamics/H2O2_T.png used on input line 129.
+(pdftex.def)             Requested size: 433.62pt x 190.62413pt.
+ [60 <./ch-dynamics/OH_T.png> <./ch-dynamics/RO2_T.png>] [61 <./ch-dynamics/HO2
+_T.png> <./ch-dynamics/H2O2_T.png>]
+(./ch-dynamics/CEMA_800_fix.tex
+Package epstopdf Info: Source file: <ch-dynamics/CEMA_800.eps>
+(epstopdf)                    date: 2016-05-28 19:05:44
+(epstopdf)                    size: 24944 bytes
+(epstopdf)             Output file: <ch-dynamics/CEMA_800-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-05-28 19:15:45
+(epstopdf)                    size: 16651 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/CEMA_800-eps-c
+onverted-to.pdf ch-dynamics/CEMA_800.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/CEMA_800-eps-converted-to.pdf, id=1529, 361.35pt x 252.945pt>
+File: ch-dynamics/CEMA_800-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/CEMA_800-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/CEMA_800-eps-converted-to.pdf used on inpu
+t line 116.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+)
+(./ch-dynamics/CEMA_1100_fix.tex
+Package epstopdf Info: Source file: <ch-dynamics/CEMA_1100.eps>
+(epstopdf)                    date: 2016-05-28 19:05:44
+(epstopdf)                    size: 24882 bytes
+(epstopdf)             Output file: <ch-dynamics/CEMA_1100-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-05-28 19:16:52
+(epstopdf)                    size: 16116 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/CEMA_1100-eps-
+converted-to.pdf ch-dynamics/CEMA_1100.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/CEMA_1100-eps-converted-to.pdf, id=1530, 361.35pt x 252.945pt>
+File: ch-dynamics/CEMA_1100-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/CEMA_1100-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/CEMA_1100-eps-converted-to.pdf used on inp
+ut line 116.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) [62] [63 <./ch-dynamics/CEMA_800-eps-converted-to.pdf> <./ch-dynamics/CEMA_11
+00-eps-converted-to.pdf>]
+[64] [65] [66] (./ch-dynamics/Zref.tex
+Package epstopdf Info: Source file: <ch-dynamics/Zref.eps>
+(epstopdf)                    date: 2016-05-28 19:07:40
+(epstopdf)                    size: 41813 bytes
+(epstopdf)             Output file: <ch-dynamics/Zref-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 19:15:45
+(epstopdf)                    size: 17699 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/Zref-eps-conve
+rted-to.pdf ch-dynamics/Zref.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/Zref-eps-converted-to.pdf, id=1580, 361.35pt x 252.945pt>
+File: ch-dynamics/Zref-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/Zref-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/Zref-eps-converted-to.pdf used on input li
+ne 107.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) [67] (./ch-dynamics/LFA.tex
+Package epstopdf Info: Source file: <ch-dynamics/LFA.eps>
+(epstopdf)                    date: 2016-05-28 19:09:03
+(epstopdf)                    size: 217159 bytes
+(epstopdf)             Output file: <ch-dynamics/LFA-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 19:15:46
+(epstopdf)                    size: 35465 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/LFA-eps-conver
+ted-to.pdf ch-dynamics/LFA.eps>
+(epstopdf)             \includegraphics on input line 306.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/LFA-eps-converted-to.pdf, id=1592, 578.16pt x 303.1325pt>
+File: ch-dynamics/LFA-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/LFA-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/LFA-eps-converted-to.pdf used on input lin
+e 306.
+(pdftex.def)             Requested size: 578.15858pt x 303.13176pt.
+)
+Overfull \hbox (65.04906pt too wide) in paragraph at lines 214--216
+ [][] 
+ []
+
+[68 <./ch-dynamics/Zref-eps-converted-to.pdf>]
+Underfull \hbox (badness 1028) in paragraph at lines 222--223
+\OT1/cmr/m/n/12 the one-dimensional flamelet as-sump-tion is sig-nif-i-cantly l
+onger than the two-
+ []
+
+[69 <./ch-dynamics/LFA-eps-converted-to.pdf>] [70]
+<ch-dynamics/regime.png, id=1615, 772.8072pt x 327.624pt>
+File: ch-dynamics/regime.png Graphic file (type png)
+
+<use ch-dynamics/regime.png>
+Package pdftex.def Info: ch-dynamics/regime.png used on input line 237.
+(pdftex.def)             Requested size: 433.62pt x 183.83311pt.
+ [71] [72 <./ch-dynamics/regime.png>]
+<ch-dynamics/HRR_V.png, id=1628, 584.4234pt x 302.0886pt>
+File: ch-dynamics/HRR_V.png Graphic file (type png)
+
+<use ch-dynamics/HRR_V.png>
+Package pdftex.def Info: ch-dynamics/HRR_V.png used on input line 274.
+(pdftex.def)             Requested size: 433.62pt x 224.14128pt.
+ [73 <./ch-dynamics/HRR_V.png>]
+(./ch-dynamics/CEMA_24_fix.tex
+Package epstopdf Info: Source file: <ch-dynamics/CEMA_24.eps>
+(epstopdf)                    date: 2016-05-28 19:51:39
+(epstopdf)                    size: 24952 bytes
+(epstopdf)             Output file: <ch-dynamics/CEMA_24-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:38
+(epstopdf)                    size: 17595 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/CEMA_24-eps-co
+nverted-to.pdf ch-dynamics/CEMA_24.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/CEMA_24-eps-converted-to.pdf, id=1639, 361.35pt x 252.945pt>
+File: ch-dynamics/CEMA_24-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/CEMA_24-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/CEMA_24-eps-converted-to.pdf used on input
+ line 116.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) (./ch-dynamics/CEMA_80_fix.tex
+Package epstopdf Info: Source file: <ch-dynamics/CEMA_80.eps>
+(epstopdf)                    date: 2016-05-28 19:51:39
+(epstopdf)                    size: 24906 bytes
+(epstopdf)             Output file: <ch-dynamics/CEMA_80-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:39
+(epstopdf)                    size: 12433 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/CEMA_80-eps-co
+nverted-to.pdf ch-dynamics/CEMA_80.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/CEMA_80-eps-converted-to.pdf, id=1640, 361.35pt x 252.945pt>
+File: ch-dynamics/CEMA_80-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/CEMA_80-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/CEMA_80-eps-converted-to.pdf used on input
+ line 116.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+) [74] [75 <./ch-dynamics/CEMA_24-eps-converted-to.pdf> <./ch-dynamics/CEMA_80-
+eps-converted-to.pdf>]
+(./ch-dynamics/LFA_V.tex
+Package epstopdf Info: Source file: <ch-dynamics/LFA_V.eps>
+(epstopdf)                    date: 2016-05-28 19:57:07
+(epstopdf)                    size: 161642 bytes
+(epstopdf)             Output file: <ch-dynamics/LFA_V-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:39
+(epstopdf)                    size: 31288 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/LFA_V-eps-conv
+erted-to.pdf ch-dynamics/LFA_V.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/LFA_V-eps-converted-to.pdf, id=1658, 433.62pt x 303.1325pt>
+File: ch-dynamics/LFA_V-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/LFA_V-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/LFA_V-eps-converted-to.pdf used on input l
+ine 251.
+(pdftex.def)             Requested size: 433.61894pt x 303.13176pt.
+) [76 <./ch-dynamics/LFA_V-eps-converted-to.pdf>] [77] (./ch-dynamics/1D_V_HRR.
+tex
+Package epstopdf Info: Source file: <ch-dynamics/1D_V_HRR.eps>
+(epstopdf)                    date: 2016-05-28 20:01:35
+(epstopdf)                    size: 47670 bytes
+(epstopdf)             Output file: <ch-dynamics/1D_V_HRR-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-05-28 20:08:40
+(epstopdf)                    size: 17405 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/1D_V_HRR-eps-c
+onverted-to.pdf ch-dynamics/1D_V_HRR.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/1D_V_HRR-eps-converted-to.pdf, id=1674, 289.08pt x 126.4725pt>
+File: ch-dynamics/1D_V_HRR-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/1D_V_HRR-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/1D_V_HRR-eps-converted-to.pdf used on inpu
+t line 98.
+(pdftex.def)             Requested size: 289.07928pt x 126.47218pt.
+) (./ch-dynamics/1D_V_T.tex
+Package epstopdf Info: Source file: <ch-dynamics/1D_V_T.eps>
+(epstopdf)                    date: 2016-05-28 20:01:35
+(epstopdf)                    size: 47023 bytes
+(epstopdf)             Output file: <ch-dynamics/1D_V_T-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:40
+(epstopdf)                    size: 10435 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/1D_V_T-eps-con
+verted-to.pdf ch-dynamics/1D_V_T.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/1D_V_T-eps-converted-to.pdf, id=1675, 289.08pt x 126.4725pt>
+File: ch-dynamics/1D_V_T-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/1D_V_T-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/1D_V_T-eps-converted-to.pdf used on input 
+line 98.
+(pdftex.def)             Requested size: 289.07928pt x 126.47218pt.
+) (./ch-dynamics/1D_V_OH.tex
+Package epstopdf Info: Source file: <ch-dynamics/1D_V_OH.eps>
+(epstopdf)                    date: 2016-05-28 20:01:35
+(epstopdf)                    size: 45558 bytes
+(epstopdf)             Output file: <ch-dynamics/1D_V_OH-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:41
+(epstopdf)                    size: 15967 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/1D_V_OH-eps-co
+nverted-to.pdf ch-dynamics/1D_V_OH.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/1D_V_OH-eps-converted-to.pdf, id=1676, 289.08pt x 126.4725pt>
+File: ch-dynamics/1D_V_OH-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/1D_V_OH-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/1D_V_OH-eps-converted-to.pdf used on input
+ line 98.
+(pdftex.def)             Requested size: 289.07928pt x 126.47218pt.
+) (./ch-dynamics/1D_V_RO2.tex
+Package epstopdf Info: Source file: <ch-dynamics/1D_V_RO2.eps>
+(epstopdf)                    date: 2016-05-28 20:01:35
+(epstopdf)                    size: 46435 bytes
+(epstopdf)             Output file: <ch-dynamics/1D_V_RO2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2016-05-28 20:08:41
+(epstopdf)                    size: 16308 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/1D_V_RO2-eps-c
+onverted-to.pdf ch-dynamics/1D_V_RO2.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/1D_V_RO2-eps-converted-to.pdf, id=1677, 289.08pt x 126.4725pt>
+File: ch-dynamics/1D_V_RO2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/1D_V_RO2-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/1D_V_RO2-eps-converted-to.pdf used on inpu
+t line 98.
+(pdftex.def)             Requested size: 289.07928pt x 126.47218pt.
+) (./ch-dynamics/1D_V_H2O2.tex
+Package epstopdf Info: Source file: <ch-dynamics/1D_V_H2O2.eps>
+(epstopdf)                    date: 2016-05-28 20:01:35
+(epstopdf)                    size: 46440 bytes
+(epstopdf)             Output file: <ch-dynamics/1D_V_H2O2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2016-05-28 20:08:42
+(epstopdf)                    size: 13159 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/1D_V_H2O2-eps-
+converted-to.pdf ch-dynamics/1D_V_H2O2.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/1D_V_H2O2-eps-converted-to.pdf, id=1678, 289.08pt x 126.4725pt>
+File: ch-dynamics/1D_V_H2O2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/1D_V_H2O2-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/1D_V_H2O2-eps-converted-to.pdf used on inp
+ut line 99.
+(pdftex.def)             Requested size: 289.07928pt x 126.47218pt.
+) [78] [79 <./ch-dynamics/1D_V_HRR-eps-converted-to.pdf> <./ch-dynamics/1D_V_T-
+eps-converted-to.pdf> <./ch-dynamics/1D_V_OH-eps-converted-to.pdf> <./ch-dynami
+cs/1D_V_RO2-eps-converted-to.pdf> <./ch-dynamics/1D_V_H2O2-eps-converted-to.pdf
+>] (./ch-dynamics/tau_t.tex
+Package epstopdf Info: Source file: <ch-dynamics/tau_t.eps>
+(epstopdf)                    date: 2016-05-28 20:03:46
+(epstopdf)                    size: 16397 bytes
+(epstopdf)             Output file: <ch-dynamics/tau_t-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:43
+(epstopdf)                    size: 2871 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/tau_t-eps-conv
+erted-to.pdf ch-dynamics/tau_t.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/tau_t-eps-converted-to.pdf, id=1702, 180.675pt x 126.4725pt>
+File: ch-dynamics/tau_t-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/tau_t-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/tau_t-eps-converted-to.pdf used on input l
+ine 93.
+(pdftex.def)             Requested size: 180.67455pt x 126.47218pt.
+) (./ch-dynamics/tau_1.tex
+Package epstopdf Info: Source file: <ch-dynamics/tau_1.eps>
+(epstopdf)                    date: 2016-05-28 20:03:46
+(epstopdf)                    size: 16431 bytes
+(epstopdf)             Output file: <ch-dynamics/tau_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 20:08:43
+(epstopdf)                    size: 2906 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/tau_1-eps-conv
+erted-to.pdf ch-dynamics/tau_1.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/tau_1-eps-converted-to.pdf, id=1703, 176.66pt x 126.4725pt>
+File: ch-dynamics/tau_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/tau_1-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/tau_1-eps-converted-to.pdf used on input l
+ine 93.
+(pdftex.def)             Requested size: 176.65956pt x 126.47218pt.
+) [80] [81 <./ch-dynamics/tau_t-eps-converted-to.pdf> <./ch-dynamics/tau_1-eps-
+converted-to.pdf>]
+<ch-dynamics/2D-regime.png, id=1720, 631.158pt x 535.2798pt>
+File: ch-dynamics/2D-regime.png Graphic file (type png)
+
+<use ch-dynamics/2D-regime.png>
+Package pdftex.def Info: ch-dynamics/2D-regime.png used on input line 355.
+(pdftex.def)             Requested size: 346.89731pt x 294.2006pt.
+ [82 <./ch-dynamics/2D-regime.png>] [83]
+<ch-dynamics/HRR_100Hz.png, id=1740, 735.7086pt x 303.0522pt>
+File: ch-dynamics/HRR_100Hz.png Graphic file (type png)
+
+<use ch-dynamics/HRR_100Hz.png>
+Package pdftex.def Info: ch-dynamics/HRR_100Hz.png used on input line 380.
+(pdftex.def)             Requested size: 433.62pt x 161.03363pt.
+ [84 <./ch-dynamics/HRR_100Hz.png>] [85]
+(./ch-dynamics/sd_evo.tex
+Package epstopdf Info: Source file: <ch-dynamics/sd_evo.eps>
+(epstopdf)                    date: 2016-05-28 21:19:53
+(epstopdf)                    size: 20287 bytes
+(epstopdf)             Output file: <ch-dynamics/sd_evo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 21:46:15
+(epstopdf)                    size: 4760 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/sd_evo-eps-con
+verted-to.pdf ch-dynamics/sd_evo.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/sd_evo-eps-converted-to.pdf, id=1761, 289.08pt x 201.75375pt>
+File: ch-dynamics/sd_evo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/sd_evo-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/sd_evo-eps-converted-to.pdf used on input 
+line 112.
+(pdftex.def)             Requested size: 289.07928pt x 201.75325pt.
+) [86] [87 <./ch-dynamics/sd_evo-eps-converted-to.pdf>] (./ch-dynamics/sd_hys_1
+00Hz.tex
+Package epstopdf Info: Source file: <ch-dynamics/sd_hys_100Hz.eps>
+(epstopdf)                    date: 2016-05-28 21:22:13
+(epstopdf)                    size: 18038 bytes
+(epstopdf)             Output file: <ch-dynamics/sd_hys_100Hz-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-05-28 21:46:16
+(epstopdf)                    size: 3496 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/sd_hys_100Hz-e
+ps-converted-to.pdf ch-dynamics/sd_hys_100Hz.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/sd_hys_100Hz-eps-converted-to.pdf, id=1780, 289.08pt x 201.75375pt
+>
+File: ch-dynamics/sd_hys_100Hz-eps-converted-to.pdf Graphic file (type pdf)
+ <use ch-dynamics/sd_hys_100Hz-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/sd_hys_100Hz-eps-converted-to.pdf used on 
+input line 103.
+(pdftex.def)             Requested size: 289.07928pt x 201.75325pt.
+)
+(./ch-dynamics/H2O2_up_Z14.tex
+Package epstopdf Info: Source file: <ch-dynamics/H2O2_up_Z14.eps>
+(epstopdf)                    date: 2016-05-28 21:24:20
+(epstopdf)                    size: 68213 bytes
+(epstopdf)             Output file: <ch-dynamics/H2O2_up_Z14-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-05-28 21:46:16
+(epstopdf)                    size: 15847 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/H2O2_up_Z14-ep
+s-converted-to.pdf ch-dynamics/H2O2_up_Z14.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/H2O2_up_Z14-eps-converted-to.pdf, id=1782, 216.81pt x 151.56625pt>
+File: ch-dynamics/H2O2_up_Z14-eps-converted-to.pdf Graphic file (type pdf)
+<use ch-dynamics/H2O2_up_Z14-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/H2O2_up_Z14-eps-converted-to.pdf used on i
+nput line 107.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+)
+(./ch-dynamics/H2O2_down_Z14.tex
+Package epstopdf Info: Source file: <ch-dynamics/H2O2_down_Z14.eps>
+(epstopdf)                    date: 2016-05-28 21:24:20
+(epstopdf)                    size: 89050 bytes
+(epstopdf)             Output file: <ch-dynamics/H2O2_down_Z14-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-05-28 21:46:17
+(epstopdf)                    size: 18886 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/H2O2_down_Z14-
+eps-converted-to.pdf ch-dynamics/H2O2_down_Z14.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/H2O2_down_Z14-eps-converted-to.pdf, id=1783, 216.81pt x 151.56625p
+t>
+File: ch-dynamics/H2O2_down_Z14-eps-converted-to.pdf Graphic file (type pdf)
+ <use ch-dynamics/H2O2_down_Z14-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/H2O2_down_Z14-eps-converted-to.pdf used on
+ input line 111.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+)
+(./ch-dynamics/H2O2_up_Z24.tex
+Package epstopdf Info: Source file: <ch-dynamics/H2O2_up_Z24.eps>
+(epstopdf)                    date: 2016-05-28 21:24:20
+(epstopdf)                    size: 68114 bytes
+(epstopdf)             Output file: <ch-dynamics/H2O2_up_Z24-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-05-28 21:46:17
+(epstopdf)                    size: 18183 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/H2O2_up_Z24-ep
+s-converted-to.pdf ch-dynamics/H2O2_up_Z24.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/H2O2_up_Z24-eps-converted-to.pdf, id=1784, 216.81pt x 151.56625pt>
+File: ch-dynamics/H2O2_up_Z24-eps-converted-to.pdf Graphic file (type pdf)
+<use ch-dynamics/H2O2_up_Z24-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/H2O2_up_Z24-eps-converted-to.pdf used on i
+nput line 107.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+)
+(./ch-dynamics/H2O2_down_Z24.tex
+Package epstopdf Info: Source file: <ch-dynamics/H2O2_down_Z24.eps>
+(epstopdf)                    date: 2016-05-28 21:24:20
+(epstopdf)                    size: 89043 bytes
+(epstopdf)             Output file: <ch-dynamics/H2O2_down_Z24-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-05-28 21:46:18
+(epstopdf)                    size: 21682 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/H2O2_down_Z24-
+eps-converted-to.pdf ch-dynamics/H2O2_down_Z24.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/H2O2_down_Z24-eps-converted-to.pdf, id=1785, 216.81pt x 151.56625p
+t>
+File: ch-dynamics/H2O2_down_Z24-eps-converted-to.pdf Graphic file (type pdf)
+ <use ch-dynamics/H2O2_down_Z24-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/H2O2_down_Z24-eps-converted-to.pdf used on
+ input line 111.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+) [88] [89 <./ch-dynamics/sd_hys_100Hz-eps-converted-to.pdf>] [90 <./ch-dynamic
+s/H2O2_up_Z14-eps-converted-to.pdf> <./ch-dynamics/H2O2_down_Z14-eps-converted-
+to.pdf> <./ch-dynamics/H2O2_up_Z24-eps-converted-to.pdf> <./ch-dynamics/H2O2_do
+wn_Z24-eps-converted-to.pdf>] [91] (./ch-dynamics/xd_evo.tex
+Package epstopdf Info: Source file: <ch-dynamics/xd_evo.eps>
+(epstopdf)                    date: 2016-05-28 21:29:13
+(epstopdf)                    size: 21691 bytes
+(epstopdf)             Output file: <ch-dynamics/xd_evo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 21:46:18
+(epstopdf)                    size: 7325 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/xd_evo-eps-con
+verted-to.pdf ch-dynamics/xd_evo.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/xd_evo-eps-converted-to.pdf, id=1822, 289.08pt x 201.75375pt>
+File: ch-dynamics/xd_evo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/xd_evo-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/xd_evo-eps-converted-to.pdf used on input 
+line 109.
+(pdftex.def)             Requested size: 289.07928pt x 201.75325pt.
+) [92] [93 <./ch-dynamics/xd_evo-eps-converted-to.pdf>] (./ch-dynamics/sd_hys_f
+rq.tex
+Package epstopdf Info: Source file: <ch-dynamics/sd_hys_frq.eps>
+(epstopdf)                    date: 2016-05-28 21:35:23
+(epstopdf)                    size: 21606 bytes
+(epstopdf)             Output file: <ch-dynamics/sd_hys_frq-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2016-05-28 21:46:19
+(epstopdf)                    size: 5871 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/sd_hys_frq-eps
+-converted-to.pdf ch-dynamics/sd_hys_frq.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/sd_hys_frq-eps-converted-to.pdf, id=1837, 289.08pt x 201.75375pt>
+File: ch-dynamics/sd_hys_frq-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/sd_hys_frq-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/sd_hys_frq-eps-converted-to.pdf used on in
+put line 106.
+(pdftex.def)             Requested size: 289.07928pt x 201.75325pt.
+) [94 <./ch-dynamics/sd_hys_frq-eps-converted-to.pdf>] [95] (./ch-dynamics/T_32
+.tex
+Package epstopdf Info: Source file: <ch-dynamics/T_32.eps>
+(epstopdf)                    date: 2016-05-28 21:44:35
+(epstopdf)                    size: 58441 bytes
+(epstopdf)             Output file: <ch-dynamics/T_32-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 21:47:14
+(epstopdf)                    size: 17730 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/T_32-eps-conve
+rted-to.pdf ch-dynamics/T_32.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/T_32-eps-converted-to.pdf, id=1864, 289.08pt x 151.56625pt>
+File: ch-dynamics/T_32-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/T_32-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/T_32-eps-converted-to.pdf used on input li
+ne 110.
+(pdftex.def)             Requested size: 289.07928pt x 151.56587pt.
+) (./ch-dynamics/RO2_32.tex
+Package epstopdf Info: Source file: <ch-dynamics/RO2_32.eps>
+(epstopdf)                    date: 2016-05-28 21:44:41
+(epstopdf)                    size: 60931 bytes
+(epstopdf)             Output file: <ch-dynamics/RO2_32-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 21:47:14
+(epstopdf)                    size: 18983 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/RO2_32-eps-con
+verted-to.pdf ch-dynamics/RO2_32.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/RO2_32-eps-converted-to.pdf, id=1865, 289.08pt x 151.56625pt>
+File: ch-dynamics/RO2_32-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/RO2_32-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/RO2_32-eps-converted-to.pdf used on input 
+line 110.
+(pdftex.def)             Requested size: 289.07928pt x 151.56587pt.
+) (./ch-dynamics/H2O2_32.tex
+Package epstopdf Info: Source file: <ch-dynamics/H2O2_32.eps>
+(epstopdf)                    date: 2016-05-28 21:24:20
+(epstopdf)                    size: 58176 bytes
+(epstopdf)             Output file: <ch-dynamics/H2O2_32-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-28 21:47:15
+(epstopdf)                    size: 19210 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-dynamics/H2O2_32-eps-co
+nverted-to.pdf ch-dynamics/H2O2_32.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-dynamics/H2O2_32-eps-converted-to.pdf, id=1866, 289.08pt x 151.56625pt>
+File: ch-dynamics/H2O2_32-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-dynamics/H2O2_32-eps-converted-to.pdf>
+Package pdftex.def Info: ch-dynamics/H2O2_32-eps-converted-to.pdf used on input
+ line 110.
+(pdftex.def)             Requested size: 289.07928pt x 151.56587pt.
+) [96]) [97] [98 <./ch-dynamics/T_32-eps-converted-to.pdf> <./ch-dynamics/RO2_3
+2-eps-converted-to.pdf> <./ch-dynamics/H2O2_32-eps-converted-to.pdf>]
+\openout2 = `ch-biofuel/biofuel.aux'.
+
+ (./ch-biofuel/biofuel.tex
+Chapter 4.
+[99
+
+
+
+] [100] <ch-biofuel/Setup.png, id=1907, 392.667pt x 388.69215pt>
+File: ch-biofuel/Setup.png Graphic file (type png)
+
+<use ch-biofuel/Setup.png>
+Package pdftex.def Info: ch-biofuel/Setup.png used on input line 16.
+(pdftex.def)             Requested size: 346.89731pt x 343.39053pt.
+ [101 <./ch-biofuel/Setup.png>] [102] [103]
+<ch-biofuel/NB.png, id=1944, 773.289pt x 591.8913pt>
+File: ch-biofuel/NB.png Graphic file (type png)
+ <use ch-biofuel/NB.png>
+Package pdftex.def Info: ch-biofuel/NB.png used on input line 58.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+<ch-biofuel/MB.png, id=1952, 773.289pt x 590.4459pt>
+File: ch-biofuel/MB.png Graphic file (type png)
+ <use ch-biofuel/MB.png>
+Package pdftex.def Info: ch-biofuel/MB.png used on input line 69.
+(pdftex.def)             Requested size: 433.62pt x 331.08891pt.
+
+[104] <ch-biofuel/NH-ESR.png, id=1971, 773.289pt x 591.8913pt>
+File: ch-biofuel/NH-ESR.png Graphic file (type png)
+
+<use ch-biofuel/NH-ESR.png>
+Package pdftex.def Info: ch-biofuel/NH-ESR.png used on input line 80.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+<ch-biofuel/NB-ESR.png, id=1972, 773.289pt x 591.8913pt>
+File: ch-biofuel/NB-ESR.png Graphic file (type png)
+
+<use ch-biofuel/NB-ESR.png>
+Package pdftex.def Info: ch-biofuel/NB-ESR.png used on input line 90.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+<ch-biofuel/MB-ESR.png, id=1973, 773.289pt x 591.8913pt>
+File: ch-biofuel/MB-ESR.png Graphic file (type png)
+
+<use ch-biofuel/MB-ESR.png>
+Package pdftex.def Info: ch-biofuel/MB-ESR.png used on input line 99.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+ [105 <./ch-biofuel/NB.png>] [106 <./ch-biofuel/MB.png>] [107 <./ch-biofuel/NH-
+ESR.png>] [108 <./ch-biofuel/NB-ESR.png>] [109 <./ch-biofuel/MB-ESR.png>] [110]
+
+<ch-biofuel/Thermal.png, id=2046, 773.289pt x 591.8913pt>
+File: ch-biofuel/Thermal.png Graphic file (type png)
+
+<use ch-biofuel/Thermal.png>
+Package pdftex.def Info: ch-biofuel/Thermal.png used on input line 146.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+<ch-biofuel/Exp-Comp.png, id=2047, 773.289pt x 591.8913pt>
+File: ch-biofuel/Exp-Comp.png Graphic file (type png)
+
+<use ch-biofuel/Exp-Comp.png>
+Package pdftex.def Info: ch-biofuel/Exp-Comp.png used on input line 156.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+
+<ch-biofuel/SV-SR.png, id=2048, 773.289pt x 591.8913pt>
+File: ch-biofuel/SV-SR.png Graphic file (type png)
+
+<use ch-biofuel/SV-SR.png>
+Package pdftex.def Info: ch-biofuel/SV-SR.png used on input line 166.
+(pdftex.def)             Requested size: 433.62pt x 331.8994pt.
+ [111] [112 <./ch-biofuel/Thermal.png>]
+<ch-biofuel/Chain.png, id=2060, 773.289pt x 519.3804pt>
+File: ch-biofuel/Chain.png Graphic file (type png)
+
+<use ch-biofuel/Chain.png>
+Package pdftex.def Info: ch-biofuel/Chain.png used on input line 186.
+(pdftex.def)             Requested size: 433.62pt x 278.4756pt.
+
+<ch-biofuel/Ring.png, id=2062, 773.289pt x 519.6213pt>
+File: ch-biofuel/Ring.png Graphic file (type png)
+
+<use ch-biofuel/Ring.png>
+Package pdftex.def Info: ch-biofuel/Ring.png used on input line 187.
+(pdftex.def)             Requested size: 433.62pt x 278.61069pt.
+ [113 <./ch-biofuel/Exp-Comp.png>] [114 <./ch-biofuel/SV-SR.png>] <ch-biofuel/P
+athways-PAH.png, id=2076, 548.0475pt x 103.1052pt>
+File: ch-biofuel/Pathways-PAH.png Graphic file (type png)
+
+<use ch-biofuel/Pathways-PAH.png>
+Package pdftex.def Info: ch-biofuel/Pathways-PAH.png used on input line 203.
+(pdftex.def)             Requested size: 433.62pt x 81.57964pt.
+
+<ch-biofuel/Pathways_Fuel.png, id=2077, 487.8225pt x 147.55125pt>
+File: ch-biofuel/Pathways_Fuel.png Graphic file (type png)
+
+<use ch-biofuel/Pathways_Fuel.png>
+Package pdftex.def Info: ch-biofuel/Pathways_Fuel.png used on input line 212.
+(pdftex.def)             Requested size: 433.62pt x 131.15808pt.
+ [115] [116]
+<ch-biofuel/A-C3H5-y.png, id=2098, 773.289pt x 591.8913pt>
+File: ch-biofuel/A-C3H5-y.png Graphic file (type png)
+
+<use ch-biofuel/A-C3H5-y.png>
+Package pdftex.def Info: ch-biofuel/A-C3H5-y.png used on input line 237.
+(pdftex.def)             Requested size: 212.47617pt x 160.8667pt.
+
+<ch-biofuel/C3H3-y.png, id=2100, 773.289pt x 590.4459pt>
+File: ch-biofuel/C3H3-y.png Graphic file (type png)
+
+<use ch-biofuel/C3H3-y.png>
+Package pdftex.def Info: ch-biofuel/C3H3-y.png used on input line 238.
+(pdftex.def)             Requested size: 212.47617pt x 160.41277pt.
+
+<ch-biofuel/C5H6-y.png, id=2102, 773.289pt x 590.4459pt>
+File: ch-biofuel/C5H6-y.png Graphic file (type png)
+
+<use ch-biofuel/C5H6-y.png>
+Package pdftex.def Info: ch-biofuel/C5H6-y.png used on input line 239.
+(pdftex.def)             Requested size: 212.47617pt x 160.41277pt.
+
+<ch-biofuel/A1-y.png, id=2104, 773.289pt x 590.4459pt>
+File: ch-biofuel/A1-y.png Graphic file (type png)
+
+<use ch-biofuel/A1-y.png>
+Package pdftex.def Info: ch-biofuel/A1-y.png used on input line 240.
+(pdftex.def)             Requested size: 212.47617pt x 160.41277pt.
+) [117] [118 <./ch-biofuel/Chain.png> <./ch-biofuel/Ring.png>] [119 <./ch-biofu
+el/Pathways-PAH.png> <./ch-biofuel/Pathways_Fuel.png>] [120 <./ch-biofuel/A-C3H
+5-y.png> <./ch-biofuel/C3H3-y.png> <./ch-biofuel/C5H6-y.png> <./ch-biofuel/A1-y
+.png>]
+\openout2 = `ch-bluff/bluff.aux'.
+
+ (./ch-bluff/bluff.tex
+Chapter 5.
+[121
+
+
+
+] [122] [123] [124] [125]
+<ch-bluff/hy_overall_new.png, id=2212, 454.3374pt x 339.1872pt>
+File: ch-bluff/hy_overall_new.png Graphic file (type png)
+
+<use ch-bluff/hy_overall_new.png>
+Package pdftex.def Info: ch-bluff/hy_overall_new.png used on input line 99.
+(pdftex.def)             Requested size: 303.53267pt x 251.74097pt.
+ [126] (./ch-bluff/ifv.tex
+Package epstopdf Info: Source file: <ch-bluff/ifv.eps>
+(epstopdf)                    date: 2016-05-22 21:16:39
+(epstopdf)                    size: 38169 bytes
+(epstopdf)             Output file: <ch-bluff/ifv-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-22 21:16:50
+(epstopdf)                    size: 21833 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-bluff/ifv-eps-converted
+-to.pdf ch-bluff/ifv.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-bluff/ifv-eps-converted-to.pdf, id=2222, 216.81pt x 151.56625pt>
+File: ch-bluff/ifv-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-bluff/ifv-eps-converted-to.pdf>
+Package pdftex.def Info: ch-bluff/ifv-eps-converted-to.pdf used on input line 1
+00.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+) [127 <./ch-bluff/hy_overall_new.png>]
+[128 <./ch-bluff/ifv-eps-converted-to.pdf>] (./ch-bluff/flamelet.tex
+Package epstopdf Info: Source file: <ch-bluff/flamelet.eps>
+(epstopdf)                    date: 2016-05-22 21:24:27
+(epstopdf)                    size: 18831 bytes
+(epstopdf)             Output file: <ch-bluff/flamelet-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-22 21:30:22
+(epstopdf)                    size: 4152 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-bluff/flamelet-eps-conv
+erted-to.pdf ch-bluff/flamelet.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-bluff/flamelet-eps-converted-to.pdf, id=2244, 216.81pt x 151.56625pt>
+File: ch-bluff/flamelet-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-bluff/flamelet-eps-converted-to.pdf>
+Package pdftex.def Info: ch-bluff/flamelet-eps-converted-to.pdf used on input l
+ine 100.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+) [129 <./ch-bluff/flamelet-eps-converted-to.pdf>] (./ch-bluff/fv_06.tex
+Package epstopdf Info: Source file: <ch-bluff/fv_06.eps>
+(epstopdf)                    date: 2016-05-22 21:28:25
+(epstopdf)                    size: 19277 bytes
+(epstopdf)             Output file: <ch-bluff/fv_06-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-22 21:28:25
+(epstopdf)                    size: 4527 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-bluff/fv_06-eps-convert
+ed-to.pdf ch-bluff/fv_06.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-bluff/fv_06-eps-converted-to.pdf, id=2255, 216.81pt x 151.56625pt>
+File: ch-bluff/fv_06-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-bluff/fv_06-eps-converted-to.pdf>
+Package pdftex.def Info: ch-bluff/fv_06-eps-converted-to.pdf used on input line
+ 97.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+) (./ch-bluff/fv_08.tex
+Package epstopdf Info: Source file: <ch-bluff/fv_08.eps>
+(epstopdf)                    date: 2016-05-22 21:28:25
+(epstopdf)                    size: 19548 bytes
+(epstopdf)             Output file: <ch-bluff/fv_08-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-22 21:28:25
+(epstopdf)                    size: 4528 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-bluff/fv_08-eps-convert
+ed-to.pdf ch-bluff/fv_08.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-bluff/fv_08-eps-converted-to.pdf, id=2256, 216.81pt x 151.56625pt>
+File: ch-bluff/fv_08-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-bluff/fv_08-eps-converted-to.pdf>
+Package pdftex.def Info: ch-bluff/fv_08-eps-converted-to.pdf used on input line
+ 105.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+)
+<ch-bluff/streamline.png, id=2263, 417.7206pt x 383.9946pt>
+File: ch-bluff/streamline.png Graphic file (type png)
+
+<use ch-bluff/streamline.png>
+Package pdftex.def Info: ch-bluff/streamline.png used on input line 156.
+(pdftex.def)             Requested size: 260.17464pt x 262.52463pt.
+ [130] [131 <./ch-bluff/fv_06-eps-converted-to.pdf> <./ch-bluff/fv_08-eps-conve
+rted-to.pdf>] [132 <./ch-bluff/streamline.png>]
+(./ch-bluff/Z_01.tex
+Package epstopdf Info: Source file: <ch-bluff/Z_01.eps>
+(epstopdf)                    date: 2016-05-22 21:29:20
+(epstopdf)                    size: 18652 bytes
+(epstopdf)             Output file: <ch-bluff/Z_01-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-22 21:30:23
+(epstopdf)                    size: 3564 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-bluff/Z_01-eps-converte
+d-to.pdf ch-bluff/Z_01.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-bluff/Z_01-eps-converted-to.pdf, id=2287, 216.81pt x 151.56625pt>
+File: ch-bluff/Z_01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-bluff/Z_01-eps-converted-to.pdf>
+Package pdftex.def Info: ch-bluff/Z_01-eps-converted-to.pdf used on input line 
+101.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+) (./ch-bluff/timescale.tex
+Package epstopdf Info: Source file: <ch-bluff/timescale.eps>
+(epstopdf)                    date: 2016-05-22 21:29:40
+(epstopdf)                    size: 20115 bytes
+(epstopdf)             Output file: <ch-bluff/timescale-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-22 21:30:23
+(epstopdf)                    size: 4755 bytes
+(epstopdf)             Command: <repstopdf --outfile=ch-bluff/timescale-eps-con
+verted-to.pdf ch-bluff/timescale.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<ch-bluff/timescale-eps-converted-to.pdf, id=2288, 216.81pt x 151.56625pt>
+File: ch-bluff/timescale-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ch-bluff/timescale-eps-converted-to.pdf>
+Package pdftex.def Info: ch-bluff/timescale-eps-converted-to.pdf used on input 
+line 100.
+(pdftex.def)             Requested size: 216.80946pt x 151.56587pt.
+) [133 <./ch-bluff/Z_01-eps-converted-to.pdf> <./ch-bluff/timescale-eps-convert
+ed-to.pdf>]
+<ch-bluff/sourceterm.png, id=2299, 394.1124pt x 611.886pt>
+File: ch-bluff/sourceterm.png Graphic file (type png)
+
+<use ch-bluff/sourceterm.png>
+Package pdftex.def Info: ch-bluff/sourceterm.png used on input line 181.
+(pdftex.def)             Requested size: 260.17464pt x 436.16956pt.
+) [134] [135 <./ch-bluff/sourceterm.png>] [136]
+\openout2 = `ch-conclusions/conclusions.aux'.
+
+
+(./ch-conclusions/conclusions.tex
+Chapter 6.
+
+Underfull \hbox (badness 1014) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 This dis-ser-a-tion rep-re-sents sev-eral ad-vance-ments in the
+ un-der-stand-ing of the
+ []
+
+[137
+
+
+
+] [138] [139] [140] [141] [142] [143] [144] [145] [146]) [147]
+(./thesis.bbl [148
+
+
+
+]
+Underfull \hbox (badness 3849) in paragraph at lines 89--93
+[]\OT1/cmr/m/n/12 B. C. Choi and S. H. Chung.  Au-toignited lam-i-nar lifted fl
+ames
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 89--93
+\OT1/cmr/m/n/12 of methane/hydrogen mix-tures in heated coflow air.  \OT1/cmr/m
+/it/12 Com-bust. Flame\OT1/cmr/m/n/12 ,
+ []
+
+[149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+ [160]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+
+(./thesis.aux (./ch-intro/intro.aux) (./ch-NTC/NTC.aux)
+(./ch-dynamics/dynamics.aux) (./ch-biofuel/biofuel.aux) (./ch-bluff/bluff.aux)
+(./ch-conclusions/conclusions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: DA9CE25B57BDC1E3C28FCA0BE9CD53DD;5900.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
+ ) 
+Here is how much of TeX's memory you used:
+ 8506 strings out of 493328
+ 125571 string characters out of 6140733
+ 278776 words of memory out of 5000000
+ 11089 multiletter control sequences out of 15000+600000
+ 12933 words of font info for 48 fonts, out of 8000000 for 9000
+ 953 hyphenation exceptions out of 8191
+ 30i,18n,35p,2484b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (181 pages, 11560555 bytes).
+PDF statistics:
+ 2602 PDF objects out of 2984 (max. 8388607)
+ 2203 compressed objects within 23 object streams
+ 541 named destinations out of 1000 (max. 500000)
+ 1100 words of extra memory for PDF output out of 10000 (max. 10000000)
+

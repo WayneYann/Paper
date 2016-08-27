@@ -1,0 +1,130 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticle}
+\documentclass[review,3p,times]{elsarticle}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{cleveref}
+\usepackage{xcolor}
+%\definecolor{mycolor}{rgb}{0,0,255}  % highlight changes
+\definecolor{mycolor}{rgb}{0,0,0} 
+\definecolor{r2}{rgb}{0,0,0}
+\usepackage{subdepth}
+%\usepackage[nomarkers,lists]{endfloat}
+\usepackage{nopageno}
+
+\journal{Combustion and Flame}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\makeatletter
+\long\def\MaketitleBox{%
+  \resetTitleCounters
+  \def\baselinestretch{1}%
+  \begin{center}%
+   \def\baselinestretch{1}%
+    \Large\@title\par\vskip18pt
+    \normalsize\elsauthors\par\vskip10pt
+    \footnotesize\itshape\elsaddress\par\vskip36pt
+%    \hrule\vskip12pt
+%    \ifvoid\absbox\else\unvbox\absbox\par\vskip10pt\fi
+%    \ifvoid\keybox\else\unvbox\keybox\par\vskip10pt\fi
+%    \hrule\vskip12pt
+    \end{center}%
+  }
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Supplementary Data: Autoignition-affected stabilization of laminar nonpremixed DME/air coflow flames}
+
+\author{Sili~Deng}
+\author{Peng~Zhao}
+\author{Michael E.~Mueller\corref{cor}}
+\author{Chung K.~Law}
+\cortext[cor]{Corresponding Author: muellerm@princeton.edu}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+\end{frontmatter}
+
+%\section*{Supplementary Data}
+\noindent The constant nonunity Lewis numbers adopted in this study are listed in the table below.
+
+
+\begin{table*}[h]
+  %\caption{Constant nonunity Lewis numbers adopted in the current study.}
+  \label{table:Lewis}
+  \centering
+  \normalsize
+  \resizebox{0.4\textwidth}{!}{
+  \begin{tabular}{llll}
+    \hline
+    Species & Lewis Number & Species & Lewis Number \\
+    \hline
+    N$_2$ &             $1.031$     &              CH$_2$(S) &     $0.922$     \\                                
+    H &              $0.173$    &                      C$_2$H$_4$ &           $1.077$     \\                     
+    O$_2$ &             $1.031$     &                  CH$_3$HCO &         $1.429$     \\                        
+    O &              $0.672$    &                      C$_2$H$_2$ &           $1.137$       \\                   
+    OH &             $0.684$    &                      C$_2$H$_3$ &           $1.148$     \\                     
+    H$_2$ &             $0.287$    &                   CH$_3$OCH$_3$ &        $1.665$     \\                     
+    H$_2$O &            $0.764$    &                   CH$_3$OCH$_2$ &        $1.658$     \\                     
+    HO$_2$ &            $1.038$     &                  CH$_3$OCH$_2$O &       $1.909$     \\                     
+    H$_2$O$_2$ &           $1.045$     &               CH$_3$OCHO &        $1.812$     \\                        
+    CO &             $1.046$      &                    CH$_3$OCO &         $1.807$     \\                        
+    CO$_2$ &            $1.324$     &                  CH$_3$OCH$_2$O$_2$ &      $1.806$     \\                  
+    HCO &            $1.189$     &                     CH$_3$OCH$_2$OH &      $1.751$     \\                     
+    CH$_3$ &            $0.943$    &                   CH$_2$OCH$_2$O$_2$H &     $1.806$     \\                  
+    CH$_4$ &            $0.947$    &                   O$_2$CH$_2$OCH$_2$O$_2$H &   $1.881$     \\               
+    CH$_2$O &           $1.198$     &                  HO$_2$CH$_2$OCHO &     $1.847$      \\                    
+    CH$_3$O &           $1.223$     &                  OCH$_2$OCHO &       $1.800$     \\                        
+    C$_2$H$_6$ &           $1.385$     &               HOCH$_2$OCO &       $1.800$     \\                        
+    CH$_2$OH &          $1.223$     &                  HOCH$_2$O &         $1.327$     \\                        
+    C$_2$H$_5$ &           $1.374$      &              HCOOH &          $1.627$     \\                           
+    CH$_2$ &            $0.922$    & &\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

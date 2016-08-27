@@ -1,0 +1,104 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolortrue
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktexttrue
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+  \setlength{\unitlength}{0.0500bp}%
+  \begin{picture}(4320.00,5040.00)%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(597,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}H2O2(+M)=OH+OH(+M)}}}%
+      \put(863,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}HCO+O2=CO+HO2}}}%
+      \put(1130,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}CH2OCH2O2H=OH+CH2O+CH2O}}}%
+      \put(1397,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}CH2O+OH=HCO+H2O}}}%
+      \put(1663,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}CH3OCH3+HO2=CH3OCH2+H2O2}}}%
+      \put(1930,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}CH3OCH2+O2=CH3OCH2O2}}}%
+      \put(2196,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}HO2+HO2=H2O2+O2}}}%
+      \put(2463,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}CH3OCH2O2=CH2OCH2O2H}}}%
+      \put(2730,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}H+O2(+M)=HO2(+M)}}}%
+      \put(2996,3520){\rotatebox{90}{\makebox(0,0)[l]{\strut{}CH2O+HO2=HCO+H2O2}}}%
+      \put(3483,3652){\rotatebox{90}{\makebox(0,0)[l]{\strut{}-10}}}%
+      \put(3483,3933){\rotatebox{90}{\makebox(0,0)[l]{\strut{}-5}}}%
+      \put(3483,4214){\rotatebox{90}{\makebox(0,0)[l]{\strut{} 0}}}%
+      \put(3483,4494){\rotatebox{90}{\makebox(0,0)[l]{\strut{} 5}}}%
+      \put(3483,4775){\rotatebox{90}{\makebox(0,0)[l]{\strut{} 10}}}%
+      \put(3702,4213){\rotatebox{-270}{\makebox(0,0){\strut{}Output}}}%
+      \put(1796,154){\makebox(0,0){\strut{} }}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(602,3966){\makebox(0,0)[r]{\strut{} }}%
+    }%
+    \gplbacktext
+    \put(0,0){\includegraphics{CEMA}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup

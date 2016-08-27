@@ -1,0 +1,96 @@
+% Thesis Proposal
+
+\documentclass[11pt,english]{article}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{float}
+\usepackage{color}
+\usepackage{amsmath,array}
+\usepackage{caption}
+\usepackage{units}
+\usepackage{verbatim}
+\usepackage{geometry,subcaption}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\begin{document}
+
+\title{Data Processing Manual}
+
+\author{Sili Deng}
+\maketitle
+
+\section{Ensight Profiles}
+\begin{enumerate}
+  \item Get Plot3D files from statistics.
+  \item Set max/min, white background, and linear/logrithmic.
+  \item \textbf{View} Uncheck everything in Axis triad visibility.  Check Bound visibility.  Uncheck Perspective. 
+  \item \textbf{Viewports} Edit.  Change the background to white.  \textbf{Bounds} General is set to be 2D.  Chang the color correspondingly.  Change the Axis specific by adjusting the Axis origin and Width.
+  \item Use Transformation Editor to adjust the viewports display.
+  \item Save two sets of figures.  The first one is with Extent location BOTH and Gradation ON to record the dimensions.  The second one is without Gradation.
+  \item When \textbf{Export} png files, watch out the resolution of the graphic card settings and the export image dimensions.  
+  \item \textbf{Export} Scenario for later use.  However, query marks will not be able to display when reload the scenario file.
+  \item Use PowerPoint to do the post-processing.  Create black frames with tics and figure out the tics.  Be sure to add a white background for the final version, otherwise, component margins appear to be a black line in Latex for png files.
+\end{enumerate}
+
+\section{CEMA}
+\begin{enumerate}
+  \item Create mixture fraction iso-contours.
+  \item Create queries and be sure they are on nodes.
+  \item Choose up to ten quantities and save them to a file.
+  \item Save a png to keep track of query locations.
+  \item Combine data files to get \emph{input.mat}.  It should be a p by n matrix, where p is the number of sample points and n number of species plus temperature.  The order of the column should be the same as the CHEMKIN chemical mechanism \emph{chem.bin}.
+  \item Copy \emph{input.mat} to a folder that includes both \emph{chem.bin} and \emph{CEMA\_SD.m}.  Be sure to run the MATLAB file on a WIN32 machine.  Run the file by copying the first line of the function.
+  \item CEMA generates three solution files: \emph{mat\_r.mat}, \emph{mat\_s.mat}, and \emph{em\_mat}.  \item Run \emph{generate\_CEMA\_out.m} within the folder that contains \emph{List\_s.mat} and \emph{List\_r.mat}.
+  \item The CEMA solution file \emph{CEMA.out} is generated in the destination folder.  
+\end{enumerate}
+
+\section{Lagrangian Flamelet Analysis}
+\begin{enumerate}
+  \item Create \emph{CA.in} file.
+  \begin{enumerate}
+    \item Get profiles from Ensight, including the displacement velocity.
+    \begin{enumerate}
+      \item Vector $\nabla\chi$.  Create Grad(CHI), and name it GC.
+      \item Scalar $\|\nabla\chi\|$.  Create SQRT(DOT(GC,GC)), and name it MGC.
+      \item Vector $\frac{\nabla\chi}{\|\nabla\chi\|}$.  Create GC/MGC, and name it n.
+      \item Vector $\rho D \nabla\chi$.  Create DIFF*GC, and name it I.
+      \item Scalar $\nabla \cdot (\rho D \nabla\chi)$.  Create Div(I), and name it DI.
+      \item Vector $-\frac{\nabla \cdot (\rho D \nabla\chi)}{\rho \|\nabla\chi\|}$.  Create -DI/$\rho$/MGC*n, and name it VD.
+      \item Scalar $U + VD[x]$.  Create U+VD[x], and name it RU.
+      \item Save the Scenerio file for later use.
+    \end{enumerate}
+    \item On Zst iso-contour, sample CHI and RU, and save as chi\_x\_Zst and u\_x\_Zst, respectively.
+    \item Run \emph{getCA\_in.m} to get \emph{CA.in}.
+    \item Extrapolate CHI to avoid the influence of ignition, which causes increasing CHI.
+    \begin{enumerate}
+      \item Load \emph{CA.in} into MATLAB.
+      \item Visualize plot(log(CA(:,1)),log(CA(:,6))), and pick the start and end (en) points to give a nice linear decreasing CHI v.s. time plot.
+      \item Use Tool -> Basic statistics to get linear fit coefficients.
+      \item "y = exp(fit.coeff(1) * log(CA(en+1:end,1)) + fit.coeff(2));".
+      \item "newCHI = [CA(1:en,6);y];".
+      \item Check the plot, and save newCHI.mat.  "plot(CA(:,1),CA(:,6)); hold on; plot(CA(:,1),newCHI);". 
+      \item Copy \emph{CA.in} to \emph{CA.fit}, and replace CHI with newCHI.
+    \end{enumerate}
+  \end{enumerate}
+  \item Create \emph{TimeZero.FM} for initial conditions.
+  \begin{enumerate}
+    \item Clip x at ten times of the wall thickness (0.0004 m).  
+    \item Sample Z(y), T(Z), species(Z).  Be sure to use the same species names as the chemical mechanism.
+    \item Check Z file and clip extraneous zeros and ones.  Take down the start and end indices.
+    \item Run \emph{StartFile.m} to get \emph{TimeZero.FM}.
+  \end{enumerate}  
+  \item Run LFM.  Check I/O files.  If \emph{CA.in} has more than 5000 times, FM will stop at the 5000th line.  Need to continue the calculation by providing the start file and pay attention to the time.
+  \item Process 1D LFM solution files.
+  \begin{enumerate}
+    \item Create a symbolic file \emph{syms} with "time" in it.
+    \item "LT -s syms -l Z,<mixture fraction> -r <output file> <data file>".
+    \item Sort the output file.  "sort -s -n -k 1,1 <output file> > <new file>".
+  \end{enumerate} 
+  \item Process 2D statistical files.
+  \begin{enumerate}
+    \item Sample U (RU), T, HO2, and H2O2 along mixture fraction iso-contours.
+    \item Run \emph{int\_time.m} to get the species time history files \emph{species\_time.out}.
+  \end{enumerate} 
+\end{enumerate}
+
+\end{document}

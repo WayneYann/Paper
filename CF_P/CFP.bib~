@@ -1,0 +1,2056 @@
+@article{bhagatwala15,
+author = {Bhagatwala, A. and Luo, Z. and Shen, H. and Sutton, J. A. and Lu, T. and Chen, J. H.},
+journal = {Proc. Combust. Inst.},
+pages = {1157--1166},
+title = {{Numerical and experimental investigation of turbulent DME jet flames}},
+volume = {35},
+year = {2015}
+}
+@article{buckmaster02,
+author = {Buckmaster, J.},
+doi = {10.1016/S0360-1285(02)00008-4},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/Edge flames.pdf:pdf},
+issn = {03601285},
+journal = {Prog. Energy Combust. Sci.},
+keywords = {DME\_Jet,edge-flames,flame stability,flame-holding,laminar flames,lifted flames,non-premixed combustion,premixed combustion},
+mendeley-tags = {DME\_Jet},
+pages = {435--475},
+title = {{Edge-flames}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0360128502000084},
+volume = {28},
+year = {2002}
+}
+@article{Choi10,
+author = {Choi, B. C. and Chung, S. H.},
+doi = {10.1016/j.combustflame.2010.06.011},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/Autoignited/Autoignited laminar lifted flames of methane, ethylene, ethane, and n-butane jets in coflow air with elevated temperature.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+month = dec,
+number = {12},
+pages = {2348--2356},
+publisher = {The Combustion Institute.},
+title = {{Autoignited laminar lifted flames of methane, ethylene, ethane, and n-butane jets in coflow air with elevated temperature}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S001021801000177X},
+volume = {157},
+year = {2010}
+}
+@article{choi09,
+author = {Choi, B. C. and Kim, K. N. and Chung, S. H.},
+doi = {10.1016/j.combustflame.2008.10.020},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/Autoignited/Autoignited laminar lifted flames of propane in coflow jets with tribrachial edge and mild combustion.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+month = feb,
+number = {2},
+pages = {396--404},
+publisher = {Elsevier Inc.},
+title = {{Autoignited laminar lifted flames of propane in coflow jets with tribrachial edge and mild combustion}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0010218008003106},
+volume = {156},
+year = {2009}
+}
+@article{choi12,
+author = {Choi, B. C. and Chung, S. H.},
+doi = {10.1016/j.combustflame.2011.11.016},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/Autoignited/Autoignited laminar lifted flames of methane hydrogen mixtures in heated coflow air.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+month = apr,
+number = {4},
+pages = {1481--1488},
+publisher = {The Combustion Institute.},
+title = {{Autoignited laminar lifted flames of methane/hydrogen mixtures in heated coflow air}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0010218011003907},
+volume = {159},
+year = {2012}
+}
+@article{chung07,
+author = {Chung, S. H.},
+doi = {10.1016/j.proci.2006.08.117},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/SH-Chung\_review\_Stabilization, propagation and instability of tribrachial triple flames.pdf:pdf},
+issn = {15407489},
+journal = {Proc. Combust. Inst.},
+keywords = {DME\_Jet,edge flame,lifted flame,tribrachial flame},
+mendeley-tags = {DME\_Jet},
+month = jan,
+number = {1},
+pages = {877--892},
+title = {{Stabilization, propagation and instability of tribrachial triple flames}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S1540748906003804},
+volume = {31},
+year = {2007}
+}
+@article{ciezki93,
+abstract = {To determine self-ignition characteristics under conditions relevant to piston engines combustion, n-heptane-air mixtures have been investigated in a high-pressure shock tube without use of the customary heat bath dilution. The initial pressure has been varied between 3.2 and 42 bar and the initial temperature between 660 and 1350 K, while the equivalence ratio covers the region between 0.5 and 3.0. In dependence upon these parameters the histories of pressure and CH-band emissions at 4315 ?? show different ignition behavior. This can be related to different modes of ignition, as 'strong' ignition and 'weak' ignition and in part to two-stage-ignition. The dependence of the ignition delay times upon initial temperature, pressure and equivalence ratio is presented. A comparison with previous work is given.},
+author = {Ciezki, H K and Adomeit, G},
+journal = {Combust. Flame},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+number = {4},
+pages = {421--433},
+title = {{Shock-tube investigation of self-ignition of $n$-heptane-air mixtures under engine relevant conditions}},
+volume = {93},
+year = {1993}
+}
+@article{curran00,
+abstract = {Dimethyl ether oxidation has been studied in a variable-pressure flow reactor over an initial reactor temperature range of 550â€?50 K, in the pressure range 12â€?8 atm, at equivalence ratios of 0.7 â‰?Ï• â‰?4.2, with nitrogen diluent of approximately 98.5\%. On-line extraction sampling in conjunction with FTIR, NDIR (for CO and CO2), and electrochemical (for O2) analyses were performed to quantify species at specific locations along the axis of the turbulent flow reactor. Product species concentrations were correlated against residence time (at constant inlet temperature) and against temperature (at fixed mean residence time) in the reactor. Formic acid was observed as a major intermediate of dimethyl ether oxidation at low temperatures. The experimental species-evolution profiles were compared to the predictions of a previously published detailed kinetic mechanism [1]. This mechanism did not predict the formation of formic acid. In the current study we have included chemistry leading to formic acid formation (and oxidation). This new chemistry is discussed and is able to reproduce the experimental observations with good accuracy. In addition, this model is able to reproduce low-temperature kinetic data obtained in a jet-stirred reactor [2] and the shock-tube results of Pfahl et al. [3] Â© 2000 John Wiley \& Sons, Inc. Int J Chem Kinet 32: 741â€?59, 2000},
+author = {Curran, H. J. and Fischer, S. L. and Dryer, F. L.},
+journal = {Int. J. Chem. Kinet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+number = {12},
+pages = {741--759},
+publisher = {John Wiley \& Sons Inc},
+title = {{Reaction kinetics of dimethyl ether. II: low-temperature oxidation in flow reactors}},
+volume = {32},
+year = {2000}
+}
+@article{curran98,
+abstract = {A detailed chemical kinetic model has been used to study dimethyl ether (DME) oxidation over a wide range of conditions. Experimental results obtained in a jet-stirred reactor (JSR) at 1 and 10 atm, 0.2â‰¤Ï•â‰¤2.5, and 800â‰¤Tâ‰?300 K were modeled, in addition to those generated in a shock tube at 13 and 40 bar, Ï•=1.0 and 650â‰¤Tâ‰?300 K. The JSR results are particularly valuable as they include concentration profiles of reactants, intermediates, and products pertinent to the oxidation of DME. These data test the kinetic model severely, as it must be able to predict the correct distribution and concentrations of intermediate and final products formed in the oxidation process. Additionally, the shock-tube results are very useful, as they were taken at low temperatures and at high pressures, and thus undergo negative temperature dependence (NTC) behavior. This behavior is characteristic of the oxidation of saturated hydrocarbon fuels, (e.g., the primary reference fuels, n-heptane and iso-octane) under similar conditions. The numerical model consists of 78 chemical species and 336 chemical reactions. The thermodynamic properties of unknown species pertaining to DME oxidation were calculated using THERM.},
+author = {Curran, H. J. and Pitz, W. J. and Westbrook, C. K. and Dagaut, P. and Boettner, J.-C. and Cathonnet, M.},
+doi = {10.1002/(SICI)1097-4601(1998)30:3<229::AID-KIN9>3.0.CO;2-U},
+issn = {0538-8066},
+journal = {Int. J. Chem. Kinet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+number = {3},
+pages = {229--241},
+title = {{A Wide Range Modeling Study of Dimethyl Ether Oxidation}},
+url = {http://dx.doi.org/10.1002/(SICI)1097-4601(1998)30:3<229::AID-KIN9>3.0.CO;2-U},
+volume = {30},
+year = {1998}
+}
+@inproceedings{deng13,
+address = {Utah, USA},
+author = {Deng, S. and Zhao, P. and Zhu, D. and Law, C. K.},
+booktitle = {8th U.S. Natl. Combust. Meet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+title = {{NTC-affected ignition of DME by heated counterflowing air}}
+}
+@article{deng14,
+abstract = {An experimental study, supported by computation, was conducted on the coupling of NTC-chemistry and transport in the low-temperature ignition and the associated steady burning in nonpremixed DME/air counterflow. In particular, the presence of low-temperature chemical reactivity was detected nonintrusively by using a photomultiplier tube combined with a filter to capture the chemiluminescence of HCHO, which is a characteristic intermediate species formed in low-temperature chemistry. Furthermore, the ignition temperature was determined through high-sensitivity infrared imaging with proper discrimination of the background signal. Experimental results show that the transport-coupled low-temperature, NTC chemical reactivity is enhanced with smaller strain rate, higher air boundary temperature, and is insensitive to the fuel concentration. These findings agree well with those obtained from computation using detailed chemistry, leading to further identification of the controlling chemistry.},
+author = {Deng, S. and Zhao, P. and Zhu, D. and Law, C. K.},
+doi = {10.1016/j.combustflame.2014.01.020},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Deng et al. - 2014 - NTC-affected ignition and low-temperature flames in nonpremixed DMEair counterflow.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {Chemiluminescence,DME\_Jet,Dimethyl ether (DME),Low-temperature chemistry,Negative temperature coefficient (NTC),Nonpremixed counterflow},
+mendeley-tags = {DME\_Jet},
+month = aug,
+number = {8},
+pages = {1993--1997},
+title = {{NTC-affected ignition and low-temperature flames in nonpremixed DME/air counterflow}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218014000376},
+volume = {161},
+year = {2014}
+}
+@article{desjardins08,
+abstract = {The high order conservative finite difference scheme of Morinishi et al. [Y. Morinishi, O.V. Vasilyev, T. Ogi, Fully conservative finite difference scheme in cylindrical coordinates for incompressible flow simulations, J. Comput. Phys. 197 (2004) 686] is extended to simulate variable density flows in complex geometries with cylindrical or cartesian non-uniform meshes. The formulation discretely conserves mass, momentum, and kinetic energy in a periodic domain. In the presence of walls, boundary conditions that ensure primary conservation have been derived, while secondary conservation is shown to remain satisfactory. In the case of cylindrical coordinates, it is desirable to increase the order of accuracy of the convective term in the radial direction, where most gradients are often found. A straightforward centerline treatment is employed, leading to good accuracy as well as satisfactory robustness. A similar strategy is introduced to increase the order of accuracy of the viscous terms. The overall numerical scheme obtained is highly suitable for the simulation of reactive turbulent flows in realistic geometries, for it combines arbitrarily high order of accuracy, discrete conservation of mass, momentum, and energy with consistent boundary conditions. This numerical methodology is used to simulate a series of canonical turbulent flows ranging from isotropic turbulence to a variable density round jet. Both direct numerical simulation (DNS) and large eddy simulation (LES) results are presented. It is observed that higher order spatial accuracy can improve significantly the quality of the results. The error to cost ratio is analyzed in details for a few cases. The results suggest that high order schemes can be more computationally efficient than low order schemes.},
+author = {Desjardins, O. and Blanquart, G. and Balarac, G. and Pitsch, H.},
+doi = {10.1016/j.jcp.2008.03.027},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Desjardins et al. - 2008 - High order conservative finite difference scheme for variable density low Mach number turbulent flows.pdf:pdf},
+issn = {00219991},
+journal = {J. Comput. Phys.},
+keywords = {Boundary conditions,Conservative scheme,Cylindrical coordinates,DME\_Jet,DNS,Energy conservation,Finite difference scheme,High order scheme,LES,Low Mach number,Variable density},
+mendeley-tags = {DME\_Jet},
+month = jul,
+number = {15},
+pages = {7125--7159},
+title = {{High order conservative finite difference scheme for variable density low Mach number turbulent flows}},
+url = {http://www.sciencedirect.com/science/article/pii/S0021999108001666},
+volume = {227},
+year = {2008}
+}
+@article{dold89,
+abstract = {For flames propagating through a nonuniform medium a three-flame structure is described. This consists of a fuel-rich premixed flame, a fuel-lean premixed flame, and, starting where these flames meet, a diffusion flame. Such formations have been observed experimentally and probably occur as laminar flamelets in turbulent diffusion flames. A low-heat-release model for such flame structures is developed and solutions are obtained in the limit of slowly varying premixed flames. Under these conditions, it is shown that the Triple-Flame propagation speed depends on the transverse mixture fraction gradient and is bounded above by the maximum adiabatic laminar flame speed of the system.},
+author = {Dold, J. W.},
+doi = {10.1016/0010-2180(89)90079-5},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Dold - 1989 - Flame propagation in a nonuniform mixture Analysis of a slowly varying Triple Flame.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = apr,
+number = {1},
+pages = {71--88},
+title = {{Flame propagation in a nonuniform mixture: Analysis of a slowly varying Triple Flame}},
+url = {http://www.sciencedirect.com/science/article/pii/0010218089900795},
+volume = {76},
+year = {1989}
+}
+@article{fischer00,
+abstract = {Dimethyl ether reaction kinetics at high temperature were studied in two different flow reactors under highly dilute conditions. Pyrolysis of dimethyl ether was studied in a variable-pressure flow reactor at 2.5 atm and 1118 K. Studies were also conducted in an atmospheric pressure flow reactor at about 1085 K. These experiments included trace-oxygen-assisted pyrolysis, as well as full oxidation experiments, with the equivalence ratio (Ï•) varying from 0.32 â‰?Ï• â‰?3.4. On-line, continuous, extractive sampling in conjunction with Fourier Transform Infra-Red, Non-Dispersive Infra-Red (for CO and CO2) and electrochemical (for O2) analyses were performed to quantify species at specific locations along the axis of the turbulent flow reactors. Species concentrations were correlated against residence time in the reactor and species evolution profiles were compared to the predictions of a previously published detailed kinetic mechanism. Some changes were made to the model in order to improve agreement with the present experimental data. However, the revised model continues to reproduce previously reported high-temperature jet-stirred reactor and shock tube results.},
+author = {Fischer, S L and Dryer, F L and Curran, H J},
+journal = {Int. J. Chem. Kinet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+number = {12},
+pages = {713--740},
+publisher = {John Wiley \& Sons Inc},
+title = {{Reaction kinetics of dimethyl ether. I: high-temperature pyrolysis and oxidation in flow reactors}},
+volume = {32},
+year = {2000}
+}
+@article{fotache95,
+abstract = {ABSTRACT A variable pressure, counterflow combustion chamber has been built for the experimental investigation of ignition in a convective-diffusive system. In this paper we present our results on ignition of nonpremixed, counterflowing jets of 20\% H2 in N2 versus heated air, within a wide range of pressures and flow strain rates. The system was brought to ignition by increasing gradually the temperature of the air stream. Each steady-state situation just prior to ignition was characterized by measuring detailed centerline axial flow velocity and temperature distributions, for ambient pressures between 0.1-6.0 atm and pressure-weighted strain rates between 50-400 sâˆ?. The ignition temperature, defined as the maximum temperature of the air jet just prior to ignition, was found to increase with increasing flow strain rate at all pressures. Furthermore, its sensitivity to strain-rate variations was found to be much higher at elevated and reduced pressures (above âˆ?2 atm and below âˆ?0.5 atm) than it was at atmospheric pressure. Ignition temperatures at constant pressure-weighted strain rates exhibited a â€˜Zâ€?shaped pressure dependence similar to that observed in explosion limits of homogeneous H2-air mixtures, and to the ignition limits identified in earlier numerical and asymptotic analyses. The experimental data was found to be in good agreement with computations using full chemical kinetics and transport properties.},
+author = {Fotache, C. G. and Kreutz, T. G. and Zhu, D. L. and Law, C. K.},
+doi = {10.1080/00102209508951910},
+issn = {0010-2202},
+journal = {Combust. Sci. Technol.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {373--393},
+title = {{An Experimental Study of Ignition in Nonpremixed Counterflowing Hydrogen versus Heated Air}},
+volume = {109},
+year = {1995}
+}
+@article{fotache98,
+author = {Fotache, C. G. and Sung, C. J. and Law, C. K.},
+journal = {Combust. Flame},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {457--471},
+title = {{Mild oxidation regimes and multiple criticality in nonpremixed hydrogen-air counterflow}},
+volume = {112},
+year = {1998}
+}
+@book{gaydonbook,
+author = {Gaydon, A. G.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+publisher = {Chapman and Hall},
+title = {{The Spectroscopy of Flames}},
+year = {1974}
+}
+@article{ghosal00,
+author = {Ghosal, S. and Vervisch, L.},
+doi = {10.1017/S0022112000008685},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/GHOSAL, VERVISCH - 2000 - Theoretical and numerical study of a symmetrical triple flame using the parabolic flame path approximation.pdf:pdf},
+issn = {00221120},
+journal = {J. Fluid Mech.},
+keywords = {DME\_Jet},
+language = {English},
+mendeley-tags = {DME\_Jet},
+month = jul,
+pages = {227--260},
+publisher = {Cambridge University Press},
+title = {{Theoretical and numerical study of a symmetrical triple flame using the parabolic flame path approximation}},
+url = {http://journals.cambridge.org/abstract\_S0022112000008685},
+volume = {415},
+year = {2000}
+}
+@article{giovangigli87,
+abstract = {Conclusions derived from the solution of premixed laminar flames in a stagnation point flow are important in the study of pollutant formation, the determination of chemically controlled extinction limits and in the ability to characterize the combustion processes occurring in turbulent flames. In the neighborhood of the stagnation point produced in these flames, a chemically reacting boundary layer is established. For a given equivalence ratio, the input flow velocity can be varied and solutions can be determined for increasing values of the strain rate. As the strain rate increases, the flame nears extinction. In the vicinity of the extinction point, however, the Jacobian of the system becomes singular. To avoid computational difficulties, we employ numerical bifurcation techniques to generate the approriate steady-state profiles (both physical and nonphysical). The method is applied to study the extinction behavior of a one-step kinetics model of a premixed hydrogen-air and methane-air flame in a counterflow geometry.},
+author = {Giovangigli, V. and Smooke, M. D.},
+doi = {10.1016/0021-9991(87)90061-1},
+issn = {00219991},
+journal = {J. Comput. Phys.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+month = feb,
+number = {2},
+pages = {327--345},
+title = {{Calculation of extinction limits for premixed laminar flames in a stagnation point flow}},
+url = {http://www.sciencedirect.com/science/article/pii/0021999187900611},
+volume = {68},
+year = {1987}
+}
+@article{hartley91,
+abstract = {Abstract A situation in which a dilffusion flame reaches an end at some position in a medium of non-premixed reactants is studied. The mixing of reactants that takes place ahead of the diffusion flame leads to the formation of a ?triple-flame?, a structure which consists of a fuel-rich premixed flame, a fuel-lean premixed flame, and a diffusion flame that starts where the two premixed flames meet. An important property of such an end-point is its ability to propagate. The limits of low heat release, unit Lewis number and large Zeldovich number are considered. The structure of the triple-flame and the unique relationship between propagation speed and transverse mixture Traction gradient are computed numerically. For the range of values considered here, the end of the diffusion flame is shown to extend itself at a rate that can be substantially reduced, but that remains positive as the gradient of the mixture fraction is increased.
+Abstract A situation in which a dilffusion flame reaches an end at some position in a medium of non-premixed reactants is studied. The mixing of reactants that takes place ahead of the diffusion flame leads to the formation of a ?triple-flame?, a structure which consists of a fuel-rich premixed flame, a fuel-lean premixed flame, and a diffusion flame that starts where the two premixed flames meet. An important property of such an end-point is its ability to propagate. The limits of low heat release, unit Lewis number and large Zeldovich number are considered. The structure of the triple-flame and the unique relationship between propagation speed and transverse mixture Traction gradient are computed numerically. For the range of values considered here, the end of the diffusion flame is shown to extend itself at a rate that can be substantially reduced, but that remains positive as the gradient of the mixture fraction is increased.},
+author = {Hartley, L. J. and Dold, J. W.},
+doi = {10.1080/00102209108951775},
+issn = {0010-2202},
+journal = {Combust. Sci. Technol.},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = nov,
+number = {1-3},
+pages = {23--46},
+publisher = {Taylor \& Francis},
+title = {{Flame Propagation in a Nonuniform Mixture: Analysis of a Propagating Triple-Flame}},
+url = {http://dx.doi.org/10.1080/00102209108951775},
+volume = {80},
+year = {1991}
+}
+@article{kaiser00,
+abstract = {Chemical species profiles have been measured at atmospheric pressure for two dimethyl ether (DME)-air flat flames having fuel/air equivalence ratios of 0.67 and 1.49. The samples, obtained with an uncooled quartz probe, were analyzed by either gas chromatography or Fourier transform infrared (FTIR) spectroscopy for CH4, C2H2, C2H4, C2H6, C3H8, DME, CO, CO2, O-2, CH2O, and formic acid. a pneumatic probe calibrated at a reference position in the burned gas by a radiation-corrected thermocouple provided temperature profiles for each flame. Species profiles for two methane-air flames with equivalence ratios and cold-gas flow velocities similar to those of the DME flames were also obtained for comparison to the DME results, Mole fractions of C-2 product species were similar in DME and methane flames of similar equivalence ratios. However, the CH2O mole fractions were 5-10 times larger in the DME flames. These experimental profiles are compared to profiles generated in a computer modeling study using the best available DME-air chemical kinetic mechanism. The Appendix presents photographs of DME, methane, and ethane diffusion flames. These results show that, while DME produces soot, its yellow flame luminosity is much smaller than that of an ethane flame at the same fuel volume flow rate, consistent with the low soot emission rate observed when DME is used as a diesel fuel},
+author = {Kaiser, E W and Wailington, T J and Hurley, M D and Platz, J and Curran, H J and Pitz, W J and Westbrook, C K and Wallington, T J},
+doi = {10.1021/jp994074c},
+issn = {1089-5639},
+journal = {J. Phy. Chem. A},
+keywords = {C2,C2H2,DIFFUSION FLAMES,EMISSION,FLAMES,FOURIER-TRANSFORM,GAS,GAS-CHROMATOGRAPHY,KINETICS,MECHANISM,METHANE,NTC paper,O-2,OXIDATION,PRESSURE,PROBE,PROFILES,SPECTROSCOPY,TEMPERATURE,ethane,infrared},
+mendeley-tags = {NTC paper},
+number = {35},
+pages = {8194--8206},
+title = {{Experimental and modeling study of premixed atmospheric-pressure dimethyl ether-air flames}},
+volume = {104},
+year = {2000}
+}
+@misc{kee83,
+author = {Kee, R. J. and Rupley, F. M. and Miller, J. A.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+title = {{\{A\} \{F\}ortran \{C\}omputer \{C\}ode \{P\}ackage for the \{E\}valuation of \{G\}as-\{P\}hase \{V\}iscosities, \{C\}onductivities, and \{D\}iffusion \{C\}oefficients, \{R\}eport \{N\}o. \{SAND\} 83-8209, \{S\}andia \{N\}ational \{L\}aboratories}},
+year = {1983}
+}
+@misc{kee89,
+author = {Kee, R. J. and Rupley, F. M. and Miller, J. A.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+title = {{\{CHEMKIN-II\} \{A\} \{F\}ortran \{C\}hemical \{K\}inetics \{P\}ackage for the \{A\}nalysis of \{G\}as \{P\}hase \{C\}hemical \{K\}inetics, \{R\}eport \{N\}o. \{SAND\} 89-8009\{B\}, \{S\}andia \{N\}ational \{L\}aboratories}},
+year = {1989}
+}
+@article{kim07,
+abstract = {The effect of velocity gradient on the propagation speed of tribrachial flame edge has been investigated experimentally in laminar coflow jets for propane fuel. It was observed that the propagation speed of tribrachial flame showed appreciable deviations at various jet velocities in high mixture fraction gradient regime. From the similarity solutions, it was demonstrated that the velocity gradient varied significantly during the flame propagation. To examine the effect of velocity gradient, detail structures of tribrachial flames were investigated from OH LIF images and Abel transformed images of flame luminosity. It was revealed that the tribrachial point was located on the slanted surface of the premixed wing, and this slanted angle was correlated with the velocity gradient along the stoichiometric contour. The temperature field was visualized qualitatively by the Rayleigh scattering image. The propagation speed of tribrachial flame was corrected by considering the direction of flame propagation with the slanted angle and effective heat conduction to upstream. The corrected propagation speed of tribrachial flame was correlated well. Thus, the mixture fraction gradient together with the velocity gradient affected the propagation speed.},
+author = {Kim, M. K. and Won, S. H. and Chung, S. H.},
+doi = {10.1016/j.proci.2006.07.238},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kim, Won, Chung - 2007 - Effect of velocity gradient on propagation speed of tribrachial flames in laminar coflow jets.pdf:pdf},
+issn = {15407489},
+journal = {Proc. Combust. Inst.},
+keywords = {DME\_Jet,Edge flame,Mixture fraction gradient,Tribrachial flame,Velocity gradient},
+mendeley-tags = {DME\_Jet},
+month = jan,
+number = {1},
+pages = {901--908},
+title = {{Effect of velocity gradient on propagation speed of tribrachial flames in laminar coflow jets}},
+url = {http://www.sciencedirect.com/science/article/pii/S1540748906002483},
+volume = {31},
+year = {2007}
+}
+@article{kioni99,
+abstract = {The structure of a laminar triple flame is investigated both experimentally and numerically. The distribution of OH radicals in the flame is mapped using Laser Induced Fluorescence. The structure of the velocity field is mapped using Particle Imaging Velocimetry. To obtain detailed information on both the fields of velocity and scalars, the flame is numerically simulated. In the simulations, gas expansion is taken into account and the full Navier-Stokes equations are solved. Numerical results obtained with global one-step chemistry and, alternatively, with a detailed chemical kinetic mechanism are presented. The experimental findings are compared with the numerical results.},
+author = {K\~{\i}oni, P. N. and Bray, K. N. C. and Greenhalgh, D. A. and Rogg, B.},
+doi = {10.1016/S0010-2180(98)00035-2},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kioni et al. - 1999 - Experimental and numerical studies of a triple flame.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = jan,
+number = {1-2},
+pages = {192--206},
+title = {{Experimental and numerical studies of a triple flame}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218098000352},
+volume = {116},
+year = {1999}
+}
+@article{kreutz94,
+abstract = {System response S-curves for a hydrogen-air diffusion flame have been simulated numerically using detailed chemistry and transport. In particular, the globally nonpremixed ignition state has been studied in three distinct ignition regimes at pressures of 0.1, 1, and 10 atm. The role of heat release in providing â€œthermal feedbackâ€?at the ignition turning point is examined in detail for all three regimes. Contrary to classical notions based upon one-step overall chemistry, thermal feedback is shown to play essentiallyno or minimal role in the steady-state solution at the ignition turning pointâ€”either in its character or parametric dependence. In the majority of cases studied, turning point and S-curve behavior are found to exist in the complete absence of heat release, driven solely by â€œkineticâ€?feedback provided by nonlinearities in the coupled chemical kinetics. As a result, the location of the ignition turning point, which depends parametrically upon global variables such as air temperature, strain rate, pressure, and fuel concentration, is essentially governed by the kinetics of gain versus loss of key radicals in the ignition kernel. One cause of this phenomenon is the extremely small size of the radical pool at the ignition turning point, which necessarily limits the degree of localized heat release and temperature perturbation. The small radical pool is also found to decouple the problem such that, on the lower branch and around the ignition turning point, the temperature and possibly major species profiles may be solved independently of the complex chemistry involving the minor species. Furthermore, it is also suggested that when heat release is not significant at the ignition turning point, the transient ignition process (from the turning point to a diffusion flame) must begin with an induction period wherein the radical pool increases via essentially isothermal chemical kinetics before thermal feedback can ensue.},
+author = {Kreutz, T. G. and Nishioka, M. and Law, C. K.},
+doi = {10.1016/0010-2180(94)90071-X},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+month = dec,
+number = {3-4},
+pages = {758--766},
+title = {{The role of kinetic versus thermal feedback in nonpremixed ignition of hydrogen versus heated air}},
+url = {http://www.sciencedirect.com/science/article/pii/001021809490071X},
+volume = {99},
+year = {1994}
+}
+@article{krisman15,
+abstract = {The structure and stabilisation mechanism of partially premixed, laminar, dimethyl ether (DME) flames are investigated using two-dimensional direct numerical simulation (DNS). The simulations are performed at a pressure of 40 atmospheres and at oxidiser temperatures of 700, 900, 1100, 1300, and 1500K, while keeping the lift-off length approximately fixed by varying the inlet velocity. At this pressure, DME exhibits two stage ignition below approximately 1100K and a negative temperature coefficient (NTC) regime from approximately 800â€?100K. The DNS results are investigated by considering the thermochemical structure of the flames and by applying a transport budget analysis to key chemical species. The results show a transition from a lifted flame stabilised by conduction and diffusion-assisted flame propagation to a flame stabilised by autoignition with increasing temperature. At 700K, the flame has a classical tribrachial structure similar to freely propagating edge flames at non-autoignitive conditions. The intermediate temperature cases reveal a complex transition involving multiple heat release pathways upstream of the stabilisation point. At 900K, the flame consists of a main-tribrachial structure and an additional upstream branch due to low temperature chemistry: this is termed a tetrabrachial flame. At 1100 and 1300K, two upstream branches are observed in addition to the main tribrachial structure, one due to low temperature chemistry and the other due to high temperature chemistry, which initiates autoignition and stabilises the flame: these are termed pentabrachial flames. At 1500K, the low temperature upstream branch is suppressed, so there is only one upstream branch due to high temperature chemistry which proceeds to autoignition, this flame has a tetrabrachial structure, but one which is different from that observed in the 900K case.},
+author = {Krisman, A. and Hawkes, E. R. and Talei, M. and Bhagatwala, A. and Chen, J. H.},
+doi = {10.1016/j.proci.2014.05.129},
+issn = {15407489},
+journal = {Proc. Combust. Inst.},
+keywords = {Autoignition,DME\_Jet,Dimethyl ether,Negative temperature coefficient,Tribrachial flame,Triple flame},
+mendeley-tags = {DME\_Jet},
+month = jun,
+title = {{Polybrachial structures in dimethyl ether edge-flames at negative temperature coefficient conditions}},
+url = {http://www.sciencedirect.com/science/article/pii/S1540748914001321},
+pages = {999--1006},
+volume = {35},
+year = {2015}
+}
+@book{lawbook,
+address = {New York},
+author = {Law, C K},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+publisher = {Cambridge University Press},
+title = {{Combustion Physics}},
+year = {2006}
+}
+@article{law12,
+abstract = {Using n-heptane as the model fuel, the role of the Negative Temperature Coefficient (NTC) chemistry on ignition is computationally studied for both homogeneous mixtures and nonpremixed counterflow. For homogeneous mixtures, results show that ignition occurs in two-stages within the NTC temperature regime, with the duration and temperature increment decreasing with increasing initial temperature for the first ignition stage, leading to increased duration of the second ignition stage and thereby the observed NTC-behavior. For the nonpremixed counterflow, results show that a secondary S-curve is developed on the lower branch of the conventional, primary S-curve for sufficiently low strain rates and/or sufficiently high pressures, with its own distinct ignition-extinction turning points. Sensitivity analysis and Chemical Explosive Mode Analysis (CEMA) show that this secondary S-curve is controlled by the low-temperature NTC-chemistry, with heat release negligible for states on its lower branch and discernable for states on its upper branch and hence assuming the characteristics of a weakly-burning flame. The possible existence of one- and two-staged ignition in the counterflow is observed, and its dependence on the flow strain rate and system pressure are identified. ?? 2011 The Combustion Institute.},
+author = {Law, C. K. and Zhao, P.},
+journal = {Combust. Flame},
+keywords = {Ignition,Low-temperature chemistry,NTC behavior,NTC paper,Nonpremixed counterflow,S-curve},
+mendeley-tags = {NTC paper},
+number = {3},
+pages = {1044--1054},
+title = {{NTC-affected ignition in nonpremixed counterflow}},
+volume = {159},
+year = {2012}
+}
+@article{lee97,
+abstract = {The stabilization mechanism of lifted flames in a laminar nonpremixed jet has been analyzed and experimentally investigated. An analysis on the flame response by the perturbation from the tribrachial location shows that the lifted flame is unstable for Sc < 1, confirming the experimental findings of the nonexistence of stationary lifted flames for methane and ethane jets. Appreciable upstream mass diffusion from the nozzle exit for Sc < 0.5 explains the flame behaviour for hydrogen fuel such that a nozzle-attached flame exists even up to jet velocities comparable to the speed of sound. Flow-field measurements using laser Doppler velocimetry reveal that the flow velocity at the flame stabilization location for lifted flames is larger than the laminar burning velocity of the stoichiometric premixture, which confirms the increasing effect on flame speed by the flow redirection for tribachial flames. Also, it is demonstrated that the region between the nozzle exit and the anchoring point of the lifted flames can be treated as a cold jet.},
+author = {Lee, B. J. and Chung, S. H.},
+doi = {10.1016/S0010-2180(96)00145-9},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lee, Chung - 1997 - Stabilization of lifted tribrachial flames in a laminar nonpremixed jet.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = apr,
+number = {1-2},
+pages = {163--172},
+title = {{Stabilization of lifted tribrachial flames in a laminar nonpremixed jet}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218096001459},
+volume = {109},
+year = {1997}
+}
+@article{liu10a,
+abstract = {The ignition temperature of nitrogen-diluted mixtures of methane and ethylene counterflowing against heated air was measured up to five atmospheres. In addition, the stretch-corrected laminar flame speeds of mixtures of air, methane and ethylene were determined from outwardly-propagating spherical flames up to 10 atmospheres, for extensive range of the lean-to-rich equivalence ratio. These experimental data, relevant to low- to moderately-high-temperature ignition chemistry and high-temperature flame chemistry, respectively, were subsequently compared with calculations using two detailed kinetic mechanisms. A chemical explosive mode analysis (CEMA) was then conducted to identify the dominant ignition chemistry and the role of ethylene addition in facilitating nonpremixed ignition. Furthermore, the hierarchical structure of the associated oxidation kinetics was examined by comparing the sizes and constituents of the skeletal mechanisms of the pure fuels and their mixtures, derived using the method of directed relation graph (DRG). The skeletal mechanism was further reduced by time-scale analysis, leading to a 24-species reduced mechanism from the detailed mechanism of USC Mech II, validated within the parameter space of the conducted experiments.},
+author = {Liu, W. and Kelley, A. P. and Law, C. K.},
+journal = {Combust. Flame},
+keywords = {Counterflow ignition,Laminar flame speeds,Mechanism hierarchy,Methane-ethylene mixture,NTC paper,Spherical flames},
+mendeley-tags = {NTC paper},
+number = {5},
+pages = {1027--1036},
+title = {{Flame propagation and counterflow nonpremixed ignition of mixtures of methane and ethylene}},
+volume = {157},
+year = {2010}
+}
+@article{liu09,
+author = {Liu, W. and Law, C. K. and Lu, T. F.},
+doi = {10.1002/kin.20450},
+issn = {05388066},
+journal = {Int. J. Chem. Kinet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+month = dec,
+number = {12},
+pages = {764--776},
+title = {{Multiple criticality and staged ignition of methane in the counterflow}},
+url = {http://doi.wiley.com/10.1002/kin.20450},
+volume = {41},
+year = {2009}
+}
+@article{liu94,
+abstract = {In this paper we introduce a new version of ENO (essentially non-oscillatory) shock-capturing schemes which we call weighted ENO. The main new idea is that, instead of choosing the "smoothest" stencil to pick one interpolating polynomial for the ENO reconstruction, we use a convex combination of all candidates to achieve the essentially non-oscillatory property, while additionally obtaining one order of improvement in accuracy. The resulting weighted ENO schemes are based on cell averages and a TVD Runge-Kutta time discretization. Preliminary encouraging numerical experiments are given.},
+author = {Liu, X. and Osher, S. and Chan, T.},
+doi = {10.1006/jcph.1994.1187},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Liu, Osher, Chan - 1994 - Weighted Essentially Non-oscillatory Schemes.pdf:pdf},
+issn = {00219991},
+journal = {J. Comput. Phys.},
+month = nov,
+number = {1},
+pages = {200--212},
+title = {{Weighted Essentially Non-oscillatory Schemes}},
+url = {http://www.sciencedirect.com/science/article/pii/S0021999184711879},
+volume = {115},
+year = {1994}
+}
+@article{lu10,
+author = {Lu, T. F. and Yoo, C. S. and Chen, J. H. and Law, C. K.},
+doi = {10.1017/S002211201000039X},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/CEMA/CEMA.pdf:pdf},
+issn = {0022-1120},
+journal = {J. Fluid Mech.},
+month = may,
+pages = {45--64},
+title = {{Three-dimensional direct numerical simulation of a turbulent lifted hydrogen jet flame in heated coflow: a chemical explosive mode analysis}},
+url = {http://www.journals.cambridge.org/abstract\_S002211201000039X},
+volume = {652},
+year = {2010}
+}
+@article{mittal08,
+author = {Mittal, G. and Chaos, M. and Sung, C. J. and Dryer, F. L.},
+journal = {Fuel Process. Technol.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {1244--1254},
+title = {{Dimethyl ether autoignition in a rapid compression machine: \{E\}xperiments and chemical kinetic modeling}},
+volume = {89},
+year = {2008}
+}
+@article{nishioka96,
+author = {Nishioka, M. and Law, C. K. and Takeno, T.},
+journal = {Combust. Flame},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {328--342},
+title = {{A flame-controlling continuation method for generating S-curve responses with detailed chemistry}},
+volume = {104},
+year = {1996}
+}
+@article{ohta91,
+author = {Ohta, Y and Furutani, M},
+journal = {Arch. Combust.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {43--52},
+title = {{Identification of cool and blue flames in compression ignition}},
+volume = {11},
+year = {1991}
+}
+@phdthesis{pierce01,
+author = {Pierce, C. D.},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+school = {Stanford University},
+title = {{Progress-variable Approach for Large-Eddy Simulation of Turbulent Combustion}},
+type = {{Ph.D. thesis}},
+year = {2001}
+}
+@misc{flamemaster,
+author = {Pitsch, H},
+title = {{Flame{M}aster, A {C}++ computer program for 0{D} combustion and 1{D} laminar flame calculations.}}
+}
+@article{plessing98,
+abstract = {A lifted laminar axisymmetric diffusion flame is stabilized in the downstream region of a diluted methane jet that is surrounded by a lean methane-air co-flow and an outer co-flow of air. The flame shows a distinct triple flame structure in the stabilization region. It is investigated experimentally by PIV for the velocity field, OH-LIPF imaging, C2Hx-LIF imaging, and a 1D-Raman technique for major species concentrations, combined with a Rayleigh technique for temperature. This is complemented by numerical simulations solving the two-dimensional axisymmetric Navier-Stokes equations in the zero Mach number limit on an adapted mesh, coupled with balance equations for temperature and species. A simplified model for molecular transport properties was used with constant, but non-unity, Lewis numbers for all species. Chemistry is represented by a ten-step reduced mechanism for methane oxidation, which was derived starting from a 61-step elementary mechanism that includes the C1 and C2 chains. The agreement between the measured and the predicted flow field is very satisfactory. Owing to gas expansion, the velocity decreases immediately ahead of the flame and increases strongly at the flame front. Further downstream acceleration due to buoyancy is dominant and is predicted accurately. There is a good agreement between measurements and computations for flame shape and flame length. The measured OH-LIPF image and the computed OH concentrations indicate that OH is concentrated in the vicinity of stoichiometric mixture. The results from a newly developed C2Hx-LIF method are also supported by calculations. While these measurements were only qualitative, the temperature and mole fractions of the major species could be measured quantitatively with the combined Raman-/Rayleigh technique along a line and were found to agree well with the numerical predictions. It is found that the structure is a triple flame and is influenced essentially by two external parameters: heat exchange between the branches and heat loss at the curved flame front near the triple point.},
+author = {Plessing, T. and Terhoeven, P. and Peters, N. and Mansour, M. S.},
+doi = {10.1016/S0010-2180(98)00013-3},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Plessing et al. - 1998 - An experimental and numerical study of a laminar triple flame.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = nov,
+number = {3},
+pages = {335--353},
+title = {{An experimental and numerical study of a laminar triple flame}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218098000133},
+volume = {115},
+year = {1998}
+}
+@article{qin05,
+abstract = {Laminar burning velocities of dimethyl ether (DME) and air premixed flames at elevated pressures up to 10 atm were measured by using a newly developed pressure-release type spherical bomb. The measurement system was validated using laminar burning velocities of methane-air flames. A comparison with the previous experimental data shows an excellent agreement and demonstrates the accuracy and reliability of the present experimental system. The measured flame speeds of DME-air flames were compared with the previous experimental data and the predictions using the full and reduced mechanisms. At atmospheric pressure, the measured laminar burning velocities of DME-air flames are in reasonable agreement with the previous data from spherical bomb method, but are much lower than both predictions and the experimental data of the PIV based counterflow flame measurements. The laminar burning velocities of DME-air flames at 2, 6, and 10 atm were also measured. It was found that flame speed decreases considerably with the increase of pressure. Moreover, the measured flame speeds are also lower than the predictions at high pressures. In addition, experiments showed that at high pressures the rich DME-air flames are strongly affected by the hydrodynamic and thermal-diffusive instabilities. Markstein lengths and the overall reaction order at different equivalence ratios were extracted from the flame speed data at elevated pressures. Sensitivity analysis showed that reactions involving methyl and formyl radicals play an important role in DME-air flame propagation and suggested that systematic modification of the reactions rates associated with methyl and formyl formations are necessary to reduce the discrepancies between predictions and measurements. ?? 2004 The Combustion Institute. Published by Elsevier Inc. All rights reserved.},
+author = {Qin, X. and Ju, Y.},
+journal = {Proc. Combust. Inst.},
+keywords = {Dimethyl ether,High pressure,Laminar burning velocity,NTC paper},
+mendeley-tags = {NTC paper},
+pages = {233--240},
+title = {{Measurements of burning velocities of dimethyl ether and air premixed flames at elevated pressures}},
+volume = {30},
+year = {2005}
+}
+@article{ruetsch95,
+abstract = {Heat release effects on laminar flame propagation in partially premixed flows are studied. Data for analysis are obtained from direct numerical simulations of a laminar mixing layer with a uniformly approaching velocity field. The structure that evolves under such conditions is a triple flame, which consists of two premixed wings and a trailing diffusionflame. Heat release increases the flame speed over that of the corresponding planar premixed flame. In agreement with previous analytical work, reductions in the mixture fraction gradient also increase the flame speed. The effects of heat release and mixture fraction gradients on flame speed are not independent, however; heat release modifies the effective mixture fraction gradient in front of the flame. For very small mixture fraction gradients, scaling laws that determine the flame speed in terms of the density change are presented.},
+author = {Ruetsch, G. R. and Vervisch, L. and Li\~{n}\'{a}n, A.},
+doi = {10.1063/1.868531},
+issn = {10706631},
+journal = {Phys. Fluids},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = jun,
+number = {6},
+pages = {1447},
+publisher = {AIP Publishing},
+title = {{Effects of heat release on triple flames}},
+url = {http://scitation.aip.org/content/aip/journal/pof2/7/6/10.1063/1.868531},
+volume = {7},
+year = {1995}
+}
+@article{shan12,
+author = {Shan, R. and Yoo, C. S. and Chen, J. H. and Lu, T.},
+doi = {10.1016/j.combustflame.2012.05.012},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/CEMA/Computational diagnostics for n-heptane flames with chemical explosive.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {chemical explosive mode analysis,computational flame diagnostics},
+month = oct,
+number = {10},
+pages = {3119--3127},
+publisher = {The Combustion Institute.},
+title = {{Computational diagnostics for $n$-heptane flames with chemical explosive mode analysis}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0010218012001770},
+volume = {159},
+year = {2012}
+}
+@article{sheinson73,
+abstract = {Resolved emission spectra of electronically excited formaldehyde (1A2 â†?1A1) have been obtained from two-stage ignition in a Vertical Tube Reactor combustion flow system, using acetaldehyde and n-butane as fuels. The very low intensity UV-visible emission from both the cool flame reaction zone (200â€?00Â°C) and blue flame reaction zone (400â€?00Â°C) is due to formaldehyde chemiluminescence. The â€œcontinuumâ€?observed by previous researchers is due to formaldehyde band overlap, with typical hot flame emission from radicals, CO flame bands and continuum, and black body radiation being absent except for minor contributions in the acetaldehyde blue flame (800Â°C). Differences in the spectra band structure and underlying â€˜continuumâ€?are due to the temperatures of the various flames. The cool flame formaldehyde emission yield per reacting fuel molecule is âˆ?0âˆ? for the fuels studied.},
+author = {Sheinson, R S and Williams, F W},
+doi = {10.1016/S0010-2180(73)80026-4},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+month = oct,
+number = {2},
+pages = {221--230},
+title = {{Chemiluminescence spectra from cool and blue flames: Electronically excited formaldehyde}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218073800264},
+volume = {21},
+year = {1973}
+}
+@article{smooke88,
+author = {Smooke, M. D. and Puri, I. K. and Seshadri, K.},
+journal = {Proc. Combust. Inst.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {1783--1792},
+title = {{A comparison between numerical calculations and experimental measurements of the structure of a counterflow diffusion flame burning diluted methane in diluted air}},
+volume = {21},
+year = {1988}
+}
+@article{veloo13,
+abstract = {There is a strong drive towards utilizing oxygenated biofuels in blends with existing fossil fuels. Improving the kinetic modeling of the oxidation of these bio-derived oxygenates requires further investigation of their key stable intermediates such as the aldehydes. In this study, an experimental and chemical kinetic modeling investigation of propanal oxidation was carried out. Experiments were conducted in a jet stirred reactor and in counterflow flames over a wide range of equivalence ratios, temperatures, and ambient pressures. Stable species concentration profiles were measured in the jet stirred reactor and laminar flame speeds were measured. A detailed chemical kinetic reaction model was validated using the present experimental results and existing literature data. The model was used also to provide insight into the controlling reaction pathways for propanal oxidation in both the low- and high-temperature kinetic regimes. ?? 2012 The Combustion Institute. Published by Elsevier Inc. All rights reserved.},
+author = {Veloo, P. S. and Dagaut, P. and Togbe, C. and Dayma, G. and Sarathy, S. M. and Westbrook, C. K. and Egolfopoulos, F. N.},
+journal = {Proc. Combust. Inst.},
+keywords = {Flame propagation,Jet-stirred reactor,Kinetics,Modeling,NTC paper,Propanal},
+mendeley-tags = {NTC paper},
+number = {1},
+pages = {599--606},
+title = {{Jet-stirred reactor and flame studies of propanal oxidation}},
+volume = {34},
+year = {2013}
+}
+@phdthesis{wada11,
+author = {Wada, T},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+school = {RWTH Aachen University, Germany},
+title = {{Experimental and Theoretical Investigation of Low-Temperature Ignition in a Laminar Flow Reactor}},
+year = {2011}
+}
+@article{zhao13,
+abstract = {Using n-heptane as a representative fuel exhibiting NTC (negative temperature coefficient) chemistry, a comprehensive computational and mechanism study was conducted on the role and controlling chemistry of the first-stage ignition delay in the superficially dissimilar systems of the auto-ignition of homogeneous mixtures and the nonpremixed counterflow ignition of fuel versus heated air. It is first shown that the first-stage auto-ignition delay time, ??1, possesses a minimum value, ??1,min, with increasing temperature, and that for temperatures below the range corresponding to ??1,min, ??1 is largely insensitive to the equivalence ratio (??) and pressure (p) of the mixture. Furthermore, in this regime the global reaction order was found to be close to unity, hence supporting the notion that the limiting steps in this temperature regime are the RO2 isomerization reactions, which in turn explains the insensitivity of ??1 on ?? and p in this temperature regime. However, when the temperature approaches that of ??1,min, competition of QOOH decomposition and the ?? scission reactions of the alkyl radicals with the low-temperature chemistry chain reactions, as well as the equilibrium shift of the oxygen addition reactions, increases ??1 and consequently results in ??1,min. The corresponding global reaction order also increases, to about two, indicating the progressive importance of the oxygen addition reactions. Extracted values of the global activation energy are also close to those of the controlling reactions in these temperature regimes. Results from the counterflow show the same global kinetic responses by identifying the reciprocal of the counterflow strain rate as the relevant ignition delay time and the temperature of the heated air stream as the homogeneous mixture temperature. It is further found that in the temperature range corresponding to ??1,min, the diminished heat release causes the counterflow to lose its characteristic, non-monotonic S-curve response and consequently distinct, abrupt ignition-extinction transition events. ?? 2013 The Combustion Institute.},
+author = {Zhao, P. and Law, C. K.},
+journal = {Combust. Flame},
+keywords = {Counterflow ignition,First-stage ignition delay,Low-temperature chemistry,NTC paper,Negative temperature coefficient (NTC),S-curve},
+mendeley-tags = {NTC paper},
+number = {11},
+pages = {2352--2358},
+title = {{The role of global and detailed kinetics in the first-stage ignition delay in NTC-affected phenomena}},
+volume = {160},
+year = {2013}
+}
+@article{zhao08,
+abstract = {The unimolecular decomposition reaction of dimethyl ether (DME) was studied theoretically using RRKM/master equation calculations. The calculated decomposition rate is significantly different from that utilized in prior work (Fischer et al., Int J Chem Kinet 2000, 32, 713â€?40; Curran et al., Int J Chem Kinet 2000, 32, 741â€?59). DME pyrolysis experiments were performed at 980 K in a variable-pressure flow reactor at a pressure of 10 atm, a considerably higher pressure than previous validation data. Both unimolecular decomposition and radical abstraction are significant in describing DME pyrolysis, and hierarchical methodology was applied to produce a comprehensive high-temperature model for pyrolysis and oxidation that includes the new decomposition parameters and more recent small molecule/radical kinetic and thermochemical data. The high-temperature model shows improved agreement against the new pyrolysis data and the wide range of high-temperature oxidation data modeled in prior work, as well as new low-pressure burner-stabilized species profiles (Cool et al., Proc Combust Inst 2007, 31, 285â€?94) and laminar flame data for DME/methane mixtures (Chen et al., Proc Combust Inst 2007, 31, 1215â€?222). The high-temperature model was combined with low-temperature oxidation chemistry (adopted from Fischer et al., Int J Chem Kinet 2000, 32, 713â€?40), with some modifications to several important reactions. The revised construct shows good agreement against high- as well as low-temperature flow reactor and jet-stirred reactor data, shock tube ignition delays, and laminar flame species as well as flame speed measurements. Â© 2007 Wiley Periodicals, Inc. Int J Chem Kinet 40: 1â€?8, 2008},
+author = {Zhao, Z and Chaos, M and Kazakov, A and Dryer, F L},
+journal = {Int. J. Chem. Kinet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+number = {1},
+pages = {1--18},
+title = {{Thermal decomposition reaction and a comprehensive kinetic model of dimethyl ether}},
+volume = {40},
+year = {2008}
+}
+@article{zheng07,
+author = {Zheng, X. L. and Lu, T. F. and Law, C. K.},
+journal = {Proc. Combust. Inst.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+pages = {367--375},
+title = {{Experimental counterflow ignition temperatures and reaction mechanisms of 1,3-butadiene}},
+volume = {31},
+year = {2007}
+}
+@article{zheng05,
+abstract = {The ignition temperature of nitrogen-diluted dimethyl ether (DME) by heated air in counterflow was experimentally determined for DME concentration from 5.9\% to 30\%, system pressure from 1.5 to 3.0 atm, and pressure-weighted strain rate from 110 to 170s-1. These experimental data were compared with two mechanisms that were, respectively, available in 1998 and 2003, with the latter being a substantially updated version of the former. The comparison showed that while the 1998-mechanism uniformly over-predicted the ignition temperature, the 2003-mechanism yielded a surprisingly close agreement for all experimental data. Sensitivity analysis for the near-ignition state based on both mechanisms identified the deficiencies of the 1998-mechanism, in particular, the specifics of the low-temperature cool flame chemistry in effecting ignition at higher temperatures, as the fuel stream is being progressively heated from its cold boundary to the high-temperature ignition region around the hot-stream boundary. The 2003-mechanism, consisting of 79 species and 398 elementary reactions, was then systematically simplified by using the directed relation graph method to a skeletal mechanism of 49 species and 251 elementary reactions, which in turn was simplified further by using computational singular perturbation method and quasi-steady-state species assumption to a reduced mechanism consisting of 33 species and 28 lumped reactions. It was demonstrated that both the skeletal and reduced mechanisms mimicked the performance of the detailed mechanism with high accuracy. ?? 2004 The Combustion Institute. Published by Elsevier Inc. All rights reserved.},
+author = {Zheng, X. L. and Lu, T. F. and Law, C. K. and Westbrook, C. K. and Curran, H. J. and Berces, T. and Dryer, F. L.},
+journal = {Proc. Combust. Inst.},
+keywords = {Dimethyl ether,Ignition,NTC paper,Reduced mechanism},
+mendeley-tags = {NTC paper},
+pages = {1101--1109},
+title = {{Experimental and computational study of nonpremixed ignition of dimethyl ether in counterflow}},
+volume = {30},
+year = {2005}
+}
+@article{pope88,
+author = {Pope, S. B.},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/Pope\_IJES\_88.pdf:pdf},
+journal = {Int. J. Eng. Sci.},
+keywords = {DME},
+mendeley-tags = {DME},
+number = {5},
+pages = {445--469},
+title = {{The evolution of surfaces in turbulence}},
+url = {http://www.sciencedirect.com/science/article/pii/0020722588900043},
+volume = {26},
+year = {1988}
+}
+@article{pitsch98a,
+abstract = {The unsteady flamelet model is applied in numerical simulations of a steady, turbulent, nitrogen-diluted hydrogen-air diffusion flame. An unsteady flamelet is solved interactively with a CFD solver for the turbulent flow and the mixture fraction field. Transient effects occurring in steady jet diffusion flames are discussed in terms of the relevant timescales. It is shown that radiation can be neglected and that the flame structure is hardly influenced by transient effects for the present case. However, for predictions of slow processes, like the formation of NO, unsteady effects have to be considered. The results predicted by the model are in reasonable agreement to experimental data for temperature, major species mass fractions, OH, and NO mole fractions. On the contrary, the use of steady flamelet libraries yields good results for flame structure and even OH concentrations, but NO is overpredicted by an order of magnitude. However, reasonably well-predicted NO concentrations can also be obtained by solving an unsteady flamelet as a postprocessing mode.},
+author = {Pitsch, H. and Chen, M. and Peters, N.},
+doi = {10.1016/S0082-0784(98)80506-7},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pitsch, Chen, Peters - 1998 - Unsteady flamelet modeling of turbulent hydrogen-air diffusion flames.pdf:pdf},
+issn = {00820784},
+journal = {Proc. Combust. Inst.},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = jan,
+number = {1},
+pages = {1057--1064},
+title = {{Unsteady flamelet modeling of turbulent hydrogen-air diffusion flames}},
+url = {http://www.sciencedirect.com/science/article/pii/S0082078498805067},
+volume = {27},
+year = {1998}
+}
+@article{pitsch98b,
+abstract = {A flamelet formulation for non-premixed combustion that allows an exact description of differential diffusion has been developed. The main difference to previous formulations is the definition of a mixture fraction variable, which is not related directly to any combination of the reactive scalars, but defined from the solution of a conservation equation with an arbitrary diffusion coefficient and appropriate boundary conditions. Using this definition flamelet equations with the mixture fraction as the independent coordinate are derived without any assumptions about the Lewis numbers for chemical species. The formulation is shown to be exact if the scalar dissipation rate is prescribed as a function of the mixture fraction. Different approximations of the scalar dissipation rate that had been derived from analytic solutions for special cases are investigated by varying the diffusion coefficient of the mixture fraction transport equation. As examples, counterflow flames of hydrogen and n-heptane, which have much larger and much smaller diffusivities than oxygen and nitrogen, are considered. It is shown that the use of equal thermal and mixture fraction diffusivities yields a sufficiently well-described flame structure and is therefore recommended for the definition of the mixture fraction diffusion coefficient. Finally, the possibility of using constant species Lewis numbers has been examined. It has been found that once an appropriate set of Lewis numbers is determined, good results are achieved over wide ranges of the parameters, such as scalar dissipation rate, pressure, and oxidizer temperature.},
+author = {Pitsch, H. and Peters, N.},
+doi = {10.1016/S0010-2180(97)00278-2},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pitsch, Peters - 1998 - A Consistent Flamelet Formulation for Non-Premixed Combustion Considering Differential Diffusion Effects.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = jul,
+number = {1-2},
+pages = {26--40},
+title = {{A Consistent Flamelet Formulation for Non-Premixed Combustion Considering Differential Diffusion Effects}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218097002782},
+volume = {114},
+year = {1998}
+}
+@book{petersbook,
+author = {Peters, N.},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+publisher = {Cambridge University Press},
+title = {{Turbulent Combustion}},
+year = {2000}
+}
+@article{yoo09,
+author = {Yoo, C. S. and Sankaran, R. and Chen, J. H.},
+doi = {10.1017/S0022112009991388},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/stabilization/JHChen/Three-dimensional direct numerical simulation of a turbulent lifted hydrogen jet flame in heated coflow flame stabilization and structure.pdf:pdf},
+issn = {0022-1120},
+journal = {J. Fluid Mech.},
+keywords = {combustion,flames,reacting flows,turbulent reacting flows},
+month = dec,
+pages = {453--481},
+title = {{Three-dimensional direct numerical simulation of a turbulent lifted hydrogen jet flame in heated coflow: flame stabilization and structure}},
+url = {http://www.journals.cambridge.org/abstract\_S0022112009991388},
+volume = {640},
+year = {2009}
+}
+@article{lignell07,
+abstract = {Direct numerical simulations of a two-dimensional, nonpremixed, sooting ethylene flame are performed to examine the effects of sootâ€“flame interactions and transport in an unsteady configuration. A 15-step, 19-species (with 10 quasi-steady species) chemical mechanism was used for gas chemistry, with a two-moment, four-step, semiempirical soot model. Flame curvature is shown to result in flames that move, relative to the fluid, either toward or away from rich soot formation regions, resulting in soot being essentially convected into or away from the flame. This relative motion of flame and soot results in a wide spread of soot in the mixture fraction coordinate. In regions where the center of curvature of the flame is in the fuel stream, the flame motion is toward the fuel and soot is located near the flame at high temperature and hence has higher reaction rates and radiative heat fluxes. Sootâ€“flame breakthrough is also observed in these regions. Fluid convection and flame displacement velocity relative to fluid convection are of similar magnitudes while thermophoretic diffusion is 5â€?0 times lower. These results emphasize the importance of both unsteady and multidimensional effects on soot formation and transport in turbulent flames.},
+author = {Lignell, D. O. and Chen, J. H. and Smith, P. J. and Lu, T. and Law, C. K.},
+doi = {10.1016/j.combustflame.2007.05.013},
+file = {:C$\backslash$:/Users/sili/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lignell et al. - 2007 - The effect of flame structure on soot formation and transport in turbulent nonpremixed flames using direct numer.pdf:pdf},
+issn = {00102180},
+journal = {Combust. Flame},
+keywords = {DME\_Jet,Direct numerical simulation,Nonpremixed flame,Soot,Turbulent combustion},
+mendeley-tags = {DME\_Jet},
+month = oct,
+number = {1-2},
+pages = {2--28},
+title = {{The effect of flame structure on soot formation and transport in turbulent nonpremixed flames using direct numerical simulation}},
+url = {http://www.sciencedirect.com/science/article/pii/S0010218007001605},
+volume = {151},
+year = {2007}
+}
+@article{cohen96,
+author = {Cohen, S. D. and Hindmarsh, A. C. and Dubois, P. F.},
+doi = {10.1063/1.4822377},
+issn = {08941866},
+journal = {Comput. Phys.},
+keywords = {DME\_Jet},
+mendeley-tags = {DME\_Jet},
+month = mar,
+number = {2},
+pages = {138-143},
+publisher = {AIP Publishing},
+title = {{CVODE, A Stiff/Nonstiff ODE Solver in C}},
+url = {http://scitation.aip.org/content/aip/journal/cip/10/2/10.1063/1.4822377},
+volume = {10},
+year = {1996}
+}
+@article{zador11,
+author = {Z\'{a}dor, J. and Taatjes, C. A. and Fernandes, R. X.},
+doi = {10.1016/j.pecs.2010.06.006},
+file = {:C$\backslash$:/Users/sili/Dropbox/Papers/Acoustics/Paper\_preparation/Kinetics of Elementary Reactions in Low-temperature Autoignition Chemistry.pdf:pdf},
+issn = {03601285},
+journal = {Prog. Energy Combust. Sci.},
+month = aug,
+number = {4},
+pages = {371--421},
+publisher = {Elsevier Ltd},
+title = {{Kinetics of elementary reactions in low-temperature autoignition chemistry}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0360128510000559},
+volume = {37},
+year = {2011}
+}
+@article{westbrook00,
+author = {Westbrook, C. K.},
+doi = {10.1016/S0082-0784(00)80554-8},
+journal = {Proc. Combust. Inst.},
+pages = {1563--1577},
+publisher = {Elsevier Ltd},
+title = {{Chemical kinetics of hydrocarbon ignition in practical combustion systems}},
+volume = {28},
+year = {2000}
+}
+@article{deng15,
+author = {Deng, S. and Zhao, P. and Mueller, M. E. and Law, C. K.},
+journal = {Combust. Flame},
+pages = {3437-3445},
+title = {{Autoignition-affected stabilization of laminar nonpremixed DME/air coflow flames}},
+volume = {162},
+year = {2015}
+}
+@article{battin-leclerc08,
+author = {Battin-Leclerc, F.},
+journal = {Prog. Energy Combust. Sci.},
+pages = {440--498},
+title = {{Detailed chemical kinetic models for the low-temperature combustion of hydrocarbons with application to gasoline and diesel fuel surrogates}},
+volume = {34},
+year = {2008}
+}
+@article{yoo11,
+author = {Yoo,C. S. and Richardson, E. S. and Sankaran, R. and Chen, J. H.},
+journal = {Proc. Combust. Inst.},
+pages = {1619-1627},
+title = {{A DNS study on the stabilization mechanism of a turbulent lifted ethylene jet flame in highly-heated coflow}},
+volume = {33},
+year = {2011}
+}
+@article{echekki15,
+author = {Echekki, T. and Ahmed, S. F.},
+journal = {Autoignition of $n$-heptane in a turbulent co-flowing jet, Combust. Flame,},
+pages = {doi:10.1016/j.combustflame.2015.07.020},
+title = {{Autoignition of $n$-heptane in a turbulent co-flowing jet}},
+volume = {},
+year = {2015}
+}
+@article{shaddix94,
+author = {Shaddix, C. R. and Harrington, J. E. and Smyth, K. C.},
+journal = {Combust. Flame},
+pages = {723-732},
+title = {{Quantitiative measurements of enhanced soot production in a flickering methan/air diffusion flame}},
+volume = {99},
+year = {1994}
+}
+@article{mohammed98,
+author = {Mohammed, R. K. and Tanoff, M. A. and Smooke, M. D. and Schaffer, A. M. and Long, M. B.},
+journal = {Proc. Combust. Inst.},
+pages = {693-702},
+title = {{Computational and experimental study of a forced, timevarying, axisymmetric, laminar diffusion flame}},
+volume = {27},
+year = {1998}
+}
+@article{Skaggs96,
+author = {Skaggs, R. R. and Miller, J. H.},
+journal = {Proc. Combust. Inst.},
+pages = {1181-1188},
+title = {{Tunable diode laser absorption measurement of carbon monoxide and temperature in a time-varying methane-air non-premixed flame}},
+volume = {26},
+year = {1996}
+}
+@article{ko99,
+author = {Ko, Y. S. and Chung, S. H.},
+journal = {Combust. Flame},
+pages = {151-163},
+title = {{Propagation of unsteady tribrachial flames in laminar non-premixed jets}},
+volume = {118},
+year = {1999}
+}
+@article{strawa89,
+author = {Strawa, A. W. and Cantwell, B. J.},
+journal = {J. Fluid Mech.},
+pages = {309-336},
+title = {{Investigation of an excited jet diffusion flame at elevated pressure}},
+volume = {200},
+year = {1989}
+}
+@article{dworkin07,
+author = {Dworkin, S. B. and Connelly, B. C. and Schaffer, A. M. and Bennett, B.A. V. and Long, M. B. and Smooke, M. D. and Puccio, M. P. and McAndrews, B. and Miller, J. H.},
+journal = {Proc. Combust. Inst.},
+pages = {971-978},
+title = {{Computational and experimental study of a forced, time-dependent, methane-air coflow diffusion flame}},
+volume = {31},
+year = {2007}
+}
+@article{sanchezsanz10,
+author = {S\'{a}nchez-Sanz, M. and Bennett, B. A. V. and Smooke, M. D. and Li\~{n}\'{a}n, A.},
+journal = {Combust. Theory Modell.},
+pages = {453-478},
+title = {{Influence of Strouhal number on pulsating methane-air coflow jet diffusion flames}},
+volume = {14},
+year = {2010}
+}
+@article{deng15b,
+author = {Deng, S. and Zhao, P. and Mueller, M. E. and Law, C. K.},
+journal = {Combust. Flame},
+pages = {4471-4478},
+title = {{Stabilization of laminar nonpremixed DME/air coflow flames at elevated temperatures and pressures}},
+volume = {162},
+year = {2015}
+}
+@article{yoo13,
+author = {Yoo, C. S. and Luo, Z. and Lu, T. and Kim, H. and Chen, J. H.},
+journal = {Proc. Combust. Inst.},
+pages = {2985-2993},
+title = {{A DNS study of ignition characteristics of a lean $iso$-octane/air mixture under HCCI and SACI conditions}},
+volume = {34},
+year = {2013}
+}
+@article{im99,
+author = {Im, H. G. and Chen, J. H.},
+journal = {Combust. Flame},
+pages = {436-454},
+title = {{Structure and propagation of triple flames in partially premixed hydrogen-air mixtures}},
+volume = {119},
+year = {1999}
+}
+@article{muller94,
+author = {M\"{u}ller, C. M. and Breitbach, H. and Peters, N.},
+journal = {Proc. Combust. Inst.},
+pages = {1099-1106},
+title = {{Partially premixed turbulent flame propagation in jet flames}},
+volume = {25},
+year = {1994}
+}
+@article{macart16,
+author = {MacArt, J. F. and Mueller, M. E.},
+journal = {J. Comput. Phys.},
+pages = {},
+title = {{Semi-implicit iterative methods for low Mach number turbulent reacting flows: Operator splitting vs. approximate factorization}},
+volume = {},
+year = {submitted}
+}
+@article{ainoman15,
+author = {AI-Noman, S. M. and Choi, S. K. and Chung, S. H.},
+journal = {Fuel},
+pages = {171-178},
+title = {{Autoignition characteristics of laminar lifted jet flames of pre-vaporized iso-octane in heated coflow air}},
+volume = {162},
+year = {2015}
+}
+@article{temme12,
+author = {Temme, J. E. and Allison, P. M. and Driscoll, J. F.},
+journal = {50th AIAA Aerospace Sciences Meeting},
+pages = {},
+title = {{Low frequency combustion instabilities imaged in a gas turbine combustor flame tube}},
+volume = {},
+year = {AIAA 2012-0542}
+}
+@article{lu09,
+author = {Lu, T. and Law, C. K.},
+journal = {Prog. Energy Combust. Sci.},
+pages = {192-215},
+title = {{Toward accommodating realistic fuel chemistry in large-scale computations}},
+volume = {35},
+year = {2009}
+}
+
+@article{davy17,
+author = {Davy, H.},
+journal = {Philos. Trans. R. Soc. Lond.},
+pages = {77-86},
+title = {{Some new experiments and observations on the combustion of gaseous mixtures, with an account of a method of preserving a continued light in mixtures of inflammable gases and air without flame}},
+volume = {107},
+year = {1817}
+}
+@article{griffiths87,
+author = {Griffiths, J. F. and Scott, S. K.},
+journal = {Prog. Energy Combust. Sci.},
+pages = {161-197},
+title = {{Thermokinetic interactions: fundamentals of spontaneous ignition and cool flames}},
+volume = {13},
+year = {1987}
+}
+@article{hwang08,
+author = {Hwang, W. and Dec, J. and Sjoberg, M.},
+journal = {Combust. Flame},
+pages = {387-409},
+title = {{Spectroscopic and chemical-kinetic analysis of the phases of HCCI autoignition and combustion for single- and two-stage ignition fuels}},
+volume = {154},
+year = {2008}
+}
+@article{griffiths02,
+author = {Griffiths, J. F. and MacNamara, J. P. and Sheppard, C. G. W. and Turton, D. A. and Whitaker, B. J.},
+journal = {Fuel},
+pages = {2219-2225},
+title = {{The relationship of knock during controlled autoignition to temperature inhomogeneities and fuel reactivity}},
+volume = {81},
+year = {2002}
+}
+@article{lu11,
+author = {Lu, X. and Han, D. and Huang, Z.},
+journal = {Prog. Energy Combust. Sci.},
+pages = {741-783},
+title = {{Fuel design and management for the control of advanced compression-ignition combustion modes}},
+volume = {37},
+year = {2011}
+}
+@article{kokjohn11,
+author = {Kokjohn, S. L. and Hanson, R. M. and Splitter, D. A. and Reitz, R. D.},
+journal = {Int. J. Engine Res.},
+pages = {209-226},
+title = {{Fuel reactivity controlled compression ignition (RCCI): a pathway to controlled high-efficiency clean combustion}},
+volume = {12},
+year = {2011}
+}
+@article{silke05,
+author = {Silke, E. J. and Curran, H. J. and Simmie, J. M.},
+journal = {Proc. Combust. Inst.},
+pages = {2639-2647},
+title = {{The influence of fuel structure on combustion as demonstrated by the isomers of heptane: a rapid compression machine study}},
+volume = {30},
+year = {2005}
+}
+@article{di14,
+author = {Di, H. and He, X. and Zhang, P. and Wang, Z. and Wooldridge, M. S. and Law, C. K. and Wang, C. and Shuai, S. and Wang, J.},
+journal = {Combust. Flame},
+pages = {2531-2538},
+title = {{Effects of buffer gas composition on low temperature ignition of iso-octane and $n$-heptane}},
+volume = {161},
+year = {2014}
+}
+@article{herzler05,
+author = {Herzler, J. and Jerig, L. and Roth, P.},
+journal = {Proc. Combust. Inst.},
+pages = {1147-1153},
+title = {{Shock tube study of the ignition of lean $n$-heptane/air mixtures at intermediate temperatures and high pressures}},
+volume = {30},
+year = {2005}
+}
+@article{vasu08,
+author = {Vasu, S. S. and Davidson, D. F. and Hanson, R. K.},
+journal = {Combust. Flame},
+pages = {125-143},
+title = {{Jet fuel ignition delay times: shock tube experiments over wide conditions and surrogate model predictions}},
+volume = {152},
+year = {2008}
+}
+@article{koert94,
+author = {Koert, D. N. and Miller, D. L. and Cernansky, N. P.},
+journal = {Combust. Flame},
+pages = {34-49},
+title = {{Experimental studies of propane oxidation through the negative temperature coefficient region at 10 and 15 atmospheres}},
+volume = {96},
+year = {1994}
+}
+@article{dagaut95,
+author = {Dagaut, P. and Reuillon, M. and Cathonnet, M.},
+journal = {Combust. Flame},
+pages = {132-140},
+title = {{Experimental study of the oxidation of $n$-heptane in a jet stirred reactor from low to high temperature and pressures up to 40 atm}},
+volume = {101},
+year = {1995}
+}
+@article{kikui15,
+author = {Kikui, S. and Kamada, T. and Nakamura, H. and Tezuka, T. and Hasegawa, S. and Maruta, K.},
+journal = {Proc. Combust. Inst.},
+pages = {3405-3412},
+title = {{Characteristics of n-butane weak flames at elevated pressures in a micro flow reactor with a controlled temperature profile}},
+volume = {35},
+year = {2015}
+}
+@article{nayagam12,
+author = {Nayagam, V. and Dietrich, D. L. and Ferkul, P. V. and Hicks, M. C. and Williams, F. A.},
+journal = {Combust. Flame},
+pages = {3583-3588},
+title = {{Can cool flames support quasi-steady alkane droplet burning?}},
+volume = {159},
+year = {2012}
+}
+@article{farouk15,
+author = {Farouk, T. I. and Hicks, M. C. and Dryer, F. L.},
+journal = {Proc. Combust. Inst.},
+pages = {1701-1708},
+title = {{Multistage oscillatory "cool flame" behavior for isolated alkane droplet-combustion in elevated pressure microgravity condition}},
+volume = {35},
+year = {2015}
+}
+@article{nayagam15,
+author = {Nayagam, V. and Dietrich, D. L. and Hicks, M. C. and Williams, F. A.},
+journal = {Combust. Flame},
+pages = {2140-2147},
+title = {{Cool-flame extinction during n-alkane droplet combustion in microgravity}},
+volume = {162},
+year = {2015}
+}
+@article{ju16,
+author = {Ju, Y. and Lefkowitz, J. K. and Reuter, C. B. and Won, S. H. and Yang, X. and Yang, S. and Sun, W. and Jiang, Z. and Chen, Q.},
+journal = {Plasma Chem. Plasma Process},
+pages = {85-105},
+title = {{Plasma assisted low temperature combustion}},
+volume = {36},
+year = {2016}
+}
+@article{won15,
+author = {Won, S. H. and Jiang, B. and Dievart, P. and Sohn, C. H. and Ju, Y.},
+journal = {Proc. Combust. Inst.},
+pages = {881-888},
+title = {{Self-sustaining $n$-heptane cool diffusion flames activated by ozone}},
+volume = {35},
+year = {2015}
+}
+@article{liu11,
+title = {Non-premixed ignition, laminar flame propagation, and mechanism reduction of $n$-butanol, $iso$-butanol, and methyl butanoate},
+journal = {Proc. Combust. Inst.},
+author = {Liu, W. and Kelley, A. P. and Law, C. K.},
+year = {2011},
+volume = {33},
+pages = {995--1002}
+}
+
+
+@article{graboski98,
+title = {Combustion of fat and vegetable oil derived fuels in diesel engines},
+journal = {Prog. Energy Combust.},
+author = {Graboski, M. S. and McCormick, R. L.},
+year = {1998},
+volume = {24},
+pages = {125--164}
+}
+
+
+@article{frijters06,
+title = {Oxygenated fuels for clean heavy-duty diesel engines},
+journal = {Int. J. Veh. Des.},
+author = {Frijters, P. J. M. and Baert, R. S. G.},
+year = {2006},
+volume = {41},
+pages = {242--255}
+}
+
+
+@article{pepiot08,
+title = {Structure group analysis for soot reduction tendency of oxygenated fuels},
+journal = {Combust. Flame},
+author = {Pepiot, P. and Pitsch, H. and Malhotra, R. and Kirby, S. R. and Boehman, A. L.},
+year = {2008},
+volume = {154},
+pages = {191--205}
+}
+
+
+@article{mcenally05,
+title = {Fuel decomposition and hydrocarbon growth processes for oxygenated hydrocarbons: butyl alcohols},
+journal = {Proc. Combust. Inst.},
+author = {McEnally, C. S. and Pfefferle, L. D.},
+year = {2005},
+volume = {30},
+pages = {1363--1370}
+}
+
+
+@article{mcenally11,
+title = {Sooting tendencies of oxygenated hydrocarbons in laboratory-scale flames},
+journal = {Environ. Sci. Technol.},
+author = {McEnally, C. S. and Pfefferle, L. D.},
+year = {2011},
+volume = {45},
+pages = {2498--2503}
+}
+
+
+@article{westbrook06,
+title = {Chemical kinetic modeling study of the effects of oxygenated hydrocarbons on soot emissions from diesel engines},
+journal = {J. Phys. Chem. A},
+author = {Westbrook, C. K. and Pitz, W. J. and Curran, H. J.},
+year = {2006},
+volume = {110},
+pages = {6912--6922}
+}
+
+
+@article{vandsburger85,
+title = {Sooting counter-flow diffusion flames with varying velocity gradients},
+journal = {Proc. Combust. Inst.},
+author = {Vandsburger, U. and Kennedy, I. M. and Glassman, I.},
+year = {1985},
+volume = {20},
+pages = {1105--1112}
+}
+
+
+@article{tsuji71,
+title = {Structure analysis of counterflow diffusion flames in the forward stagnation region of a porous cylinder},
+journal = {Proc. Combust. Inst.},
+author = {Tsuji, H. and Yamaoka, I.},
+year = {1971},
+volume = {13},
+pages = {723--731}
+}
+
+@article{wang11,
+title = {Formation of nascent soot and other condensed-phase materials in flames},
+journal = {Proc. Combust. Inst.},
+author = {Wang, H.},
+year = {2011},
+volume = {33},
+pages = {41--67}
+}
+
+
+@article{du89,
+title = {Experiments on the sooting limits of aerodynamically-strained diffusion flames},
+journal = {Proc. Combust. Inst.},
+author = {Du, D. X. and Axelbaum, R. L. and Law, C. K.},
+year = {1989},
+volume = {22},
+pages = {387--394}
+}
+
+
+@article{du91,
+title = {The influence of carbon dioxide and oxygen as additives on soot formation in diffusion flames},
+journal = {Proc. Combust. Inst.},
+author = {Du, D. X. and Axelbaum, R. L. and Law, C. K.},
+year = {1991},
+volume = {23},
+pages = {1501--1507}
+}
+
+
+@article{axelbaum91,
+title = {Soot formation and inert addition in diffusion flames},
+journal = {Proc. Combust. Inst.},
+author = {Axelbaum, R. L. and Law, C. K.},
+year = {1991},
+volume = {23},
+pages = {1517--1523}
+}
+
+
+@article{liu10,
+title = {Ignition of $n$-heptane pool by heated stagnating oxidizing flow},
+journal = {Combust. Flame},
+author = {Liu, W. and Zhu, D. and Wu, N. and Law, C. K.},
+year = {2010},
+volume = {157},
+pages = {259--266}
+}
+
+
+
+@misc{chemkin,
+title = {{CHEMKIN} {C}ollection, {R}elease 3.6, {R}eaction {D}esign, {I}nc., {S}an {D}iego, {CA}},
+author = {Kee, R. J. and Rupley, F. M. and Miller, J. A.},
+year = {2000}
+}
+
+@article{buipham91,
+title = {Comparison between experimental measurements and numerical calculations of the structure of heptane-air diffusion flames},
+journal = {Combust. Sci. Technol.},
+author = {Bui-Pham, M. and Seshadri, K.},
+year = {1991},
+volume = {79},
+pages = {293--310}
+}
+
+
+@book{polingbook,
+author = {Poling, B. E. and Prausnitz, J. M. and O'Connell, J. P.},
+title = {The Properties of Gases and Liquids},
+publisher = {McGraw-Hill},
+address = {New York}, 
+edition = {{F}ifth},
+year = {2000},
+}
+
+@article{mueller09a,
+title = {A joint {V}olume-{S}urface model of soot aggregation with the method of moments},
+journal = {Proc. Combust. Inst.},
+author = {Mueller, M. E. and Blanquart, G. and Pitsch, H.},
+year = {2009},
+volume = {32},
+pages = {785--792}
+}
+
+
+@article{mueller09b,
+title = {{H}ybrid {M}ethod of {M}oments for modeling soot formation and growth},
+journal = {Combust. Flame},
+author = {Mueller, M. E. and Blanquart, G. and Pitsch, H.},
+year = {2009},
+volume = {156},
+pages = {1143--1155}
+}
+
+
+@article{mueller11a,
+title = {Modeling the oxidation-induced fragmentation of soot aggregates in laminar flames},
+journal = {Proc. Combust. Inst.},
+author = {Mueller, M. E. and Blanquart, G. and Pitsch, H.},
+year = {2011},
+volume = {33},
+pages = {667--674}
+}
+
+
+@book{friedlander00,
+title = {Smoke, Dust, and Haze: Fundamentals of Aerosol Dynamics},
+author = {Friedlander, S. K.},
+publisher = {Oxford University Press},
+address = {New York},
+year = {2000}
+}
+
+@article{frenklach02,
+title = {Reaction mechanism of soot formation in flames},
+journal = {Phys. Chem. Chem. Phys.},
+author = {Frenklach, M.},
+year = {2002},
+volume = {4},
+pages = {2028--2037}
+}
+
+
+
+@article{frenklach91,
+title = {Detailed modeling of soot particle nucleation and growth},
+journal = {Proc. Combust. Inst.},
+author = {Frenklach, M. and Wang, H.},
+year = {1991},
+volume = {23},
+pages = {1559--1566}
+}
+
+
+@incollection{waldmann66,
+title = {Thermophoresis and diffusiophoresis of aerosols},
+booktitle = {Aerosol Science},
+author = {Waldmann, L. and Schmitt, K. H.},
+editor = {Davies, C. N.},
+publisher = {Academic Press},
+year = {1966}
+}
+
+
+@article{bisetti12,
+title = {On the formation and early evolution of soot in turbulent nonpremixed flames},
+journal = {Combust. Flame},
+author = {Bisetti, F. and Blanquart, G. and Mueller, M. E. and Pitsch, H.},
+year = {2012},
+volume = {159},
+pages = {317--335}
+}
+
+
+@article{marchisio05,
+title = {{Solution of population balance equations using the Direct Quadrature Method of Moments}},
+journal = {J. Aerosol Sci.},
+author = {Marchisio, D. L. and Fox, R. O.},
+year = {2005},
+volume = {36},
+pages = {43--73},
+}
+
+
+@article{frenklach87,
+title = {Aerosol dynamics modeling using the method of moments},
+journal = {J. Coll. Int. Sci.},
+author = {Frenklach, M. and Harris, S. J.},
+year = {1987},
+volume = {118},
+pages = {252--261},
+}
+
+
+@article{blanquart09b,
+title = {Chemical mechanism for high temperature combustion of engine relevant fuels with emphasis on soot precursors},
+journal = {Combust. Flame},
+author = {Blanquart, G. and Pepiot, P. and Pitsch, H.},
+year = {2009},
+volume = {156},
+pages = {588--607}
+}
+
+
+@article{narayanaswamy10,
+title = {A consistent chemical mechanism for oxidation of substituted aromatic species},
+journal = {Combust. Flame},
+author = {Narayanaswamy, K. and Blanquart, G. and Pitsch, H.},
+year = {2010},
+volume = {157},
+pages = {1879--1898}
+}
+
+
+@article{berta06,
+title = {An experimental and numerical investigation of $n$-heptane/air counterflow partially premixed flames and emission of {NO}$_x$ and {PAH} species},
+journal = {Combust. Flame},
+author = {Berta, P. and Aggarwal, S. K. and Puri, I. K.},
+year = {2006},
+volume = {145},
+pages = {740--764}
+}
+
+
+@article{lu06a,
+title = {On the applicability of directed relation graphs to the reduction of reaction mechanisms},
+journal = {Combust. Flame},
+author = {Lu, T. F. and Law, C. K.},
+year = {2006},
+volume = {146},
+pages = {472--483}
+}
+
+
+@article{lu06b,
+title = {Linear time reduction of large kinetic mechanisms with directed relation graph: $n$-heptane and $iso$-octane},
+journal = {Combust. Flame},
+author = {Lu, T. F. and Law, C. K.},
+year = {2006},
+volume = {144},
+pages = {24--36}
+}
+
+
+@article{zheng07,
+title = {Experimental counterflow ignition temperatures and reaction mechanisms of $1,3$-butadiene},
+journal = {Proc. Combust. Inst.},
+author = {Zheng, X. L. and Lu, T. F. and Law, C. K.},
+year = {2007},
+volume = {31},
+pages = {367--375}
+}
+
+
+@article{sarathy09,
+title = {An experimental and kinetic modeling study of $n$-butanol combustion},
+journal = {Combust. Flame},
+author = {Sarathy, S. M. and Thomson, M. J. and Togb\'{e}, C. and Dagaut, P. and Halter, F. and Mounaim-Rousselle, C.},
+year = {2009},
+volume = {156},
+pages = {852--864}
+}
+
+
+@article{gail08,
+title = {Experimental and chemical kinetic modeling study of small methyl esters oxidation: Methyl(E)-2-butenoate and methyl butanoate},
+journal = {Combust. Flame},
+author = {Ga\"il, S. and Sarathy, S. M. and Thomson, M. J. and Di\'evart, P. and Dagaut, P.},
+year = {2008},
+volume = {155},
+pages = {635--650}
+}
+
+
+@article{feng12,
+title = {Soot formation in flames of model biodiesel fuels},
+journal = {Combust. Flame},
+author = {Feng, Q. and Jalali, A. and Fincham, A. M. and Wang, Y. L. and Tsotsis, T. T. and Egolfopoulos, F. N.},
+year = {2012},
+volume = {159},
+pages = {1876--1893}
+}
+
+
+@article{wangyl11,
+title = {Studies of {C}$_4$ and {C}$_{10}$ ester flames},
+journal = {Combust. Flame},
+author = {Wang, Y. L. and Feng, Q. and Egolfopoulos, F. N. and Tsotsis, T. T.},
+year = {2011},
+volume = {158},
+pages = {1507--1519}
+}
+
+
+@article{camacho13,
+title = {Evolution of size distribution of nascent soot in $n$- and $i$-butanol flames},
+journal = {Proc. Combust. Inst.},
+author = {Camacho, J. and Lieb, S. and Wang, H.},
+year = {2013},
+volume = {34},
+pages = {1853--1860}
+}
+
+
+@article{schuetz02,
+title = {Nucleation of soot: molecular dynamics simulations of pyrene dimerization},
+journal = {Proc. Combust. Inst.},
+author = {Schuetz, C. A. and Frenklach, M.},
+year = {2002},
+volume = {29},
+pages = {2307--2314}
+}
+
+
+@incollection{wong09,
+title = {Molecular dynamics of {PAH} dimerization},
+booktitle = {{Combustion Generated Fine Carbonaceous Particles}},
+author = {Wong, D. and Schuetz, C. A. and Frenklach, M.},
+publisher={{KIT} {S}cientific {P}ublishing},
+year = {2009},
+editor = {Bockhorn, H. and D'Anna, A. and Sarofim, A. and Wang, H.},
+pages = {247--257}
+}
+
+
+@incollection{blanquart09c,
+title = {A joint volume-surface-hydrogen multi-variate model for soot formation},
+booktitle = {{Combustion Generated Fine Carbonaceous Particles}},
+author = {Blanquart, G. and Pitsch, Heinz},
+publisher={{KIT} {S}cientific {P}ublishing},
+year = {2009},
+editor = {Bockhorn, H. and D'Anna, A. and Sarofim, A. and Wang, H.},
+pages = {439--466}
+}
+
+
+@article{kazakov95,
+title = {Detailed modeling of soot formation in laminar premixed ethylene flames at a pressure of 10 bar},
+journal = {Combust. Flame},
+author = {Kazakov, A. and Wang, H. and Frenklach, M.},
+year = {1995},
+volume = {100},
+pages = {111--120}
+}
+
+
+
+@incollection{neoh81,
+title = {Soot oxidation in flames},
+booktitle = {{P}articulate {C}arbon {F}ormation during {C}ombustion},
+author = {Neoh, K. G. and Howard, J. B. and Sarofim, A. F.},
+publisher={Plenum Press},
+year = {1981},
+pages = {162--282}
+}
+
+@article{dearden68,
+title = {{Soot formation in ethylene and propane diffusion flames}},
+journal = {J. Appl. Chem.},
+author = {Dearden, P. and Long, R.},
+year = {1968},
+volume = {18},
+pages = {243--251}
+}
+
+@article{du95,
+title = {{Soot formation in strained diffusion flames with gaseous additives}},
+journal = {Comb. Flame},
+author = {Du, D. X. and Axelbaum, R. L. and Law, C. K.},
+year = {1995},
+volume = {102},
+pages = {11--20}
+}
+
+@article{gulder96,
+title = {{Influence of hydrogen addition to fuel on temperature field and soot formation in diffusion flames}},
+journal = {Proc. Combust. Inst.},
+author = {G\"{u}lder, \"{O}. L. and Snelling, D. R. and Sawchuk, R. A.},
+year = {1996},
+volume = {26},
+pages = {2351--2358}
+}
+
+@article{guo06,
+title = {{Numerical study on the influence of hydrogen addition on soot formation in a laminar ethylene-air diffusion flame}},
+journal = {Combust. Flame},
+author = {Guo, H. and Liu, F. and Smallwood, G. J. and G\"{u}lder, \"{O}. L.},
+year = {2006},
+volume = {145},
+pages = {324--338}
+}
+
+@article{zhao14,
+title = {{Investigation of the soot formation in ethylene laminar diffusion flames when diluted with helium or supplemented by hydrogen}},
+journal = {Energy Fuels},
+author = {Zhao, H. and Stone, R. and Williams, B.},
+year = {2014},
+volume = {28},
+pages = {2144--2151}
+}
+
+@article{pitsch00,
+title = {{Unsteady flamelet modeling of soot formation in turbulent diffusion flames}},
+journal = {Combust. Sci. Technol.},
+author = {Pitsch, H. and Riesmeier, E. and Peters, N.},
+year = {2000},
+volume = {158},
+pages = {389--406}
+}
+
+@article{yoo07,
+title = {{Transient soot dynamics in turbulent nonpremixed ethylene-air counterflow flames}},
+journal = {Proc. Combust. Inst.},
+author = {Yoo, C. S. and Im, H. G.},
+year = {2007},
+volume = {31},
+pages = {701--708}
+}
+@article{lignell08,
+title = {{Three-dimensional direct numerical simulation of soot formation and transport in a temporally evolving nonpremixed ethylene jet flame}},
+journal = {Combust. Flame},
+author = {Lignell, D. O. and Chen, J. H. and Smith, P. J.},
+year = {2008},
+volume = {155},
+pages = {316--333}
+}
+
+@article{attili14,
+title = {{Formation, growth, and transport of soot in a three-dimensional turbulent non-premixed jet flame}},
+journal = {Combust. Flame},
+author = {Attili, A. and Bisetti, F. and Mueller, M. E. and Pitsch, H.},
+year = {2014},
+volume = {161},
+pages = {1849--1865}
+}
+@article{attili15,
+title = {{Damk\"{o}hler number effects on soot formation and growth in turbulent nonpremixed flames}},
+journal = {Proc. Combust. Inst.},
+author = {Attili, A. and Bisetti, F. and Mueller, M. E. and Pitsch, H.},
+year = {2015},
+volume = {35},
+pages = {1215--1223}
+}
+@article{mueller13,
+title = {{Experimental and computational study of soot evolution in a turbulent nonpremixed bluff body ethylene flame}},
+journal = {Combust. Flame},
+author = {Mueller, M. E. and Chan, Q. N. and Qamar, N. H. and Dally, Bassam and Pitsch, H.},
+year = {2013},
+volume = {160},
+pages = {1298--1309}
+}
+@article{mueller12,
+title = {{LES model for sooting turbulent nonpremixed flames}},
+journal = {Combust. Flame},
+author = {Mueller, M. E. and Pitsch, H.},
+year = {2012},
+volume = {159},
+pages = {2166--2180}
+}
+@article{tesner58,
+title = {{Formation of dispersed carbon by thermal decomposition of hydrocarbons}},
+journal = {Proc. Combust. Inst.},
+author = {Tesner, P. A},
+year = {1958},
+volume = {7},
+pages = {546--553}
+}
+@article{ihme08,
+title = {{Modeling of radiation and nitric oxide formation in turbulent nonpremixed flames using a flamelet/progress variable formulation}},
+journal = {Phys. Fluids},
+author = {Ihme, M. and Pitsch, H.},
+year = {2008},
+volume = {20},
+pages = {055110}
+}
+@article{mueller11b,
+title = {{LES subfilter modeling of soot-turbulence interactions}},
+journal = {Phys. Fluids},
+author = {Mueller, M. E. and Pitsh, H.},
+year = {2011},
+volume = {23},
+pages = {115104}
+}
+@article{cook94,
+title = {{A subgrid model for equilibrium chemistry in turbulent flows}},
+journal = {Phys. Fluids},
+author = {Cook, A. W. and Riley, J. J.},
+year = {1994},
+volume = {6},
+pages = {2868--2870}
+}
+@article{ihme08b,
+title = {{Prediction of extinction and reignition in nonpremixed turbulent flames using a flamelet/progress variable model. 2. Application in LES of sandia flames D and E}},
+journal = {Combust. Flame},
+author = {Ihme, M. and Pitsch, H.},
+year = {2008},
+volume = {155},
+pages = {90--107}
+}
+@article{germano91,
+title = {{A dynamic subgrid-scale eddy viscosity model}},
+journal = {Phys. Fluids A},
+author = {Germano, M. and Piomelli, U. and Moin, P. and Cabot, W. H.},
+year = {1991},
+volume = {3},
+pages = {1760--1765}
+}
+@article{meneveau96,
+title = {{A Lagrangian dynamic subgrid-scale model of turbulence}},
+journal = {J. Fluid Mech.},
+author = {Meneveau, C. and Lund, T. S. and Cabot, W. H.},
+year = {1996},
+volume = {319},
+pages = {353--385}
+}
+@article{herrmann06,
+title = {{Flux corrected finite volume scheme for preserving scalar boundedness in reacting large-eddy simulations}},
+journal = {AIAA J.},
+author = {Herrmann, M. and Blanquart, G. and Raman, V.},
+year = {2006},
+volume = {44},
+pages = {2879--2886}
+}
+@article{qamar09,
+title = {{Soot volume fraction in a piloted turbulent jet non-premixed flame of natural gas}},
+journal = {Combust. Flame},
+author = {Qamar, N. H. and Alwahabi, Z. T. and Chan, Q. N. and Nathan, G. J. and Roekaerts, D. and King, K. D.},
+year = {2009},
+volume = {156},
+pages = {1339--1347}
+}
+@article{schulz06,
+title = {{Laser-induced incandescence: recent trends and current questions}},
+journal = {Appl. Phys. B},
+author = {Schulz, C. and Kock, B. F. and Hofmann, M. and Michelsen, H. and Will, S. and Bougie, B. and Suntz, R. and Smallwood, G.},
+year = {2006},
+volume = {83},
+pages = {333--354}
+}
+@article{bladh08,
+title = {{On the dependence of the laser-induced incandescence (LII) signal on soot volume fraction for variations in particle size}},
+journal = {Appl. Phys. B},
+author = {Bladh, H. and Johnsson, J. Bengtsson, P. -E.},
+year = {2008},
+volume = {90},
+pages = {109--125}
+}
+@article{dally96,
+title = {{Measurements of NO in turbulent non-premixed flames stabilized on a bluff body}},
+journal = {Proc. Combust. Inst.},
+author = {Dally, B. B. and Masri, A. R. and Barlow, R. S. and Fiechtner, G. J. and Fletcher, D. F.},
+year = {1996},
+volume = {26},
+pages = {2191--2197}
+}
+@article{dally98a,
+title = {{Flow and mixing fields of turbulent bluff-body jets and flames}},
+journal = {Combust. Theor. Model.},
+author = {Dally, B. B. and Fletcher, D. F. and Masri, A. R.},
+year = {1998},
+volume = {2},
+pages = {193--219}
+}
+@article{dally98b,
+title = {{Instantaneous and mean compositional structure of bluff-body stabilized nonpremixed flames}},
+journal = {Combust. Flame},
+author = {Dally, B. B. and Masri, A. R. and Barlow, R. S. and Fiechtner, G. J.},
+year = {1998},
+volume = {114},
+pages = {119--148}
+}
+@inbook{shaddix13,
+title = {{8th U.S. National Combustion Meeting, 2013, 070LT-0100}},
+author = {Shaddix, C. R. and Zhang, J.},
+}
+@article{xuan15,
+title = {{Effects of aromatic chemistry-turbulence interactions on soot formation in a turbulent non-premixed flame}},
+journal = {Proc. Combust. Inst.},
+author = {Xuan, Y. and Blanquart, G.},
+year = {2015},
+volume = {35},
+pages = {1911--1919}
+}
+@article{zhang11,
+title = {{Design of "model-friendly" turbulent non-premixed jet burners for C$_{2+}$} hydrocarbon fuels},
+journal = {Rev. Sci. Instrum.},
+author = {Zhang, J. and Shaddix, C. R. and Schefer, R. W.},
+year = {2011},
+volume = {82},
+pages = {074101}
+}
+@article{lee09,
+title = {{Measurements of soot, OH, and PAH concentrations in turbulent ethylene/air jet flames}},
+journal = {Combust. Flame},
+author = {Lee, S.-Y. and Turns, S. R. and Santoro, R. J.},
+year = {2009},
+volume = {156},
+pages = {2264--2275}
+}
+@article{qamar05,
+title = {{The effect of global mixing on soot volume fraction: measurement in simple jet, precessing jet, and bluff body flames}},
+journal = {Proc. Combust. Inst.},
+author = {Qamar, N. H. and Nathan, G. J. and Alwahabi, Z. T. and King, K. D.},
+year = {2005},
+volume = {30},
+pages = {1493--1500}
+}
+@article{eiasrag09,
+title = {{Large eddy simulation of soot formation in a turbulent nonpremixed jet flame}},
+journal = {Combust. Flame},
+author = {EI-Asrag, H. and Menon, S.},
+year = {2009},
+volume = {156},
+pages = {385--395}
+}
+@article{sun15,
+title = {{Planar laser-induced incandescence of turbulent soot flames: the influence of beam steering and signal trapping}},
+journal = {Appl. Phys. B},
+author = {Sun, Z. W. and Alwahabi, Z. T. and Gu, D. H. and Mahmoud, S. M. and Nathan, G. J. and Dally, B. B.},
+year = {2015},
+volume = {119},
+pages = {731--743}
+}
+@article{buxton13,
+title = {{Simultaneous krypton PLIF, LII and PIV measurements in a sooting jet flame}},
+journal = {51st AIAA Aerospace Sciences Meeting},
+author = {Buxton, O. R. H. and Burns, R. A. and Clemens, N. T.},
+year = {2013},
+volume = {},
+pages = {2013--0479}
+}
+@article{jensen97,
+author = {Jensen, E. J. and Toon, O. B.},
+journal = {Geophys. Res. Let.},
+pages = {249-252},
+title = {{The potential impact of soot particles from aircraft exhaust on cirrus clouds}},
+volume = {24},
+year = {1997}
+}
+@book{seinfeldbook98,
+author = {Seinfeld, J. H. and Pandis, S. N.},
+publisher = {John Wiley \& Sons},
+address = {New York},
+title = {{Atmospheric Chemistry and Physics: From Air Pollution to Climate Change}},
+year = {1998}
+}
+@article{seshadri08,
+title = {Activation-energy asymptotic theory of autoignition of condensed hydrocarbon fuels in non-premixed flows with comparison to experiment},
+journal = {Combust. Theory Model.},
+author = {Seshadri, K. and Humer, S. and Seiser, R.},
+year = {2008},
+volume = {12},
+pages = {831--855}
+}
+
+@article{niemann10,
+title = {Ignition and extinction of low molecular weight esters in nonpremixed flows},
+journal = {Combust. Theory Model.},
+author = {Niemann, U. and Seiser, R. and Seshadri, K.},
+year = {2010},
+volume = {14},
+pages = {875--891}
+}
+@article{mitchell98,
+title = {Monte {C}arlo simulation of soot aggregation with simultaneous surface growth: {W}hy primary particles appear spherical},
+journal = {Proc. Combust. Inst.},
+author = {Mitchell, P. and Frenklach, M.},
+year = {1998},
+volume = {27},
+pages = {1507--1514}
+}
+
+@article{mitchell03,
+title = {Particle aggregation with simultaneous surface growth},
+journal = {Phys. Rev. E},
+author = {Mitchell, P. and Frenklach, M.},
+year = {2003},
+volume = {67},
+pages = {061407-1--061407-11}
+}
+
+@article{liu11b,
+title = {{Nonpremixed ignition of C$_7$-C$_{16}$ normal alkanes in stagnating liquid pool}},
+journal = {Combust. Flame},
+author = {Liu, W. and Koch, J. A. and Law, C. K.},
+year = {2011},
+volume = {158},
+pages = {2145--2148}
+}
+@article{park03,
+title = {A one-dimensionalmodel for coagulation, sintering, and surface growth of aerosol agglomerates},
+journal = {Aerosol Sci. Tech.},
+author = {Park, S. H. and Rogak, S. N.},
+year = {2003},
+volume = {37},
+pages = {947--960}
+}
+@phdthesis{zheng06,
+title = {Studies on ignition of hydrogen and hydrocarbons},
+author = {Zheng, X. L.},
+year = {2006},
+school = {Princeton University, USA},
+}
+@article{zhao16,
+author = {Zhao, P. and Liang, W. and Deng, S. and Law, C. K.},
+journal = {{Fuel}},
+pages = {477-487},
+title = {{Initiation and propagation of laminar premixed cool flames}},
+volume = {166},
+year = {2016}
+}
+@article{shan14,
+author = {Shan, R. and Lu, T.},
+journal = {Combust. Flame},
+pages = {1716-1723},
+title = {{A bifurcation analysis for limit flame phenomena of DME/air in perfectly stirred reactors}},
+volume = {161},
+year = {2014}
+}
+@article{deng16,
+author = {Deng, S. and Zhao, P. and Mueller, M. E. and Law, C. K.},
+journal = {Combust. Flame},
+pages = {75-82},
+title = {{Flame dynamics in oscillating flows under autoignitive conditions}},
+volume = {168},
+year = {2016}
+}
+@article{grosshandler93,
+author = {Grosshandler, W. L.},
+journal = {NIST technical note},
+pages = {},
+title = {{RADCAL: A narrow-band model for radiation calculations in a combustion environment}},
+volume = {1402},
+year = {1993}
+}
+@article{seiser00,
+author = {Seiser, R. and Pitsch, H. and Seshadri, K. and Pitz, W. J. and Curran, H. J.},
+journal = {Proc. Combust. Inst.},
+pages = {2029-2037},
+title = {{Extinction and autoignition of {n}-heptane in counterflow configuration}},
+volume = {28},
+year = {2000}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+@article{,
+author = {},
+journal = {},
+pages = {},
+title = {{}},
+volume = {},
+year = {}
+}
+

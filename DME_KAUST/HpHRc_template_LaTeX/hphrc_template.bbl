@@ -1,0 +1,30 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Kwon \& Pletcher(1981)]{Kwon}
+Kwon, O.~K. \& Pletcher, R.~H. 1981 Prediction of the incompressible flow over
+  a rearward-facing step. Technical Report HTL-26, CFD-4. Iowa State Univ.,
+  Ames, IA.
+
+\bibitem[Lee {\em et~al.\/}(1982)Lee, Korpela \& Horne]{Lee}
+Lee, Y., Korpela, S.~A. \& Horne, R.~N. 1982 Structure of multi-cellular
+  natural convection in a tall vertical annulus. In {\em Proceedings of 7th
+  International Heat Transfer Conference\/} (ed. U.~Grigul et~al.), , vol.~2,
+  pp. 221--226. Washington, D.C.: Hemisphere Publishing Corp.
+
+\bibitem[Sparrow(1980{\natexlab{{\em a\/}}})]{Sparrow}
+Sparrow, E.~M. 1980{\natexlab{{\em a\/}}} Fluid-to-fluid conjugate heat
+  transfer for a vertical pipe - internal forced convection and external
+  natural convection. {\em ASME Journal of Heat Transfer\/} {\bf 102},
+  402--407.
+
+\bibitem[Sparrow(1980{\natexlab{{\em b\/}}})]{Sparrow2}
+Sparrow, E.~M. 1980{\natexlab{{\em b\/}}} Forced-convection heat transfer in a
+  duct having spanwise-periodic rectangular protuberances. {\em Numerical Heat
+  Transfer\/} {\bf 3}, 149--167.
+
+\bibitem[Tung(1982)]{Tung}
+Tung, C.~Y. 1982 Evaporative heat transfer in the contact line of a mixture.
+  PhD thesis, Rensselaer Polytechnic Institute, Troy, NY.
+
+\end{thebibliography}

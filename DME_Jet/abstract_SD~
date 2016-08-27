@@ -1,0 +1,63 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticleUS}
+\documentclass[review,3p,times]{elsarticleUS}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{cleveref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{subdepth}
+\usepackage[nomarkers,lists]{endfloat}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Combustion and Flame}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Autoignition-affected stabilization of laminar nonpremixed DME/air coflow flames}
+
+\author{Sili~Deng\corref{cor}}
+\author{Peng~Zhao}
+\author{Michael E.~Mueller}
+\author{Chung K.~Law}
+\cortext[cor]{Corresponding Author: silideng@princeton.edu}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+\begin{abstract}
+
+The structure and stabilization mechanism of laminar nonpremixed autoignitive DME/air coflow flames were investigated under typical gas turbine conditions.  The simulations were performed at $30$ atmospheres with uniform inlet velocity of $3.2$ m/s for both streams, and the coflow air boundary temperatures were $700$, $800$, $900$, and $1100$ K.  The heat release and species profiles of each case were examined. Further investigation with Chemical Explosive Mode Analysis (CEMA) and Lagrangian Flamelet Model (LFM) were performed to identify the controlling chemistry and elucidate the combustion mode and stabilization mechanism.  At $700$ to $900$ K, autoignition was demonstrated to be the dominant stabilization mechanism, and the NTC chemistry determines the stabilization point in mixture fraction space.  Moreover, the coupling between the autoignition process and premixed flame propagation results in the multibrachial structure.  On the other hand, at $1100$ K, the kinematic balance between the premixed flame propagation velocity and the incoming flow velocity becomes the dominating stabilization mechanism, and the classical triple flame structure was observed.  An extended stabilization regime diagram, in terms of increasing boundary temperature, was therefore identified, including the frozen flow, purely kinetically stabilized, autoignition-propagation-coupling stabilized, purely kinematically stabilized, and burner stabilized regimes.           
+
+\end{abstract}
+
+\begin{keyword} 
+Dimethyl ether (DME) \sep Autoignition \sep Stabilization \sep Nonpremixed coflow flame \sep Negative Temperature Coefficient (NTC)
+\end{keyword}
+
+\end{frontmatter}
+
+\end{document}

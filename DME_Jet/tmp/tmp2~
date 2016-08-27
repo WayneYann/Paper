@@ -1,0 +1,20 @@
+set t postscript eps enhanced color
+set o 'CEMA.eps'
+
+reset
+
+set key at graph 0.24, 0.98 horizontal samplen 0.8 spacing 20
+set style data histogram
+set style histogram cluster gap 1
+set style fill solid border -1
+set boxwidth 0.8
+set xtic rotate by 90 scale 0
+unset ytics
+set y2tics rotate by 90
+set yrange [-10:10]; set xrange [-1:10]
+set y2label 'Output' offset -2.5
+set xlabel ' '
+set size 0.6, 1
+
+p 'data' u 3 fs pattern 1 title ' ', '' u 0:(0):xticlabel(4) w l ls 1 title ''
+#-------------------------------------

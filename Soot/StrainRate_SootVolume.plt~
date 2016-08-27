@@ -1,0 +1,51 @@
+# Compare exp with comp
+
+Hep = '/home/silideng/RunFM/nC7H16/MBNBTS/' 
+NB = '/home/silideng/RunFM/nC4H9OH/MBNBTSmech/nC4H9OH/'
+MB = '/home/silideng/RunFM/MB/'
+
+set style line 1 lt 1 lw 3 lc -1 #Solid Black (Hep)
+set style line 2 lt 1 lw 3 lc 1 #Solid  Red (NB)
+set style line 3 lt 1 lw 3 lc 2 #Dotted Green (MB)
+set style line 4 lt 0 lw 3 lc 1 #Dashed Red
+set style line 5 lt 0 lw 3 lc 2 #Dashed Green
+set style line 6 lt 0 lw 3 lc 3 #Dashed Blue
+set style line 999 pt 5 lc -1
+set style line 998 pt 5 lc 1
+set style line 997 pt 5 lc 2
+#-----------------
+
+set terminal epslatex color
+
+set output 'exp-comp.tex'
+
+set size 0.5,0.5
+set xlabel 'O_2 Mole Fraction'
+set ylabel 'Critical Strain Rate (1/s)'
+
+#set label ''
+p Hep.'data_Hep' u ($1*1E-4):($3) w p ls 999 t 'Hep_exp', Hep.'data_Hep' u ($1*1E-4):($5) w l ls 1 t 'Hep_cutoff',NB.'data_NB' u ($1*1E-4):($3) w p ls 998 t 'NB_exp', NB.'data_NB' u ($1*1E-4):($5) w l lt 2 t 'NB_cutoff', MB.'data_MB' u ($1*1E-4):($3) w p ls 997 t 'MB_exp', MB.'data_MB' u ($1*1E-4):($5) w l ls 3 t 'MB_cutoff'
+
+#p Hep.'data_Hep' u (($1)**4):3 w p pt 13 t 'Hep_exp', Hep.'data_Hep' u (($1)**4):5 w l lt 1 t 'Hep_cutoff',NB.'data_NB' u (($1)**4):3 w p pt 9 t 'NB_exp', NB.'data_NB' u (($1)**4):5 w l lt 3 t 'NB_cutoff', MB.'data_MB' u (($1)**4):3 w p pt 18 t 'MB_exp', MB.'data_MB' u (($1)**4):5 w l t 'MB_cutoff'
+
+# MB-NB-Hep ECSR and cut-off
+
+#    EOF
+
+
+# ,'Oxy_2060/out' u 338:1 w l t 'Oxy_2060','Oxy_2087/out' u 338:1 w l t 'Oxy_2087','Oxy_2141/out' u 338:1 w l t 'Oxy_2141','Oxy_2168/out' u 338:1 w l t 'Oxy_2168',25.8 t 'Exp_2006',44.8 t 'Exp_2114',57.6 t 'Exp_2222',29.8 t 'Exp_2060',36.1 t 'Exp_2087',48.1 t 'Exp_2141',50.0 t 'Exp_2168'
+
+
+#p Hep.'Oxy_2006/out' u 2:338 w lp t 'Hep_Oxy_2006', Hep.'Oxy_2114/out' u 2:338 w lp t 'Hep_Oxy_2114', Hep.'Oxy_2222/out' u 2:338 w lp t 'Hep_Oxy_2222', But.'Oxy_2006/out' u 1:358 w lp t 'But_Oxy_2006', But.'Oxy_2114/out' u 1:358 w lp t 'But_Oxy_2114', But.'Oxy_2222/out' u 1:358 w lp t 'But_Oxy_2222'
+
+#p ButAr.'OAr_2168/NB_out' u 1:458 w lp t 'NB_Oxy_2168', ButAr.'OAr_2222/NB_out' u 1:458 w lp t 'NB_Oxy_2222', Hep.'Oxy_2168/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2168', Hep.'Oxy_2222/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2222'
+
+#p MB.'OAr_2276/MB_out' u 1:458 w lp t 'NB_Oxy_2276', MB.'OAr_2330/MB_out' u 1:458 w lp t 'MB_Oxy_2330', MB.'OAr_2384/MB_out' u 1:458 w lp t 'MB_Oxy_2384', MB.'OAr_2438/MB_out' u 1:458 w lp t 'MB_Oxy_2438', MB.'OAr_2491/MB_out' u 1:458 w lp t 'MB_Oxy_2491', 8E-11
+# MB SR-SV @ Oxy
+
+
+#p Hep.'Oxy_2006/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2006', Hep.'Oxy_2060/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2060', Hep.'Oxy_2086/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2086', Hep.'Oxy_2114/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2114', Hep.'Oxy_2141/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2141',Hep.'Oxy_2168/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2168',Hep.'Oxy_2222/C7H16_out' u 1:458 w lp t 'Hep_Oxy_2222', 8E-11
+# Hep SR-SV @ Oxy
+
+#p NB.'OAr_2168/NB_out' u 1:458 w lp t 'NB_Oxy_2168', NB.'OAr_2195/NB_out' u 1:458 w lp t 'NB_Oxy_2195', NB.'OAr_2222/NB_out' u 1:458 w lp t 'NB_Oxy_2222', NB.'OAr_2249/NB_out' u 1:458 w lp t 'NB_Oxy_2249', NB.'OAr_2276/NB_out' u 1:458 w lp t 'NB_Oxy_2276',NB.'OAr_2303/NB_out' u 1:458 w lp t 'NB_Oxy_2303', 8E-11
+# NB SR-SV @ Oxy

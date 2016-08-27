@@ -1,0 +1,30 @@
+\documentclass{article}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{fullpage}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol, and Methyl Butanoate Flames: Experimental Determination and Mechanistic Analysis}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Authors}
+Sili Deng, Jeremy A. Koch, Michael E. Mueller, Chung K. Law\\ \\
+Department of Mechanical and Aerospace Engineering, Princeton University,
+Princeton, NJ 08544, USA
+
+\section*{Highlights}
+
+\begin{itemize}
+  \item The sooting limits of nonpremixed $n$-heptane, $n$-butanol, and methyl butanoate flames were determined experimentally in a liquid pool stagnation-flow configuration.
+  \item Simulations with detailed polycyclic aromatic hydrocarbon chemistry and a detailed soot model were performed and compared with the experimental critical strain rates for the sooting flames.
+  \item For all three fuels, the response of soot volume fraction to strain rate, chemical pathways for PAH formation, and the rate-limiting steps were examined.
+  \item Methyl butanote was found significantly less sooting compared to $n$-heptane and $n$-butanol.
+  \item The differences in sooting tendencies are due to the fuel breakdown processes to produce soot precursors.
+\end{itemize}
+
+\end{document}
+

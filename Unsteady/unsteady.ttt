@@ -1,0 +1,20 @@
+\begin{table*}
+  \caption{Computational domain and number of grid points.}
+  \label{table:domain_V}
+  \centering
+  \normalsize
+  \resizebox{0.4\textwidth}{!}{
+  \begin{tabular}{lc*{2}{c}}
+    \hline
+    Inlet Velocity [m/s]& $2.4$  & $3.2$  & $8.0$   \\
+    \hline
+    $L_x$ [mm]& $3.5$ & $3.5$ & $15$\\
+    %Coflow O.D. [mm]& $3.9$ & $3.9$ & $3.9$\\
+    $N_x$ & $1536$ & $1536$  & $3072$\\
+    $N_r$ & $176$ & $176$ & $176$\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+\efloatseparator
+ 

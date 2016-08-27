@@ -1,0 +1,57 @@
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.10in}
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=1.0\textwidth]{HRR_100Hz.png}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Heat release rate [W/m$^3$] profile evolution during one oscillation cycle at $100$ Hz.  The iso-contours of $Z_{\rm st} = 0.1$, $Z = 0.2$, and $Z = 0.3$ are outlined from right to left in solid lines, respectively.}
+  \label{fig:HRR_100Hz}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.5\textwidth}{!}{\input{sd_evo.tex}}
+  \normalsize
+  \caption{Normalized displacement velocity (red) and leading point location (blue) time history profiles at $100$ Hz.  The other two frequency cases show qualitatively the same evolution and are therefore not shown for clarity.}
+  \label{fig:sd_evo}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.5\textwidth}{!}{\input{sd_hys.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Normalized displacement velocities at various inlet velocities for two steady cases and three oscillating unsteady cases.}
+  \label{fig:sd_hys}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.49\textwidth}{!}{\input{H2O2_up.tex}}
+  \resizebox{0.49\textwidth}{!}{\input{H2O2_down.tex}}
+  \vspace{-0.2in}
+  \normalsize
+  \caption{The comparison of hydrogen peroxide mass fraction profile along the $Z = 0.24$ iso-contour at steady state and at $100$ Hz during the decreasing-velocity cycle (left) and increasing-velocity cycle (right).}
+  \label{fig:H2O2_updown}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.49\textwidth}{!}{\input{H2O2_32.tex}}
+  \resizebox{0.49\textwidth}{!}{\input{RO2_32.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Hydrogen peroxide and methyoxymethylperoxy radical mass fraction profiles along the $Z = 0.24$ iso-contour at $3.2$ m/s.  DV: decreasing-velocity, and IV: increasing-velocity.}
+  \label{fig:species_frq}
+\end{figure}
+\efloatseparator
+ 

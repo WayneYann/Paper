@@ -1,0 +1,119 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolortrue
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktexttrue
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+  \setlength{\unitlength}{0.0500bp}%
+  \begin{picture}(7200.00,5040.00)%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(2748,1043){\makebox(0,0)[r]{\strut{}CH$_3$OCH$_2$$\Longleftrightarrow$CH$_2$O+CH$_3$}}%
+      \put(2748,1383){\makebox(0,0)[r]{\strut{}CH$_3$OCH$_2$O$_2$$\Longleftrightarrow$CH$_2$OCH$_2$O$_2$H}}%
+      \put(2748,1722){\makebox(0,0)[r]{\strut{}CH$_3$OCH$_3$+CH$_3$$\Longleftrightarrow$CH$_3$OCH$_2$+CH$_4$}}%
+      \put(2748,2061){\makebox(0,0)[r]{\strut{}CH$_3$OCH$_3$+HO$_2$$\Longleftrightarrow$CH$_3$OCH$_2$+H$_2$O$_2$}}%
+      \put(2748,2400){\makebox(0,0)[r]{\strut{}CH$_3$+CH$_3$+M$\Longleftrightarrow$C$_2$H$_6$+M}}%
+      \put(2748,2740){\makebox(0,0)[r]{\strut{}CH$_3$+HO$_2$$\Longleftrightarrow$CH$_3$O+OH}}%
+      \put(2748,3079){\makebox(0,0)[r]{\strut{}CH$_3$+HO$_2$$\Longleftrightarrow$CH$_4$+O$_2$}}%
+      \put(2748,3418){\makebox(0,0)[r]{\strut{}CH$_2$OCH$_2$O$_2$H$\Longleftrightarrow$OH+CH$_2$O+CH$_2$O}}%
+      \put(2748,3757){\makebox(0,0)[r]{\strut{}H$_2$O$_2$+M$\Longleftrightarrow$OH+OH+M}}%
+      \put(2748,4097){\makebox(0,0)[r]{\strut{}H+O$_2$+M$\Longleftrightarrow$HO$_2$+M}}%
+      \put(2748,4436){\makebox(0,0)[r]{\strut{}H+O$_2$$\Longleftrightarrow$O+OH}}%
+      \put(2880,484){\makebox(0,0){\strut{}-1}}%
+      \put(3861,484){\makebox(0,0){\strut{}-0.5}}%
+      \put(4842,484){\makebox(0,0){\strut{} 0}}%
+      \put(5822,484){\makebox(0,0){\strut{} 0.5}}%
+      \put(6803,484){\makebox(0,0){\strut{} 1}}%
+      \csname LTb\endcsname%
+      \put(4841,154){\makebox(0,0){\strut{}Normalized Participation Index}}%
+      \put(3076,1349){\makebox(0,0)[l]{\strut{}Point A}}%
+      \put(3076,1518){\makebox(0,0)[l]{\strut{}Point B}}%
+      \put(3076,1688){\makebox(0,0)[l]{\strut{}Point C}}%
+      \put(3076,1857){\makebox(0,0)[l]{\strut{}Point D}}%
+      \put(3076,2027){\makebox(0,0)[l]{\strut{}Point E}}%
+      \put(3076,2231){\makebox(0,0)[l]{\strut{}$1100$ K}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(3532,1337){\makebox(0,0)[r]{\strut{} }}%
+      \csname LTb\endcsname%
+      \put(3532,1513){\makebox(0,0)[r]{\strut{} }}%
+      \csname LTb\endcsname%
+      \put(3532,1689){\makebox(0,0)[r]{\strut{} }}%
+      \csname LTb\endcsname%
+      \put(3532,1865){\makebox(0,0)[r]{\strut{} }}%
+      \csname LTb\endcsname%
+      \put(3532,2041){\makebox(0,0)[r]{\strut{} }}%
+    }%
+    \gplbacktext
+    \put(0,0){\includegraphics{CEMA_1100}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup

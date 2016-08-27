@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Soot_m.aux
+The style file: elsarticle-num-CNF.bst
+Database file #1: Soot_m.bib
+Warning--empty year in flamemaster
+Warning--empty pages in waldmann66
+You've used 37 entries,
+            2555 wiz_defined-function locations,
+            759 strings with 9622 characters,
+and the built_in function-call counts, 22187 in all, are:
+= -- 1714
+> -- 1011
+< -- 16
++ -- 388
+- -- 336
+* -- 2808
+:= -- 3337
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 266
+chr.to.int$ -- 36
+cite$ -- 39
+duplicate$ -- 1318
+empty$ -- 1404
+format.name$ -- 467
+if$ -- 3962
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 300
+newline$ -- 116
+num.names$ -- 154
+pop$ -- 297
+preamble$ -- 1
+purify$ -- 293
+quote$ -- 0
+skip$ -- 391
+stack$ -- 0
+substring$ -- 1378
+swap$ -- 1215
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 330
+warning$ -- 2
+while$ -- 183
+width$ -- 0
+write$ -- 345
+(There were 2 warnings)

@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{fullpage}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol, and Methyl Butanoate Flames: Experimental Determination and Mechanistic Analysis}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Authors}
+Sili Deng, Jeremy A. Koch, Michael E. Mueller, Chung K. Law\\ \\
+Department of Mechanical and Aerospace Engineering, Princeton University,
+Princeton, NJ 08544, USA\\ \\
+
+
+\section*{Corresponding Author}
+Sili Deng\\
+Department of Mechanical and Aerospace Engineering\\
+Princeton University\\
+Engineering Quadrangle, Room D214\\
+Princeton, NJ 08544\\
+Ph.: 1 609 258 5178\\
+Fax: 1 609 258 6233\\
+Email: silideng@princeton.edu
+
+\section*{Colloquium}
+20 Soot, PAH and other large molecules
+
+\section*{Paper Length}
+Method of determination: M2\\
+Total length: 5784\\
+\begin{itemize}
+  \item Five complete pages (4500)
+  \item One complete column (450)
+  \item One partial column: 169 mm (372)
+  \item One partial two-column: 105 mm (462)
+\end{itemize}
+
+\end{document}
+

@@ -1,0 +1,272 @@
+\documentclass[preprint,3p,times,twocolumn]{elsarticleUS}
+%\documentclass[review,3p,times]{elsarticleUS}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{subdepth}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Proceedings of the Combustion Institute}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol and Methyl Butanoate}
+
+\author{Sili~Deng\corref{cor}}
+\cortext[cor]{Corresponding Author: silideng@princeton.edu}
+\author{Jeremy A.~Koch}
+\author{Michael E.~Mueller}
+\author{Chung K.~Law}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+
+\begin{abstract}
+  The sooting limits of nonpremixed $n$-heptane, $n$-butanol and methyl butanoate (MB) were examined experimentally in a liquid pool assembly. In addition, the stagnation-flow simulation with the Hybrid Method of Moments soot model and detailed PAH chemistry was performed and compared with the experimental results. In terms of the critical strain rate that allows soot particles to be formed, MB has the lowest sooting propensity, while $n$-heptane and $n$-butanol are similar. Sensitivity and reaction path analysis show similar chemical pathways for soot formation, and the difference in sooting propensity lies in the fuel breakdown processes, which produce soot precursors. Oxygen bounded in MB reduces the concentration of soot precursors by truncating the long carbon chain and promoting its oxidization. C$_5$ and C$_6$ ring formation from the intermediate chain species is the rate limiting step, which is responsible for the critical strain rate.
+\end{abstract}
+
+\begin{keyword} 
+Soot \sep Nonpremixed stagnation-flow flame \sep
+Hybrid Method of Moments \sep Butanol \sep Methyl butanoate
+\end{keyword}
+
+\end{frontmatter}
+
+
+\section{Introduction}
+
+The utilization of biofuels is garnering wide attention because they are renewable, locally producible, and carbon neutral~\cite{liu11}. The environmental impacts of biofuel utilization, especially particulate matter (PM) emission, a potential carcinogen, are widely studied. A typical approach is to study the sooting propensities of conventional diesel fuels blended with oxygenated additives. In general, it has been found that the PM emission of conventional diesel fuels decreases as oxygenated additive concentration increases~\cite{graboski98}.
+
+Although similar observations have been made by various groups, the role of oxygenated additives on soot emission reduction has not yet come to a consensus among researchers. Frijters and Baert~\cite{frijters06} have attributed the PM reduction to the fuel oxygen content. Pepiot \emph{et al.}~\cite{desjardins08} noted the conflicting experimental observations and proposed a structural group contribution approach to interpret the experimental data. The effect of the oxygen moieties in oxygenated additives and the dilution effect were identified and quantified. McEnally and Pfefferle~\cite{mcenally05,mcenally11} studied the sooting tendency of butanol doped co-flow diffusion flames and concluded that the fuel carbon number and structure weighed more than the fuel bound oxygen. Camacho \emph{et al.}~\cite{camacho13} reached the same conclusion by probing the evolution of the detailed particle size distribution function in a set of laminar premixed flames of $n$- and $i$-butane/butanol with fixed C/O ratio and maximum temperature. Westbrook \emph{et al.}~\cite{westbrook06} used chemical kinetic modeling to examine the efficiencies of different oxygenates, ester in particular, on soot-suppression in diesel engines. They noted that the sooting behaviors of oxygenates might not be the same for premixed and nonpremixed flames, which might account for the discrepancy in different studies. 
+
+Due to the complexity of the aforementioned diesel engine experiments such as engine types, operation conditions, and base diesel fuels, well-controlled fundamental experiments and detailed chemical kinetic modelings are still needed to understand the chemical pathways for soot formation of oxygenated fuels. Moreover, it is also noted that soot formation is a rate process~\cite{vandsburger85}, thus the residence time of soot precursors also influences the sooting propensities\cite{tsuji71}.
+
+Motivated by the above consideration, the present experimental and computational study focused on the sooting limits of three pure diesel/biodiesel surrogates, namely $n$-heptane, $n$-butanol, and methyl butanoate (MB), in a nonpremixed stagnation-flow system. A combined chemical kinetic model with detailed polycyclic aromatic hydrocarbon (PAH) chemistry, was proposed to investigate the important pathways of soot formation. The FlameMaster code~\cite{flamemaster}, enhanced by a comprehensive soot model based on the Hybrid Method of Moments (HMOM) method, was used to compare with the experimental results and investigate soot precusors and particles behaviors in the strained flow. 
+
+The choice of target fuels is motivated by both practical and scientific concerns. First, butanol as a popular bioalcohol has more diverse sources of supply than ethanol, which is mainly from corn. Second, MB is chosen not only because it is a typical biodiesel surrogate but also due to the availability of detailed chemical kinetic models. Third and the most important, the boiling points of $n$-butanol and MB are $391 K $ and $375 K$, repectively, which are very close to that of $n$-heptane ($372 K $). This similarity in vaporization characteristics enables similar fuel concentrations in the liquid pool stagnation-flow apparatus and potential applications of their mixtures in real engines. However, it also should be noted that due to the oxygen content in $n$-butanol and MB, their flame temperatures are lower than $n$-heptane. As soot formation is highly sensitive to temperature~\cite{wang11}, this thermal effect has to be eliminated to elucidate the chemical effects. In the present study, $n$-butanol and MB flame temperatures were kept the same as $n$-heptane by replacing part of nitrogen from the oxidizer stream with the same amount of argon, which is similar to the approach proposed by Law and coworkers~\cite{du89,du91,axelbaum91}.
+
+
+\section{Experimental Methodology}
+
+The sooting limits of nonpremixed model diesel/biodiesel fuels, in terms of the critical strain rate, at which soot inception starts to happen when the residence time is further increased, were measured at atmospheric pressure in a liquid pool stagnation-flow assembly as described in details in Ref.~\cite{liu10}. However, in the present work, the oxidizer stream was not heated, and flames were established by spark ignition. Moreover, the separation distance between the oxidizer nozzle and liquid pool was increased to $13 mm$ to enable better measurement of the velocity field by laser Doppler velocimetry (LDV).
+
+Mass flow controllers were used to control the flow rates of the oxidizer stream components. As mentioned in last section, part of nitrogen was replaced by same amount of argon in $n$-butanol and MB cases to retain the same flame temperatures as $n$-heptane. The amount of nitrogen replacement was calcuated by CHEMKIN's equilibrium solver, EQUIL\cite{chemkin} for stoichiometric fuel/oxidizer mixtures and  was summarized in Supplemental materials. Liquid $n$-heptane, $n$-butanol, and MB were fed to the liquid pool by a syringe pump at room temperature. As fuel pre-vaporization was not required by the current assembly, the fuel mole fractions at the liquid pool surface could be as high as $50\%$. 
+
+%\begin{table}
+%  \caption{Oxidizer stream composition in molecular fractions.}
+%  \label{table:exp_condition_2}
+%  \centering
+%  \begin{tabular}{cccccc}
+%    \hline
+%     & $n-C_7H_{16}$ & \multicolumn{2}{c}{$n-C_4H_9OH$} & \multicolumn{2}{c}{$C_5H_{10}O_2$} \\
+%    \cline{2-6}
+%    $O_2$ & $N_2$ & $N_2$ & $Ar$ & $N_2$ & $Ar$ \\
+%    \hline
+%    $0.1800$ & $0.8200$ \\
+%    $0.1850$ & $0.8150$ \\
+%    $0.1875$ & $0.8125$ \\
+%    $0.1900$ & $0.8100$ \\
+%    $0.1925$ & $0.8075$ \\
+%    $0.1950$ & $0.8050$ & $0.7718$ & $0.0332$ \\
+%    $0.1975$ &          & $0.7679$ & $0.0346$ \\
+%    $0.2000$ & $0.8000$ & $0.7640$ & $0.0360$ \\
+%    $0.2025$ &          & $0.7600$ & $0.0374$ \\
+%    $0.2050$ &          & $0.7560$ & $0.0390$ & $0.7119$ & $0.0831$ \\
+%    $0.2075$ &          & $0.7521$ & $0.0404$ \\
+%    $0.2100$ &          &          &          & $0.7017$ & $0.0883$ \\
+%    $0.2150$ &          &          &          & $0.6915$ & $0.0935$ \\
+%    $0.2200$ &          &          &          & $0.6811$ & $0.0989$ \\
+%    $0.2250$ &          &          &          & $0.6707$ & $0.1043$ \\
+%    \hline
+%  \end{tabular}
+%\end{table}
+
+
+%\begin{table*}
+%  \caption{Oxidizer stream composition in molecular fractions.}
+%  \label{table:exp_condition}
+%  \centering
+%  \resizebox{1.0\textwidth}{!}{
+%  \begin{tabular}{ll*{15}{c}}
+%    \hline
+%     & \multicolumn{16}{c}{$O_2$} \\
+%    \cline{3-17}
+%     &  & $0.1800$ & $0.1850$ & $0.1875$ & $0.1900$ & $0.1925$ & $0.1950$ & $0.1975$ & $0.2000$ & $0.2025$ & $0.2050$ & $0.2075$ & $0.2100$ & $0.2150$ & $0.2200$ & $0.2250$ \\
+%    \hline
+%    $n-C_7H_{16}$ & $N_2$ &  $0.8200$ & $0.8150$ & $0.8125$ & $0.8100$ & $0.8075$ & $0.8050$ &  & $0.8000$ \\
+    %%    \hline
+    %%    \multirow{2}{*}{$n-C_4H_9OH$} & $N_2$ &  &   &  &  &  & $0.7718$ & $0.7679$ & $0.7640$ & $0.7600$ & $0.7560$ & $0.7521$ \\
+%    $n-C_4H_9OH$ & $N_2$ &  &   &  &  &  & $0.7718$ & $0.7679$ & $0.7640$ & $0.7600$ & $0.7560$ & $0.7521$ \\
+%                 & $Ar$ &  &  &  &  &  & $0.0332$ & $0.0346$ & $0.0360$ & $0.0375$ & $0.0390$ & $0.0404$ \\
+    %%    \hline
+    %%    \multirow{2}{*}{$C_5H_{10}O_2$} & $N_2$ & & & & & & & & & & $0.7119$ & & $0.7017$ & $0.6915$ & $0.6811$ & $0.6707$ \\
+%    $C_5H_{10}O_2$ & $N_2$ & & & & & & & & & & $0.7119$ & & $0.7017$ & $0.6915$ & $0.6811$ & $0.6707$ \\
+%                 & $Ar$ &  &  &  &  &  & & & & & $0.0831$ & & $0.0883$ & $0.0935$ & $0.0989$ & $0.1043$ \\ 
+%    \hline
+%  \end{tabular}
+%}
+%\end{table*}
+
+
+The experimental procedure to identify the sooting limit is briefly summarized here. First, the oxidizer component flow rates were set and a non-sooting blue flame was established. Then, the bypass valve placed upstream of the oxidizer nozzle was slowly adjusted to divert the oxdizers out of the system, effectively reducing the velocity of the stream and therefore the strain rate, which was the inverse of the characteristic residence time of the system. The residence time was further increased until yellow luminosity began to appear slightly on the fuel-side of the flame. A standard single-component LDV measurement was performed along the axial centerline under this threshold flow condition. The local strain rate experienced by the reactant was determined as the axial velocity gradient upstream of the flame~\cite{du89}. Following this procedure, the sooting limits for the three fuels with different oxygen concentrations in the oxidizer streams were identified.
+
+More complex methods of soot detection could be used, such as measuring the laser light scattering by the emerging soot particles. However, Du \emph{et al.}~\cite{du89} found that the luminosity observation agreed well with light scattering detection and was convenient and a relatively good indicator of the presence of soot particles.
+
+
+
+\section{Computational Methodology}
+
+The liquid pool stagnation-flow were simulated with the FlameMaster code. The boundary conditions on the fuel side were specified as described in Ref.~\cite{buipham91}. The Antoine equation~\cite{polingbook} was used to close the boundary value problem by relating the liquid pool surface temperature and the vapor pressure, thus yielding the fuel mole fraction. To match the experiment, the strain rate was determined as the gradient of the velocity profile ahead of the flame.
+
+The HMOM soot model proposed by Mueller \emph{et al.} is described in Ref. \cite{mueller09a,mueller09b,mueller11a}. Instead of modeling numerous soot particles directly, the Number Density Function (NDF) is evaluated to statistically describe the soot particle population. Due to the high-dimensionality of the NDF (three spatial dimensions and two internal coordinates), Methods of Moments is adopted to solve for the moments of the NDF rather than the NDF itself. As the evolution of the NDF is governed by the Population Balance Equation (PBE)~\cite{friedlander00}, the transport equation governing the evolution of the moments can be obtained by taking the moments of the PBE. The physical processes considered here are particle nucleation from PAH dimers, PAH dimer condensation, particle coagulation, surface growth by the HACA mechanism~\cite{frenklach02,frenklach91}, oxidation, oxidation-induced fragmentation, advection and thermophoresis experienced by the soot particles~\cite{waldmann66}, while the molecular diffusion is neglected~\cite{bisetti11}, due to the large Schmidt number of the soot particle. The closure of these source terms is obtained by HMOM through the combination of a delta function~\cite{marchisio05} and polynomial interpolation~\cite{frenklach87}, which is to describe the contribution of smaller incipient particles and larger particles to the moments, respectively. This novel soot model is incorporated with FlameMaster, such that gaseous soot precursor concentrations and soot particle statistics can be obtained simultaneously.
+
+A detailed chemical model including PAH chemistry was combined from three well validated models corresponding to the fuels of interest. A mechanism with PAH chemistry of engine relevant fuels was proposed by Blanquart \emph{et al.}~\cite{blanquart09b}. This mechanism has been validated extensively against experiments on ignition delay times and laminar burning velocities over a large range of equivalence ratios and pressures. The PAH chemistry was validated by simulating a series of laminar premixed and nonpremixed flames and compared with experiments. Their results for $n$-heptane diffusion flame predicted relatively accuarate soot precursor concentrations compared with the experiment conducted by Berta \emph{et al.}~\cite{berta06}. In the present study, this mechanism was adopted as the base $n$-heptane mechanism. On the other hand, although efforts have been made developing chemical kinetic models for $n$-butanol and MB in recent years, less emphasis has yet been stressed on their PAH pathways. To circumvent this problem, sections of $n$-butanol and MB chemistry reduced and validated by Liu \emph{et al.}~\cite{liu11} were grafted to the base mechanism. Both skeletal mechanisms were attained using directed relation graph (DRG) followed by DRG-aided sensitivity analysis (DRGASA)~\cite{lu06a,lu06b,zheng07}. The reduced models showed good agreements with the full mechanisms developed by Sarathy \emph{et al.}~\cite{sarathy09} and Ga\"il \emph{et al.}~\cite{gail08}. The combined mechanism utilized in this study consisted of $220$ species and $2259$ forward and backward reactions and was capable of modeling the soot formation pathways. The thermal and transport data of the species appeared only in the $n$-butanol and MB mechanism was also included in the base data files.
+
+This combined mechanism was further validated against laminar flame speed measurements~\cite{liu11} and compared with the predictions by the original mechanisms. It was found that the combined mechanism matched the performance of its parent, or else improved upon it. The validation is included in the Supplemental materials.       
+
+
+\section{Results and Discussion}
+
+The critical strain rates (CSRs) corresponding to the sooting limits were measured and computed, as shown in Fig.~\ref{fig:Exp-Comp}. For each set of data, the region above/left of the data are to be considered non-sooting, while below/right of the data soot production was observed. For all three fuels, the CSR increases with higher $X_{O_2}$ of the oxidizer, mainly due to the thermal effect~\cite{du91}. However, both experiment and computation show that MB has substantial lower CSRs than $n$-heptane and $n$-butanol. The computational CSRs were determined based on the integrated soot volume fraction (fv). The threshold value was determined to match the experimental results of $n$-heptane high $X_{O_2}$ cases and kept as a fixed metric for three fuels. The fall-off between experimental and computational results might due to the uncertainty of the yellow luminosity determination, and other metrics of computational CSR could be proposed to reach better overall agreement. However, the choice of the threshold value did not change the clear trend that $n$-butanol is almost as sooty as $n$-heptane, while MB has much lower sooting tendency.
+%\begin{figure*}
+%  \centering
+%  \scriptsize
+%  \hspace{-0.40625in}
+%  \includegraphics[width=0.4\textwidth]{Pathways-Hep.png}
+%  \normalsize
+%  \caption{Pathways-Hep}
+%  \label{fig:test}
+%\end{figure*}
+
+\begin{figure}[hp]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.45\textwidth]{Exp-Comp.png}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Experimental (symbols) and computational (lines) CSRs. }
+  \label{fig:Exp-Comp}
+\end{figure}
+
+To understand this discernable difference, sensitivity analysis was performed on a representative PAH species, naphthalene (A2-C$_{10}$H$_8$). The logarithmic sensitivity coefficient was calucated as $\frac{\partial {Y_{A2}}}{\|Y_{A2}\|_{max}\partial {lnA_i}}$, where $A_i$ is the pre-exponential factor, and normalized to reveal the relative importance of kinetics. As shown in Fig.~\ref{fig:SA4}, A2 formation is highly sensitive to C$_5$ and C$_9$ ring formation reactions for all three fuels. However, for MB, A2 formation is less sensitive to the C$_5$ rings combination ($2C_5H_5 \Longleftrightarrow A2-C_{10}H_8 + 2H$) than the other fuels, due to lower C$_5$H$_5$ concentration, shown in Fig.~\ref{fig:CxHy}. 
+
+\begin{figure}[ht]
+  \centering
+  \scriptsize
+%  \vspace{-0.4in}
+%  \hspace{-0.4in}
+  \includegraphics[width=0.52\textwidth]{SA4.png}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Sensitivity of the maximum $Y_{A2}$ to kinetics at the strain rate of $16 s^{-1}$ and $X_{O_2}=0.2$.}
+  \label{fig:SA4}
+\end{figure}
+
+To further understand A2 formation processes and identify important intermediate species, reaction path analysis was performed and depicted in Fig.~\ref{fig:Pathways}. In spite of different sooting propensities, the PAH chemistry for the three fuels are essentially the same. Initially, fuel cracks to unsaturated C$_3$ to C$_5$ chains through H abstraction followed by $\beta$-scission reactions. These chain molecules further decompose to allyl radical (A-C$_3$H$_5$, CH$_2$=CH-CH$_2^*$) and propene (C$_3$H$_6$), which contribute to C$_5$ and C$_6$ ring formation by either combining with acetylene (C$_2$H$_2$) or forming propargyl (C$_3$H$_3$), which further combines with itself to form rings. Larger rings are formed by CH$_3$, C$_2$H$_2$ and C$_3$H$_3$ addtion on phenyl (A1-) radicals. As seen in Fig.~\ref{fig:SA4}, C$_5$ and C$_9$ rings are greatly responsible for A2 formation, while C$_9$H$_7$ pathway is dominant, especially for MB.
+
+\begin{figure*}[ht]
+  \centering
+  \scriptsize
+%  \vspace{-0.4in}
+%  \hspace{-0.4in}
+  \includegraphics[width=0.3\textwidth]{Pathways-Hep.png}
+  \includegraphics[width=0.3\textwidth]{Pathways-NB.png}
+  \includegraphics[width=0.3\textwidth]{Pathways-MB.png}
+  \normalsize
+  \caption{Chemical pathways for A2 formation at the strain rate of $16 s^{-1}$ and $X_{O_2}=0.2$. Left to right: $n$-heptane, $n$-butanol and MB. The number indicates the relative contribution (in percentages) to the formation of the pointed species.}
+  \label{fig:Pathways}
+\end{figure*}
+
+Noting the similarity in the chemical pathways beyond A-C$_3$H$_5$ and C$_3$H$_6$, the difference of sooting propensities must lie in the way those species are formed from fuel cracking processes. Both Fig.~\ref{fig:SA4} and Fig.\ref{fig:Pathways} show the formation of butene (P-C$_4$H$_8$) from only $n$-heptane and $n$-butanol decompositions, which promote A2 formation at later stages. The fuel bound oxygen in $n$-butanol contributes to the intramolecular water elimination and unsaturated hydrocarbon chain formation~\cite{mcenally05,mcenally11}, rather than carbon reduction, which explains the similar sooting behaviour as $n$-heptane. On the other hand, C$_3$ species are the largest species formed from MB cracking, due to the fuel bound oxygen. As pointed out in Ref.~\cite{westbrook06}, the double C=O bond is very difficult to break, such that the carbon chain length is reduced when C-C bond is broken due to $\beta$-scission. The oxygenated parts are then oxidized to CO and CO$_2$, preventing the carbon from entering the pool for soot formation~\cite{feng12,wangyl11}.
+ 
+At this point, we have identified pathways and species that are responsible for soot formation. The next question that naturally arises is how sensitive they are to the increasing strain rate that leads to reduced soot formation. To answer this question, integrated fv under various strain rates and fv profiles for low/critical strain rate cases were presented in Fig.~\ref{fig:fv-SR-combo}. All profiles shift in the direction of the liquid pool as higher flow rate pushes the stagnation plane further towards the pool. As expected, sooting propensities drop due to reduced residence time, and MB is the least sooty, while $n$-butanol is overall as sooty as $n$-heptane. Although not shown here, sensitivity and reaction path analysis were conducted and no substantial difference was found compared with low strain rate cases. 
+
+\begin{figure*}[ht]
+  \centering
+  \scriptsize
+%  \vspace{-0.4in}
+%  \hspace{-0.4in}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{SV-SR.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{fv-y.png}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{The responses of fv to strain rates at $X_{O_2}=0.2$. Left: fv integrated along the center axis of the stagnation-flow field. Right: fv profiles at low strain rates ($16 s^{-1}$) and CSRs.}
+  \label{fig:fv-SR-combo}
+\end{figure*}
+
+Fig.~\ref{fig:CxHy} includes profiles of the important species for soot formation identified by reaction path analysis, at low/critical strain rates. Species with ring structures, namely C$_5$H$_6$, A1, C$_9$H$_8$, and A2, all respond similarly as fv. However, upstream precursors show different sensitivities and responses to the reduced residence time. $Y_{P-C_4H_8}$ almost keeps the same when CSR is approached. Also, as shown in Fig.~\ref{fig:Pathways}, it is only relevant to $n$-heptane and $n$-butanol, which agrees with the sensitivity analysis and the above argument on the role of fuel bound oxygen in MB breakdown. Interestingly, C$_3$ precursors behave differently as A-C$_3$H$_5$ accumulates more when its residence time is reduced, responding conversely to the rings. C$_3$H$_6$ barely feels the influence, and $Y_{C_3H_3}$ slightly increases due to the fact that the formation depends on both C$_3$H$_6$ and A-C$_3$H$_5$. To summarize the above observation, there is a distinct difference between the ring structures and chain species in terms of the response towards reducing residence time. Noting that both A-C$_3$H$_5$ and C$_3$H$_3$ bridge the chain and ring species and are directly related to the first ring structure formation, the accumulation of these intermediate species implies that less of them are involved in the ring formation compared with lower strain rate cases, resulting in the soot reduction.
+
+\begin{figure*}[ht]
+  \centering
+  \scriptsize
+%  \vspace{-0.4in}
+%  \hspace{-0.4in}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{A2-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{C9H7-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{A1-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{C5H5-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{P-C4H8-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{C3H6-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{A-C3H5-y.png}
+  \includegraphics[trim=4mm 8mm 30mm 20mm, clip=true, width=0.48\textwidth]{C3H3-y.png}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Intermediate species profiles at low strain rates ($16 s^{-1}$) and CSRs. $X_{O_2}=0.2$.}
+  \label{fig:CxHy}
+\end{figure*}
+
+Now it is clear that A-C$_3$H$_5$ plays an essential role in current study, as it serves as the backbone of PAH precursors. In addition, the ring formation reactions 
+\begin{align*}
+  C_2H_2 + A-C_3H_5 &\Longleftrightarrow H + C_5H_6\\
+  2 C_3H_3 &\Longleftrightarrow C_5H_4CH_2\\
+  2 C_3H_3 &\Longleftrightarrow A1-C_6H_6
+\end{align*}
+are the rate limiting steps that are responsible for the critical strain rate.
+
+\section{Conclusions}           
+
+In this work, $n$-heptane, $n$-butanol and methyl butanoate (MB) were chosen as diesel/bioalcohol/biodiesel surrogates of interests due to similar volatilities, thus the potential applications in diesel fuel blending. Their sooting limits were measured experimentally with the stagnation-flow apparatus. Computations were conducted for the same cases using FlameMaster enhanced by the Hybrid Method of Moments (HMOM) soot model with detailed PAH chemistry. Both experimental and computational results show the critical strain rates of the three fuels increase with increasing oxygen mole fraction in the oxidizer, due to the thermal effect. Moreover, although $n$-heptane and $n$-butanol show similar sooting propensities, MB is discernibly less sooty.
+
+Sensitivity and reaction path analysis were performed on naphthalene (A2), a typical representative for soot to demonstrate the dependency of soot formation on gasous precursors produced by fuel decompositions. It was found that despite different sooting tendencies, the three fuels shared similar PAH chemical pathways. C$_5$, C$_6$, C$_7$, C$_9$ rings and A2 are formed sequentially through the combination of C$_3$ and smaller chain radicals resulted from fuel cracking. Due to the fuel bound oxygen in MB, less and shorter chain radicals are available for soot formation, compared with the other fuels, such that MB has the lowest critical strain rates.
+
+At last, the strain rate effects on soot formation were examined. C$_5$ and C$_6$ ring formation reactions are the rate limiting steps. Their concentrations drop as the residence time is reduced, such that the downstream PAH chemistry is consequently inhibited, resulting in the sooting limits. 
+
+\section*{Acknowledgments}
+TBD
+
+\section*{References}
+\bibliographystyle{elsarticle-num}
+\bibliography{Soot_m}
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+\end{document}
+

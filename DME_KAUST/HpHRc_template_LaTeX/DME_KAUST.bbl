@@ -1,0 +1,31 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Bansal {\em et~al.\/}(2011)Bansal, Chen, Lu \& Luo]{bansal11}
+Bansal, G., Chen, J.~H., Lu, T.~F. \& Luo, Z. 2011 {Direct simulation of
+  autoignition and front propagation in stratified dimethyl ether (DME)/air
+  turbulent mixtures}. In {\em 13th Int. Conf. Numer. Combust.\/}. Corfu,
+  Greece.
+
+\bibitem[Lu {\em et~al.\/}(2010)Lu, Yoo, Chen \& Law]{lu10}
+Lu, T.~F., Yoo, C.~S., Chen, J.~H. \& Law, C.~K. 2010 {Three-dimensional direct
+  numerical simulation of a turbulent lifted hydrogen jet flame in heated
+  coflow: a chemical explosive mode analysis}. {\em J. Fluid Mech.\/} {\bf
+  652}, 45--64.
+
+\bibitem[Pitsch {\em et~al.\/}(1998)Pitsch, Chen \& Peters]{pitsch98a}
+Pitsch, H., Chen, M. \& Peters, N. 1998 {Unsteady flamelet modeling of
+  turbulent hydrogen-air diffusion flames}. {\em Symp. Combust.\/} {\bf
+  27}~(1), 1057--1064.
+
+\bibitem[Shan {\em et~al.\/}(2012)Shan, Yoo, Chen \& Lu]{shan12}
+Shan, R., Yoo, C.~S., Chen, J.~H. \& Lu, T. 2012 {Computational diagnostics for
+  n-heptane flames with chemical explosive mode analysis}. {\em Combust.
+  Flame\/} {\bf 159}~(10), 3119--3127.
+
+\bibitem[Zhao {\em et~al.\/}(2008)Zhao, Chaos, Kazakov \& Dryer]{zhao08}
+Zhao, Z., Chaos, M., Kazakov, A. \& Dryer, F.~L. 2008 {Thermal decomposition
+  reaction and a comprehensive kinetic model of dimethyl ether}. {\em Int. J.
+  Chem. Kinet.\/} {\bf 40}~(1), 1--18.
+
+\end{thebibliography}

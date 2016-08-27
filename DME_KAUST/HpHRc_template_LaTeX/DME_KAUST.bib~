@@ -1,0 +1,88 @@
+
+@phdthesis{Tung,
+	Address = {Troy, NY},
+	Author = {Tung, C. Y.},
+	Date-Added = {2011-03-07 15:51:23 -0500},
+	Date-Modified = {2011-03-07 15:52:14 -0500},
+	School = {Rensselaer Polytechnic Institute},
+	Title = {Evaporative Heat Transfer in the Contact Line of a Mixture},
+	Year = {1982}}
+
+@inproceedings{Lee,
+	Address = {Washington, D.C.},
+	Author = {Lee, Y. and Korpela, S. A. and Horne, R. N.},
+	Booktitle = {Proceedings of 7th International Heat Transfer Conference},
+	Date-Added = {2011-03-07 15:48:21 -0500},
+	Date-Modified = {2011-03-07 15:56:27 -0500},
+	Editor = {U. Grigul et al.},
+	Pages = {221-226},
+	Publisher = {Hemisphere Publishing Corp.},
+	Title = {Structure of Multi-Cellular Natural Convection in a Tall Vertical Annulus},
+	Volume = {2},
+	Year = {1982}}
+
+@inproceedings{bansal11,
+address = {Corfu, Greece},
+author = {Bansal, G. and Chen, J. H. and Lu, T. F. and Luo, Z.},
+booktitle = {13th Int. Conf. Numer. Combust.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+title = {{Direct simulation of autoignition and front propagation in stratified dimethyl ether (DME)/air turbulent mixtures}},
+Year = {2011}
+}
+
+@article{zhao08,
+abstract = {The unimolecular decomposition reaction of dimethyl ether (DME) was studied theoretically using RRKM/master equation calculations. The calculated decomposition rate is significantly different from that utilized in prior work (Fischer et al., Int J Chem Kinet 2000, 32, 713â€?40; Curran et al., Int J Chem Kinet 2000, 32, 741â€?59). DME pyrolysis experiments were performed at 980 K in a variable-pressure flow reactor at a pressure of 10 atm, a considerably higher pressure than previous validation data. Both unimolecular decomposition and radical abstraction are significant in describing DME pyrolysis, and hierarchical methodology was applied to produce a comprehensive high-temperature model for pyrolysis and oxidation that includes the new decomposition parameters and more recent small molecule/radical kinetic and thermochemical data. The high-temperature model shows improved agreement against the new pyrolysis data and the wide range of high-temperature oxidation data modeled in prior work, as well as new low-pressure burner-stabilized species profiles (Cool et al., Proc Combust Inst 2007, 31, 285â€?94) and laminar flame data for DME/methane mixtures (Chen et al., Proc Combust Inst 2007, 31, 1215â€?222). The high-temperature model was combined with low-temperature oxidation chemistry (adopted from Fischer et al., Int J Chem Kinet 2000, 32, 713â€?40), with some modifications to several important reactions. The revised construct shows good agreement against high- as well as low-temperature flow reactor and jet-stirred reactor data, shock tube ignition delays, and laminar flame species as well as flame speed measurements. Â© 2007 Wiley Periodicals, Inc. Int J Chem Kinet 40: 1â€?8, 2008},
+author = {Zhao, Z. and Chaos, M. and Kazakov, A. and Dryer, F. L.},
+journal = {Int. J. Chem. Kinet.},
+keywords = {NTC paper},
+mendeley-tags = {NTC paper},
+number = {1},
+pages = {1--18},
+title = {{Thermal decomposition reaction and a comprehensive kinetic model of dimethyl ether}},
+volume = {40},
+year = {2008}
+}
+@article{Sparrow2,
+	Author = {Sparrow, E. M.},
+	Date-Added = {2011-03-07 15:31:45 -0500},
+	Date-Modified = {2011-03-07 15:47:26 -0500},
+	Journal = {Numerical Heat Transfer},
+	Pages = {149-167},
+	Title = {Forced-Convection Heat Transfer in a Duct Having Spanwise-Periodic Rectangular Protuberances},
+	Volume = {3},
+	Year = {1980}}
+
+@article{Sparrow,
+	Author = {Sparrow, E. M.},
+	Date-Added = {2011-03-07 15:30:14 -0500},
+	Date-Modified = {2011-03-07 15:47:19 -0500},
+	Journal = {ASME Journal of Heat Transfer},
+	Pages = {402-407},
+	Title = {Fluid-to-Fluid Conjugate Heat Transfer for a Vertical Pipe - Internal Forced Convection and External Natural Convection},
+	Volume = {102},
+	Year = {1980}}
+
+@techreport{Kwon,
+	Address = {Ames, IA},
+	Author = {Kwon, O. K. and Pletcher, R. H.},
+	Date-Added = {2011-03-07 15:12:17 -0500},
+	Date-Modified = {2011-03-07 15:47:14 -0500},
+	Institution = {Iowa State Univ.},
+	Number = {HTL-26, CFD-4},
+	Title = {Prediction of the Incompressible Flow Over a Rearward-Facing Step},
+	Type = {Technical Report},
+	Year = {1981}}
+@article{krisman14,
+abstract = {The structure and stabilisation mechanism of partially premixed, laminar, dimethyl ether (DME) flames are investigated using two-dimensional direct numerical simulation (DNS). The simulations are performed at a pressure of 40 atmospheres and at oxidiser temperatures of 700, 900, 1100, 1300, and 1500K, while keeping the lift-off length approximately fixed by varying the inlet velocity. At this pressure, DME exhibits two stage ignition below approximately 1100K and a negative temperature coefficient (NTC) regime from approximately 800â€?100K. The DNS results are investigated by considering the thermochemical structure of the flames and by applying a transport budget analysis to key chemical species. The results show a transition from a lifted flame stabilised by conduction and diffusion-assisted flame propagation to a flame stabilised by autoignition with increasing temperature. At 700K, the flame has a classical tribrachial structure similar to freely propagating edge flames at non-autoignitive conditions. The intermediate temperature cases reveal a complex transition involving multiple heat release pathways upstream of the stabilisation point. At 900K, the flame consists of a main-tribrachial structure and an additional upstream branch due to low temperature chemistry: this is termed a tetrabrachial flame. At 1100 and 1300K, two upstream branches are observed in addition to the main tribrachial structure, one due to low temperature chemistry and the other due to high temperature chemistry, which initiates autoignition and stabilises the flame: these are termed pentabrachial flames. At 1500K, the low temperature upstream branch is suppressed, so there is only one upstream branch due to high temperature chemistry which proceeds to autoignition, this flame has a tetrabrachial structure, but one which is different from that observed in the 900K case.},
+author = {Krisman, A. and Hawkes, E. R. and Talei, M. and Bhagatwala, A. and Chen, J. H.},
+doi = {10.1016/j.proci.2014.05.129},
+issn = {15407489},
+journal = {Proc. Combust. Inst.},
+keywords = {Autoignition,DME\_Jet,Dimethyl ether,Negative temperature coefficient,Tribrachial flame,Triple flame},
+mendeley-tags = {DME\_Jet},
+month = jun,
+title = {{Polybrachial structures in dimethyl ether edge-flames at negative temperature coefficient conditions}},
+url = {http://www.sciencedirect.com/science/article/pii/S1540748914001321},
+year = {2014}
+}

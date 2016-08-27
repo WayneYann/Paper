@@ -1,0 +1,80 @@
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.7\textwidth]{HRR_V.png}
+  \normalsize
+  \vspace{-0.4in}
+  \caption{Heat release rate [J/m$^3$-s] profiles.  The iso-contours of $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ are outlined from right to left in solid lines, respectively.  The CEMA sampling points for $2.4$ and $8.0$ m/s cases are marked along the iso-contours.}
+  \label{fig:HRR_V}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+  \centering
+  \scriptsize
+  \resizebox{1.0\textwidth}{!}{\input{CEMA_24_fix.tex}}
+  \resizebox{1.0\textwidth}{!}{\input{CEMA_80_fix.tex}}
+  \normalsize
+  \caption{Normalized participation index at $2.4$ and $8.0$ m/s.  Sampled locations are delineated in Fig.~\ref{fig:HRR_V}.}
+  \label{fig:CEMA_V}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+  \centering
+  \scriptsize
+  \resizebox{1.0\textwidth}{!}{\input{LFA_V.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Comparison between CFD and LFA results.}
+  \label{fig:LFA_V}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+  \vspace{-1in}
+  \centering
+  \scriptsize
+  \input{1D_V_HRR.tex}
+%  \vspace{-0.3in}
+  \input{1D_V_T.tex}
+%  \vspace{-0.3in}
+  \input{1D_V_OH.tex}
+%  \vspace{-0.3in}
+  \input{1D_V_RO2.tex}
+%  \vspace{-0.3in}
+  \input{1D_V_H2O2.tex}
+%  \vspace{-0.1875in}
+  \normalsize
+  \caption{LFA profiles along $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ of the $8.0$ m/s case.}
+  \label{fig:1D_V}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+  \vspace{-1in}
+  \centering
+  \scriptsize
+  \input{tau_t.tex}
+%  \vspace{-0.3in}
+  \input{tau_1.tex}
+%  \vspace{-0.3in}
+  \normalsize
+  \caption{LFA results on the mixture fraction dependent total and first stage ignition delay times of the $8.0$ m/s case.}
+  \label{fig:tau}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{2D-regime.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{A qualitative regime diagram for the stabilization mechanisms as the boundary temperature and inlet velocity vary. }
+  \label{fig:2D-regime}
+\end{figure}
+\efloatseparator
+ 

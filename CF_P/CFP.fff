@@ -1,0 +1,114 @@
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{S-Curve.png}
+  \normalsize
+  \caption{S-Curve analysis of the response of nonpremixed counterflow of 50\% DME and 50\% nitrogen versus heated air at the 2 atm and pressure-weighted strain rate of 80 /s.}
+  \label{fig:S-curve}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 1mm, clip=true, width=0.5\textwidth]{UV.png}
+  \normalsize
+  \caption{Flame images demonstrating the hysteretic nature of ignition and extinction of cool flames with air temperature. DME cool flame at 2 atm and pressure-weighted strain rate of 84 /s; DME volume fraction in the fuel stream is 50\%, and the oxidizer stream is air.}
+  \label{fig:UV}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{cmp_demo.png}
+  \normalsize
+  \caption{Experimental and computed ignition and extinction temperatures at 2 atm and various strain rates.  The computed extinction temperature is shifted up by 250 K for better illustration.  DME volume fraction in the fuel stream is 50\%, and the oxidizer stream is air.}
+  \label{fig:cmp_demo}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{HRR.png}
+  \normalsize
+  \caption{Thermal structures in the computed flow field at three representative points on the S-curve shown in Fig.~\ref{fig:S-curve}.  Fuel stream boundary conditions are specified at $x=0$ in the computation.}
+  \label{fig:HRR}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{sp_a.png}
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{sp_b.png}
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{sp_c.png}
+  \normalsize
+  \caption{(a) Methoxymethylperoxy radical, (b) formaldehyde, and (c) hydroxyl radical profiles in the computed flow field at three representative points on the S-curve shown in Fig.~\ref{fig:S-curve}.  Fuel stream boundary conditions are specified at $x=0$ in the computation.}
+  \label{fig:species}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[width=0.5\textwidth]{SA.png}
+  \normalsize
+  \caption{Reaction sensitivity analysis at three representative points on the S-curve shown in Fig.~\ref{fig:S-curve}.}
+  \label{fig:SA}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{cmp_demo_mod.png}
+  \normalsize
+  \caption{Revisit of Fig.~\ref{fig:cmp_demo} with modified reaction rates in the chemical mechanism.  Note that the line plots with the modified reaction rates are presented without shifting.}
+  \label{fig:cmp_demo_mod}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{eff_P.png}
+  \normalsize
+  \caption{S-curve analysis for various ambient pressures and pressure-weighted strain rate of 100 /s.  DME volume fraction in the fuel stream is 50\%, and the oxidizer stream is air.}
+  \label{fig:eff_P}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{cmp_P.png}
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{cmp_P_mod.png}
+  \normalsize
+  \caption{Ignition and extinction temperatures at various strain rates and pressures in experiments and computations with (a) the original and (b) modified chemical models.  Some of the computed extinction temperatures are shifted up for better illustration.  DME volume fraction in the fuel stream is 50\%, and the oxidizer stream is air.}
+  \label{fig:cmp_P}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{eff_O2.png}
+  \normalsize
+  \caption{S-curve analysis for various oxygen concentrations and the pressure-weighted strain rate of 100 /s.  DME volume fraction in the fuel stream is 50\%, and the ambient pressure is 2 atm.}
+  \label{fig:eff_O2}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{cmp_O2.png}
+  \includegraphics[trim=6.5mm 7.5mm 7mm 8mm, clip=true, width=0.5\textwidth]{cmp_O2_mod.png}
+  \normalsize
+  \caption{Ignition and extinction temperatures at various strain rates and oxygen concentrations in experiments and computations with (a) the original and (b) modified chemical models.  Some of the computed extinction temperatures are shifted up for better illustration.  DME volume fraction in the fuel stream is 50\%, and the ambient pressure is 2 atm.}
+  \label{fig:cmp_O2}
+\end{figure*}
+\efloatseparator
+ 

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/dev)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: NCM_Jet.aux
+The style file: wssci.bst
+Database file #1: NCM_Jet.bib
+You've used 28 entries,
+            1811 wiz_defined-function locations,
+            625 strings with 7727 characters,
+and the built_in function-call counts, 5712 in all, are:
+= -- 528
+> -- 291
+< -- 0
++ -- 108
+- -- 80
+* -- 554
+:= -- 937
+add.period$ -- 57
+call.type$ -- 28
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 169
+empty$ -- 436
+format.name$ -- 80
+if$ -- 1126
+int.to.chr$ -- 0
+int.to.str$ -- 28
+missing$ -- 27
+newline$ -- 116
+num.names$ -- 28
+pop$ -- 31
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 53
+stack$ -- 0
+substring$ -- 639
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 79
+width$ -- 30
+write$ -- 229

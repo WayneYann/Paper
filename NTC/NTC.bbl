@@ -1,0 +1,174 @@
+\begin{thebibliography}{30}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Ciezki and Adomeit(1993)}]{ciezki93}
+\bibinfo{author}{H.~K. Ciezki}, \bibinfo{author}{G.~Adomeit},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{93} (\bibinfo{year}{1993})
+  \bibinfo{pages}{421--433}.
+
+\bibitem[{Wada(2011)}]{wada11}
+\bibinfo{author}{T.~Wada}, \bibinfo{title}{{Experimental and Theoretical
+  Investigation of Low-Temperature Ignition in a Laminar Flow Reactor}}, Ph.D.
+  thesis, RWTH Aachen University, Germany, \bibinfo{year}{2011}.
+
+\bibitem[{Veloo et~al.(2013)Veloo, Dagaut, Togbe, Dayma, Sarathy, Westbrook,
+  and Egolfopoulos}]{veloo13}
+\bibinfo{author}{P.~Veloo}, \bibinfo{author}{P.~Dagaut},
+  \bibinfo{author}{C.~Togbe}, \bibinfo{author}{G.~Dayma},
+  \bibinfo{author}{S.~Sarathy}, \bibinfo{author}{C.~K. Westbrook},
+  \bibinfo{author}{F.~Egolfopoulos}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{34} (\bibinfo{year}{2013}) \bibinfo{pages}{599--606}.
+
+\bibitem[{Mittal et~al.(2008)Mittal, Chaos, Sung, and Dryer}]{mittal08}
+\bibinfo{author}{G.~Mittal}, \bibinfo{author}{M.~Chaos}, \bibinfo{author}{C.~J.
+  Sung}, \bibinfo{author}{F.~L. Dryer}, \bibinfo{journal}{Fuel Processing
+  Technology} \bibinfo{volume}{89} (\bibinfo{year}{2008})
+  \bibinfo{pages}{1244--1254}.
+
+\bibitem[{Law and Zhao(2012)}]{law12}
+\bibinfo{author}{C.~K. Law}, \bibinfo{author}{P.~Zhao},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{1044--1054}.
+
+\bibitem[{Zhao and Law(2013)}]{zhao13}
+\bibinfo{author}{P.~Zhao}, \bibinfo{author}{C.~K. Law},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{160}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{2352--2358}.
+
+\bibitem[{Curran et~al.(1998)Curran, Pitz, Westbrook, Dagaut, Boettner, and
+  Cathonnet}]{curran98}
+\bibinfo{author}{H.~J. Curran}, \bibinfo{author}{W.~J. Pitz},
+  \bibinfo{author}{C.~K. Westbrook}, \bibinfo{author}{P.~Dagaut},
+  \bibinfo{author}{J.-C. Boettner}, \bibinfo{author}{M.~Cathonnet},
+  \bibinfo{journal}{Int. J. Chem. Kinet.} \bibinfo{volume}{30}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{229--241}.
+
+\bibitem[{Fischer et~al.(2000)Fischer, Dryer, and Curran}]{fischer00}
+\bibinfo{author}{S.~L. Fischer}, \bibinfo{author}{F.~L. Dryer},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{journal}{Int. J. Chem. Kinet.}
+  \bibinfo{volume}{32} (\bibinfo{year}{2000}) \bibinfo{pages}{713--740}.
+
+\bibitem[{Curran et~al.(2000)Curran, Fischer, and Dryer}]{curran00}
+\bibinfo{author}{H.~J. Curran}, \bibinfo{author}{S.~L. Fischer},
+  \bibinfo{author}{F.~L. Dryer}, \bibinfo{journal}{Int. J. Chem. Kinet.}
+  \bibinfo{volume}{32} (\bibinfo{year}{2000}) \bibinfo{pages}{741--759}.
+
+\bibitem[{Zhao et~al.(2008)Zhao, Chaos, Kazakov, and Dryer}]{zhao08}
+\bibinfo{author}{Z.~Zhao}, \bibinfo{author}{M.~Chaos},
+  \bibinfo{author}{A.~Kazakov}, \bibinfo{author}{F.~L. Dryer},
+  \bibinfo{journal}{Int. J. of Chem. Kinet.} \bibinfo{volume}{40}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{1--18}.
+
+\bibitem[{Kaiser et~al.(2000)Kaiser, Wailington, Hurley, Platz, Curran, Pitz,
+  Westbrook, and Wallington}]{kaiser00}
+\bibinfo{author}{E.~W. Kaiser}, \bibinfo{author}{T.~J. Wailington},
+  \bibinfo{author}{M.~D. Hurley}, \bibinfo{author}{J.~Platz},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{author}{W.~J. Pitz},
+  \bibinfo{author}{C.~K. Westbrook}, \bibinfo{author}{T.~J. Wallington},
+  \bibinfo{journal}{J. Phy. Chem. A} \bibinfo{volume}{104}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{8194--8206}.
+
+\bibitem[{Zheng et~al.(2005)Zheng, Lu, Law, Westbrook, Curran, Berces, and
+  Dryer}]{zheng05}
+\bibinfo{author}{X.~L. Zheng}, \bibinfo{author}{T.~F. Lu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{author}{C.~K. Westbrook},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{author}{T.~Berces},
+  \bibinfo{author}{F.~L. Dryer}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{30} (\bibinfo{year}{2005}) \bibinfo{pages}{1101--1109}.
+
+\bibitem[{Qin and Ju(2005)}]{qin05}
+\bibinfo{author}{X.~Qin}, \bibinfo{author}{Y.~Ju}, \bibinfo{journal}{Proc.
+  Combust. Inst.} \bibinfo{volume}{30} (\bibinfo{year}{2005})
+  \bibinfo{pages}{233--240}.
+
+\bibitem[{Bansal et~al.(????)Bansal, Chen, Lu, and Luo}]{bansal11}
+\bibinfo{author}{G.~Bansal}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{author}{T.~F. Lu}, \bibinfo{author}{Z.~Luo}, in:
+  \bibinfo{booktitle}{13th International Conference on Numerical Combustion},
+  \bibinfo{address}{Corfu, Greece}.
+
+\bibitem[{Deng et~al.(????)Deng, Zhao, Zhu, and Law}]{deng13}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{D.~Zhu},
+  \bibinfo{author}{C.~K. Law}, in: \bibinfo{booktitle}{8th U.S. National
+  Combustion Meeting}, \bibinfo{address}{Utah, USA}.
+
+\bibitem[{Fotache et~al.(1995)Fotache, Kreutz, Zhu, and Law}]{fotache95}
+\bibinfo{author}{C.~G. Fotache}, \bibinfo{author}{T.~G. Kreutz},
+  \bibinfo{author}{D.~L. Zhu}, \bibinfo{author}{C.~K. Law},
+  \bibinfo{journal}{Combust. Sci. Technol.} \bibinfo{volume}{109}
+  (\bibinfo{year}{1995}) \bibinfo{pages}{373--393}.
+
+\bibitem[{Liu et~al.(2010)Liu, Kelley, and Law}]{liu10a}
+\bibinfo{author}{W.~Liu}, \bibinfo{author}{A.~P. Kelley},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{157} (\bibinfo{year}{2010}) \bibinfo{pages}{1027--1036}.
+
+\bibitem[{Zheng(2006)}]{zheng06}
+\bibinfo{author}{X.~L. Zheng}, \bibinfo{title}{Studies on ignition of hydrogen
+  and hydrocarbons}, Ph.D. thesis, Princeton University, USA,
+  \bibinfo{year}{2006}.
+
+\bibitem[{Sheinson and Williams(1973)}]{sheinson73}
+\bibinfo{author}{R.~Sheinson}, \bibinfo{author}{F.~Williams},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{21} (\bibinfo{year}{1973})
+  \bibinfo{pages}{221--230}.
+
+\bibitem[{Ohta and Furutani(1991)}]{ohta91}
+\bibinfo{author}{Y.~Ohta}, \bibinfo{author}{M.~Furutani},
+  \bibinfo{journal}{Arch. Combust.} \bibinfo{volume}{11} (\bibinfo{year}{1991})
+  \bibinfo{pages}{43--52}.
+
+\bibitem[{Gaydon(1974)}]{gaydonbook}
+\bibinfo{author}{A.~G. Gaydon}, \bibinfo{title}{{The Spectroscopy of Flames}},
+  Chapman and Hall, \bibinfo{year}{1974}.
+
+\bibitem[{Law(2006)}]{lawbook}
+\bibinfo{author}{C.~K. Law}, \bibinfo{title}{{Combustion {P}hysics}}, Cambridge
+  University {P}ress, \bibinfo{address}{New York}, \bibinfo{year}{2006}.
+
+\bibitem[{Kreutz et~al.(1994)Kreutz, Nishioka, and Law}]{kreutz94}
+\bibinfo{author}{T.~G. Kreutz}, \bibinfo{author}{M.~Nishioka},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{99} (\bibinfo{year}{1994}) \bibinfo{pages}{758--766}.
+
+\bibitem[{Fotache et~al.(1998)Fotache, Sung, and Law}]{fotache98}
+\bibinfo{author}{C.~G. Fotache}, \bibinfo{author}{C.~J. Sung},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{112} (\bibinfo{year}{1998}) \bibinfo{pages}{457--471}.
+
+\bibitem[{Liu et~al.(2009)Liu, Law, and Lu}]{liu09}
+\bibinfo{author}{W.~Liu}, \bibinfo{author}{C.~K. Law}, \bibinfo{author}{T.~F.
+  Lu}, \bibinfo{journal}{Int. J. Chem. Kinet.} \bibinfo{volume}{41}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{764--776}.
+
+\bibitem[{Giovangigli and Smooke(1987)}]{giovangigli87}
+\bibinfo{author}{V.~Giovangigli}, \bibinfo{author}{M.~D. Smooke},
+  \bibinfo{journal}{Combust. Sci. Tech.} \bibinfo{volume}{53}
+  (\bibinfo{year}{1987}) \bibinfo{pages}{23--49}.
+
+\bibitem[{Smooke et~al.(1988)Smooke, Puri, and Seshadri}]{smooke86}
+\bibinfo{author}{M.~D. Smooke}, \bibinfo{author}{I.~K. Puri},
+  \bibinfo{author}{K.~Seshadri}, \bibinfo{journal}{Proc. Combust. Inst.}
+  \bibinfo{volume}{21} (\bibinfo{year}{1988}) \bibinfo{pages}{1783--1792}.
+
+\bibitem[{Nishioka et~al.(1996)Nishioka, Law, and Takeno}]{nishioka96}
+\bibinfo{author}{M.~Nishioka}, \bibinfo{author}{C.~K. Law},
+  \bibinfo{author}{T.~Takeno}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{104} (\bibinfo{year}{1996}) \bibinfo{pages}{328--342}.
+
+\bibitem[{Kee et~al.(1989)Kee, Rupley, and Miller}]{kee89}
+\bibinfo{author}{R.~J. Kee}, \bibinfo{author}{F.~M. Rupley},
+  \bibinfo{author}{J.~A. Miller}, \bibinfo{title}{{CHEMKIN-II A Fortran
+  Chemical Kinetics Package for the Analysis of Gas Phase Chemical Kinetics,
+  Report No. SAND 89-8009B, Sandia National Laboratories}},
+  \bibinfo{year}{1989}.
+
+\bibitem[{Kee et~al.(1983)Kee, Rupley, and Miller}]{kee83}
+\bibinfo{author}{R.~J. Kee}, \bibinfo{author}{F.~M. Rupley},
+  \bibinfo{author}{J.~A. Miller}, \bibinfo{title}{{A Fortran Computer Code
+  Package for the Evaluation of Gas-Phase Viscosities, Conductivities, and
+  Diffusion Coefficients, Report No. SAND 83-8209, Sandia National
+  Laboratories}}, \bibinfo{year}{1983}.
+
+\end{thebibliography}

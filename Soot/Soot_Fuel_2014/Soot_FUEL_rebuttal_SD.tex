@@ -1,0 +1,115 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=1in,letterpaper]{geometry}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2ex}
+
+\renewcommand{\labelenumii}{\alph{enumii}.}
+
+\begin{document}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol, and Methyl Butanoate Flames: Experimental Determination and Mechanistic Analysis \\ \vspace{5mm} \Large Response to Reviewers}
+\author{Sili Deng, Jeremy A. Koch, Michael E. Mueller, Chung K. Law}
+
+\date{}
+
+\maketitle
+
+\section{Reviewer \# 2}
+\subsection*{Comments and Replies (in bold)}
+
+The authors reported an experimental and numerical study on the sooting limits (critical strain rate) in nonpremixed flames of $n$-heptane, $n$-butanol and methyl butanoate using a liquid pool stagnation-point configuration. Critical sooting limit conditions were determined from luminosity observations. PAH based soot model with hybrid method of moments (HMOM) was employed to simulate and investigate the experimentally observed data. The model could reproduce the qualitative experimental trend although there are quantitative discrepancies, especially for methyl butanoate cases.
+
+This reviewer has reviewed this paper several months before for the \emph{Proceedings of the Combustion Institute} and ranked the paper as "good". A number of comments were given regarding (1) liquid pool surface temperature, (2) validation of the chemical mechanism against PAH concentration data, (3) the similarity of predicted soot volume fraction data between $n$-butanol data and $n$-heptane fuels.
+
+This reviewer found the comments (1) and (3) were explained while (2) was not addressed, probably because of lack of available data. The manuscript is recommended for publication.
+\\
+
+\textbf{No reply needed.}
+
+\newpage
+\section*{Replies to Comments of Reviewer \# 3}
+\subsection*{Comments and Replies (in bold)}
+
+The paper presents both experimental and numerical investigations on the sooting limits of nonpremixed $n$-heptane, $n$-butanol, and methyl butanoate flames in a liquid pool stagnation-flow configuration. Chemical kinetic analysis was performed to reproduce and analyze the experimental phenomenon. The results showed $n$-heptane and $n$-butanol show similar sooting propensities, while methyl butanoate produces significantly less soot. By doing these, the paper was trying to identify the sooting characteristics of oxygenated fuels and understand the chemical pathways for PAH and soot formation processes for different fuels, which highlights the importance of reliable mechanisms and provides valuable data for the mechanism validation and is useful for the combustion research community. However, the reviewer thinks that the paper can only be considered for publication if the authors provide reasonable response to the following questions, due to the following reasons:
+
+\begin{enumerate}
+\item In the mechanism development section, very limited information is provided. For example, how did the authors get the reduced butanol and MB mechanisms? What are the major reaction pathways in these two reduced mechanisms? This can greatly affect the following analyses presented in the paper, such as the reaction pathway analysis.
+
+\textbf{The reduced mechanisms were taken from Liu \emph{et al.}, as indicated in the paper; the complete details can be found therein.  This is clarified in Sec. 3.1.}
+
+\item The performance of the combined mechanism might change if sub-mechanisms from different sources were incorporated together to formulate a new mechanism. For example, there are many identical reactions with different reaction rates among these sub-mechanisms, which compete with each other, thus the choice of the retained reactions should be explained. In addition, did the authors adjust the reaction rate constants for the n-butanol and MB sub-mechanisms after the incorporation? Although it may not be relevant, ignition delay is one of the most important parameters for mechanism development. It would be more convincing if such validations were provided, since usually such treatments change the performance of the sub-mechanisms in terms of ignition delay predictions.
+
+\textbf{The authors did not adjust the rate coefficients after the incorporation, for there was no need to do so.  The combined mechanism was validated against laminar burning velocities and nonpremixed extinction strain rates and showed good agreement with experimental data. }
+
+\textbf{All the common reactions among the base mechanism and additional mechanisms were retained from the base mechanism.  This is clarified in Sec. 3.1.}
+
+\textbf{Ignition delay was not of interest to this work, as stated by the reviewer, so was not investigated.   Therefore, only the validation of laminar burning velocities and nonpremixed extinction strain rates were provided.  Component mechanisms have been validated with ignition delay by Liu \emph{et al.} and Blanquart \emph{et al.} nonetheless.}
+
+\item In Fig.3, it is seen that the mechanism greatly over predicts the ESR for $n$-butanol (2-3 times higher), rather than as stated by the authors: a "slight over prediction". Therefore, explanations should be presented here. The legend for the $n$-butanol is also wrong.
+
+\textbf{The legend for $n$-butanol is not wrong: both the experimental and computational ESRs were obtained by the authors. }
+
+\textbf{The raw agreement between computation and experiments appears worse as is than when considering experimental uncertainty due to flow meter accuracy and strain rate measurement.}
+
+\item In Figs. 8 and 9, more specific information should be provided as to these reaction pathway analysis results. For example, the conversion ratio of each reaction pathway should be added to Fig. 9. In addition, please provide more explanation and information on Fig. 7, such as the procedure and method for the sensitivity analysis and the meaning of the caption for Fig. 7 "Sensitivity of the maximum naphthalene mass fraction to kinetics at the strain rate".
+
+\textbf{The conversion ratio of each reaction pathway is added to Fig. 9, as suggested by the reviewer.  Sensitivity analysis was conducted following the standard procedure, where the pre-exponential factor of a certain reaction was perturbed, and the relative influence on the concentration of the species of interest was evaluated.}
+
+\item In Fig. 3, why in the experiment is the ESR determined by global values, while in the simulations local values were applied? Also, the authors stated "in this work, the CSRs are defined (experimentally and computationally) based on an absolute amount of soot". How did the authors get the soot volume fraction from the experiment? In other words, what are the specific criteria for the CSR in the experiments?
+
+\textbf{As already stated in the manuscript, in all cases, the specific definition of the strain rate is the same in experiment and computation.  As such, when the validation is against Seshadri's data ($n$-heptane and MB), the global strain rate was used, while local strain rate was used for our data on $n$-butanol.}
+
+\textbf{As mentioned in Sec. 2, the yellow luminosity from soot was used as the criteria for the CSR measurements. This criterion was demonstrated by Du \emph{et al.} (Ref. 13) through comparison with laser-based measurements to be adequate.}
+
+\item In Fig. 4, the temperature in the region corresponding to the soot formation of all the three fuels is in the range of $800$-$1200$ K. This temperature is too low to form soot.
+
+\textbf{Although soot concentration peaks at the region of $800$-$1200$ K, soot is formed at higher temperature regions, about $1200$-$1600$ K.  Due to convection and thermophoretic effects, soot formed at high temperature regions is transported to lower temperature regions.}
+
+\item The conclusion for $n$-butanol highly depends on the reaction pathway of the mechanism. As far as the reviewer knows, according to Sarathy's butanol mechanism, only a small amount of nc4h9oh converts to P-C$_4$H$_8$, which is quite different from the current results and conclusions. The authors need to provide more explanations on this. In addition to the C$_3$ and ring species (C$_5$H$_6$ (or C$_5$H$_5$) and C$_6$H$_6$) comparisons, it is better to present the comparison of C$_2$H$_2$ concentration in Fig. 10, since C$_2$H$_2$ is the major species in the HACA approach.
+
+\textbf{This has been clarified in Sec. 5.2.  Calculation shows that 15\% of $n$-butanol converts to P-C$_4$H$_8$, and this pathway is important to soot formation.}
+
+\textbf{The authors compared the C$_2$H$_2$ concentrations at low and critical strain rates and did not find much difference; therefore, this plot was not included in Fig. 10.  This is clarified in Sec. 5.3}
+
+\item The overall conclusion that n-heptane and $n$-butanol have similar sooting propensities is somewhat confusing. It is known that the molecular structure affects the PAH and soot formation processes, thus the fact that $n$-butanol has higher sooting propensity compared to MB may be understandable; However, since many studies, including both experiments and simulations, have confirmed that $n$-butanol has the potential to reduce soot emission, but the current paper does not support such a conclusion. More information and references are needed to explain and support the current conclusion.
+
+\textbf{As cited (Ref. 6-8) in Sec. 1, $n$-butanol does not always reduce soot emission.  As stated in Ref. 3, one of the reduction mechanisms is reducing the flame temperature, which is excluded in the current study by maintaining the same adiabatic flame temperature.  This is clarified in the abstract and conclusion.}
+
+\end{enumerate}
+
+\newpage
+\section{Reviewer \# 4}
+\subsection*{Comments and Replies (in bold)}
+
+\begin{enumerate}
+\item In your counterflow setup, what is the nozzle diameter? Is the ratio between the nozzle diameter to the distance small enough to adopt the pseudo-1D flame configuration?
+
+\textbf{The nozzle diameter is the same as the liquid pool, which is $20$ mm; this information is added to the revised manuscript in Sec. 2.  The pseudo-1D flame configuration was validated by the cited work of Liu \emph{et al.} and Seshadri \emph{et al.} and the references therein.}
+
+\item How is the soot threshold luminosity determined? Is there a quantified luminosity that is comparable for each condition? Will uncertainties in the luminosity affect the comparisons of the sooting limits?
+
+\textbf{The soot threshold luminosity was determined visually and by the photos taken with a Nikon D700 camera, and was not quantified.  This visual determination method was validated through laser scattering experiments by Du \emph{et al.} (Ref. 13) in the 1990s. The CSR measurements were also repeatable.  This is clarified in Sec. 2.}
+
+\item What was the target flame properties in Liu \emph{et al.} that were used in the reduced mechanism for butanol and methyl butanoate? Why was the full mechanism not reduced specifically for the purposes of the current work?
+
+\textbf{The detailed mechanisms in Liu \emph{et al.} were reduced based on homogeneous autoignition and perfectly stirred reactors, using DRG and DRGASA method, and further validated against premixed laminar burning velocities.  Complete details are in Liu \emph{et al.} }
+
+\item In your validation of the combined mechanism with extinction strain rate was there an attempt to re-measure Seshadri's extinction strain rates? If so, was there any discrepancy between your measurements in your apparatus and Seshadri's burner? Is it possible that less agreement between experimental and model extinction strain rates observed in butanoate also exists in your burner for the other fuels studied?
+
+\textbf{Seshadri used the global strain rate, which is system dependent, while we used the local strain rate, which is the fundamentally relevant one. As such, the values determined are necessarily different. However, Liu \emph{et al.} (Ref. 27) had actually also measured the global ignition strain rates and compared them with Seshadri’s values, using burners of similar dimension, and found good agreement, demonstrating that the determination is consistent. The reviewer is referred to that work for further details. }
+
+\item Besides the critical volume fraction, was there any difference between the fuels in modeled soot properties such as number density and number of small particles? The onset of nucleation size soot may be another sooting threshold but this behavior is not observable with the current setup.
+
+\textbf{The reviewer raised a very interesting point that the soot properties might be different for the three fuels.  For MB, a lower number density was found compared to $n$-heptane and $n$-butanol, but this was simply the result of a lower volume fraction: other soot properties such as the particle sizes were almost identical among the three fuels.  This is due in large part to the similar residence time-temperature-mixture fraction histories for the three fuels in this configuration, which the authors controlled.}
+
+\item Could the agreement between measured CSR and your model be improved for butanoate if the full chemistry or a new reduced mechanism was used?  In your chemical pathway analysis it would be helpful to discuss how your reduced mechanism taken from Liu \emph{et al.} for butanol and methyl butanoate contains complete pathways leading to propargyl and A-C$_3$H$_5$.
+
+\textbf{The propargyl and allyl radical mass fractions were compared by the authors computationally, with both the full and reduced mechanisms, in both rich premixed 1D flames and nonpremixed counterflow flames, and only very small differences were found.  Therefore, no important pathways are missing in the reduced mechanism for these species.  Since these species control the PAH and soot yield, the CSR computed with the full mechanism would be essentially the same as for the reduced mechanism.}
+
+\end{enumerate}
+
+
+\end{document}
+

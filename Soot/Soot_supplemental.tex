@@ -1,0 +1,135 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticleUS}
+\documentclass[review,3p,times]{elsarticleUS}
+%\documentclass{article}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{subdepth}
+
+
+
+\biboptions{comma,sort&compress}
+
+\journal{Proceedings of the Combustion Institute}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol and Methyl Butanoate}
+
+\author{Sili~Deng\corref{cor}}
+\cortext[cor]{Corresponding Author: silideng@princeton.edu}
+\author{Jeremy A.~Koch}
+\author{Michael E.~Mueller}
+\author{Chung K.~Law}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+\end{frontmatter}
+
+
+\section*{Supplemental Materials}
+
+%\begin{table}
+%  \caption{Oxidizer stream composition in molecular fractions.}
+%  \label{table:exp_condition_2}
+%  \centering
+%  \begin{tabular}{cccccc}
+%    \hline
+%     & $n-C_7H_{16}$ & \multicolumn{2}{c}{$n-C_4H_9OH$} & \multicolumn{2}{c}{$C_5H_{10}O_2$} \\
+%    \cline{2-6}
+%    $O_2$ & $N_2$ & $N_2$ & $Ar$ & $N_2$ & $Ar$ \\
+%    \hline
+%    $0.1800$ & $0.8200$ \\
+%    $0.1850$ & $0.8150$ \\
+%    $0.1875$ & $0.8125$ \\
+%    $0.1900$ & $0.8100$ \\
+%    $0.1925$ & $0.8075$ \\
+%    $0.1950$ & $0.8050$ & $0.7718$ & $0.0332$ \\
+%    $0.1975$ &          & $0.7679$ & $0.0346$ \\
+%    $0.2000$ & $0.8000$ & $0.7640$ & $0.0360$ \\
+%    $0.2025$ &          & $0.7600$ & $0.0374$ \\
+%    $0.2050$ &          & $0.7560$ & $0.0390$ & $0.7119$ & $0.0831$ \\
+%    $0.2075$ &          & $0.7521$ & $0.0404$ \\
+%    $0.2100$ &          &          &          & $0.7017$ & $0.0883$ \\
+%    $0.2150$ &          &          &          & $0.6915$ & $0.0935$ \\
+%    $0.2200$ &          &          &          & $0.6811$ & $0.0989$ \\
+%    $0.2250$ &          &          &          & $0.6707$ & $0.1043$ \\
+%    \hline
+%  \end{tabular}
+%\end{table}
+
+
+\begin{table*}[h]
+  \caption{X$_{O_2}$ in the oxidizer at experimental conditions.}
+  \label{table:exp_condition}
+  \centering
+  \resizebox{1.0\textwidth}{!}{
+  \begin{tabular}{ll*{15}{c}}
+    \hline
+     & \multicolumn{16}{c}{$O_2$} \\
+    \cline{3-17}
+     &  & $0.1800$ & $0.1850$ & $0.1875$ & $0.1900$ & $0.1925$ & $0.1950$ & $0.1975$ & $0.2000$ & $0.2025$ & $0.2050$ & $0.2075$ & $0.2100$ & $0.2150$ & $0.2200$ & $0.2250$ \\
+    \hline
+    $n-C_7H_{16}$ & $N_2$ &  $0.8200$ & $0.8150$ & $0.8125$ & $0.8100$ & $0.8075$ & $0.8050$ &  & $0.8000$ \\
+    %%    \hline
+    %%    \multirow{2}{*}{$n-C_4H_9OH$} & $N_2$ &  &   &  &  &  & $0.7718$ & $0.7679$ & $0.7640$ & $0.7600$ & $0.7560$ & $0.7521$ \\
+    $n-C_4H_9OH$ & $N_2$ &  &   &  &  &  & $0.7718$ & $0.7679$ & $0.7640$ & $0.7600$ & $0.7560$ & $0.7521$ \\
+                 & $Ar$ &  &  &  &  &  & $0.0332$ & $0.0346$ & $0.0360$ & $0.0375$ & $0.0390$ & $0.0404$ \\
+    %%    \hline
+    %%    \multirow{2}{*}{$C_5H_{10}O_2$} & $N_2$ & & & & & & & & & & $0.7119$ & & $0.7017$ & $0.6915$ & $0.6811$ & $0.6707$ \\
+    $C_5H_{10}O_2$ & $N_2$ & & & & & & & & & & $0.7119$ & & $0.7017$ & $0.6915$ & $0.6811$ & $0.6707$ \\
+                 & $Ar$ &  &  &  &  &  & & & & & $0.0831$ & & $0.0883$ & $0.0935$ & $0.0989$ & $0.1043$ \\ 
+    \hline
+  \end{tabular}
+}
+\end{table*}
+
+
+\begin{figure*}[p]
+  \centering
+  \scriptsize
+%  \vspace{-0.1in}
+  \input{BV_NB.tex}
+  \normalsize
+%  \vspace{-0.2in}
+  \caption{Mechanism validation on $n$-butanol laminar flame speeds, against the experimental (symbols) and computational (dotted lines) results in Ref.[1]. $P=1 atm$ and $T=353 K$.}
+  \label{fig:BV_NB}
+\end{figure*}
+
+\begin{figure*}[p]
+  \centering
+  \scriptsize
+%  \vspace{-0.1in}
+  \input{BV_MB.tex}
+  \normalsize
+%  \vspace{-0.2in}
+  \caption{Mechanism validation on methyl butanoate laminar flame speeds, against the experimental (symbols) and computational (dotted lines) results in Ref.[1]. $P=1 atm$ and $T=353 K$.}
+  \label{fig:BV_MB}
+\end{figure*}
+
+\end{document}
+

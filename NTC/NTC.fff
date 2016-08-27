@@ -1,0 +1,96 @@
+\begin{figure}[t]
+  \centering
+  \scriptsize
+%  \vspace{-0.1in}
+  \includegraphics[width=0.8\textwidth]{Experimental_Setup.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{Schematic of the experimental system.}
+  \label{fig:setup}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.5\textwidth]{M.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{"M" shaped signal. a.~Switch Air/DME to Air/N$_2$; b.~Switch Air/N$_2$ to Air/DME; c.~Switch Air/DME to N$_2$/DME; d.~Switch N$_2$/DME to Air/DME.}
+  \label{fig:M}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.6\textwidth]{PMT.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{HCHO chemiluminescence intensity at different air boundary temperatures under various strain rates.}
+  \label{fig:PMT}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.6\textwidth]{Scurve-SR.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Maximum HCHO mole fraction of $30\%$ DME at different air boundary temperatures under various strain rates.}
+  \label{fig:Scurve-SR}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[ht]
+  \centering
+  \scriptsize
+  \vspace{0.1in}
+  \includegraphics[width=0.5\textwidth]{IR.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{A/B: Heated air/N$_2$ against DME counterflow IR images at ignition (atmospheric pressure, strain rate $60$ /s); C/D: Difference between A/B and B.}
+  \label{fig:IR}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.6\textwidth]{Ign-SR.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Calculated and observed ignition temperatures of $30\%$ DME under various strain rates.}
+  \label{fig:Ign-SR}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.7\textwidth]{Sen_SR.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Sensitivity analysis on low and high strain rate cases: DME mole fraction is $30\%$.}
+  \label{fig:Sen_SR}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.6\textwidth]{Ign-Con.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Ignition temperatures of various DME concentrations under the strain rate of $60$ /s.}
+  \label{fig:Ign-Con}
+\end{figure}
+\efloatseparator
+ 

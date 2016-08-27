@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage{xcolor}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol, and Methyl Butanoate Flames: Experimental Determination and Mechanistic Analysis}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Authors}
+Sili Deng, Jeremy A. Koch, Michael E. Mueller, Chung K. Law\\ \\
+Department of Mechanical and Aerospace Engineering, Princeton University,
+Princeton, NJ 08544, USA
+
+\section*{Highlights}
+
+\end{document}

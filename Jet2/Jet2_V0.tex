@@ -1,0 +1,317 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticle}
+\documentclass[review,3p,times]{elsarticle}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{cleveref}
+\usepackage{xcolor}
+%\definecolor{dl}{rgb}{0,0,255}
+\definecolor{dl}{rgb}{0,0,0}
+\usepackage{subdepth}
+\usepackage[nomarkers,lists]{endfloat}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Combustion and Flame}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Stabilization of laminar nonpremixed DME/air coflow flames at elevated temperatures and pressures}
+
+\author{Sili~Deng}
+\author{Peng~Zhao}
+\author{Michael E.~Mueller\corref{cor}}
+\author{Chung K.~Law}
+\cortext[cor]{Corresponding Author: muellerm@princeton.edu}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+\begin{abstract}
+
+The structure and stabilization mechanism of laminar nonpremixed autoignitive DME/air coflow flames were investigated at elevated temperatures and pressures. Computations with detailed chemistry were performed for DME and heated coflow air at $30$ atm with uniform inlet velocities ($2.4$, $3.2$, and $8.0$ m/s) imposed for both streams.  The heat release rate profiles were first examined for each case to demonstrate a multibrachial thermal structure.  Species concentrations and temperature were sampled along mixture fraction iso-contours, and Chemical Explosive Mode Analysis (CEMA) was performed to identify the controlling chemistry at representative points.  One-dimensional Lagrangian Flamelet Analysis (LFA) was also performed and compared with the two-dimensional computations to elucidate the relative importance of diffusion processes parallel and normal to the mixture fraction gradient.  Various coflow temperatures with different inlet velocities were examined to elucidate their influences on the multibrachial structure as well as the stabilization mechanism.  \textcolor{dl}{The coupled effects of inhomogeneous autoignition and premixed flame propagation on stabilization were further studied.}  It is found that at high coflow boundary temperatures or low inlet velocities, the classical tribrachial flame structure is first achieved, and autoignition contributes less to the stabilization due to reduced lift-off height and therefore limited residence time.  The kinematic balance between flow speed and flame propagation speed is the dominant stabilization mechanism.  On the contrary, kinetic stabilization is achieved at lower coflow temperatures or higher inlet velocities as autoignition becomes dominant.  The transition of different stabilization mechanisms can be made by changing either the chemical time or residence time of the system.  Based on these results, a regime diagram is constructed that identifies the possible stabilization regimes: blow-off, kinetically stabilized, autoignition-propagation-coupled stabilized, kinematically stabilized, and burner stabilized regimes.          
+
+\end{abstract}
+
+\begin{keyword} 
+Stabilization \sep Nonpremixed coflow flame \sep Autoignition \sep Negative Temperature Coefficient (NTC) \sep Dimethyl ether (DME) 
+\end{keyword}
+
+\end{frontmatter}
+
+
+%\clearpage % For word count
+%==============================================================
+\textcolor{red}{More refs in Intro, more details about LFA, and better structure.}
+
+\section{Introduction}
+
+The stabilization of nonpremixed laminar lifted flames has been extensively investigated~\cite{chung07} at non-autoignitive conditions. A two-dimensional tribrachial structure (also known as triple flame)~\cite{buckmaster02} is observed.  Specifically, three branches, including a lean premixed flame wing, a rich premixed flame wing, and a trailing diffusion flame tail, intersect at a triple point, which is generally considered the stabilization point.  Under nonautoignitive conditions, the local flame propagation speed balances the incoming flow speed, and this dynamic balance is considered as the stabilization mechanism.  As reviewed by Chung~\cite{chung07}, burned gas expansion~\cite{ruetsch95,lee97,plessing98,kioni99}, concentration gradients~\cite{dold89,hartley91,ghosal00}, and velocity gradients~\cite{kim07} influence the local flame speed as well as the flow field, and, therefore, they also affect the stabilization, propagation, and instability of tribrachial flames.
+
+However, practical internal engines operate at elevated pressures and temperatures.  As a consequence, the propensity of autoignition is significantly enhanced, and, therefore, the thermal and chemical structure of the tribrachial flame, as well as the stabilization mechanism, could be affected by the autoignition process.  Furthermore, the autoignition process of most large hydrocarbons under practical engine conditions could possibly lie in the negative temperature coefficient (NTC) regime, in which the overall ignition delay time increases as the initial temperature increases.  The NTC phenomenon is relevant to engine knock~\cite{battin-leclerc08} and has been extensively studied in homogeneous systems~\cite{zador11}.  As Law and co-workers~\cite{law12,zhao13,deng14} recently demonstrated, ignition characteristics in a nonpremixed system can also be affected by NTC effects, especially at elevated pressures and/or extended residence time.  These computational and experimental studies were conducted in the nonpremixed counterflow system where the residence time is well characterized.  When the flow residence time and NTC chemistry timescales are comparable, the two processes are strongly coupled, resulting in modified system response.
+
+To study autoignition with NTC chemistry effects in nonpremixed lifted flame stabilization, Krisman~\emph{et al.}~\cite{krisman14} recently conducted a numerical study of dimethyl ether (DME)/air nonpremixed flames at $40$ atmospheres and elevated air coflow temperatures ($700-1500$ K) and observed multibrachial thermal structures.  The autoignition response in the two-dimensional computation was compared with that of homogeneous autoignition under the same initial conditions.  A transport budget analysis of methoxymethylperoxy (CH$_3$OCH$_2$O$_2$) and hydroxyl (OH) radicals, which represent the low and high temperature chemistry, respectively, was performed to differentiate deflagration from autoignition.
+
+To further elucidate the chemical structure of the multibrachial structure and the roles of autoignition and flame chemistry in the stabilization mechanism, a recent numerical study~\cite{deng15} was performed in a nonpremixed DME/air coflow configuration.  Chemical Explosive Mode Analysis (CEMA) was adopted to identify locally dominant reactions and indicate the corresponding dominant combustion mode.  In addition, Lagrangian Flamelet Analysis (LFA) was adopted to differentiate the transport parallel and normal to the mixture fraction gradient and to elucidate the dominant stabilization mechanism.  Transitions of the stabilization mechanism were demonstrated for increasing coflow boundary temperature at constant inlet velocities.
+
+In the present study, nonpremixed DME/air coflow flames were further studied at elevated temperatures and pressures.  Residence time effects on the stabilization regimes were examined by varying the uniform inlet velocities at constant coflow temperature.  Moreover, the coupling between autoignition and flame chemistry was examined with CEMA and LFA to demonstrate the transition between different stabilization regimes.  Finally, a two-dimensional regime diagram for the stabilization mechanism over flow residence time and chemical timescales was constructed based on the current and previous work.    
+
+ 
+%===============================================================
+
+\section{Computational Details} \label{sec:computation}
+
+The axisymmetric DME stream at $300$ K was surrounded by heated coflow air at $30$ atmospheres.  The fuel nozzle diameter $D$ is $0.8$ mm, and the fuel and air are initially separated by a wall with thickness $D/20$.  The diameter of the coflow is $3.9$ mm with slip wall boundary conditions.  This diameter was chosen to be wide enough such that further widening did not influence the computational results.  Uniform inlet velocities for both streams were specified.
+
+The governing equations, transport model, and chemical model were adopted to be the same as in Deng~\emph{et al.}~\cite{deng15}.  In brief, the Navier-Stokes equation with buoyancy effects in the streamwise direction and the conservation equations of mass, species, and energy were solved.  The species diffusivities are determined assuming a constant, nonunity Lewis number.  The conserved scalar mixture fraction $Z$ is specified as unity and zero for the fuel stream and coflow at the inlet, respectively, and is computed by solving its transport equation with unity Lewis number~\cite{pitsch98b}.  A DME skeletal mechanism of $39$ species~\cite{bhagatwala15}, which was reduced from the well-validated detailed mechanism of Zhao \emph{et al.}~\cite{zhao08}, was adopted as the chemical model.
+
+The governing equations with the low-Mach number formulation are solved using NGA~\cite{desjardins08}.  The momentum and scalar equations are discretized with a second-order centered scheme and a third-order WENO scheme~\cite{liu94}, respectively, on a staggered mesh.  The iterative second-order semi-implicit Crank-Nicolson scheme of Pierce and Moin~\cite{pierce01} is adopted for temporal integration.  The chemical source terms for species and energy equations are evaluated independently from the transport terms using the CVODE package~\cite{cohen96}.
+
+In accordance with the previous grid convergence study~\cite{deng15}, uniform grid spacing in the axial direction was set to $\Delta x = 2.2-4.8$ ${\rm \mu}$m.  Nonuniform grid spacing in the radial direction was set to $\Delta r = 2.5$ ${\rm \mu}$m to resolve the mixing layer near the thin wall, and the grid stretch rate was less than $3$\%.  Details about the numerical discretization are summarized in Table.~\ref{table:domain_V}.      
+
+%===============================================================
+
+\section{Residence Time Effects}
+
+The residence time effects on the nonpremixed coflow flame stabilization were demonstrated by fixing the coflow temperature at $900$ K while setting the uniform inlet velocities to $2.4$, $3.2$, and $8.0$ m/s.  The $3.2$ m/s case was taken from previous work~\cite{deng15}.  
+
+\begin{table*}
+  \caption{Computational domain and number of grid points.}
+  \label{table:domain_V}
+  \centering
+  \normalsize
+  \resizebox{0.4\textwidth}{!}{
+  \begin{tabular}{lc*{2}{c}}
+    \hline
+    Inlet Velocity [m/s]& $2.4$  & $3.2$  & $8.0$   \\
+    \hline
+    $L_x$ [mm]& $3.5$ & $3.5$ & $15$\\
+    %Coflow O.D. [mm]& $3.9$ & $3.9$ & $3.9$\\
+    $N_x$ & $1536$ & $1536$  & $3072$\\
+    $N_r$ & $176$ & $176$ & $176$\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+
+\subsection{Thermal and Chemical Structure}  
+The heat release rate profiles for the three cases are shown in Fig.~\ref{fig:HRR_V}.  A qualitative determination of the stabilization point is the most upstream point on the largest heat release contour (the leading point), colored by red.  The mixture fraction iso-contours of $Z_{\rm st} = 0.1005$, $Z = 0.2$, and $Z = 0.3$ are delineated in solid black lines, from right to left.
+
+When the inlet velocity is the lowest, $2.4$ m/s, a tribrachial thermal structure is observed very similar to that of the classical triple flame.  The triple point at $Z = 0.15$, where the three large heat release branches intersect, is also the stabilization point.  Some heat release can be found upstream of the tribrachial thermal structure for the partially reacting mixture at elevated temperature, but is much less than the heat release from the flame structure.  As the inlet velocity increases to $3.2$ m/s, another branch with large heat release is found attached to the tribrachial structure around $Z = 0.2$.  The stabilization point is, again, the same as the triple point.  This structure has been analyzed in the previous work by the authors~\cite{deng15}.  As the inlet velocity further increases to $8.0$ m/s, the stabilization point is no longer on the tribrachial structure.  Instead, it is found near $Z = 0.25$ and is the intersection point of two trailing heat release branches.  Attached to the leaner branch, there is a tribrachial structure that appears similar to the triple flame structure.  This multibrachial structure is similar to that of the $800$ K case with lower inlet velocity~\cite{deng15}.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=0.7\textwidth]{HRR_V.png}
+  \normalsize
+  \vspace{-0.4in}
+  \caption{Heat release rate [J/m$^3$-s] profiles.  The iso-contours of $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ are outlined from right to left in solid lines, respectively.  The CEMA sampling points for $2.4$ and $8.0$ m/s cases are marked along the iso-contours.}
+  \label{fig:HRR_V}
+\end{figure}
+
+The controlling chemistry of the three cases were studied with CEMA~\cite{lu10,shan12}.   Briefly, local species concentrations and temperature are sampled from the two-dimensional computation and fed into CEMA to evaluate the eigenvalues of the Jacobian matrix of the chemical source terms.  The largest real part of all the eigenvalues, usually a positive value, is defined as the chemical explosive mode, which describes the rate of system runaway.  The projection of a reaction on the explosive mode is defined as the explosion participation index, which measures the reaction's contribution to the explosive mode~\cite{shan12}.
+
+In the present study, such samplings were conducted along $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ iso-contours, as shown in Fig.~\ref{fig:HRR_V}.  Based on the explosive mode and participation index, the evolution of the dominant reactions are shown in Fig.~\ref{fig:CEMA_V}.
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \resizebox{1.0\textwidth}{!}{\input{CEMA_24_fix.tex}}
+  \resizebox{1.0\textwidth}{!}{\input{CEMA_80_fix.tex}}
+  \normalsize
+  \caption{Normalized participation index at $2.4$ and $8.0$ m/s.  Sampled locations are delineated in Fig.~\ref{fig:HRR_V}.}
+  \label{fig:CEMA_V}
+\end{figure}
+
+At $2.4$ m/s, the dominant reactions along $Z_{\rm st}$ and $Z = 0.2$ iso-contours evolve in similar ways: upstream of the tribrachial structure (points A, B, and D), low temperature chemistry, characterized by reactions involving CH$_3$OCH$_2$O$_2$ radicals, are active.  Due to the high diffusivity of H radicals and the elevated pressure, the H radical recombination reaction (H + O$_2$ + M $\Longleftrightarrow$ HO$_2$ + M) is important.  At the most reactive region (points C and E), the H radical branching reaction (H + O$_2$ $\Longleftrightarrow$ O + OH) becomes the most important chain branching reaction, indicating the transition to high temperature chemistry.  On the contrary, for the $8.0$ m/s case, while the low temperature chemistry is still active upstream of the multibrachial structure, the dominant chain branching reaction is the hydrogen peroxide branching reaction (H$_2$O$_2$ + M $\Longleftrightarrow$ OH + OH + M).  Moreover, the dominant reactions along the $Z_{\rm st}$ and $Z = 0.2$ iso-contours evolve in different ways.  Along the $Z = 0.2$ iso-contour, from point D to E, the hydrogen peroxide branching reaction is always the dominant reaction, indicating the role of low-to-intermediate temperature autoignition chemistry~\cite{westbrook00}.  Although this is the case at point A on the $Z_{\rm st}$ iso-contour, the H radical chain branching reaction becomes dominant at point C, the most reactive zone, indicating that the dominant chemical pathway shifts to high temperature chemistry.   
+
+\subsection{Stabilization Mechanism} 
+The above CEMA results have demonstrated the importance of autoignition chemistry in the multibrachial structure.  However, further analysis is still needed to elucidate the role that autoignition plays in the stabilization mechanism.  As demonstrated previously~\cite{deng15}, LFA~\cite{pitsch98a} utilizes the initial conditions given by the two-dimensional computation to provide the time history of the one-dimensional inhomogeneous autoignition.  As only the diffusion processes parallel to the mixture fraction gradient direction are allowed, the comparison of this one-dimensional flamelet and the two-dimensional result gives the relative importance of the transport parallel and normal to the mixture fraction gradient and thus the relative importance of inhomogeneous autoignition and premixed flame propagation to the stabilization mechanism.
+
+\textcolor{dl}{Specifically, the unsteady flamelet was computed with FlameMaster~\cite{flamemaster}.  Species mass fractions and temperature were sampled ten times of the wall thickness downstream of the inlet to avoid the influence from the recirculation zone on the initial condition for LFA.  The time history of the scalar dissipation rate was sampled along the $Z_{\rm st}$ iso-contour from the two-dimensional computation.  The flamelet time was computed from the NGA computational results, along $Z_{\rm st}$ iso-contour: 
+ \begin{equation} \label{eq:t}
+t = \int ^{x}_{0} \frac{1}{(u + u_Z)(x')|(Z=Z_{\rm st})} dx'.
+\end{equation} 
+The axial component of the mixture fraction iso-contour propagation speed relative to the fluid convection $u_Z$ is taken into consideration, in addition to the axial component of the fluid convection velocity $u$, as being adopted in Pitsch \emph {et al.}~\cite{pitsch98a}.  The expression for $u_Z$ is adopted from Lignell \emph {et al.}~\cite{lignell07}:
+\begin{equation}
+\mathbf{u_Z} = -\frac{\nabla \cdot (\rho D_Z \nabla Z) }{\rho |\nabla Z|} \mathbf{n},
+\end{equation}
+where $D_Z$ is the mixture fraction diffusivity, with unity Lewis number, and $\rho$ is the density.  The normal vector \textbf{n}, defined as
+\begin{equation}
+\mathbf{n} = \frac{\nabla Z}{|\nabla Z|},
+\end{equation}
+indicates the direction of this diffusion induced relative velocity.  The dissipation rates at other mixture fractions were computed assuming the following form~\cite{petersbook}:
+\begin{equation} \label{eq:Zref}
+\chi{(Z)} = \chi{(Z_{\rm st})} \frac{\exp{(-2[{\rm erfc}^{-1}(2Z)]^2)}}{\exp{(-2[{\rm erfc}^{-1}(2Z_{\rm st})]^2)}} = \chi{(Z_{\rm st})} f(Z;Z_{\rm st}).
+\end{equation}
+Validation of this formulation is provided in the previous work~\cite{deng15}.}
+
+The Lagrangian time history profiles of two-dimensional computation and one-dimensional LFA are shown in Fig.~\ref{fig:LFA_V}.  For each inlet velocity case, the temperature profiles are compared along $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$.
+
+For the $2.4$ m/s case, LFA fails to match the two-dimensional result at all three mixture fractions, indicating that the transport processes normal to the mixture fraction gradient are crucial, which further indicates that flame propagation is the dominant stabilization mechanism.  At $3.2$ m/s, LFA slightly lags behind the two-dimensional result at $Z_{\rm st}$ but correlates well at $Z = 0.2$ and $Z = 0.3$.  Recalling the heat release profile in Fig.~\ref{fig:HRR_V}, these results indicate that the tetrabrachial structure consists of a tribrachial structure, at which flame propagation is not negligible, and the richer branch that intersects with the tribrachial flame is an autoignition front, whose response is well captured with the one-dimensional inhomogeneous flamelet model.  As a result, stabilization of the $3.2$ m/s case is characterized as a mixed mode of inhomogeneous autoignition and premixed flame propagation, depending on the local mixture fraction.  At $8.0$ m/s, LFA agrees well with the two-dimensional result at all mixture fractions, indicating that the transport processes normal to the mixture fraction gradient are negligible when compared to the parallel processes.  Therefore, the stabilization mechanism is characterized as inhomogeneous autoignition.
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \resizebox{1.0\textwidth}{!}{\input{LFA_V.tex}}
+  \normalsize
+  \vspace{-0.2in}
+  \caption{Comparison between CFD and LFA results.}
+  \label{fig:LFA_V}
+\end{figure}
+
+\subsection{Autoignition and Flame Interaction}
+
+As shown by LFA, under some conditions, inhomogeneous autoignition and premixed flame propagation both contribute to the stabilization, resulting in a multimode stabilized regime.  The interaction between autoignition and flame propagation is complex.  If the thermal structure is mainly \emph{kinetically} stabilized, heat and radicals generated by autoignition can modify the  downstream thermal and chemical environment, and thus the local flame speeds.  On the contrary, if stabilization is mainly \emph{kinematic} in nature, then, heat and radicals generated by the flame can back diffuse upstream, modifying the reactivity upstream.  
+
+To demonstrate these complex interactions and understand the transition between \emph{kinetic} and \emph{kinematic} stabilization mechanisms, the LFA results for the $2.4$ m/s case were further analyzed.  As shown in Fig.~\ref{fig:LFA_V}, if there was a \emph{kinetically} stabilized inhomogeneous autoignition front, this front would stabilize further downstream than the \emph{kinematically} stabilized flame front.  Although not shown, CEMA of these LFA solutions show the same evolution of the controlling chemistry as the $8.0$ m/s case.  In particular, the low-to-intermediate temperature hydrogen peroxide chain branching reaction dominates the transition to autoignition.  Therefore, the nature and the qualitative structures of the inhomogeneous autoignition fronts, as predicted by LFA in Fig.~\ref{fig:LFA_V} for the two lower inlet velocity cases, are essentially the same as the $8.0$ m/s case.  A general description of the initiation of these multibrachial inhomogeneous autoignition fronts is that, due to radical accumulation and heat release, the controlling chemistry shifts from low temperature chemistry, represented by CH$_3$OCH$_2$O$_2$ reactions, to hydrogen peroxide branching reactions.  At $Z_{\rm st}$, higher temperatures and more oxidizer supply enable the dominant chemistry to transition further to high temperature chemistry, as characterized by H radical branching reaction.   
+
+However, after the initiation of this inhomogeneous autoignition front, the stabilization of the final structure depends on the residence time, which is determined by the inlet velocity of the current study.  At $8.0$ m/s, the flow residence time is short enough such that heat and radical back diffusion from the autoignition front to upstream is not able to keep up with convection; therefore, the reacting front is \emph{kinetically} stabilized.  At $3.2$ m/s, the flow residence time is longer, allowing for enough back diffusion such that the reacting front can propagate upstream and flame dynamics become important.  However, the propagation speed of the reacting front varies as the composition and temperature varies.  As a consequence, around $Z_{\rm st}$, where higher temperature and near-stoichiometric mixture composition enable higher local flame speed, the propagation of the reacting front balances the incoming flow velocity.  However, such a balance fails at richer mixture fractions where \emph{kinetic} stabilization dominates due to enhanced NTC-affected autoignition at richer mixture fractions.  At $2.4$ m/s, back diffusion is important at all mixture fractions such that the reacting front propagates upstream at the local flame speed, as determined by the local composition and temperature.  Due to the increased temperature and species stratification and the reduced thermal and radical accumulation from autoignition, the propagation speed of this reacting front slows down as it moves upstream and eventually balances the local flow velocity.  The structure of this \emph{kinematically}-stabilized reacting front, which is generally tribrachial, is therefore determined by the variation of the local flame speed. 
+
+\textcolor{dl}{The above cases have demonstrated that heat and radical accumulation prior to autoignition influences low flame speed.  However, back diffusion processes due to flames also affect the reactivity of the upstream.  These effects are demonstrated with a diluted DME/air coflow flame.  The DME stream is diluted with $90$\% nitrogen by volume, and the coflow air boundary temperature is $800$ K.  The inlet velocity for both streams is $3.2$ m/s.  Details on the domain size and numerical discretization are summarized in Table~\ref{table:domain_D}.} 
+
+\begin{table*}
+  \caption{Computational domain and number of grid points for the diluted case.}
+  \label{table:domain_D}
+  \centering
+  \normalsize
+  \resizebox{0.5\textwidth}{!}{
+  \begin{tabular}{cc*{2}{c}}
+    \hline
+    Length [mm]& Coflow O.D. [mm]  & $N_x$  & $N_r$   \\
+    \hline
+    $57$& $8$ & $8800$ & $156$\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+
+\textcolor{dl}{Figure~\ref{fig:2D_D} shows the heat release rate profile of this diluted case.  The peak heat release rate delineates two thermal structures: a bibrachial structure followed by a tribrachial structure.  There is a gap in between these two structures, due to lower reactivity.  Large amount of hydrogen peroxide is accumulated, until the thermal decomposition at the bibrachial reacting front, producing hydroxyl radicals.  However, even more hydroxyl radicals are produced at the tribrachial structure.  The depletion of hydrogen peroxide and production of hydroxyl radical indicates that the dominant chemistry shift from intermediate temperature ignition chemistry to high temperature chemistry.  This is further justified with CEMA results.  Along the $Z_{\rm st} = 0.4198$ iso-contour, the reactive mixture with positive chemical explosive mode becomes products with negative chemical explosive modes, after the tribrachial front.  From point A to E the dominant chain branching reaction gradually shifts from hydrogen peroxide chain branching reaction (H$_2$O$_2$ + M $\Longleftrightarrow$ OH + OH + M) to H + O$_2$ $\Longleftrightarrow$ O + OH.  Furthermore, the nature of the bibrachial structure is determined: an inhomogeneous ignition front.}
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{2D_D.png}
+  \normalsize
+  \vspace{-0.4in}
+  \caption{Heat release rate [J/m$^3$-s] and hydroxyl radical and hydrogen peroxide mass fraction profiles.  The black solid line delineates the $Z_{\rm st}$ iso-contour.  The CEMA sampling points are marked along the $Z_{\rm st}$.}
+  \label{fig:2D_D}
+\end{figure}
+
+\textcolor{dl}{Selected species and temperature profiles along $Z_{\rm st}$ were examined to elucidate the diffusion processes between the two structures.  As shown in Fig.~\ref{fig:1D_D}, H and OH radicals locally peak at locations corresponding to both structures, and local minima locate in between the gap.  Therefore, these two structures are distinctive structures, and H and OH radicals are formed through chemical reactions, rather than being diffused from one to the other.  On the contrary, temperature increases monotonically along the iso-contour, across these two structures, indicating that heat can back diffuse from the tribrachial structure to upstream.}
+
+\begin{figure}
+  \centering
+  \scriptsize
+  %\hspace{-0.40625in}
+  \input{1D_D_HRR.tex}
+  %\hspace{-0.40625in}
+  \input{1D_D_T.tex}
+  %\hspace{-0.40625in}
+  \input{1D_D_OH.tex}
+  \input{1D_D_H.tex}
+%  \vspace{-0.1875in}
+  \normalsize
+  \caption{Heat release rate, temperature, and H and OH radical mass fraction profiles along $Z_{\rm st}$ for the two-dimensional diluted case.}
+  \label{fig:1D_D}
+\end{figure}
+
+\textcolor{dl}{The nature of the tribrachial structure and the stabilization mechanism are identified with LFA.  As shown in Fig.~\ref{fig:LFA_D}, the one-dimensional inhomogeneous autoignition is lagging behind the two-dimensional computation, which means that diffusion processes perpendicular to mixture fraction gradient direction is important and premixed flame propagation contributes to the stabilization mechanism.  Therefore, the nature of the tribrachial structure is identified: a premixed flame front propagating with local flame speed.  Furthermore, since the bibrachial ignition front is not predicted by the one-dimensional inhomogeneous autoignition, this front is ignited by the tribrachial flame through heat back diffusion.  As a consequence, the flame and the flame supported ignition front are still \emph{kinematically} stabilized.} 
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \input{LFA_D.tex}
+  \normalsize
+ % \vspace{-0.2in}
+  \caption{Comparison between NGA and LFA results along $Z_{\rm st}$ for the diluted case.}
+  \label{fig:LFA_D}
+\end{figure}
+
+\textcolor{dl}{It is expected that when the residence time is reduced by increasing inlet velocity, a \emph{kinetically} stabilized inhomogeneous autoignition structure will be observed.  Conversely, when the residence time is sufficiently long by decreasing inlet velocity, a \emph{kinematically} stabilized triple flame without the supported ignition front will be achieved.}
+       
+%====================================================================
+\section{Stabilization Regime Diagram}
+
+The above sections have demonstrated the residence time effects on the thermal and chemical structure of the lifted coflow flames and the stabilization mechanisms.  Combining these results with the chemical time effects demonstrated by changing the coflow boundary temperature from our previous study~\cite{deng15}, a two-dimensional stabilization regime diagram is proposed, as shown in Fig.~\ref{fig:2D-regime}.   
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{2D-regime.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{A qualitative regime diagram for the stabilization mechanisms as the boundary temperature and inlet velocity vary. }
+  \label{fig:2D-regime}
+\end{figure}
+
+Qualitatively, when the boundary temperature is not high enough to activate autoignition, the lifted flame appears as the classical triple flame and is \emph{kinematically} stabilized.  When the inlet velocity is below or above certain threshold values, the triple flame becomes attached to the burner or is blown off, respectively.  
+
+As the boundary temperature is elevated enough to activate autoignition, the flame stabilization mechanism transits from burner stabilization to a \emph{kinematic} balance between flame speed and incoming flow velocity, then to multimode stabilization influenced by both flame propagation and inhomogeneous autoignition, and finally to \emph {kinetic} stabilization governed by inhomogeneous autoignition.  It is expected that the crossover velocities between regimes increase with increasing boundary temperature because flame speed generally increases at higher temperature.  However, it is difficult to quantify these boundaries as local composition and temperature vary in the streamwise direction, and, therefore, the reference flame speed cannot be calculated based on the upstream boundary conditions.  Furthermore, local flame front curvature, cross-stream species stratification, and flow divergence approaching the flame front also modify the flame speed.  As a consequence, only a qualitative trend is demonstrated in Fig.~\ref{fig:2D-regime}.  
+
+Similarly, if the boundary temperature increases at fixed inlet velocity, transition from blow off to burner stabilized regimes is achieved moving horizontally across the regime diagram, which was discussed in our previous work~\cite{deng15}.     
+
+
+%====================================================================
+
+\section{Conclusions}
+
+In the present work, axisymmetric two-dimensional laminar nonpremixed DME lifted coflow flames at elevated temperatures and pressures were computed.  The residence time effects on the structure and stabilization mechanism were demonstrated by changing the inlet velocities while keeping the coflow boundary temperature constant.
+
+The heat release rate profiles were examined to describe the thermal structure, and CEMA was used to demonstrate the evolution of the controlling chemistry.  Moreover, one-dimensional LFA that captures inhomogeneous autoignition was adopted to identify the dominant transport directions and therefore determine the dominant combustion mode and stabilization mechanism.
+
+At $2.4$ m/s, the lifted flame appears to be the classical triple flame stabilized by the balance between the local flame speed and incoming flow velocity, and it is therefore characterized as \emph {kinematically} stabilized.  As the inlet velocity increases, such a balance cannot be achieved at certain mixture fractions.  Instead, inhomogeneous autoignition becomes the dominant combustion mode.  As a consequence, the multibrachial structure is stabilized by both premixed flame propagation and inhomogeneous autoignition and is characterized as multimode stabilized.  At $8.0$ m/s, the \emph{kinematic} balance cannot be achieved anywhere in the flow field due to reduced residence time.  A \emph {kinetically} stabilized inhomogeneous autoignition front is formed where diffusion processes along the mixture fraction iso-contours are negligible compared to the gradient direction.
+
+\textcolor{dl}{The coupled effects of inhomogeneous autoignition and premixed flame propagation on stabilization were demonstrated.  Besides that the accumulation of heat release and radical production prior to autoignition modifies local flame speed, heat back diffusion from the premixed flame can also initiate an ignition front upstream, as demonstrated with a diluted case.}
+
+Combined with the extended stabilization regimes demonstrated in our previous study~\cite{deng15}, an extended two-dimensional stabilization regime diagram was obtained, considering both residence time (inlet velocity) and chemical time (coflow boundary temperature) effects.  
+
+%====================================================================
+
+
+\section*{Acknowledgments}
+This research was supported in part by the Air Force Office of Scientific Research (AFOSR) under the technical management of Dr. Mitat Birkan.
+
+
+\section*{References}
+\bibliographystyle{elsarticle-num-CNF}
+\bibliography{Jet2}
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+
+
+
+\end{document}
+
+
+
+
+
+  

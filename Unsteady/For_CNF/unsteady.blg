@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/dev)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: unsteady.aux
+The style file: model1-num-names.bst.bst
+Database file #1: unsteady.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 29 entries,
+            2907 wiz_defined-function locations,
+            812 strings with 10759 characters,
+and the built_in function-call counts, 18535 in all, are:
+= -- 1396
+> -- 835
+< -- 10
++ -- 312
+- -- 282
+* -- 2337
+:= -- 2777
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 239
+chr.to.int$ -- 28
+cite$ -- 29
+duplicate$ -- 1185
+empty$ -- 1175
+format.name$ -- 373
+if$ -- 3326
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 288
+newline$ -- 156
+num.names$ -- 116
+pop$ -- 290
+preamble$ -- 1
+purify$ -- 238
+quote$ -- 0
+skip$ -- 296
+stack$ -- 0
+substring$ -- 955
+swap$ -- 1060
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 261
+warning$ -- 0
+while$ -- 123
+width$ -- 0
+write$ -- 386

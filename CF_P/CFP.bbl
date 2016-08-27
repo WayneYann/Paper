@@ -1,0 +1,362 @@
+\begin{thebibliography}{42}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Davy(1817)}]{davy17}
+\bibinfo{author}{H.~Davy},
+\newblock \bibinfo{title}{{Some new experiments and observations on the
+  combustion of gaseous mixtures, with an account of a method of preserving a
+  continued light in mixtures of inflammable gases and air without flame}},
+\newblock \bibinfo{journal}{Philos. Trans. R. Soc. Lond.} \bibinfo{volume}{107}
+  (\bibinfo{year}{1817}) \bibinfo{pages}{77--86}.
+%Type = Article
+\bibitem[{Griffiths and Scott(1987)}]{griffiths87}
+\bibinfo{author}{J.~F. Griffiths}, \bibinfo{author}{S.~K. Scott},
+\newblock \bibinfo{title}{{Thermokinetic interactions: fundamentals of
+  spontaneous ignition and cool flames}},
+\newblock \bibinfo{journal}{Prog. Energy Combust. Sci.} \bibinfo{volume}{13}
+  (\bibinfo{year}{1987}) \bibinfo{pages}{161--197}.
+%Type = Article
+\bibitem[{Leppard(1990)}]{leppard90}
+\bibinfo{author}{W.~Leppard},
+\newblock \bibinfo{title}{{The chemical origin of fuel octane sensitivity}},
+\newblock \bibinfo{journal}{SAE Technical Paper}  (\bibinfo{year}{1990})
+  \bibinfo{pages}{902137}.
+%Type = Article
+\bibitem[{Ciezki and Adomeit(1993)}]{ciezki93}
+\bibinfo{author}{H.~K. Ciezki}, \bibinfo{author}{G.~Adomeit},
+\newblock \bibinfo{title}{{Shock-tube investigation of self-ignition of
+  $n$-heptane-air mixtures under engine relevant conditions}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{93}
+  (\bibinfo{year}{1993}) \bibinfo{pages}{421--433}.
+%Type = Article
+\bibitem[{Griffiths et~al.(2002)Griffiths, MacNamara, Sheppard, Turton, and
+  Whitaker}]{griffiths02}
+\bibinfo{author}{J.~F. Griffiths}, \bibinfo{author}{J.~P. MacNamara},
+  \bibinfo{author}{C.~G.~W. Sheppard}, \bibinfo{author}{D.~A. Turton},
+  \bibinfo{author}{B.~J. Whitaker},
+\newblock \bibinfo{title}{{The relationship of knock during controlled
+  autoignition to temperature inhomogeneities and fuel reactivity}},
+\newblock \bibinfo{journal}{Fuel} \bibinfo{volume}{81} (\bibinfo{year}{2002})
+  \bibinfo{pages}{2219--2225}.
+%Type = Article
+\bibitem[{Kong et~al.(2001)Kong, Marriott, Reitz, and Christensen}]{kong01}
+\bibinfo{author}{S.~Kong}, \bibinfo{author}{C.~Marriott},
+  \bibinfo{author}{R.~Reitz}, \bibinfo{author}{M.~Christensen},
+\newblock \bibinfo{title}{{Modeling and experiments of HCCI engine combustion
+  using detailed chemical kinetics with multidimensional CFD}},
+\newblock \bibinfo{journal}{SAE Technical Paper}  (\bibinfo{year}{2001})
+  \bibinfo{pages}{2001--01--1026}.
+%Type = Article
+\bibitem[{Lu et~al.(2011)Lu, Han, and Huang}]{lu11}
+\bibinfo{author}{X.~Lu}, \bibinfo{author}{D.~Han}, \bibinfo{author}{Z.~Huang},
+\newblock \bibinfo{title}{{Fuel design and management for the control of
+  advanced compression-ignition combustion modes}},
+\newblock \bibinfo{journal}{Prog. Energy Combust. Sci.} \bibinfo{volume}{37}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{741--783}.
+%Type = Article
+\bibitem[{Kokjohn et~al.(2011)Kokjohn, Hanson, Splitter, and Reitz}]{kokjohn11}
+\bibinfo{author}{S.~L. Kokjohn}, \bibinfo{author}{R.~M. Hanson},
+  \bibinfo{author}{D.~A. Splitter}, \bibinfo{author}{R.~D. Reitz},
+\newblock \bibinfo{title}{{Fuel reactivity controlled compression ignition
+  (RCCI): a pathway to controlled high-efficiency clean combustion}},
+\newblock \bibinfo{journal}{Int. J. Engine Res.} \bibinfo{volume}{12}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{209--226}.
+%Type = Article
+\bibitem[{Griffiths et~al.(2002)Griffiths, MacNamara, Sheppard, Turton, and
+  Whitaker}]{griffiths02b}
+\bibinfo{author}{J.~F. Griffiths}, \bibinfo{author}{J.~P. MacNamara},
+  \bibinfo{author}{C.~G.~W. Sheppard}, \bibinfo{author}{D.~A. Turton},
+  \bibinfo{author}{B.~J. Whitaker},
+\newblock \bibinfo{title}{{The relationship of knock during controlled
+  autoignition to temperature inhomogeneities and fuel reactivity}},
+\newblock \bibinfo{journal}{Fuel} \bibinfo{volume}{81} (\bibinfo{year}{2002})
+  \bibinfo{pages}{2219--2225}.
+%Type = Article
+\bibitem[{Silke et~al.(2005)Silke, Curran, and Simmie}]{silke05}
+\bibinfo{author}{E.~J. Silke}, \bibinfo{author}{H.~J. Curran},
+  \bibinfo{author}{J.~M. Simmie},
+\newblock \bibinfo{title}{{The influence of fuel structure on combustion as
+  demonstrated by the isomers of heptane: a rapid compression machine study}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{30}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{2639--2647}.
+%Type = Article
+\bibitem[{Di et~al.(2014)Di, He, Zhang, Wang, Wooldridge, Law, Wang, Shuai, and
+  Wang}]{di14}
+\bibinfo{author}{H.~Di}, \bibinfo{author}{X.~He}, \bibinfo{author}{P.~Zhang},
+  \bibinfo{author}{Z.~Wang}, \bibinfo{author}{M.~S. Wooldridge},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{author}{C.~Wang},
+  \bibinfo{author}{S.~Shuai}, \bibinfo{author}{J.~Wang},
+\newblock \bibinfo{title}{{Effects of buffer gas composition on low temperature
+  ignition of iso-octane and $n$-heptane}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{161}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{2531--2538}.
+%Type = Article
+\bibitem[{Vasu et~al.(2008)Vasu, Davidson, and Hanson}]{vasu08}
+\bibinfo{author}{S.~S. Vasu}, \bibinfo{author}{D.~F. Davidson},
+  \bibinfo{author}{R.~K. Hanson},
+\newblock \bibinfo{title}{{Jet fuel ignition delay times: shock tube
+  experiments over wide conditions and surrogate model predictions}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{152}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{125--143}.
+%Type = Article
+\bibitem[{Herzler et~al.(2005)Herzler, Jerig, and Roth}]{herzler05}
+\bibinfo{author}{J.~Herzler}, \bibinfo{author}{L.~Jerig},
+  \bibinfo{author}{P.~Roth},
+\newblock \bibinfo{title}{{Shock tube study of the ignition of lean
+  $n$-heptane/air mixtures at intermediate temperatures and high pressures}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{30}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{1147--1153}.
+%Type = Article
+\bibitem[{Koert et~al.(1994)Koert, Miller, and Cernansky}]{koert94}
+\bibinfo{author}{D.~N. Koert}, \bibinfo{author}{D.~L. Miller},
+  \bibinfo{author}{N.~P. Cernansky},
+\newblock \bibinfo{title}{{Experimental studies of propane oxidation through
+  the negative temperature coefficient region at 10 and 15 atmospheres}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{96}
+  (\bibinfo{year}{1994}) \bibinfo{pages}{34--49}.
+%Type = Article
+\bibitem[{Curran et~al.(2000)Curran, Fischer, and Dryer}]{curran00}
+\bibinfo{author}{H.~J. Curran}, \bibinfo{author}{S.~L. Fischer},
+  \bibinfo{author}{F.~L. Dryer},
+\newblock \bibinfo{title}{{Reaction kinetics of dimethyl ether. II:
+  low-temperature oxidation in flow reactors}},
+\newblock \bibinfo{journal}{Int. J. Chem. Kinet.} \bibinfo{volume}{32}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{741--759}.
+%Type = Article
+\bibitem[{Dagaut et~al.(1995)Dagaut, Reuillon, and Cathonnet}]{dagaut95}
+\bibinfo{author}{P.~Dagaut}, \bibinfo{author}{M.~Reuillon},
+  \bibinfo{author}{M.~Cathonnet},
+\newblock \bibinfo{title}{{Experimental study of the oxidation of $n$-heptane
+  in a jet stirred reactor from low to high temperature and pressures up to 40
+  atm}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{101}
+  (\bibinfo{year}{1995}) \bibinfo{pages}{132--140}.
+%Type = Article
+\bibitem[{Kikui et~al.(2015)Kikui, Kamada, Nakamura, Tezuka, Hasegawa, and
+  Maruta}]{kikui15}
+\bibinfo{author}{S.~Kikui}, \bibinfo{author}{T.~Kamada},
+  \bibinfo{author}{H.~Nakamura}, \bibinfo{author}{T.~Tezuka},
+  \bibinfo{author}{S.~Hasegawa}, \bibinfo{author}{K.~Maruta},
+\newblock \bibinfo{title}{{Characteristics of n-butane weak flames at elevated
+  pressures in a micro flow reactor with a controlled temperature profile}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{3405--3412}.
+%Type = Article
+\bibitem[{Law and Zhao(2012)}]{law12}
+\bibinfo{author}{C.~K. Law}, \bibinfo{author}{P.~Zhao},
+\newblock \bibinfo{title}{{NTC-affected ignition in nonpremixed counterflow}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{1044--1054}.
+%Type = Article
+\bibitem[{Zhao and Law(2013)}]{zhao13}
+\bibinfo{author}{P.~Zhao}, \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{The role of global and detailed kinetics in the
+  first-stage ignition delay in NTC-affected phenomena}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{160}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{2352--2358}.
+%Type = Article
+\bibitem[{Deng et~al.(2014)Deng, Zhao, Zhu, and Law}]{deng14}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{D.~Zhu},
+  \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{NTC-affected ignition and low-temperature flames in
+  nonpremixed DME/air counterflow}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{161}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{1993--1997}.
+%Type = Article
+\bibitem[{Won et~al.(2015)Won, Jiang, Dievart, Sohn, and Ju}]{won15}
+\bibinfo{author}{S.~H. Won}, \bibinfo{author}{B.~Jiang},
+  \bibinfo{author}{P.~Dievart}, \bibinfo{author}{C.~H. Sohn},
+  \bibinfo{author}{Y.~Ju},
+\newblock \bibinfo{title}{{Self-sustaining $n$-heptane cool diffusion flames
+  activated by ozone}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{881--888}.
+%Type = Article
+\bibitem[{Nayagam et~al.(2012)Nayagam, Dietrich, Ferkul, Hicks, and
+  Williams}]{nayagam12}
+\bibinfo{author}{V.~Nayagam}, \bibinfo{author}{D.~L. Dietrich},
+  \bibinfo{author}{P.~V. Ferkul}, \bibinfo{author}{M.~C. Hicks},
+  \bibinfo{author}{F.~A. Williams},
+\newblock \bibinfo{title}{{Can cool flames support quasi-steady alkane droplet
+  burning?}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{3583--3588}.
+%Type = Article
+\bibitem[{Farouk et~al.(2015)Farouk, Hicks, and Dryer}]{farouk15}
+\bibinfo{author}{T.~I. Farouk}, \bibinfo{author}{M.~C. Hicks},
+  \bibinfo{author}{F.~L. Dryer},
+\newblock \bibinfo{title}{{Multistage oscillatory "cool flame" behavior for
+  isolated alkane droplet-combustion in elevated pressure microgravity
+  condition}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1701--1708}.
+%Type = Article
+\bibitem[{Nayagam et~al.(2015)Nayagam, Dietrich, Hicks, and
+  Williams}]{nayagam15}
+\bibinfo{author}{V.~Nayagam}, \bibinfo{author}{D.~L. Dietrich},
+  \bibinfo{author}{M.~C. Hicks}, \bibinfo{author}{F.~A. Williams},
+\newblock \bibinfo{title}{{Cool-flame extinction during n-alkane droplet
+  combustion in microgravity}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{162}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{2140--2147}.
+%Type = Article
+\bibitem[{Ju et~al.(2016)Ju, Lefkowitz, Reuter, Won, Yang, Yang, Sun, Jiang,
+  and Chen}]{ju16}
+\bibinfo{author}{Y.~Ju}, \bibinfo{author}{J.~K. Lefkowitz},
+  \bibinfo{author}{C.~B. Reuter}, \bibinfo{author}{S.~H. Won},
+  \bibinfo{author}{X.~Yang}, \bibinfo{author}{S.~Yang},
+  \bibinfo{author}{W.~Sun}, \bibinfo{author}{Z.~Jiang},
+  \bibinfo{author}{Q.~Chen},
+\newblock \bibinfo{title}{{Plasma assisted low temperature combustion}},
+\newblock \bibinfo{journal}{Plasma Chem. Plasma Process} \bibinfo{volume}{36}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{85--105}.
+%Type = Article
+\bibitem[{Deng et~al.(2016)Deng, Zhao, Mueller, and Law}]{deng16}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{M.~E.
+  Mueller}, \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{Flame dynamics in oscillating flows under
+  autoignitive conditions}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{168}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{75--82}.
+%Type = Article
+\bibitem[{Mcilroy et~al.(2000)Mcilroy, Hain, Michelsen, and Cool}]{mcilroy00}
+\bibinfo{author}{A.~Mcilroy}, \bibinfo{author}{T.~D. Hain},
+  \bibinfo{author}{H.~A. Michelsen}, \bibinfo{author}{T.~A. Cool},
+\newblock \bibinfo{title}{{A laser and molecular beam mass spectrometer study
+  of low-pressure dimethyl ether flames}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{28}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{1647--1653}.
+%Type = Article
+\bibitem[{Zhao et~al.(2008)Zhao, Chaos, Kazakov, and Dryer}]{zhao08}
+\bibinfo{author}{Z.~Zhao}, \bibinfo{author}{M.~Chaos},
+  \bibinfo{author}{A.~Kazakov}, \bibinfo{author}{F.~L. Dryer},
+\newblock \bibinfo{title}{{Thermal decomposition reaction and a comprehensive
+  kinetic model of dimethyl ether}},
+\newblock \bibinfo{journal}{Int. J. Chem. Kinet.} \bibinfo{volume}{40}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{1--18}.
+%Type = Article
+\bibitem[{Bhagatwala et~al.(2015)Bhagatwala, Luo, Shen, Sutton, Lu, and
+  Chen}]{bhagatwala15}
+\bibinfo{author}{A.~Bhagatwala}, \bibinfo{author}{Z.~Luo},
+  \bibinfo{author}{H.~Shen}, \bibinfo{author}{J.~A. Sutton},
+  \bibinfo{author}{T.~Lu}, \bibinfo{author}{J.~H. Chen},
+\newblock \bibinfo{title}{{Numerical and experimental investigation of
+  turbulent DME jet flames}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1157--1166}.
+%Type = Article
+\bibitem[{Fotache et~al.(1995)Fotache, Kreutz, Zhu, and Law}]{fotache95}
+\bibinfo{author}{C.~G. Fotache}, \bibinfo{author}{T.~G. Kreutz},
+  \bibinfo{author}{D.~L. Zhu}, \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{An Experimental Study of Ignition in Nonpremixed
+  Counterflowing Hydrogen versus Heated Air}},
+\newblock \bibinfo{journal}{Combust. Sci. Technol.} \bibinfo{volume}{109}
+  (\bibinfo{year}{1995}) \bibinfo{pages}{373--393}.
+%Type = Article
+\bibitem[{Liu et~al.(2010)Liu, Zhu, Wu, and Law}]{liu10}
+\bibinfo{author}{W.~Liu}, \bibinfo{author}{D.~Zhu}, \bibinfo{author}{N.~Wu},
+  \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{Ignition of $n$-heptane pool by heated stagnating
+  oxidizing flow},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{157}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{259--266}.
+%Type = Article
+\bibitem[{Zhao et~al.(2016)Zhao, Liang, Deng, and Law}]{zhao16}
+\bibinfo{author}{P.~Zhao}, \bibinfo{author}{W.~Liang},
+  \bibinfo{author}{S.~Deng}, \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{Initiation and propagation of laminar premixed cool
+  flames}},
+\newblock \bibinfo{journal}{{Fuel}} \bibinfo{volume}{166}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{477--487}.
+%Type = Article
+\bibitem[{Seiser et~al.(2000)Seiser, Pitsch, Seshadri, Pitz, and
+  Curran}]{seiser00}
+\bibinfo{author}{R.~Seiser}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{author}{K.~Seshadri}, \bibinfo{author}{W.~J. Pitz},
+  \bibinfo{author}{H.~J. Curran},
+\newblock \bibinfo{title}{{Extinction and autoignition of {n}-heptane in
+  counterflow configuration}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{28}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{2029--2037}.
+%Type = Book
+\bibitem[{Law(2006)}]{lawbook}
+\bibinfo{author}{C.~K. Law}, \bibinfo{title}{{Combustion Physics}},
+  \bibinfo{publisher}{Cambridge University Press}, \bibinfo{address}{New York},
+  \bibinfo{year}{2006}.
+%Type = Article
+\bibitem[{Giovangigli and Smooke(1987)}]{giovangigli87}
+\bibinfo{author}{V.~Giovangigli}, \bibinfo{author}{M.~D. Smooke},
+\newblock \bibinfo{title}{{Calculation of extinction limits for premixed
+  laminar flames in a stagnation point flow}},
+\newblock \bibinfo{journal}{J. Comput. Phys.} \bibinfo{volume}{68}
+  (\bibinfo{year}{1987}) \bibinfo{pages}{327--345}.
+%Type = Article
+\bibitem[{Grosshandler(1993)}]{grosshandler93}
+\bibinfo{author}{W.~L. Grosshandler},
+\newblock \bibinfo{title}{{RADCAL: A narrow-band model for radiation
+  calculations in a combustion environment}},
+\newblock \bibinfo{journal}{NIST technical note} \bibinfo{volume}{1402}
+  (\bibinfo{year}{1993}).
+%Type = Article
+\bibitem[{Smooke et~al.(1988)Smooke, Puri, and Seshadri}]{smooke88}
+\bibinfo{author}{M.~D. Smooke}, \bibinfo{author}{I.~K. Puri},
+  \bibinfo{author}{K.~Seshadri},
+\newblock \bibinfo{title}{{A comparison between numerical calculations and
+  experimental measurements of the structure of a counterflow diffusion flame
+  burning diluted methane in diluted air}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{21}
+  (\bibinfo{year}{1988}) \bibinfo{pages}{1783--1792}.
+%Type = Article
+\bibitem[{Nishioka et~al.(1996)Nishioka, Law, and Takeno}]{nishioka96}
+\bibinfo{author}{M.~Nishioka}, \bibinfo{author}{C.~K. Law},
+  \bibinfo{author}{T.~Takeno},
+\newblock \bibinfo{title}{{A flame-controlling continuation method for
+  generating S-curve responses with detailed chemistry}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{104}
+  (\bibinfo{year}{1996}) \bibinfo{pages}{328--342}.
+%Type = Article
+\bibitem[{Zheng et~al.(2005)Zheng, Lu, Law, Westbrook, Curran, Berces, and
+  Dryer}]{zheng05}
+\bibinfo{author}{X.~L. Zheng}, \bibinfo{author}{T.~F. Lu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{author}{C.~K. Westbrook},
+  \bibinfo{author}{H.~J. Curran}, \bibinfo{author}{T.~Berces},
+  \bibinfo{author}{F.~L. Dryer},
+\newblock \bibinfo{title}{{Experimental and computational study of nonpremixed
+  ignition of dimethyl ether in counterflow}},
+\newblock \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{30}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{1101--1109}.
+%Type = Article
+\bibitem[{Deng et~al.(2015{\natexlab{a}})Deng, Zhao, Mueller, and Law}]{deng15}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{M.~E.
+  Mueller}, \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{Autoignition-affected stabilization of laminar
+  nonpremixed DME/air coflow flames}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{162}
+  (\bibinfo{year}{2015}{\natexlab{a}}) \bibinfo{pages}{3437--3445}.
+%Type = Article
+\bibitem[{Deng et~al.(2015{\natexlab{b}})Deng, Zhao, Mueller, and
+  Law}]{deng15b}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{M.~E.
+  Mueller}, \bibinfo{author}{C.~K. Law},
+\newblock \bibinfo{title}{{Stabilization of laminar nonpremixed DME/air coflow
+  flames at elevated temperatures and pressures}},
+\newblock \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{162}
+  (\bibinfo{year}{2015}{\natexlab{b}}) \bibinfo{pages}{4471--4478}.
+%Type = Book
+\bibitem[{Pilling(1997)}]{pillingbook}
+\bibinfo{author}{M.~J. Pilling}, \bibinfo{title}{{Low-temperature Combustion
+  and Autoignition}}, \bibinfo{publisher}{Elsevier Science},
+  \bibinfo{year}{1997}.
+
+\end{thebibliography}

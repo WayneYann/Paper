@@ -1,0 +1,72 @@
+\contentsline {section}{Abstract}{iii}{Doc-Start}
+\contentsline {section}{Acknowledgements}{vi}{section*.1}
+\contentsline {section}{List of Tables}{xii}{section*.4}
+\contentsline {section}{List of Figures}{xiii}{section*.6}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Chemistry-Transport Coupling in Flame Dynamics}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Low-Temperature Chemistry and Cool Flames}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}LTC in Nonpremixed Flames}{4}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Nonpremixed Flame Stabilization and Oscillation}{6}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}LTC in Flame Stabilization}{8}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Chemistry-Transport Coupling in Soot Emissions}{10}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Soot Mechanisms and Emissions}{10}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Role of Fuel Structure in PAH Chemistry and Soot Emissions}{12}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Combined Role of Fuel and Turbulence in Soot Emissions}{14}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Organization of the Dissertation}{16}{section.1.3}
+\contentsline {chapter}{\numberline {2}Nonpremixed Counterflow Cool Flames}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Experimental Investigation}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Computational Investigation}{22}{section.2.2}
+\contentsline {section}{\numberline {2.3}Nonpremixed Cool Flames at Atmospheric Conditions}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Identification of the Cool Flame}{24}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Determination of Ignition Temperature}{27}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Nonpremixed Cool Flames at Elevated Pressure}{32}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Improvement of the Experimental Methodology}{32}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Hysteretic Ignition and Extinction Behavior}{33}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Analysis of Thermal and Chemical Structures}{37}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Uncertainty Analysis}{42}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Effects of Pressure and Oxygen Concentration}{45}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Summary}{49}{section.2.5}
+\contentsline {chapter}{\numberline {3}Flame Dynamics at Engine Conditions}{52}{chapter.3}
+\contentsline {section}{\numberline {3.1}Computational Details}{53}{section.3.1}
+\contentsline {section}{\numberline {3.2}Flame Stabilization: Boundary Temperature Effects}{55}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Thermal and Chemical Structure}{55}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Computational Diagnostics and Analysis}{61}{subsection.3.2.2}
+\contentsline {subsubsection}{Chemical Explosive Mode Analysis}{62}{section*.8}
+\contentsline {subsubsection}{Lagrangian Flamelet Analysis}{65}{section*.9}
+\contentsline {subsection}{\numberline {3.2.3}Stabilization Mechanism}{70}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Flame Stabilization: Boundary Velocity Effects}{72}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Thermal and Chemical Structure}{73}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Stabilization Mechanism}{76}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Autoignition and Flame Interaction}{77}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Stabilization Regime Diagram}{82}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Flame Dynamics in Oscillating Flows}{83}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Thermal Structure}{84}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Differentiation of Combustion Mode}{85}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Effects of Oscillation Frequency}{91}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Summary}{97}{section.3.5}
+\contentsline {chapter}{\numberline {4}Sooting Limits of Laminar Stagnation-Flow Flames}{99}{chapter.4}
+\contentsline {section}{\numberline {4.1}Experimental Methodology}{100}{section.4.1}
+\contentsline {section}{\numberline {4.2}Computational Methodology}{102}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Chemical Model}{103}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Soot Model}{106}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Results: Sooting Limits}{110}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mechanistic Analysis}{111}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Volume Fraction Response to Strain Rate}{112}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Sensitivity and Reaction Pathway Analysis}{113}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Rate-Limiting Steps for PAH Formation}{116}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Summary}{117}{section.4.5}
+\contentsline {chapter}{\numberline {5}Soot Evolution in Turbulent Bluff Body Flames}{121}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experimental Methodology}{122}{section.5.1}
+\contentsline {section}{\numberline {5.2}Computational Methodology}{123}{section.5.2}
+\contentsline {section}{\numberline {5.3}Results and Discussion}{126}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Overall Flame Structure}{126}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Effects of Hydrogen Addition}{128}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Summary}{134}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions}{137}{chapter.6}
+\contentsline {section}{\numberline {6.1}Major Contributions}{137}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Characterization of Nonpremixed Cool Flames}{137}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Demonstration of Autoignition-Affected Flame Dynamics}{139}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Characterization of Nonpremixed Sooting Limits}{142}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Demonstration of Hydrogen-Affected Soot Emissions}{143}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Recommendations for Future Work}{144}{section.6.2}
+\contentsline {chapter}{Bibliography}{148}{section*.10}

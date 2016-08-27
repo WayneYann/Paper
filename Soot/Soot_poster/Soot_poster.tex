@@ -1,0 +1,62 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticleUS}
+\documentclass[review,3p,times]{elsarticleUS}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{subdepth}
+\usepackage[nomarkers,lists]{endfloat}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Proceedings of the Combustion Institute}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Sooting Limits of Nonpremixed $n$-Heptane, $n$-Butanol, and Methyl Butanoate Flames: Experimental Determination and Mechanistic Analysis}
+
+\author{Sili~Deng\corref{cor}}
+\cortext[cor]{Corresponding Author: silideng@princeton.edu}
+\author{Jeremy A.~Koch}
+\author{Michael E.~Mueller}
+\author{Chung K.~Law}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+\begin{abstract}
+The sooting limits of nonpremixed $n$-heptane, $n$-butanol, and methyl butanoate flames were determined experimentally in a liquid pool stagnation-flow configuration. In addition, complementary simulations with detailed polycyclic aromatic hydrocarbon (PAH) chemistry and a detailed soot model, based on the Hybrid Method of Moments (HMOM), were performed and compared with the experimental critical strain rates for the sooting flames. Both experiment and simulation showed that $n$-heptane and $n$-butanol had similar sooting characteristics, while methyl butanoate had the least sooting propensity. Further sensitivity and reaction path analysis demonstrates that the three fuels share similar PAH chemical pathways, and the differences in sooting propensity lie in the fuel breakdown processes. The oxygen bounded in $n$-butanol does not reduce soot precursor concentrations but is primarily involved in intramolecular water elimination reactions. On the contrary, the fuel bound 
+oxygen in methyl butanoate shortens the carbon chain of the soot precursors and promotes their oxidation, which reduces the total carbon available for soot formation. C$_5$ and C$_6$ ring formation from the intermediate chain species is found to be the rate limiting step. 
+\end{abstract}
+
+\begin{keyword} 
+Soot \sep Nonpremixed stagnation-flow flame \sep
+Hybrid Method of Moments \sep $n$-Butanol \sep Methyl butanoate
+\end{keyword}
+
+\end{frontmatter}
+
+\end{document}

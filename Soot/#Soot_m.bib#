@@ -1,0 +1,401 @@
+@article{liu11,
+title = {Non-premixed ignition, laminar flame propagation, and mechanism reduction of $n$-butanol, $iso$-butanol, and methyl butanoate},
+journal = {Proc. Combust. Inst.},
+author = {Liu, W. and Kelley, A. P. and Law, C. K.},
+year = {2011},
+volume = {33},
+pages = {995--1002}
+}
+
+@article{graboski98,
+title = {Combustion of fat and vegetable oil derived fuels in diesel engines},
+journal = {Prof. Energy Combust.},
+author = {Graboski, M. S. and McCormick, R. L.},
+year = {1998},
+volume = {24},
+pages = {125--164}
+}
+
+
+@article{frijters06,
+title = {Oxygenated fuels for clean heavy-duty diesel engines},
+journal = {Int. J. Veh. Des.},
+author = {Frijters, P. M. J. and Baert, R. S. G.},
+year = {2006},
+volume = {41},
+pages = {242--255}
+}
+
+@article{pepiot08,
+title = {Structure group analysis for soot reduction tendency of oxygenated fuels},
+journal = {Combust. Flame},
+author = {Pepiot, P. and Pitsch, H. and Malhotra, R. and irby, S. R. and Boehman, A. L.},
+year = {2008},
+volume = {154},
+pages = {191--205}
+}
+
+@article{mcenally05,
+title = {Fuel decomposition and hydrocarbon growth processes for oxygenated hydrocarbons: butyl alcohols},
+journal = {Proc. Combust. Inst.},
+author = {McEnally, C. S. and Pfefferle, L. D.},
+year = {2005},
+volume = {30},
+pages = {1363--1370}
+}
+
+@article{mcenally11,
+title = {Sooting tendencies of oxygenated hydrocarbons in laboratory-scale flames},
+journal = {Environ. Sci. Technol.},
+author = {McEnally, C. S. and Pfefferle, L. D.},
+year = {2011},
+volume = {45},
+pages = {2498--2503}
+}
+
+@article{westbrook06,
+title = {Chemical kinetic modeling study of the effects of oxygenated hydrocarbons on soot emissions from diesel engines},
+journal = {J. Phys. Chem. A},
+author = {Westbrook, C. K. and Pitz, W. J. and Curran, H. J.},
+year = {2006},
+volume = {110},
+pages = {6912--6922}
+}
+
+@article{vandsburger85,
+title = {Sooting counter-flow diffusion flames with varying velocity gradients},
+journal = {Proc. Combust. Inst.},
+author = {Vandsburger, U. and Kennedy, I. M. and Glassman, I.},
+year = {1985},
+volume = {20},
+pages = {1105--1112}
+}
+
+@article{tsuji71,
+title = {Structure analysis of counterflow diffusion flames in the forward stagnation region of a porous cylinder},
+journal = {Proc. Combust. Inst.},
+author = {Tsuji, H. and Yamaoka, I.},
+year = {1971},
+volume = {13},
+pages = {723--731}
+}
+
+@misc{flamemaster,
+author = {Pitsch, H.},
+title = {FlameMaster, A {C}++ computer program for 0{D} combustion and 1{D} laminar flaem calculations.}
+}
+
+@article{wang11,
+title = {Formation of nascent soot and other condensed-phase materials in flames},
+journal = {Proc. Combust. Inst.},
+author = {Wang, H.},
+year = {2011},
+volume = {33},
+pages = {41--67}
+}
+
+@article{du89,
+title = {Experiments on the sooting limits of aerodynamically-strained diffusion flames},
+journal = {Proc. Combust. Inst.},
+author = {Du, D. X. and Axelbaum, R. L. and Law, C. K.},
+year = {1989},
+volume = {22},
+pages = {387--394}
+}
+
+@article{du91,
+title = {The influence of carbon dioxide and oxygen as additives on soot formation in diffusion flames},
+journal = {Proc. Combust. Inst.},
+author = {Du, D. X. and Axelbaum, R. L. and Law, C. K.},
+year = {1991},
+volume = {23},
+pages = {1501--1507}
+}
+
+@article{axelbaum91,
+title = {Soot formation and inert addition in diffusion flames},
+journal = {Proc. Combust. Inst.},
+author = {Axelbaum, R. L. and Law, C. K.},
+year = {1991},
+volume = {23},
+pages = {1517--1523}
+}
+
+@article{liu10,
+title = {Ignition of $n$-heptane pool by heated stagnating oxidizing flow},
+journal = {Combust. Flame},
+author = {Liu, W. and Zhu, D. and Wu, N. and Law, C. K.},
+year = {2010},
+volume = {157},
+pages = {259--266}
+}
+
+@misc{chemkin,
+title = {{CHEMKIN} {C}ollection, {R}elease 3.6, {R}eaction {D}esign, {I}nc., {S}an {D}iego, {CA}},
+author = {Kee, R. J. and Rupley, F. M. and Miller, J. A.},
+year = {2000}
+}
+
+@article{buipham91,
+title = {Comparison between experimental measurements and numerical calculations of the structure of heptane-air diffusion flames},
+journal = {Combust. Sci. Technol.},
+author = {Bui-Pham, M. and Seshadri, K.},
+year = {1991},
+volume = {79},
+pages = {293--310}
+}
+
+@book{polingbook,
+author = {Poling, B. E. and Prausnitz, J. M. and O'Connell, J. P.},
+title = {The Properties of Gases and Liquids},
+publisher = {McGraw-Hill},
+address = {New York}, 
+edition = {fifth},
+year = {2000},
+}
+
+@article{mueller09a,
+title = {A joint {V}olume-{S}urface model of soot aggregation with the method of moments},
+journal = {Proc. Combust. Inst.},
+author = {Mueller, M. E. and Blanquart, G. and Pitsch, H.},
+year = {2009},
+volume = {32},
+pages = {785--792}
+}
+
+@article{mueller09b,
+title = {{H}ybrid {M}ethod of {M}oments for modeling soot formation and growth},
+journal = {Combust. Flame},
+author = {Mueller, M. E. and Blanquart, G. and Pitsch, H.},
+year = {2009},
+volume = {156},
+pages = {1143--1155}
+}
+
+@article{mueller11a,
+title = {Modeling the oxidation-induced fragmentation of soot aggregates in laminar flames},
+journal = {Proc. Combust. Inst.},
+author = {Mueller, M. E. and Blanquart, G. and Pitsch, H.},
+year = {2011},
+volume = {33},
+pages = {667--674}
+}
+
+@book{friedlander00,
+title = {Smoke, Dust, and Haze: Fundamentals of Aerosol Dynamics},
+author = {Friedlander, S. K.},
+publisher = {Oxford University Press},
+address = {New York},
+year = {2000}
+}
+
+@article{frenklach02,
+title = {Reaction mechanism of soot formation in flames},
+journal = {Phys. Chem. Chem. Phys.},
+author = {Frenklach, M.},
+year = {2002},
+volume = {4},
+pages = {2028--2037}
+}
+
+@article{frenklach91,
+title = {Detailed modeling of soot particle nucleation and growth},
+journal = {Proc. Combust. Inst.},
+author = {Frenklach, M. and Wang, H.},
+year = {1991},
+volume = {23},
+pages = {1559--1566}
+}
+
+@incollection{waldmann66,
+title = {Thermophoresis and diffusiophoresis of aerosols},
+booktitle = {Aerosol Science},
+author = {Waldmann, L. and Schmitt, K. H.},
+editor = {Davies, C. N.},
+publisher = {Academic Press},
+year = {1966}
+}
+
+@article{bisetti11,
+title = {On the formation and early evolution of soot in turbulent nonpremixed flames},
+journal = {Combust. Flame},
+author = {Bisetti, F. and Blanquart, G. and Mueller, M. E. and Pitsch, H.},
+year = {2012},
+volume = {159},
+pages = {317--335}
+}
+
+@article{marchisio05,
+title = {Solution of population balance equations using the {D}irect {Q}uadrature {M}ethod of {M}oments},
+journal = {J. Aerosol Sci.},
+author = {Marchisio, D. L. and Fox, R. O.},
+year = {2005},
+volume = {36},
+pages = {43--73},
+}
+
+@article{frenklach87,
+title = {Aerosol dynamics modeling using the method of moments},
+journal = {J. Coll. Int. Sci.},
+author = {Frenklach, M. and Harris, S. J.},
+year = {1987},
+volume = {118},
+pages = {252--261},
+}
+
+@article{blanquart09b,
+title = {Chemical mechanism for high temperature combustion of engine relevant fuels with emphasis on soot precursors},
+journal = {Combust. Flame},
+author = {Blanquart, G. and Pepiot-Desjardins, P. and Pitsch, H.},
+year = {2009},
+volume = {156},
+pages = {588--607}
+}
+
+@article{narayanaswamy10,
+title = {A consistent chemical mechanism for oxidation of substituted aromatic species},
+journal = {Combust. Flame},
+author = {Narayanaswamy, K. and Blanquart, G. and Pitsch, H.},
+year = {2010},
+volume = {157},
+pages = {1879--1898}
+}
+
+@article{berta06,
+title = {An experimental and numerical investigation of $n$-heptane/air counterflow partially premixed flames and emission of {NO}$_x$ and {PAH} species},
+journal = {Combust. Flame},
+author = {Berta, P. and Aggarwal, S. K. and Puri, I. K.},
+year = {2006},
+volume = {145},
+pages = {740--764}
+}
+
+@article{lu06a,
+title = {On the applicability of directed relation graphs to the reduction of reaction mechanisms},
+journal = {Combust. Flame},
+author = {Lu, T. F. and Law, C. K.},
+year = {2006},
+volume = {146},
+pages = {472--483}
+}
+
+@article{lu06b,
+title = {Linear time reduction of large kinetic mechanisms with directed relation graph: $n$-heptane and $iso$-octane},
+journal = {Combust. Flame},
+author = {Lu, T. F. and Law, C. K.},
+year = {2006},
+volume = {144},
+pages = {24--36}
+}
+
+@article{zheng07,
+title = {Experimental counterflow ignition temperatures and reaction mechanisms of $1,3$-butadiene},
+journal = {Proc. Combust. Inst.},
+author = {Zheng, X. L. and Lu, T. F. and Law, C. K.},
+year = {2007},
+volume = {31},
+pages = {367--375}
+}
+
+@article{sarathy09,
+title = {An experimental and kinetic modeling study of $n$-butanol combustion},
+journal = {Combust. Flame},
+author = {Sarathy, S. M. and Thomson, M. J. and Togb\'{e}, C. and Halter, F. and Mounaim-Rousselle},
+year = {2009},
+volume = {156},
+pages = {852--864}
+}
+
+@article{gail08,
+title = {Experimental and chemical kinetic modeling study of small methyl esters oxidation: Methyl(E)-2-butenoate and methyl butanoate},
+journal = {Combust. Flame},
+author = {Ga\"il, S. and Sarathy, S. M. and Thomson, M. J. and Di\'evart, P. and Dagaut, P.},
+year = {2008},
+volume = {155},
+pages = {635--650}
+}
+
+@article{feng12,
+title = {Soot formation in flames of model biodiesel fuels},
+journal = {Combust. Flame},
+author = {Feng, Q. and jalali, A. and Fincham, A. M. and Wang, Y. L. Tsotsis, T. T. and Egolfopoulos, F. N.},
+year = {2012},
+volume = {159},
+pages = {1876--1893}
+}
+
+@article{wangyl11,
+title = {Studies of {C}$_4$ and {C}$_{10}$ ester flames},
+journal = {Combust. Flame},
+author = {Wang, Y. L. and Feng, Q. and Egolfopoulos, F. N. and Tsotsis, T. T.},
+year = {2011},
+volume = {158},
+pages = {1507--1519}
+}
+
+
+@article{camacho13,
+title = {Evolution of size distribution of nascent soot in $n$- and $i$-butanol flames},
+journal = {Proc. Combust. Inst.},
+author = {Camacho, J. and Lieb, S. and Wang, H.},
+year = {2013},
+volume = {34},
+pages = {1853--1860}
+}
+
+@article{schuetz02,
+title = {Nucleation of soot: molecular dynamics simulations of pyrene dimerization},
+journal = {Proc. Combust. Inst.},
+author = {Schuetz, C. A. and Frenklach, M.},
+year = {2002},
+volume = {29},
+pages = {2307--2314}
+}
+
+@incollection{wong09,
+title = {Molecular dynamics of {PAH} dimerization},
+booktitle = {Combustion {G}enerated {f}ine {C}arbonaceous {P}articles},
+author = {Wong, D. and Schuetz, C. A. and Frenklach, M.},
+publisher={{KIT} {S}cientific {P}ublishing},
+year = {2009},
+editor = {Bockhorn, H. and D'Anna, A. and Sarofim, A. and Wang, H.},
+pages = {247--257}
+}
+
+@incollection{blanquart09c,
+title = {A joint volume-surface-hydrogen multi-variate model for soot formation},
+booktitle = {Combustion {G}enerated {f}ine {C}arbonaceous {P}articles},
+author = {Wong, D. and Schuetz, C. A. and Frenklach, M.},
+publisher={{KIT} {S}cientific {P}ublishing},
+year = {2009},
+editor = {Bockhorn, H. and D'Anna, A. and Sarofim, A. and Wang, H.},
+pages = {439--466}
+}
+
+@article{kazakov95,
+title = {Detailed modeling of soot formation in laminar premixed ethylene flames at a pressure of 10 bar},
+journal = {Combust. Flame},
+author = {Kazakov, A. and Wang, H. and Frenklach, M.},
+year = {1995},
+volume = {100},
+pages = {111--120}
+}
+
+@incollection{neoh81,
+title = {Soot oxidation in flames},
+booktitle = {{P}articulate {C}arbon {F}ormation during {C}ombustion},
+author = {Neoh, K. G. and Howard, J. B. and Sarofim, A. F.},
+publisher={Plenum Press},
+year = {2009},
+%editor = {Bockhorn, H. and D'Anna, A. and Sarofim, A. and Wang, H.},
+pages = {261--277}
+}
+
+@article{,
+title = {},
+journal = {},
+author = {},
+year = {},
+volume = {},
+pages = {--}
+}

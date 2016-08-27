@@ -1,0 +1,189 @@
+\begin{thebibliography}{28}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitem[{Buckmaster(2002)}]{buckmaster02}
+\bibinfo{author}{J.~Buckmaster}, \bibinfo{title}{{Edge-flames}},
+  \bibinfo{journal}{Prog. Energy Combust. Sci.} \bibinfo{volume}{28}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{435--475}.
+
+\bibitem[{Chung(2007)}]{chung07}
+\bibinfo{author}{S.~H. Chung}, \bibinfo{title}{{Stabilization, propagation and
+  instability of tribrachial triple flames}}, \bibinfo{journal}{Proc. Combust.
+  Inst.} \bibinfo{volume}{31} (\bibinfo{year}{2007}) \bibinfo{pages}{877--892}.
+
+\bibitem[{Choi et~al.(2009)Choi, Kim, and Chung}]{choi09}
+\bibinfo{author}{B.~C. Choi}, \bibinfo{author}{K.~N. Kim},
+  \bibinfo{author}{S.~H. Chung}, \bibinfo{title}{{Autoignited laminar lifted
+  flames of propane in coflow jets with tribrachial edge and mild combustion}},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{156}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{396--404}.
+
+\bibitem[{Choi and Chung(2012)}]{choi12}
+\bibinfo{author}{B.~C. Choi}, \bibinfo{author}{S.~H. Chung},
+  \bibinfo{title}{{Autoignited laminar lifted flames of methane/hydrogen
+  mixtures in heated coflow air}}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{159} (\bibinfo{year}{2012}) \bibinfo{pages}{1481--1488}.
+
+\bibitem[{Choi and Chung(2010)}]{choi10}
+\bibinfo{author}{B.~C. Choi}, \bibinfo{author}{S.~H. Chung},
+  \bibinfo{title}{{Autoignited laminar lifted flames of methane, ethylene,
+  ethane, and $n$-butane jets in coflow air with elevated temperature}},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{157}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{2348--2356}.
+
+\bibitem[{Battin-Leclerc(2008)}]{battin-leclerc08}
+\bibinfo{author}{F.~Battin-Leclerc}, \bibinfo{title}{{Detailed chemical kinetic
+  models for the low-temperature combustion of hydrocarbons with application to
+  gasoline and diesel fuel surrogates}}, \bibinfo{journal}{Prog. Energy
+  Combust. Sci.} \bibinfo{volume}{34} (\bibinfo{year}{2008})
+  \bibinfo{pages}{440--498}.
+
+\bibitem[{Z\'{a}dor et~al.(2011)Z\'{a}dor, Taatjes, and Fernandes}]{zador11}
+\bibinfo{author}{J.~Z\'{a}dor}, \bibinfo{author}{C.~A. Taatjes},
+  \bibinfo{author}{R.~X. Fernandes}, \bibinfo{title}{{Kinetics of elementary
+  reactions in low-temperature autoignition chemistry}},
+  \bibinfo{journal}{Prog. Energy Combust. Sci.} \bibinfo{volume}{37}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{371--421}.
+
+\bibitem[{Law and Zhao(2012)}]{law12}
+\bibinfo{author}{C.~K. Law}, \bibinfo{author}{P.~Zhao},
+  \bibinfo{title}{{NTC-affected ignition in nonpremixed counterflow}},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{1044--1054}.
+
+\bibitem[{Zhao and Law(2013)}]{zhao13}
+\bibinfo{author}{P.~Zhao}, \bibinfo{author}{C.~K. Law}, \bibinfo{title}{{The
+  role of global and detailed kinetics in the first-stage ignition delay in
+  NTC-affected phenomena}}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{160} (\bibinfo{year}{2013}) \bibinfo{pages}{2352--2358}.
+
+\bibitem[{Deng et~al.(2014)Deng, Zhao, Zhu, and Law}]{deng14}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{D.~Zhu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{title}{{NTC-affected ignition and
+  low-temperature flames in nonpremixed DME/air counterflow}},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{161}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{1993--1997}.
+
+\bibitem[{Krisman et~al.(2015)Krisman, Hawkes, Talei, Bhagatwala, and
+  Chen}]{krisman14}
+\bibinfo{author}{A.~Krisman}, \bibinfo{author}{E.~R. Hawkes},
+  \bibinfo{author}{M.~Talei}, \bibinfo{author}{A.~Bhagatwala},
+  \bibinfo{author}{J.~H. Chen}, \bibinfo{title}{{Polybrachial structures in
+  dimethyl ether edge-flames at negative temperature coefficient conditions}},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{999--1006}.
+
+\bibitem[{Deng et~al.(2015)Deng, Zhao, Mueller, and Law}]{deng15}
+\bibinfo{author}{S.~Deng}, \bibinfo{author}{P.~Zhao}, \bibinfo{author}{M.~E.
+  Mueller}, \bibinfo{author}{C.~K. Law}, \bibinfo{title}{{Autoignition-affected
+  stabilization of laminar nonpremixed DME/air coflow flames}},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{162}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{3437--3445}.
+
+\bibitem[{Yoo et~al.(2011)Yoo, Richardson, Sankaran, and Chen}]{yoo11}
+\bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{E.~S. Richardson},
+  \bibinfo{author}{R.~Sankaran}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{title}{{A DNS study on the stabilization mechanism of a turbulent
+  lifted ethylene jet flame in highly-heated coflow}}, \bibinfo{journal}{Proc.
+  Combust. Inst.} \bibinfo{volume}{33} (\bibinfo{year}{2011})
+  \bibinfo{pages}{1619--1627}.
+
+\bibitem[{Echekki and Ahmed(2015)}]{echekki15}
+\bibinfo{author}{T.~Echekki}, \bibinfo{author}{S.~F. Ahmed},
+  \bibinfo{title}{{Autoignition of $n$-heptane in a turbulent co-flowing jet}},
+  \bibinfo{journal}{Combust. Flame}  (\bibinfo{year}{2015}) \bibinfo{pages}{,
+  doi:10.1016/j.combustflame.2015.07.020}.
+
+\bibitem[{Pitsch and Peters(1998)}]{pitsch98b}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{author}{N.~Peters}, \bibinfo{title}{{A
+  consistent flamelet formulation for non-premixed combustion considering
+  differential diffusion effects}}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{114} (\bibinfo{year}{1998}) \bibinfo{pages}{26--40}.
+
+\bibitem[{Bhagatwala et~al.(2015)Bhagatwala, Luo, Shen, Sutton, Lu, and
+  Chen}]{bhagatwala15}
+\bibinfo{author}{A.~Bhagatwala}, \bibinfo{author}{Z.~Luo},
+  \bibinfo{author}{H.~Shen}, \bibinfo{author}{J.~A. Sutton},
+  \bibinfo{author}{T.~Lu}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{title}{{Numerical and experimental investigation of turbulent DME
+  jet flames}}, \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{35}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1157--1166}.
+
+\bibitem[{Zhao et~al.(2008)Zhao, Chaos, Kazakov, and Dryer}]{zhao08}
+\bibinfo{author}{Z.~Zhao}, \bibinfo{author}{M.~Chaos},
+  \bibinfo{author}{A.~Kazakov}, \bibinfo{author}{F.~L. Dryer},
+  \bibinfo{title}{{Thermal decomposition reaction and a comprehensive kinetic
+  model of dimethyl ether}}, \bibinfo{journal}{Int. J. Chem. Kinet.}
+  \bibinfo{volume}{40} (\bibinfo{year}{2008}) \bibinfo{pages}{1--18}.
+
+\bibitem[{Desjardins et~al.(2008)Desjardins, Blanquart, Balarac, and
+  Pitsch}]{desjardins08}
+\bibinfo{author}{O.~Desjardins}, \bibinfo{author}{G.~Blanquart},
+  \bibinfo{author}{G.~Balarac}, \bibinfo{author}{H.~Pitsch},
+  \bibinfo{title}{{High order conservative finite difference scheme for
+  variable density low Mach number turbulent flows}}, \bibinfo{journal}{J.
+  Comput. Phys.} \bibinfo{volume}{227} (\bibinfo{year}{2008})
+  \bibinfo{pages}{7125--7159}.
+
+\bibitem[{Liu et~al.(1994)Liu, Osher, and Chan}]{liu94}
+\bibinfo{author}{X.~Liu}, \bibinfo{author}{S.~Osher},
+  \bibinfo{author}{T.~Chan}, \bibinfo{title}{{Weighted Essentially
+  Non-oscillatory Schemes}}, \bibinfo{journal}{J. Comput. Phys.}
+  \bibinfo{volume}{115} (\bibinfo{year}{1994}) \bibinfo{pages}{200--212}.
+
+\bibitem[{Pierce(2001)}]{pierce01}
+\bibinfo{author}{C.~D. Pierce}, \bibinfo{title}{{Progress-variable approach for
+  Large-Eddy Simulation of turbulent combustion}}, \bibinfo{type}{{Ph.D.
+  thesis}}, Stanford University, \bibinfo{year}{2001}.
+
+\bibitem[{Cohen et~al.(1996)Cohen, Hindmarsh, and Dubois}]{cohen96}
+\bibinfo{author}{S.~D. Cohen}, \bibinfo{author}{A.~C. Hindmarsh},
+  \bibinfo{author}{P.~F. Dubois}, \bibinfo{title}{{CVODE, A stiff/nonstiff ODE
+  solver in C}}, \bibinfo{journal}{Comput. Phys.} \bibinfo{volume}{10}
+  (\bibinfo{year}{1996}) \bibinfo{pages}{138}.
+
+\bibitem[{Lu et~al.(2010)Lu, Yoo, Chen, and Law}]{lu10}
+\bibinfo{author}{T.~F. Lu}, \bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{J.~H.
+  Chen}, \bibinfo{author}{C.~K. Law}, \bibinfo{title}{{Three-dimensional direct
+  numerical simulation of a turbulent lifted hydrogen jet flame in heated
+  coflow: a chemical explosive mode analysis}}, \bibinfo{journal}{J. Fluid
+  Mech.} \bibinfo{volume}{652} (\bibinfo{year}{2010}) \bibinfo{pages}{45--64}.
+
+\bibitem[{Shan et~al.(2012)Shan, Yoo, Chen, and Lu}]{shan12}
+\bibinfo{author}{R.~Shan}, \bibinfo{author}{C.~S. Yoo}, \bibinfo{author}{J.~H.
+  Chen}, \bibinfo{author}{T.~Lu}, \bibinfo{title}{{Computational diagnostics
+  for $n$-heptane flames with chemical explosive mode analysis}},
+  \bibinfo{journal}{Combust. Flame} \bibinfo{volume}{159}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{3119--3127}.
+
+\bibitem[{Westbrook(2000)}]{westbrook00}
+\bibinfo{author}{C.~K. Westbrook}, \bibinfo{title}{{Chemical kinetics of
+  hydrocarbon ignition in practical combustion systems}},
+  \bibinfo{journal}{Proc. Combust. Inst.} \bibinfo{volume}{28}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{1563--1577}.
+
+\bibitem[{Pitsch et~al.(1998)Pitsch, Chen, and Peters}]{pitsch98a}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{author}{M.~Chen},
+  \bibinfo{author}{N.~Peters}, \bibinfo{title}{{Unsteady flamelet modeling of
+  turbulent hydrogen-air diffusion flames}}, \bibinfo{journal}{Symp. (Int.)
+  Combust.} \bibinfo{volume}{27} (\bibinfo{year}{1998})
+  \bibinfo{pages}{1057--1064}.
+
+\bibitem[{Pitsch(????)}]{flamemaster}
+\bibinfo{author}{H.~Pitsch}, \bibinfo{title}{{Flame{M}aster, A C++ computer
+  program for 0D combustion and 1D laminar flame calculations.}}
+
+\bibitem[{Lignell et~al.(2007)Lignell, Chen, Smith, Lu, and Law}]{lignell07}
+\bibinfo{author}{D.~O. Lignell}, \bibinfo{author}{J.~H. Chen},
+  \bibinfo{author}{P.~J. Smith}, \bibinfo{author}{T.~Lu},
+  \bibinfo{author}{C.~K. Law}, \bibinfo{title}{{The effect of flame structure
+  on soot formation and transport in turbulent nonpremixed flames using direct
+  numerical simulation}}, \bibinfo{journal}{Combust. Flame}
+  \bibinfo{volume}{151} (\bibinfo{year}{2007}) \bibinfo{pages}{2--28}.
+
+\bibitem[{Peters(2000)}]{petersbook}
+\bibinfo{author}{N.~Peters}, \bibinfo{title}{{Turbulent Combustion}}, Cambridge
+  University Press, \bibinfo{year}{2000}.
+
+\end{thebibliography}

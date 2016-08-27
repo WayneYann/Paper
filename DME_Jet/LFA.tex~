@@ -1,0 +1,309 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolortrue
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktexttrue
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+  \setlength{\unitlength}{0.0500bp}%
+  \begin{picture}(11520.00,6048.00)%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(7990,4756){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(7990,4961){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(7990,5167){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(7990,5372){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(7990,5578){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(7990,5783){\makebox(0,0)[r]{\strut{} 2800}}%
+      \put(8122,4536){\makebox(0,0){\strut{} 0}}%
+      \put(8440,4536){\makebox(0,0){\strut{} 0.25}}%
+      \put(8759,4536){\makebox(0,0){\strut{} 0.5}}%
+      \put(9077,4536){\makebox(0,0){\strut{} 0.75}}%
+      \put(9395,4536){\makebox(0,0){\strut{} 1}}%
+      \put(7088,5269){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(8758,4206){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+      \put(1728,6047){\makebox(0,0)[l]{\strut{}$700$ K}}%
+      \put(4032,6047){\makebox(0,0)[l]{\strut{}$800$ K}}%
+      \put(6335,6047){\makebox(0,0)[l]{\strut{}$900$ K}}%
+      \put(8639,6047){\makebox(0,0)[l]{\strut{}$1100$ K}}%
+      \put(-229,1209){\makebox(0,0)[l]{\strut{}$Z = 0.3$}}%
+      \put(-229,3205){\makebox(0,0)[l]{\strut{}$Z = 0.2$}}%
+      \put(-229,5261){\makebox(0,0)[l]{\strut{}$Z = Z_{\rm st}$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(7990,2941){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(7990,3147){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(7990,3352){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(7990,3558){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(7990,3763){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(7990,3969){\makebox(0,0)[r]{\strut{} 2800}}%
+      \put(8122,2721){\makebox(0,0){\strut{} 0}}%
+      \put(8440,2721){\makebox(0,0){\strut{} 0.25}}%
+      \put(8759,2721){\makebox(0,0){\strut{} 0.5}}%
+      \put(9077,2721){\makebox(0,0){\strut{} 0.75}}%
+      \put(9395,2721){\makebox(0,0){\strut{} 1}}%
+      \put(7088,3455){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(8758,2391){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(7990,1187){\makebox(0,0)[r]{\strut{} 400}}%
+      \put(7990,1393){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(7990,1598){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(7990,1804){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(7990,2009){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(7990,2215){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(8122,967){\makebox(0,0){\strut{} 0}}%
+      \put(8440,967){\makebox(0,0){\strut{} 0.25}}%
+      \put(8759,967){\makebox(0,0){\strut{} 0.5}}%
+      \put(9077,967){\makebox(0,0){\strut{} 0.75}}%
+      \put(9395,967){\makebox(0,0){\strut{} 1}}%
+      \put(7088,1701){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(8758,637){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(5686,4756){\makebox(0,0)[r]{\strut{} 600}}%
+      \put(5686,4961){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(5686,5167){\makebox(0,0)[r]{\strut{} 1400}}%
+      \put(5686,5372){\makebox(0,0)[r]{\strut{} 1800}}%
+      \put(5686,5578){\makebox(0,0)[r]{\strut{} 2200}}%
+      \put(5686,5783){\makebox(0,0)[r]{\strut{} 2600}}%
+      \put(5818,4536){\makebox(0,0){\strut{} 0}}%
+      \put(6136,4536){\makebox(0,0){\strut{} 0.3}}%
+      \put(6455,4536){\makebox(0,0){\strut{} 0.6}}%
+      \put(6773,4536){\makebox(0,0){\strut{} 0.9}}%
+      \put(7091,4536){\makebox(0,0){\strut{} 1.2}}%
+      \put(4784,5269){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(6454,4206){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(5686,2941){\makebox(0,0)[r]{\strut{} 600}}%
+      \put(5686,3147){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(5686,3352){\makebox(0,0)[r]{\strut{} 1400}}%
+      \put(5686,3558){\makebox(0,0)[r]{\strut{} 1800}}%
+      \put(5686,3763){\makebox(0,0)[r]{\strut{} 2200}}%
+      \put(5686,3969){\makebox(0,0)[r]{\strut{} 2600}}%
+      \put(5818,2721){\makebox(0,0){\strut{} 0}}%
+      \put(6136,2721){\makebox(0,0){\strut{} 0.3}}%
+      \put(6455,2721){\makebox(0,0){\strut{} 0.6}}%
+      \put(6773,2721){\makebox(0,0){\strut{} 0.9}}%
+      \put(7091,2721){\makebox(0,0){\strut{} 1.2}}%
+      \put(4784,3455){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(6454,2391){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(5686,1187){\makebox(0,0)[r]{\strut{} 400}}%
+      \put(5686,1393){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(5686,1598){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(5686,1804){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(5686,2009){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(5686,2215){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(5818,967){\makebox(0,0){\strut{} 0}}%
+      \put(6136,967){\makebox(0,0){\strut{} 0.3}}%
+      \put(6455,967){\makebox(0,0){\strut{} 0.6}}%
+      \put(6773,967){\makebox(0,0){\strut{} 0.9}}%
+      \put(7091,967){\makebox(0,0){\strut{} 1.2}}%
+      \put(4784,1701){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(6454,637){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(3382,4756){\makebox(0,0)[r]{\strut{} 600}}%
+      \put(3382,4961){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(3382,5167){\makebox(0,0)[r]{\strut{} 1400}}%
+      \put(3382,5372){\makebox(0,0)[r]{\strut{} 1800}}%
+      \put(3382,5578){\makebox(0,0)[r]{\strut{} 2200}}%
+      \put(3382,5783){\makebox(0,0)[r]{\strut{} 2600}}%
+      \put(3514,4536){\makebox(0,0){\strut{} 0}}%
+      \put(3832,4536){\makebox(0,0){\strut{} 0.6}}%
+      \put(4151,4536){\makebox(0,0){\strut{} 1.2}}%
+      \put(4469,4536){\makebox(0,0){\strut{} 1.8}}%
+      \put(4787,4536){\makebox(0,0){\strut{} 2.4}}%
+      \put(2480,5269){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(4150,4206){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(3382,2941){\makebox(0,0)[r]{\strut{} 600}}%
+      \put(3382,3147){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(3382,3352){\makebox(0,0)[r]{\strut{} 1400}}%
+      \put(3382,3558){\makebox(0,0)[r]{\strut{} 1800}}%
+      \put(3382,3763){\makebox(0,0)[r]{\strut{} 2200}}%
+      \put(3382,3969){\makebox(0,0)[r]{\strut{} 2600}}%
+      \put(3514,2721){\makebox(0,0){\strut{} 0}}%
+      \put(3832,2721){\makebox(0,0){\strut{} 0.6}}%
+      \put(4151,2721){\makebox(0,0){\strut{} 1.2}}%
+      \put(4469,2721){\makebox(0,0){\strut{} 1.8}}%
+      \put(4787,2721){\makebox(0,0){\strut{} 2.4}}%
+      \put(2480,3455){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(4150,2391){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(3382,1187){\makebox(0,0)[r]{\strut{} 400}}%
+      \put(3382,1393){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(3382,1598){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(3382,1804){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(3382,2009){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(3382,2215){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(3514,967){\makebox(0,0){\strut{} 0}}%
+      \put(3832,967){\makebox(0,0){\strut{} 0.6}}%
+      \put(4151,967){\makebox(0,0){\strut{} 1.2}}%
+      \put(4469,967){\makebox(0,0){\strut{} 1.8}}%
+      \put(4787,967){\makebox(0,0){\strut{} 2.4}}%
+      \put(2480,1701){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(4150,637){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(1078,4756){\makebox(0,0)[r]{\strut{} 400}}%
+      \put(1078,4961){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(1078,5167){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(1078,5372){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(1078,5578){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(1078,5783){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(1210,4536){\makebox(0,0){\strut{} 0}}%
+      \put(1528,4536){\makebox(0,0){\strut{} 2.5}}%
+      \put(1847,4536){\makebox(0,0){\strut{} 5}}%
+      \put(2165,4536){\makebox(0,0){\strut{} 7.5}}%
+      \put(2483,4536){\makebox(0,0){\strut{} 10}}%
+      \put(176,5269){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(1846,4206){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(1078,2941){\makebox(0,0)[r]{\strut{} 400}}%
+      \put(1078,3147){\makebox(0,0)[r]{\strut{} 800}}%
+      \put(1078,3352){\makebox(0,0)[r]{\strut{} 1200}}%
+      \put(1078,3558){\makebox(0,0)[r]{\strut{} 1600}}%
+      \put(1078,3763){\makebox(0,0)[r]{\strut{} 2000}}%
+      \put(1078,3969){\makebox(0,0)[r]{\strut{} 2400}}%
+      \put(1210,2721){\makebox(0,0){\strut{} 0}}%
+      \put(1528,2721){\makebox(0,0){\strut{} 2.5}}%
+      \put(1847,2721){\makebox(0,0){\strut{} 5}}%
+      \put(2165,2721){\makebox(0,0){\strut{} 7.5}}%
+      \put(2483,2721){\makebox(0,0){\strut{} 10}}%
+      \put(176,3455){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(1846,2391){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \csname LTb\endcsname%
+      \put(1078,1187){\makebox(0,0)[r]{\strut{} 200}}%
+      \put(1078,1393){\makebox(0,0)[r]{\strut{} 600}}%
+      \put(1078,1598){\makebox(0,0)[r]{\strut{} 1000}}%
+      \put(1078,1804){\makebox(0,0)[r]{\strut{} 1400}}%
+      \put(1078,2009){\makebox(0,0)[r]{\strut{} 1800}}%
+      \put(1078,2215){\makebox(0,0)[r]{\strut{} 2200}}%
+      \put(1210,967){\makebox(0,0){\strut{} 0}}%
+      \put(1528,967){\makebox(0,0){\strut{} 2.5}}%
+      \put(1847,967){\makebox(0,0){\strut{} 5}}%
+      \put(2165,967){\makebox(0,0){\strut{} 7.5}}%
+      \put(2483,967){\makebox(0,0){\strut{} 10}}%
+      \put(176,1701){\rotatebox{-270}{\makebox(0,0){\strut{}\vspace{-48pt}$T$ [K]}}}%
+      \put(1846,637){\makebox(0,0){\strut{}\vspace{12pt}Time [ms]}}%
+      \put(4608,242){\makebox(0,0)[l]{\strut{}2D-NGA}}%
+      \put(5760,242){\makebox(0,0)[l]{\strut{}1D-LFM}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \csname LTb\endcsname%
+      \put(4050,253){\makebox(0,0)[r]{\strut{} }}%
+      \csname LTb\endcsname%
+      \put(5169,253){\makebox(0,0)[r]{\strut{}    }}%
+    }%
+    \gplbacktext
+    \put(0,0){\includegraphics{LFM}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup

@@ -1,0 +1,418 @@
+%\documentclass[preprint,3p,times,twocolumn]{elsarticle}
+\documentclass[review,3p,times]{elsarticle}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{yhmath}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{cleveref}
+\usepackage{xcolor}
+%\definecolor{mycolor}{rgb}{0,0,255}  % highlight changes
+\definecolor{mycolor}{rgb}{0,0,0} 
+\definecolor{r2}{rgb}{0,0,255}
+\usepackage{subdepth}
+\usepackage[nomarkers,lists]{endfloat}
+%\usepackage{chngcntr}
+
+\def\pp#1#2{\frac{\partial #1}{\partial #2}}
+
+\biboptions{comma,sort&compress}
+
+\journal{Combustion and Flame}
+
+\makeatletter
+\def\@author#1{\g@addto@macro\elsauthors{\normalsize%
+    \def\baselinestretch{1}%
+    \upshape\authorsep#1\unskip\textsuperscript{%
+      \ifx\@fnmark\@empty\else\unskip\sep\@fnmark\let\sep=,\fi
+      \ifx\@corref\@empty\else\unskip\sep\@corref\let\sep=,\fi
+      }%
+    \def\authorsep{\unskip,\space}%
+    \global\let\@fnmark\@empty
+    \global\let\@corref\@empty  %% Added
+    \global\let\sep\@empty}%
+    \@eadauthor={#1}
+}
+\makeatother
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Autoignition-affected stabilization of laminar nonpremixed DME/air coflow flames}
+
+\author{Sili~Deng}
+\author{Peng~Zhao}
+\author{Michael E.~Mueller\corref{cor}}
+\author{Chung K.~Law}
+\cortext[cor]{Corresponding Author: muellerm@princeton.edu}
+
+\address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
+
+\begin{abstract}
+
+The structure and stabilization mechanism of laminar nonpremixed autoignitive DME/air coflow flames were investigated.  Computations were performed at $30$ atmospheres with uniform inlet velocities of $3.2$ m/s for both streams, and the coflow air boundary temperatures were $700$, $800$, $900$, and $1100$ K.  The heat release rate and species profiles were examined for each case. Further investigation with Chemical Explosive Mode Analysis (CEMA) and Lagrangian Flamelet Analysis (LFA) were performed to identify the controlling chemistry and elucidate the dominant combustion mode and stabilization mechanism.  At $700$ to $900$ K, autoignition was observed to be the dominant stabilization mechanism, and NTC chemistry determines the stabilization point in mixture fraction space.  Conversely, at $1100$ K, the kinematic balance between the premixed flame propagation velocity and the incoming flow velocity becomes the dominant stabilization mechanism, and the classical triple flame structure was observed.  Extended stabilization regimes, in terms of increasing boundary temperature, are therefore identified, including frozen flow, kinetically stabilized, autoignition-propagation-coupled stabilized, kinematically stabilized, and burner stabilized regimes.           
+
+\end{abstract}
+
+\begin{keyword} 
+Stabilization \sep Nonpremixed coflow flame \sep Autoignition \sep Negative Temperature Coefficient (NTC) \sep Dimethyl ether (DME) 
+\end{keyword}
+
+\end{frontmatter}
+
+
+%\clearpage % For word count
+\section{Introduction}
+
+Nonpremixed jet flames have been extensively studied to understand the combustion processes in rocket and diesel engines.  The stabilization and structure of jet flames determine the lift-off height of the flame and are therefore integral to engine design.  Due to the mixing process of the fuel and oxidizer streams in lifted flames at nonautoignitive conditions, the combustion mode is partially premixed, leading to the observation of a two-dimensional tribrachial flame (also known as triple flame)~\cite{buckmaster02}; specifically, a lean and a rich premixed flame wing with a trailing diffusion flame branch.  The point where the three branches intersect is called the triple point and is generally considered to be the stabilization point for nonautoignitive situations. The dynamic balance between the local flame propagation speed and the incoming flow speed is characterized as the stabilization mechanism.  A recent review by Chung~\cite{chung07} discussed the stabilization, propagation, and instability of tribrachial flames, including the effects of concentration gradient~\cite{dold89,hartley91,ghosal00}, velocity gradient~\cite{kim07}, and burned gas expansion~\cite{ruetsch95,lee97,plessing98,kioni99}.  These studies, however, were limited to nonautoignitive conditions, but real engines are operated at elevated pressures and temperatures, where autoignition is activated and could interact with the tribrachial flame. 
+
+Chung and co-workers~\cite{choi09,choi10,choi12} further conducted a series of experiments to investigate the autoignition characteristics of laminar C$_1$ to C$_4$ fuel jets in a heated air coflow and found that, above certain coflow temperatures, lifted flames could be established through autoignition.  In these studies, both the tribrachial structure for most autoignited cases and a repetitive behavior of extinction and reignition at the critical condition near blowout were observed.  However, the role that autoignition plays in the stabilization mechanism as well as its influences on the tribrachial flame structure are still less understood.  
+
+Furthermore, practical hydrocarbon-based fuels generally have two-stage ignition processes, in which the first stage ignition is governed by low temperature chemistry and the second stage ignition by high temperature chemistry.  In both low and high temperature regimes, the ignition delay time decreases as the initial temperature increases.  However, in the intermediate temperature regime, the transition of the ignition chemistry results in increased overall ignition delay time as the initial temperature increases, exhibiting the negative temperature coefficient (NTC) phenomena, which has been extensively studied in homogeneous systems as a major feature of large hydrocarbon autoignition~\cite{zador11}.  For engine applications, however, the coupling between NTC chemistry and transport processes should be considered, for nonuniformities invariantly exist in realistic combustion systems.  When the transport time scale becomes comparable to that of the NTC chemical time scale, the two processes are expected to be strongly coupled.  As a consequence, the global response of the inhomogeneous system can also be affected by NTC chemistry.  Recently, a series of computational and experimental studies adopting the nonpremixed counterflow configuration by Law and co-workers~\cite{law12,zhao13,deng14} have demonstrated that, with the existence of nonuniformities in the flow, species, and temperature fields, the ignition characteristics of nonpremixed flames can be fundamentally affected by NTC effects, especially at elevated pressures and/or reduced strain rates.   
+
+Therefore, NTC-affected stabilization of nonpremixed lifted jet flames can be potentially important, yet few literatures provide detailed analysis.  Krisman \emph{et al.}~\cite{krisman14} recently conducted a numerical study of dimethyl ether (DME)/air mixing layer at $40$ atmospheres and air coflow temperatures ranging from $700$ to $1500$ K and observed multibrachial structures in the heat release rate profiles.  The mixture fractions corresponding to the stabilization points defined based on the hydroxyl radical (OH) mass fraction and the first stage autoignition kernels based on the methoxymethylperoxy radical (CH$_3$OCH$_2$O$_2$) were compared with the most reactive mixture fractions computed from homogeneous autoignition under the same initial conditions.  A transport budget analysis based on selected species was performed to differentiate deflagration from autoignition.
+
+In light of the reported multibrachial structure, showing a modified flame shape from autoignition in the mixing layer, further investigation is warranted to identify the detailed chemical structure and stabilization mechanism of the multibrachial flame.  For example, tools for computational diagnostics, especially for identifying locally dominant chemical reactions, can be employed to understand the controlling chemistry.  Moreover, a direct comparison to homogeneous autoignition is insufficient to understand the transport processes in the current configuration.  In the two-dimensional mixing layer, transport processes in two directions are important: parallel and normal to the mixture fraction gradient, which are due to transverse stratification of temperature and species and streamwise flow and (flame back) diffusion, respectively.  These considerations would significantly improve the understanding of the role of autoignition upstream of the flame structure and quantitatively identify the controlling kinetics and stabilization mechanism.     
+
+In the present study, nonpremixed DME/air coflow flames were computed at $30$ atmospheres with the oxidizer stream heated to activate autoignition.  With fixed inlet velocities, only the oxidizer stream boundary temperature was varied to investigate the corresponding lifted flame morphology, chemical structure, and dominant reaction pathways.  \textcolor{mycolor}{In the following we shall first present the computational details of the study.  The thermal and chemical structures are then described with heat release rate and selected species profiles in Sec.~\ref{sec:structure}.  The evolution of the controlling chemical pathways are subsequently identified with Chemical Explosive Mode Analysis (CEMA) and the stabilization mechanism determined with Lagrangian Flamelet Analysis (LFA) in Sec.~\ref{sec:diagnostics}.  Finally, the transition of the dominant stabilization mechanism is analyzed in Sec.~\ref{sec:regime}, with extended stabilization regimes constructed for completeness.}
+
+
+\section{Computational Details} \label{sec:computation}
+
+\textcolor{r2}{The flow configuration is an axisymmetric DME stream at $300$ K in a heated coflow of air ($700$, $800$, $900$, and $1100$ K) at $30$ atmospheres.  The fuel nozzle diameter $D$ is $0.8$ mm, and the fuel and air are initially separated with an adiabatic, no-slip wall with thickness $D/20$.  The coflow outer boundary is specified as an adiabatic slip wall, and its diameter is large enough such that increasing the width of the domain does not influence the computation.  Uniform inlet velocities of $3.2$ m/s were specified for both fuel and air streams and kept the same for all the cases to establish lifted flames.  For the unsteady estabilishment of the flame, a convective outflow is utilized at the outlet boundary, which simplifies to a Neumann condition for the steady problem.}
+
+The flow field was initialized on a coarse mesh within a large domain.  At first, all the chemical source terms were set to zero until the nonreacting  flow reached steady-state.  Chemical source terms were then activated; the mixture autoignited; and the flow field reached steady-state.  The domain was then truncated, and the mesh was refined to fully resolve the chemical structure.  All the results presented in the present work were obtained from the steady-state solutions.  
+
+The Navier-Stokes equation with buoyancy in the streamwise direction and the conservation equations of mass, species, and energy were solved.  The species diffusivities were determined from a constant, nonunity Lewis number.  The Lewis numbers for individual species \textcolor{r2}{(summarized in the Supplementary Data)} were pre-calculated from a one-dimensional flamelet with the same boundary conditions and the mixture-averaged transport model and evaluated at the maximum temperature location.  The conserved scalar mixture fraction $Z$ was specified as unity and zero for the fuel jet and coflow at the inlet, respectively, and computed by solving its transport equation with unity Lewis number~\cite{pitsch98b}.  This definition of mixture fraction is consistent with the one used in the flamelet calculation in Sec.~\ref{sec:LFA}.
+
+Dimethyl ether was chosen in this work, for it is a clean biofuel and one of the smallest hydrocarbons exhibiting NTC behavior. Detailed reaction models for low and high temperature DME oxidation~\cite{curran98,fischer00,curran00,zhao08} have been developed and validated in burner-stabilized flames~\cite{kaiser00}, nonpremixed counterflow ignition~\cite{zheng05}, and laminar flame speeds~\cite{qin05}.  The present computations were conducted using a skeletal mechanism of $39$ species~\cite{bhagatwala15}, including both low and high temperature oxidation pathways, which was reduced from the well validated detailed mechanism of Zhao \emph{et al.}~\cite{zhao08}. 
+
+The low-Mach number formulation of the governing equations is solved using NGA, which is based on the numerical methods of Desjardins \emph{et al.}~\cite{desjardins08}.  The momentum and scalar equations are discretized with a second-order centered scheme and a third-order WENO scheme~\cite{liu94}, respectively, on a staggered mesh.  The iterative second-order semi-implicit Crank-Nicolson scheme of Pierce and Moin~\cite{pierce01} is adopted for temporal integration.  At each time step, the chemical source terms for the species and energy equations are evaluated independently from the transport terms using the CVODE package~\cite{cohen96}.
+
+Uniform grids in the axial direction were adopted for the computations, and the grid spacing was set as $\Delta x = 2.2$ $\mu$m.  \textcolor{r2}{A nonuniform grid was used in the radial direction with a minimum spacing of $2.5$ $\mu$m to resolve the mixing layer corresponding to the separation wall and geometric progression stretch rates less than $3$\% towards both the centerline and the outer boundary.}  The dimensions of and number of grid points in the computational domain for each computation are summarized in Table~\ref{table:domain}.
+
+\begin{table*}
+  \caption{Computational domain and number of grid points.}
+  \label{table:domain}
+  \centering
+  \normalsize
+  \resizebox{0.5\textwidth}{!}{
+  \begin{tabular}{lc*{3}{c}}
+    \hline
+    Coflow Temperature [K]& $700$  & $800$  & $900$  & $1100$   \\
+    \hline
+    $L_x$ [mm]& $28$ & $7$ & $3.5$ & $3$\\
+    $L_r$ [mm]& $6$ & $3.9$ & $3.9$  & $6$\\
+    $N_x$ & $12290$ & $3072$ & $1536$  & $1282$\\
+    $N_r$ & $192$ & $176$ & $176$  & $192$\\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+
+A grid convergence study was performed for the air temperature $800$ K case, for it has the most complex structure, which is discussed in the following sections.  As shown in Fig.~\ref{fig:convergence}, grid convergence was achieved for velocity, temperature, and species profiles.  Grid convergence was also verified for the air temperature $1100$ K case, which shows similar results and is therefore not shown here.  
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \hspace{-0.40625in}
+  \input{conv_zst_U.tex}
+  \hspace{-0.40625in}
+  \input{conv_zst_T.tex}
+  \hspace{-0.40625in}
+  \input{conv_zst_H2O2.tex}
+%  \vspace{-0.1875in}
+  \normalsize
+  \caption{Velocity, temperature, and H$_2$O$_2$ profiles along $Z_{\rm st}$ on the nominal and two times coarser (in each direction) meshes for an air temperature of $800$ K.}
+  \label{fig:convergence}
+\end{figure}
+
+
+
+\section{Thermal and Chemical Structure} \label{sec:structure}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{HRR.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Heat release rate [J/m$^3$-s] profiles.  The iso-contours of $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ are outlined from right to left in solid lines, respectively.  The CEMA sampling points at $800$ and $1100$ K are indicated along the iso-contours.}
+  \label{fig:HRR}
+\end{figure}
+
+To visualize the flame structures, the heat release rate profiles for the four cases ($700$, $800$, $900$, and $1100$ K) are shown in Fig.~\ref{fig:HRR}.  Qualitatively, the most upstream point on the largest heat release contour (the leading point), colored by red, will be referred to as the stabilization point.  
+
+At $700$ K, a tribrachial thermal structure is observed, and the stabilization point is located around $Z = 0.15$, which is richer than the triple point, where the three branches intersect.  Moreover, compared to the classical triple flame structure, the middle heat release rate branch, corresponding to the nonpremixed flame, is significantly weaker than the other two branches.  
+
+At $800$ K, the stabilization point is not located on the tribrachial structure any more.  Instead, it is located near $Z = 0.23$ and connects two trailing heat release branches, where a tribrachial flame structure is attached to the leaner branch (LB) of the bibrachial reacting front.  A schematic of the structure is shown in Fig.~\ref{fig:schematic_800}.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+%  \vspace{-0.1in}
+  \includegraphics[width=0.4\textwidth]{schematic_800.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{A schematic of the thermal structure of the $800$ K case.  LPF, RPF, and NPF denotes the lean premixed, rich premixed, and nonpremixed flame branches on the tribrachial structure, respectively.  LB and RB denotes the leaner and richer branches of the reacting front, respectively.}
+  \label{fig:schematic_800}
+\end{figure}
+
+As the air boundary temperature increases to $900$ K, the stabilization point shifts back to $Z = 0.14$.  Moreover, a long trailing branch at richer mixture fraction is attached to the main tribrachial structure, resulting in a tetrabrachial structure.  Compared with the structure shown in the $800$ K case, the main tribrachial structure stabilizes further upstream, for it depends less on the radical accumulation ahead of the flame.  Therefore, it catches up with the reacting front at richer mixture fraction, and they merge into the apparent tetrabrachial structure.
+
+A further increase in the boundary temperature results in a structure that is very similar to the classical triple flame, except for the fact that there is also heat release ahead of the stabilization point at $Z = 0.13$.  Some of the multibrachial structures were also observed by Krisman \emph{et al.}~\cite{krisman14}, using different definitions for branches, and it was concluded that the autoignition chemistry could affect the flame structure and the stabilization mechanism.  
+
+To first qualitatively demonstrate the chemical structure of the flame, selected species profiles were examined, shown in Figs.~\ref{fig:OH} to~\ref{fig:H2O2}.  The methoxymethylperoxy radical (CH$_3$OCH$_2$O$_2$) and hydroxyl radical (OH) were chosen as indicators of low and high temperature chemistry, respectively.  The hydroperoxyl radical (HO$_2$) and hydrogen peroxide (H$_2$O$_2$) were chosen, for they form in the preheat zone of a flame or before autoignition but quickly vanish in the post flame zone or after ignition~\cite{yoo09}.
+
+For all four cases, similar profiles can be seen for some species.  \textcolor{mycolor}{First, low temperature chemistry, indicated by the CH$_3$OCH$_2$O$_2$ radical, is found to be important at richer mixture fractions, where the temperature is also lower.  Second, the OH radical peaks at and downstream of the maximum heat release locations and correlates well with the tribrachial structure shown in the heat release rate profiles, indicating the presence of high temperature chemistry.}  Third, the HO$_2$ mass fraction peaks in a thin region.  Compared with the heat release rate contours, this thin region outlines the flame front and the reactive mixture at the rich mixture fractions and indicates the importance of the exothermic three-body recombination reaction H + O$_2$ + M $\Longleftrightarrow$ HO$_2$ + M.
+
+However, there are also differences in the chemical structure among the different cases.  For example, for the $800$ and $900$ K cases, another OH local maxima, which is two orders of magnitudes smaller than the peak value on the tribrachial structure, appears at richer mixture fractions, immediately downstream of where the CH$_3$OCH$_2$O$_2$ radical and H$_2$O$_2$ disappear, indicating autoignition.  Moreover, more pronounced differences between the three lower boundary temperature cases and the $1100$ K case are shown in the H$_2$O$_2$ profiles: for the lower boundary temperature cases, H$_2$O$_2$ accumulates along the mixture fraction iso-contours  until it decomposes in the flame region, while, for the $1100$ K case, the H$_2$O$_2$ accumulation is an order of magnitude lower, due to the reduced residence time from the nozzle exit to the flame base.
+  
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{OH.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Hydroxyl (OH) radical mass fraction profiles.  The mixture fraction iso-contours are the same as in Fig.~\ref{fig:HRR}.}
+  \label{fig:OH}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{RO2.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Methoxymethylperoxy (CH$_3$OCH$_2$O$_2$) radical mass fraction profiles.  The mixture fraction iso-contours are the same as in Fig.~\ref{fig:HRR}.}
+  \label{fig:RO2}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{HO2.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Hydroperoxyl (HO$_2$) radical mass fraction profiles.  The mixture fraction iso-contours are the same as in Fig.~\ref{fig:HRR}.}
+  \label{fig:HO2}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{H2O2.png}
+  \normalsize
+  \vspace{-0.1in}
+  \caption{Hydrogen peroxide (H$_2$O$_2$) mass fraction profiles.  The mixture fraction iso-contours are the same as in Fig.~\ref{fig:HRR}.}
+  \label{fig:H2O2}
+\end{figure}
+
+\section{Computational Diagnostics and Analysis} \label{sec:diagnostics}
+The above heat release rate and species profiles demonstrate the thermal and chemical structure of the reacting fronts at different boundary temperatures.  However, more detailed computational diagnostics and analysis are needed to further demonstrate the controlling chemistry and the stabilization mechanism.
+\subsection{Chemical Explosive Mode Analysis}
+In addition to the analysis based on selected species profiles, Chemical Explosive Mode Analysis (CEMA)~\cite{lu10,shan12} was conducted to identify the controlling chemistry in these complex reacting flows.  Briefly, the eigenvalues of the Jacobian matrix of the chemical source term based on the local species concentrations and temperature are evaluated and determined as the chemical modes.  The largest real part of all eigenvalues, which is defined as the chemical explosive mode, describes the rate of system runaway.  \textcolor{r2}{The normalized contribution of each reaction to the chemical explosive mode is quantified with a participation index~\cite{shan12}}.  
+
+In the present study, the dominant reactions at representative locations, such as those upstream and near the flame base, are identified, based on the explosive mode and participation index.  For each case, the local species concentrations and temperature were sampled along the $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$ iso-contours, as indicated in Fig.~\ref{fig:HRR}, and processed by CEMA to demonstrate the evolution of the dominant reactions.
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \input{CEMA_800_fix.tex}
+  \input{CEMA_1100_fix.tex}
+  \normalsize
+  \caption{Normalized participation index at $800$ K and $1100$ K.  Sampled locations are indicated in Fig.~\ref{fig:HRR}.}
+  \label{fig:CEMA}
+\end{figure}
+
+
+The results are summarized in Fig.~\ref{fig:CEMA}, where three representative locations along the $Z_{\rm st}$ iso-contour approaching the flame front and two locations ahead of and at the reaction front at $Z = 0.2$ were sampled.  For the three lower coflow temperature cases, similar chemical patterns were found.  Upstream of the flame front, the \textcolor{mycolor}{chemical explosive mode is} positive, indicating that the mixtures have the potential to explode; downstream of the flame front, \textcolor{mycolor}{the chemical explosive mode becomes} negative, meaning that the mixtures are composed of burned products.  Following the $Z_{\rm st}$ iso-contour, the hydrogen peroxide chain branching reaction (H$_2$O$_2$ + M $\Longleftrightarrow$ OH + OH + M) is the reaction that has the largest \textcolor{r2}{contribution to} the explosive mode, showing the dominant role of autoignition chain branching\textcolor{mycolor}{~\cite{westbrook00}}.  The characteristic DME low temperature chemistry is also important upstream of the flame, where methoxymethylperoxy radical formation (CH$_3$OCH$_2$ + O$_2$ $\Longleftrightarrow$ CH$_3$OCH$_2$O$_2$) and isomerization (CH$_3$OCH$_2$O$_2$ $\Longleftrightarrow$ CH$_2$OCH$_2$O$_2$H) promote the explosion, while the $\beta$-scission reaction (CH$_2$OCH$_2$O$_2$H $\Longleftrightarrow$ OH + CH$_2$O + CH$_2$O) retards the explosion.  Approaching the flame front, the H radical recombination reaction (H + O$_2$ + M $\Longleftrightarrow$ HO$_2$ + M) becomes important for the $700-900$ K cases, due to the fact that the H radicals generated at the reaction zone diffuse upstream and undergo three-body recombination reactions under the high pressure, low temperature condition.  Further downstream where the heat release rate peaks, the hydrogen branching reaction (H + O$_2$ $\Longleftrightarrow$ O + OH) becomes the most important chain branching reaction \textcolor{mycolor}{as it is activated at high temperatures~\cite{westbrook00}.}
+
+CEMA conducted along the $Z = 0.2$ iso-contour, which crosses the rich heat release front in the $800$ and $900$ K cases, shows different chemical mode evolution.  The H$_2$O$_2$ chain branching reaction is always the dominant reaction that promotes the explosive mode, while the H radical recombination reaction and the H branching reaction are less important ahead of the rich heat release front and at the front.  
+
+On the contrary, although low temperature chemistry is still important for the $1100$ K case upstream of the reaction zone and the hydrogen chain branching reaction promotes explosion in the reaction zone, the hydrogen peroxide chain branching reaction is not very important for all the sampled locations.  Since the hydrogen peroxide reaction is the crucial chain branching reaction for the autoignition process, it is concluded that the $1100$ K case is less affected by autoignition chemistry than the lower boundary temperature cases.  
+
+\subsection{Lagrangian Flamelet Analysis} \label{sec:LFA}
+The above species profile analysis and CEMA results have demonstrated that autoignition chemistry is crucial to the complex flame structure in the $700$ to $900$ K cases.  However, the role that autoignition plays in the stabilization still needs further investigation.  To elucidate the role of autoignition for the current flow configuration, a direct comparison with the homogeneous counterpart for a Lagrangian flow particle is insufficient, \textcolor{mycolor}{for no transport process is considered in homogeneous autoignition.  In the current two-dimensional configuration, however, transport processes are present in two directions: parallel and normal to the mixture fraction gradient.  These transport processes might be important: first, the temperature and species stratification parallel to the mixture fraction gradient can significantly modify the ignition characteristics, especially for fuels with NTC chemistry~\cite{law12,deng14}.  Second, flame propagation normal to the mixture fraction gradient can also influence the autoignition front through thermal and radical back diffusion.}
+
+\textcolor{mycolor}{To demonstrate the dominant transport direction as well as the stabilization mechanism in the current work, one-dimensional unsteady flamelet analysis was conducted to account for unsteadiness (convection), chemical reactions, and diffusion parallel to the mixture fraction gradient, while neglecting the transport process in the normal direction.  As a consequence, the unsteady flamelet is able to capture inhomogeneous autoignition, with diffusion allowed only in one direction.  Following the mixture fraction iso-contour, the spatial information from the two-dimensional computation could be interpreted as the time history of the corresponding mixture in the Lagrangian frame.  If the one-dimensional unsteady flamelet predicts this time history, only the transport processes parallel to the mixture fraction gradient are important, and, therefore, the thermal structure is stabilized by inhomogeneous autoignition.  Conversely, if the unsteady flamelet solutions do not agree with the two-dimensional computations, the transport processes along the mixture fraction iso-contour are not negligible compared to the gradient direction.  Therefore, premixed flame propagation is the dominant stabilization mechanism, or, at least, stabilization is strongly affected by flame back diffusion.}
+
+\textcolor{mycolor}{In the present work, the unsteady flamelet model developed by Pitsch \emph{et al.}~\cite{pitsch98a}, referred to as Lagrangian Flamelet Analysis (LFA), was adopted.}  Due to the mixing processes, the scalar dissipation rate $\chi$, which can influence the flamelet solution significantly, decreases in the streamwise direction.  Therefore, this dissipation rate variation must be considered when computing a flamelet as it evolves downstream.
+
+In the present study, the unsteady flamelet was computed with FlameMaster~\cite{flamemaster}, and the dissipation rate was specified as a function of the flamelet time.  The flamelet time was computed from the two-dimensional computational results, along the stoichiometric mixture fraction $Z_{\rm st}$ iso-contour: 
+ \begin{equation} \label{eq:t}
+t = \int ^{x}_{0} \frac{1}{(u + u_Z)(x')|(Z=Z_{\rm st})} dx'.
+\end{equation}
+This formulation is otherwise the same as that of Pitsch \emph {et al.}~\cite{pitsch98a}, except that, in addition to the axial component of fluid convection velocity $u$, the axial component of the mixture fraction iso-contour propagation speed relative to the fluid convection $u_Z$ is also taken into account.  The expression for the constant property scalar iso-surface velocity relative to the local fluid motion was derived by Pope~\cite{pope88}, and the current work adopts the formulation derived by Lignell \emph {et al.}~\cite{lignell07} for variable properties:
+\begin{equation}
+\mathbf{u_Z} = -\frac{\nabla \cdot (\rho D_Z \nabla Z) }{\rho |\nabla Z|} \mathbf{n},
+\end{equation}  
+where $D_Z$ is the mixture fraction diffusivity, \textcolor{mycolor}{which is defined in Sec.~\ref{sec:computation}}, and $\rho$ the density.  The normal vector \textbf{n}, defined as
+\begin{equation}
+\mathbf{n} = \frac{\nabla Z}{|\nabla Z|},
+\end{equation}
+indicates the direction of this diffusion induced relative velocity.
+The dissipation rate along the $Z_{\rm st} = 0.1005$ iso-contour obtained from the two-dimensional computation was then correlated with this flamelet time and provided as the input for the LFA calculation.  The dissipation rates at other mixture fractions were computed assuming the following form~\cite{petersbook}:
+\begin{equation} \label{eq:Zref}
+\chi{(Z)} = \chi{(Z_{\rm st})} \frac{\exp{(-2[{\rm erfc}^{-1}(2Z)]^2)}}{\exp{(-2[{\rm erfc}^{-1}(2Z_{\rm st})]^2)}} = \chi{(Z_{\rm st})} f(Z;Z_{\rm st}).
+\end{equation}
+To validate this formulation in the current configuration, the dissipation rates along different mixture fraction iso-contours were sampled from the two-dimensional computations, normalized using Eq.~\ref{eq:Zref}, and compared with the sampling along the $Z_{\rm st}$ iso-contour.  As shown in Fig.~\ref{fig:Zref}, the normalized dissipation rates at different mixture fractions all collapse to the value at $Z_{\rm st}$.  Therefore, only the dissipation rate samplings along the $Z_{\rm st}$ iso-contour were needed to perform the unsteady flamelet calculation.
+
+To account for the differential diffusion, species Lewis numbers for LFA  were specified the same as in the two-dimensional computations.  The governing equations for species and temperature follow Eq. $24$ and $25$ in Pitsch and Peters~\cite{pitsch98b}.
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \input{Zref.tex}
+  \normalsize
+  \caption{$\frac{\chi(Z)}{f(Z;Z_{\rm st})}$, using Eq.~\ref{eq:Zref}, from the two-dimensional calculations at $800$ K.}
+  \label{fig:Zref}
+\end{figure}
+
+In the current work, the time history of the dissipation rate $\chi_{\rm st}$ was specified in LFA according to the two-dimensional computation.  To avoid the ill-defined Lagrangian time in the recirculation zone, time zero was defined at a downstream location ten times the thickness of the wall.  Accordingly, the species and temperature profiles along the radial cut at this location were specified as the initial conditions for the flamelet.  Based on these initial conditions and $\chi_{\rm st}$ time history profiles, the unsteady flamelets were calculated and compared with the two-dimensional computational results for $Z_{\rm st}$, $Z = 0.2$, and $Z = 0.3$.       
+
+\begin{figure}
+  \centering
+  \scriptsize
+  \input{LFA.tex}
+  \normalsize
+%  \vspace{0.2in}
+  \caption{Comparison between 2D-CFD and LFA results.}
+  \label{fig:LFA}
+\end{figure}
+
+As shown in Fig.~\ref{fig:LFA}, two ignition stages can be seen at $Z_{\rm st}$ and $Z = 0.2$ for the $700$ K case, while at $Z = 0.3$ only one ignition dominated by low temperature chemistry is observed, due to the reduced initial temperature.   \textcolor{mycolor}{At all three mixture fractions examined, the flamelets agree with the two-dimensional computations very well.}  For the $800$ K case, both the flamelet and two-dimensional computation experience almost identical time histories, where two-stage ignition occurs at all three mixture fractions.  As the initial temperature further increases, corresponding to the increase in the boundary temperatures in the CFD computation, the two-stage ignition phenomenon is less pronounced.  However, the $900$ K case still shows good agreement between the flamelet profile with the time history of the two-dimensional computation \textcolor{mycolor}{at $Z = 0.2$ and $0.3$, while LFA slightly lags behind the CFD computation at $Z_{\rm st}$ , similar to the $800$ K case.}
+  
+On the contrary, for the $1100$ K case, the ignition delay time computed with the one-dimensional flamelet assumption is significantly longer than the two-dimensional counterpart, indicating that 
+\textcolor{mycolor}{transport processes along the mixture fraction iso-contours must be important and that autoignition is less important to the stabilization mechanism.}
+
+
+\section{Stabilization Mechanism} \label{sec:regime}
+With the above analysis based on species profiles, Chemical Explosive Mode Analysis, and Lagrangian Flamelet Analysis, the transition of the stabilization mechanism and the coupling between autoignition chemistry and flame propagation can be clearly identified.  In the current study, two fundamental stabilization mechanisms are relevant: the \emph {kinetic} stabilization mechanism, due to the balance between the autoignition delay time and flow residence time, and the \emph {kinematic} stabilization mechanism, due to the balance between the \textcolor{mycolor}{local} premixed flame propagation velocity and the local flow velocity.  
+
+In this stratified composition and temperature field, autoignition and flame propagation are coupled through thermal and radical interactions, for the accumulation of the upstream radicals and heat release from autoignition accelerate the flame propagation velocity.  The flame also transfers heat and radicals through back diffusion processes to the upstream, which could also facilitate autoignition.
+
+\textcolor{mycolor}{In the current study, the stabilization mechanism was determined by comparing the two-dimensional computations with the one-dimensional inhomogeneous autoignition predicted by LFA.  When these two time history profiles agree well, the case is characterized as \emph{kinetically} stabilized.  Specifically, at $700$ K, the one-dimensional LFA agrees very well with the two-dimensional computation at all of the mixture fractions examined.  Therefore, the $700$ K case is characterized as \emph{kinetically} stabilized.  As the boundary temperature increases, the influences from premixed flame propagation become important, as predictions by LFA lag behind the CFD results for some mixture fractions.  At $800$ K, an autoignition front stabilizes the multibrachial structure at rich mixture fractions, due to the shorter ignition delay time resulting from the NTC chemistry, and a modified triple flame structure stabilizes slightly downstream of this front at leaner mixture fractions, as shown in Fig.~\ref{fig:HRR}.  Further increasing the boundary temperature results in higher flame propagation velocities.  Therefore, the flame front at leaner mixture fraction depends less on radical accumulation ahead of the flame and propagates upstream, and the stabilization is influenced by both inhomogeneous autoignition and premixed flame propagation.  The transition to a \emph {kinematically} stabilized flame structure is achieved for the $1100$ K case, where the local flame propagation velocity balances the incoming flow velocity.  Therefore, the flame structure stabilizes close to the nozzle exit and depends least on radical accumulation from upstream.  Consequently, the one-dimensional LFA predictions departure from the two-dimensional computation significantly.}
+
+Based on the understanding obtained from the current study, further extension of the stabilization regime can be made, as shown in Fig.~\ref{fig:regime}.  For fixed inlet flow velocity, when the boundary temperature is sufficiently low, the mixture cannot be autoignited, and it is essentially a frozen flow.  Even when an external ignition source is applied, the flame cannot keep up with the excessive high flow velocity, such that the flame blows out.  When the boundary temperature is high enough to activate autoignition, it occurs far downstream, but the flame propagation velocity still cannot keep up with the flow velocity.  As a consequence, a pure \emph {kinetically} stabilized autoignition front can be achieved, \textcolor{mycolor}{which is similar to the $700$ K case}.  Conversely, when the boundary temperature is sufficiently high, the flame stabilizes close to the inlet, where the upstream can be treated as frozen, due to reduced residence time, which is similar to the $1100$ K case.  Therefore, a \emph {kinematically} stabilized classical triple flame structure is achieved.  Further increase in the boundary temperature results in an attached flame with the increased flame speed.  Although not included in the current paper, an attached flame was computed at $1500$ K.  In between the \emph {kinetically} and \emph {kinematically} stabilized regimes, there is a transitional regime governed by both mechanisms, which corresponds to the $800$ and $900$ K cases.  Due to the NTC behavior of the autoignition chemistry, the stabilization point, in terms of mixture fraction space, varies, and the complex multibrachial flame structure appears.  
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+%  \vspace{-0.1in}
+  \includegraphics[width=1.0\textwidth]{regime.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{Extended regimes of the stabilization mechanism as the coflow boundary temperature increases.}
+  \label{fig:regime}
+\end{figure}
+
+
+\section{Conclusions}
+
+In the present study, two-dimensional nonpremixed DME flames in heated air coflows were computed.  The computations were conducted at $30$ atmospheres to observe the influence of NTC chemistry on the stabilization mechanism.  A uniform and fixed inlet boundary velocity was specified, and four coflow temperature ($700$, $800$, $900$, and $1100$ K) cases were studied.  
+
+The heat release rate profile and characteristic species profiles for low and high temperature chemistry, autoignition, and premixed flame propagation were examined.  Further investigation based on Chemical Explosive Mode Analysis and Lagrangian Flamelet Analysis enabled the determination of the \textcolor{mycolor}{evolution of the controlling chemical pathways and the }stabilization mechanism.  
+
+\textcolor{mycolor}{The $700$ K case was characterized as \emph {kinetically} stabilized, for, neglecting the diffusion processes along mixture fraction iso-contours, the one-dimensional LFA agrees with the two-dimensional CFD responses.  As the boundary temperature increases, the leading point of the heat release profile shifts to richer mixture fractions and then shifts back due to the NTC effect on the autoignition process and the coupling between autoignition and premixed flame propagation chemistry.  Stabilization is also affected by both inhomogeneous autoignition and premixed flame propagation, as in the $800$ and $900$ K cases.  The $1100$ K case was characterized as \emph {kinematically} stabilized, for it exhibits the classical triple flame structure, with stabilization achieved due to the balance between the premixed flame propagation velocity and the local incoming flow velocity.}
+
+Based on the present study, the following extended stabilization regimes are identified.  For sufficiently high inlet velocity, as the boundary temperature increases from the cold case, the flow is chemically frozen, and the mixture is nonautoignitive; even the flame generated by an external ignition source will blow out.  When the mixture can be autoignited, the \emph {kinetically} stabilized autoignition front gradually transits to a \emph {kinematically} stabilized classical triple flame, where the premixed flame front propagation velocity balances the local incoming flow velocity.  The triple flame will eventually become attached when the boundary temperature is sufficiently high, and the flame speed is sufficiently fast.
+
+Further study on the effects of fuel dilution and inlet velocity on the lift-off height, stabilized flame structure, and stabilization mechanism, is suggested.  For example, the boundary velocity can be varied to change the flow residence time, and dilution can be added to the fuel stream to change the chemical time scale.  Moreover, if autoignition is the dominant stabilization mechanism and the scalar dissipation rate sufficiently low, the nonmonotonic lifted height variation can be observed as the boundary temperature changes, which is plausible based on homogeneous autoignition and nonpremixed counterflow observations~\cite{deng14}.  \textcolor{mycolor}{Finally, high pressure experiments are needed to provide potential experimental substantiation of these predicted multibrachial structures.}
+
+
+\textcolor{mycolor}{\section*{Acknowledgments}
+This research was supported in part by the Air Force Office of Scientific Research (AFOSR) under the technical management of Dr. Mitat Birkan.}
+
+\appendix
+%\counterwithin{table}{section}
+\section{\textcolor{r2}{Supplementary Data}}
+
+\textcolor{r2}{The constant nonunity Lewis numbers adopted in the current study are summarized in Table.~\ref{table:Lewis}.}
+
+
+%\renewcommand{\thetable}{A\arabic{table}}
+
+%\setcounter{table}{0}
+
+
+\begin{table*}
+  \caption{\textcolor{r2}{Constant nonunity Lewis numbers adopted in the current study.}}
+  \label{table:Lewis}
+  \centering
+  \normalsize
+  \resizebox{0.4\textwidth}{!}{
+  \begin{tabular}{ll}
+    \hline
+    Species & Lewis Number   \\
+    \hline
+    N$_2$ &             $1.031$     \\
+    H &              $0.173$    \\
+    O$_2$ &             $1.031$     \\
+    O &              $0.672$    \\
+    OH &             $0.684$    \\
+    H$_2$ &             $0.287$    \\
+    H$_2$O &            $0.764$    \\
+    HO$_2$ &            $1.038$     \\
+    H$_2$O$_2$ &           $1.045$     \\
+    CO &             $1.046$      \\
+    CO$_2$ &            $1.324$     \\
+    HCO &            $1.189$     \\
+    CH$_3$ &            $0.943$    \\
+    CH$_4$ &            $0.947$    \\
+    CH$_2$O &           $1.198$     \\
+    CH$_3$O &           $1.223$     \\
+    C$_2$H$_6$ &           $1.385$     \\
+    CH$_2$OH &          $1.223$     \\
+    C$_2$H$_5$ &           $1.374$      \\
+    CH$_2$ &            $0.922$    \\
+    CH$_2$(S) &     $0.922$     \\
+    C$_2$H$_4$ &           $1.077$     \\
+    CH$_3$HCO &         $1.429$     \\
+    C$_2$H$_2$ &           $1.137$       \\
+    C$_2$H$_3$ &           $1.148$     \\
+    CH$_3$OCH$_3$ &        $1.665$     \\
+    CH$_3$OCH$_2$ &        $1.658$     \\
+    CH$_3$OCH$_2$O &       $1.909$     \\
+    CH$_3$OCHO &        $1.812$     \\
+    CH$_3$OCO &         $1.807$     \\
+    CH$_3$OCH$_2$O$_2$ &      $1.806$     \\
+    CH$_3$OCH$_2$OH &      $1.751$     \\
+    CH$_2$OCH$_2$O$_2$H &     $1.806$     \\
+    O$_2$CH$_2$OCH$_2$O$_2$H &   $1.881$     \\
+    HO$_2$CH$_2$OCHO &     $1.847$      \\
+    OCH$_2$OCHO &       $1.800$     \\
+    HOCH$_2$OCO &       $1.800$     \\
+    HOCH$_2$O &         $1.327$     \\
+    HCOOH &          $1.627$     \\
+    \hline
+   \end{tabular}
+}
+\end{table*}
+
+\section*{References}
+\bibliographystyle{elsarticle-num-CNF}
+\bibliography{DME_Jet}
+
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+
+
+
+
+\end{document}
+
+
+
+
+
+  

@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{fullpage}
+
+\title{Flame dynamics in oscillating flows under autoignitive conditions}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Authors}
+Sili Deng$^1$, Peng Zhao$^{1,2}$, Michael E. Mueller$^1$, Chung K. Law$^1$\\ \\
+$^1$Department of Mechanical and Aerospace Engineering, Princeton University,
+Princeton, NJ 08544, USA\\ \\
+$^2$Department of Mechanical Engineering, Oakland University,
+Rochester, MI 48309, USA\\ \\
+
+
+\section*{Corresponding Author}
+Sili Deng\\
+Department of Mechanical and Aerospace Engineering\\
+Princeton University\\
+Engineering Quadrangle, Room D214\\
+Princeton, NJ 08544\\
+Ph.: 1 609 258 5178\\
+Fax: 1 609 258 6233\\
+Email: silideng@princeton.edu
+
+\section*{Colloquium}
+4. Laminar Flames
+
+\section*{Paper Length}
+Method of determination: M2\\
+Total length: 5728\\
+\begin{itemize}
+  \item Six complete pages (5400)
+  \item One partial column: 149 mm (328)
+\end{itemize}
+
+\end{document}
+

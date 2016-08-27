@@ -1,0 +1,191 @@
+\chapter{Soot Evolution in Turbulent Bluff Body Flames}\label{ch:bluff}
+
+In practical combustion systems, the flow pattern is often turbulent and complex.  To bridge the gap between laminar studies that focuses more on chemical kinetics in sooting flames and real gas turbine studies, in this chapter, a nonpremixed turbulent ethylene/hydrogen sooting flame in a bluff body configuration is presented.  Since Mueller~\emph{et al.}~\cite{mueller13} have experimentally and computationally investigated a turbulent nonpremixed bluff body ethylene flame, the current work that adopts the same experimental system is to elucidate the chemical and hydrodynamic effect of hydrogen addition to the ethylene fuel stream in soot evolution.  As reviewed in Chapter~\ref{sec:intro-bluff}, laminar nonpremixed sooting flame studies have shown that hydrogen addition overally suppress soot formation, due to dilution and the change of local C/H ratio.  In the current work, however, in addition to this chemical effect, to maintain the same heat release rate and similar Reynolds number as the ethylene bluff body flame~\cite{mueller13}, a faster central jet is needed, which will change the fuel to coflow air momentum flux ratio and affect the hydrodynamics. 
+
+Therefore, the objective of this chapter is threefold: first, to understand the evolution of soot in the hydrogen added ethylene bluff body flame utilizing a combination of experimental and computational results; second, to assess differences between hydrogen added and neat ethylene flames and further validate the LES model; and, third, to differentiate between the hydrodynamic and chemical effects of hydrogen addition.
+
+\section{Experimental Methodology}
+
+The collaborative experimental investigation was performed at the University of Adelaide, which is briefly introduced here for completeness.  The experimental setup is similar to previous bluff body studies~\cite{dally96,dally98a} and was kept the same as the previous ethylene case~\cite{mueller13}.  In brief, the outer diameter of the bluff body ($D_{\rm B}$) is $50$ mm, and the diameter ($D_{\rm J}$) of the central fuel jet is $3.6$ mm, from which an ethylene/hydrogen mixture (2:1 by volume) issued at $102.1$ m/s.  The heat release rate of the flame was kept the same at 42 kW to maintain similar thermal effects on the flow field.  The central jet Reynolds number is 28,400, which is 8\% smaller than that of the previous study with a Reynolds number of $30,900$ and a jet velocity of 74.2 m/s~\cite{mueller13}.  The bluff body burner was mounted in a contraction with an exit cross section of $150$ by $150$ mm$^2$, from which air coflow issued at $23$ m/s, which is the same as in the previous study.
+
+The $1064$ nm beam from an Nd:YAG laser was used for laser-induced incandescence (LII) excitation.  The laser sheet had a height of $80$ mm through the measurement volume and had a thickness of $0.3$ mm.  The operating LII fluence was kept at $0.9$ J/cm$^2$ to ensure the independence of the signal to variations in the fluence caused by laser extinction~\cite{qamar09,schulz06}.  In addition, data were only extracted from the laser-in side of the measurement to avoid non-linear influences of beam steering~\cite{sun15}.  A Gaussian distribution of the spatial fluence with a $8$\% standard deviation was achieved.  All images presented in this work have been clipped at the edges where the laser sheet was found to exhibit low fluence.  
+
+The LII signal was filtered at $430 \pm 10$ nm and detected with an intensified CCD camera.  A short gate width of $40$ ns was used to reduce the size-dependent sensitivity of the signal~\cite{bladh08}.  The LII signal has been calibrated by laser extinction measurements as previously reported~\cite{mueller13}.  With this system, the in-plane resolution of the images is $0.26$ mm/pixel in each direction, and the detection threshold is about $3$ ppb.
+
+The data presented in this work have been corrected for background interference and detector attenuation.  According to the previous ethylene bluff body study, the estimated measurement uncertainty is about $25$\%.  
+
+\section{Computational Methodology}
+
+The modeling of soot-chemistry-turbulence interactions is aided by a statistical soot model, briefly summarized in Sec.~\ref{sec:biofuel-soot_model}, a modified Radiation Flamelet/Progress Variable (RFPV) combustion model for sooting flames, and a presumed subfilter PDF for closure.  Complete details of the integrated LES model for sooting turbulent nonpremixed flames can be found in Mueller and Pitsch~\cite{mueller12} and the references therein.
+
+In brief, the thermochemical states, such as temperature, species mass fractions ($Y_k$), and other derived quantities, are obtained from tabulated chemistry, described with the RFPV model of Ihme and Pitsch~\cite{ihme08} with modifications for soot by Mueller and Pitsch~\cite{mueller12}.  A detailed analysis of differential diffusion is provided by Dally \emph{et al.}~\cite{dally98b} for the same configuration as the current study.  In that work, unity Lewis number flamelets were found to reproduce the temperature and stable species more accurately than detailed transport.  Therefore, the same unity Lewis number assumption was made in the current study.  Solutions of the steady and unsteady (for radiation) flamelet equations are parameterized by the mixture fraction ($Z$), a reaction progress variable ($C = Y_{\rm CO_2} + Y_{\rm CO} + Y_{\rm H_2O} + Y_{\rm H_2}$), and a heat loss parameter ($H$) to account for heat losses due to radiation.  Due to significant unsteady effects for PAH~\cite{bisetti12}, the mass fractions for these species deviate from their steady values in the flamelet database.  Therefore, an additional transport equation for a lumped PAH species is solved, as introduced and discussed in Mueller and Pitsch~\cite{mueller12}.
+
+The closure for filtered quantities such as density, gas-phase source terms, and soot source terms are achieved with a presumed subfilter PDF model by Mueller and Pitsch~\cite{mueller12, mueller11b}.  The joint subfilter PDF of the mixture fraction, progress variable, heat loss parameter, and soot moments ($\widetilde{P}\left(Z,C,H,M_i\right)$) can be modeled by the product of the thermochemical subfilter PDF, $\widetilde{P}\left(Z,C,H\right)$, and the soot subfilter PDF, $\widetilde{P}\left(M_i\right)$, due to the time scale decoupling of the gas-phase and soot evolution~\cite{mueller11b}.  The thermochemical PDF is modeled with a beta distribution for the mixture fraction~\cite{cook94}.  Convolution of the flamelet database with the PDF is done \emph{a priori} and tabulated as a function of the filtered mixture fraction, subfilter mixture fraction variance, filtered progress variable, and filtered heat loss parameter.  The subfilter mixture fraction variance is obtained from the solution of a transport equation for the filtered square of the mixture fraction with a linear relaxation model~\cite{ihme08b} for the subfilter scalar dissipation rate.  The soot subfilter PDF is modeled with a double delta distribution~\cite{mueller11b}, which requires solving an additional transport equation for the filtered square of the number density.
+
+In summary, the continuity equation, momentum equations, and transport equations for $\widetilde{Z}$, $\widetilde{Z^2}$, $\widetilde{C}$, $\widetilde{H}$, $\widetilde{Y}_{\rm PAH}$, $\overline{M}_{0,0}$, $\overline{M}_{1,0}$, $\overline{M}_{0,1}$, $\overline{N}_0$, and $\overline{M_{0,0}^2}$ are solved in the simulation.  Specifically, for sooting flames, the filtered transport equations for the mixture fraction, square of the mixture fraction, progress variable, heat loss parameter, lumped PAH mass fraction, soot moments (and weight of the delta function $N_0$), and square of the number density are given by
+\begin{equation}
+  \pp{\overline{\rho}\widetilde{Z}}{t} +
+  \pp{\overline{\rho}\widetilde{u}_i\widetilde{Z}}{x_i} =
+  \pp{}{x_i}\left(\overline{\rho}\widetilde{u}_i\widetilde{Z}-\overline{\rho}\widetilde{u_iZ}\right) +
+  \pp{}{x_i}\left(\overline{\rho}\widetilde{D}_Z\pp{\widetilde{Z}}{x_i}\right) +
+  \overline{\dot{m}}_Z\;,
+  \label{eq:LES-zfilter}
+\end{equation}
+\begin{equation}
+  \begin{split}
+    \pp{\overline{\rho}\widetilde{Z^2}}{t} +
+    \pp{\overline{\rho}\widetilde{u}_i\widetilde{Z^2}}{x_i} &= \pp{}{x_i}\left(\overline{\rho}\widetilde{u}_i\widetilde{Z^2}-\overline{\rho}\widetilde{u_iZ^2}\right) + \pp{}{x_i}\left(\overline{\rho}\widetilde{D}_Z\pp{\widetilde{Z^2}}{x_i}\right)\\
+    &\qquad -2\overline{\rho}\widetilde{D}_Z\pp{\widetilde{Z}}{x_i}\pp{\widetilde{Z}}{x_i} 
+    - \overline{\rho}\widetilde{\chi}_{\rm sgs} -
+    \overline{\dot{\rho}Z^2} + 2\overline{\dot{m}_ZZ}\;,
+    \label{eq:LES-z2filter}
+  \end{split}
+\end{equation}
+\begin{equation}
+  \pp{\overline{\rho}\widetilde{C}}{t} +
+  \pp{\overline{\rho}\widetilde{u}_i\widetilde{C}}{x_i} =
+  \pp{}{x_i}\left(\overline{\rho}\widetilde{u}_i\widetilde{C}-\overline{\rho}\widetilde{u_iC}\right) +
+  \pp{}{x_i}\left(\overline{\rho}\widetilde{D}_C\pp{\widetilde{C}}{x_i}\right) +
+  \overline{\left(\frac{\dot{m}_{\Sigma Y_i^C}}{C^\ast}\right)}\;,
+  \label{eq:LES-cfilter}
+\end{equation}
+\begin{equation}
+  \pp{\overline{\rho}\widetilde{H}}{t} +
+  \pp{\overline{\rho}\widetilde{u}_i\widetilde{H}}{x_i} =
+  \pp{}{x_i}\left(\overline{\rho}\widetilde{u}_i\widetilde{H}-\overline{\rho}\widetilde{u_iH}\right) +
+  \pp{}{x_i}\left(\overline{\rho}\widetilde{D}_H\pp{\widetilde{H}}{x_i}\right) +
+  \overline{\dot{\rho}H} + \overline{\dot{q}}_{\rm RAD}\;,
+  \label{eq:LES-hfilter}
+\end{equation}
+\begin{equation}
+  \begin{split}
+    \pp{\overline{\rho}\widetilde{Y}_{\rm PAH}}{t} + \pp{\overline{\rho}\widetilde{u}_i\widetilde{Y}_{\rm PAH}}{x_i} &= 
+    \pp{}{x_i}\left(\overline{\rho}\widetilde{u}_i\widetilde{Y}_{\rm PAH}-\overline{\rho}\widetilde{u_iY}_{\rm PAH}\right)\\
+&\qquad + \pp{}{x_i}\left(\overline{\rho}\widetilde{D}_{\rm PAH}\pp{\widetilde{Y}_{\rm PAH}}{x_i}\right) +
+    \overline{\dot{m}}_{\rm PAH}\;,
+    \label{eq:LES-pah}
+  \end{split}
+\end{equation}
+\begin{equation}
+  \pp{\overline{M}_{x,y}}{t} +
+  \pp{\widetilde{u^\ast_i}\overline{M}_{x,y}}{x_i} =
+  \pp{}{x_i}\left(\widetilde{u^\ast_i}\overline{M_{x,y}}-\overline{u^\ast_iM_{x,y}}\right) +
+  \overline{\dot{M}}_{x,y}\;,
+  \label{eq:LES-Mfilter}
+\end{equation}
+and
+\begin{equation}
+  \pp{\overline{{M_{0,0}}^2}}{t} +
+  \pp{\widetilde{u^\ast_i}\overline{{M_{0,0}}^2}}{x_i} = 
+  \pp{}{x_i}\left(\widetilde{u^\ast_i}\overline{{M_{0,0}}^2}-\overline{u^\ast_i{M_{0,0}}^2}\right) -
+  \overline{{M_{0,0}}^2}\pp{\widetilde{u_i^\ast}}{x_i} +
+  2\overline{M_{0,0}\dot{M}_{0,0}}\;,
+  \label{equ:M2filter}
+\end{equation}
+respectively.  Detailed descriptions of these equations can be found in Mueller \emph{et al.}~\cite{mueller12}.  All of the subfilter stresses and scalar fluxes are closed with dynamic models~\cite{germano91} with Lagrangian averaging~\cite{meneveau96}.  The unfiltered soot source terms are closed with HMOM, and the filtered density, gas-phase source terms, and soot source terms are closed with the presumed subfilter PDF.  
+
+The simulation details are similar to the previous ethylene bluff body flame~\cite{mueller13}.  Flamelet solutions were computed using FlameMaster~\cite{flamemaster} with the chemical mechanism, including PAH, of Pitsch and co-workers~\cite{blanquart09b,narayanaswamy10}.  The soot and combustion models were implemented in NGA~\cite{desjardins08}.  The continuity and momentum equations are discretized with a centered, second-order scheme, and the scalar equations are discretized with a bounded QUICK scheme~\cite{herrmann06}.  The computational domain is discretized on a structured, non-uniform grid, with $384 \times 192 \times 64$ points in the axial, radial, and circumferential directions, respectively.  Following from the results of a boundary condition sensitivity study for the neat ethylene case, turbulence intensity in the central jet is increased by $10$\% compared to the reported experimental condition (fully developed turbulent pipe flow), and a turbulent boundary layer condition is specified for the coflow.  
+
+\section{Results and Discussion}
+
+\subsection{Overall Flame Structure}
+
+The overall structure of the turbulent nonpremixed ethylene/hydrogen bluff body flame is shown and compared with the neat ethylene counterpart in Fig.~\ref{fig:H2_overall}.  Qualitatively, three distinct regions are identified: a sooting recirculation zone ($x/D_{\rm B} < 1.0$), a non-sooting, high-strain neck region ($1.0 < x/D_{\rm B} < 2.0$), and a sooting jet-like region.  Quantitatively, the clipped, time-averaged LII images of soot volume fraction are also compared.  Soot is formed close to the bluff body, where the residence time is long and turbulence intensity is low.  No detectable soot is convected into nor formed in the high-strain neck region.   Further downstream in the jet-like region, where the scalar dissipation rate decreases as mixing proceeds, soot formation once again occurs.  Since the burner is equivalent and the Reynolds number sufficiently large, the overall flame lengths are similar, but the recirculation zone of the hydrogen added flame appears shorter, based on the soot volume fraction measurements.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+%  \vspace{-0.10in}
+  \includegraphics[trim=14mm 5.0mm 14mm 5mm, clip=true, width=0.7\textwidth]{ch-bluff/hy_overall_new.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{Photographs of the neat ethylene (left) and ethylene/hydrogen (right) bluff body flame and the corresponding collages of the time-averaged LII images of the soot volume fraction distribution.  Three distinct regions are identified as follows: RZ (recirculation zone), NZ (neck zone), and JZ (jet-like zone).}
+  \label{fig:H2_overall}
+\end{figure}
+
+Although the two flames share similar flow and soot formation patterns, the ethylene/hydrogen flame is significantly less sooting than the neat ethylene flame.  As demonstrated in Fig.~\ref{fig:ifv}, the axial profiles of the radially integrated soot volume fraction (ppm$\cdot$mm$^2$) are compared for the two flames.  Two distinct maxima are observed for both flames and correspond to the upstream recirculation zone and downstream jet-like zone.  Furthermore, the reduction in the integrated soot volume fraction is more pronounced in the recirculation zone than in the downstream jet-like region.  Specifically, according to both Figs.~\ref{fig:H2_overall} and~\ref{fig:ifv}, the soot reduction in the recirculation zone is more than an order of magnitude, while, in the jet-like zone, the reduction is about a factor of four to six.  The difference in the soot reduction with hydrogen addition indicates different dominant soot reduction mechanisms and different roles that hydrogen addition plays in these two regions.  
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+%  \vspace{-0.10in}
+  \resizebox{0.7\textwidth}{!}{\input{ch-bluff/ifv.tex}}
+  \normalsize
+%  \vspace{-0.3in}
+  \caption{Total soot volume per unit height obtained from the radial integration of the time-averaged soot volume fraction from the LII measurements at each height.  For clarity, only every second measurement point is shown.}
+  \label{fig:ifv}
+\end{figure}
+
+\subsection{Effects of Hydrogen Addition}
+
+Two effects of hydrogen addition are potentially relevant: chemical and hydrodynamic effects.  Chemically, due to the reduced C/H ratio, PAH formation will be inhibited in the hydrogen added flame, and, therefore, soot formation is inhibited.  This chemical effect is an intrinsic property of the fuel mixture, which is less dependent on the specific flow geometry compared to the hydrodynamic effect.  Hydrodynamically, since the fuel jet velocity is increased, the fuel jet to air coflow momentum flux ratio is also increased from 10.1 to 13.2.  As Dally~\emph{et al.}~\cite{dally98b} demonstrated, the increase in the fuel jet momentum flux decreases the strength of the mixture in the outer vortex in the recirculation zone, further inhibiting soot formation.  The relative significance of these two effects in the two sooting regions of the flames are analyzed in this section.
+
+To first quantify the chemical effect, steady flamelets at a moderate scalar dissipation rate ($\chi_{\rm st} = 1$ s$^{-1}$) were calculated, and the total PAH mass fraction is shown in Fig.~\ref{fig:flamelet}.  PAH forms at rich mixture fractions (the stoichiometric mixture fraction for both cases is about $0.06$, differing by less than $5$\%) and peaks at $Z = 0.2$.  The maximum $Y_{\rm PAH}$ decreases by a factor of two with hydrogen addition.  The scalar dissipation rate of 1 s$^{-1}$ was chosen because the representative value in the flame is of this order; however, the quantitative trend is not very sensitive to this choice.  At higher scalar dissipation rates, such as 10 s$^{-1}$, PAH reduction with hydrogen addition is approximately the same, about a factor of 2.5.  At lower scalar dissipation rates, PAH shows substantial departure from the steady flamelet model~\cite{bisetti12}, so such scaling would not be expected to apply.  In the soot model adopted in the LES, PAH-based soot formation and growth, which has been shown to dominate in turbulent jet flames~\cite{bisetti12,attili14,attili15,mueller12,mueller13}, scales as the square of the PAH mass fraction.  Therefore, this chemical effect is expected to result in a reduction of soot volume fraction by a factor of four in the jet-like region.  This reduction is consistent with the experimental measurements, suggesting that chemical effects are primarily responsible for soot suppression in the downstream jet-like region.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.7\textwidth}{!}{\input{ch-bluff/flamelet.tex}}
+  \normalsize
+%  \vspace{-0.3in}
+  \caption{PAH mass fraction profiles calculated with steady flamelets at $\chi = 1$ s$^{-1}$.}
+  \label{fig:flamelet}
+\end{figure}
+
+
+Conversely, noting that the chemical effect predicted by the steady flamelet solution is less than the total soot reduction in the recirculation zone, soot evolution in this region is further analyzed with LES.  Radial profiles of the time-averaged soot volume fraction are shown in Fig.~\ref{fig:fv_radial} for both cases and at two axial locations in the recirculation zone.  Qualitatively, two distinct sooting peaks are found in the radial profiles.  Mueller~\emph{et al.}~\cite{mueller13} found in the ethylene bluff body flame that the inner and outer peak corresponds to the PAH-based growth and acetylene-based surface growth pathway, respectively.  Quantitatively, the calculated soot volume fraction of the ethylene case is slightly underpredicted but within experimental uncertainty~\cite{mueller13}.  For the hydrogen added case, the calculated soot volume fraction appears to be overpredicted.  However, the mean soot volume fraction from the LES is only slightly higher than the experimental detection limit of 3 ppb.  Therefore, the soot volume fraction measured with LII may be low by as much as 3 ppb, which easily accounts for the discrepancy between the measurements and LES.  An additional explanation could be that the recirculation zone is slightly too rich in the LES compared to the experiment, for which experimental diagnostics are only recently available~\cite{buxton13} and have not been applied to this flame.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.7\textwidth}{!}{\input{ch-bluff/fv_06.tex}}
+  \resizebox{0.7\textwidth}{!}{\input{ch-bluff/fv_08.tex}}
+%  \vspace{-0.3in}
+  \normalsize
+  \caption{Radial profiles of the time-averaged soot volume fraction.  Only every fourth experimental measurement point is shown for clarity.  The ethylene flame is reproduced from~\cite{mueller13}, and the ethylene/hydrogen flame is from this work.  Both experimental and computational results for the ethylene/hydrogen flame are scaled up by a factor of ten.}
+  \label{fig:fv_radial}
+\end{figure}
+
+  
+Hydrogen addition not only induces chemical effects through modification of the fuel stream C/H ratio but also hydrodynamically influences mixing, that is, the local mixture fraction, as well as residence time in the recirculation zone.  The residence time effect is first estimated by comparing the streamline patterns in the recirculation zone of the two flames, as shown in Fig.~\ref{fig:streamline}.  In both flames, the circulation vortex appears as single vortex near the outer shear layer between the air coflow and the recirculation zone due to sufficiently large jet/coflow momentum flux ratio~\cite{dally98a,dally98b}.  The location and structure of these two vortices are almost identical.  Estimating residence time~\cite{dally96} by dividing the length of the recirculation zone by the coflow velocity (identical between these flames), it is found that residence time in the recirculation zone is similar between these two flames.  Therefore, differences in residence time plays little role in dictating the difference in soot volume fraction in the recirculation zone in the two flames, and the difference beyond the chemical effects must be a result of different degrees of mixing in the recirculation zone.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+%  \vspace{-0.10in}
+  \includegraphics[trim=12.0mm 2.0mm 8mm 5mm, clip=true, width=0.6\textwidth]{ch-bluff/streamline.png}
+  \normalsize
+%  \vspace{-0.1in}
+  \caption{Streamlines in the recirculation zone of the neat ethylene flame (top) and ethylene/hydrogen flame (bottom) in the LES.}
+  \label{fig:streamline}
+\end{figure}
+
+The recirculating motion of the outer vortex transports rich mixture fraction from the fuel jet to the recirculation zone.  As discussed above, the increase of the fuel/coflow momentum flux ratio (about 30\%) inhibits such transport, resulting in a leaner recirculation zone than the neat ethylene case (recall that the stoichiometric mixture fraction is essentially the same for the two mixtures).  The mixture fraction radial profiles from LES as well as the characteristic time scales of the soot formation and oxidation processes from a lightly strained ($\chi_{\rm st} = 1$ s$^{-1}$) steady flamelet solution are shown in Fig.~\ref{fig:timescale}.  The characteristic time scales of the acetylene-based growth and oxidation processes remain the same, while that of the PAH-based growth slows down due to reduced PAH concentration as discussed previously.  Additionally, as expected, the mixture fraction profile near the bluff body surface is affected substantially by hydrogen addition.  As shown in Fig.~\ref{fig:timescale}, in the recirculation zone, the mean mixture fraction decreases by $25$\% with hydrogen addition.  Consequently, the mixture fraction shifts from where PAH-based growth is favored ($Z \sim 0.18$) to where oxidation becomes nearly as fast as acetylene-based surface growth ($Z \sim 0.11$), suppressing soot formation and growth.  Note that soot formation and oxidation are also sensitive to temperature, which is influenced by mixture fraction, gas-phase radiation, and soot radiation.  Due to the relatively low soot loading (ppb), soot radiation is negligible compared to gas-phase radiation, which depends on mixture fraction as well as residence time (same in both flames).  Therefore, the leaning in the recirculation zone due to hydrodynamic effects account for the further inhibited soot formation in addition to the chemical effect.
+
+\begin{figure}[t]
+  \centering
+  \scriptsize
+  \resizebox{0.7\textwidth}{!}{\input{ch-bluff/Z_01.tex}}
+  \resizebox{0.7\textwidth}{!}{\input{ch-bluff/timescale.tex}}
+%  \vspace{-0.3in}
+  \normalsize
+  \caption{Top: radial profile of the time-averaged mixture fraction in the LES at different heights.  Black horizontal lines correspond to the stoichiometric mixture fractions of these two flames and almost overlap.  Bottom: characteristic inverse time scales of the soot processes from the steady flamelet calculations at $\chi_{\rm st} = 1$ s$^{-1}$.  Vertical lines correspond to the mixture fraction in the flat regions of the radial plot.}
+  \label{fig:timescale}
+\end{figure}
+
+The PAH-based, acetylene-based, and oxidation source terms are shown in Fig.~\ref{fig:sourceterms} to elucidate the evolution of soot. Soot nucleation mainly occurs near the inner shear layer between the fuel jet and recirculation zone where mixture fraction is high.  Some of this soot is entrained by the recirculation zone and transported back upstream toward the bluff body then radially outward toward the outer shear layer by the recirculation vortex.  This trend is consistent with the neat ethylene case~\cite{mueller13}.  In the neat ethylene flame, acetylene-based surface growth becomes dominant in the outer shear layer close to the stoichiometric mixture fraction contour, and oxidation is almost negligible except close to the downstream neck zone.  However, due to the lean shift of the mean mixture fraction near the bluff body in the hydrogen added flame, oxidation becomes comparable to the acetylene-based growth.  Consequently, soot nucleation in the recirculation zone of the hydrogen added flame is first suppressed due to reduced PAH concentration, and soot surface growth competes with soot oxidation, resulting in a less sooting recirculation zone than the neat ethylene flame.
+
+ \begin{figure}[t]
+  \centering
+  \scriptsize
+  \includegraphics[trim=5mm 5.0mm 10mm 3.0mm, clip=true, width=0.6\textwidth]{ch-bluff/sourceterm.png}
+  \normalsize
+  \caption{Time-averaged soot volume fraction source term [ppm/s] in the recirculation zone of the ethylene/hydrogen flame in the LES.  The magenta lines correspond to the stoichiometric mixture fraction contours.}
+  \label{fig:sourceterms}
+\end{figure}
+
+\section{Summary}
+
+In this chapter, the effects of hydrogen addtion on soot evolution in a nonpremixed bluff body configuration were studied experimentally and computationally and compared with the neat ethylene counterpart.  The PAH and soot models are the same as in the laminar study presented in Chapter~\ref{ch:biofuel}, however, turbulence-chemistry interactions show coupling effects on soot evolution, which can be differentiated and quantified as chemical effects and hydrodynamic effects.  While the chemical effects can be estimated with lower-dimensional laminar flamelets, the hydrodynamic effects need to be revealed with three-dimensional high-fidelity modeling with the integrated LES model for sooting flames.  
+
+In the jet-like region of the bluff body flame, the chemical effect due to reduced C/H ratio is dominant in soot reduction.  However, in the recirculation zone of the bluff body flame, hydrogen addition not only reduces the formation of PAH but also results in leaner mixture fraction.  Consequently, soot formation is inhibited while oxidation is promoted, resulting in a significantly less sooting recirculation zone compared to a neat ethylene case.  Comparison between experimental and computational results further validate the integrated LES and demonstrate the necessity of adopting high-fidelity chemical, soot, and turbulent models to reasonably predict turbulent sooting flames in complex flow configurations.
