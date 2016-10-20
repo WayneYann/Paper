@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.11.9)  27 AUG 2016 18:24
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.11.9)  19 OCT 2016 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CFP.tex
+**CFP
 (./CFP.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 76 languages loaded.
@@ -578,42 +578,42 @@ Package: subdepth 2007/09/02 v0.1 Unify subscript depths
 ) (./CFP.aux)
 \openout1 = `CFP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 37.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 37.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 38.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 38.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 38.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 38.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -715,89 +715,89 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Overfull \hbox (6.35016pt too wide) in paragraph at lines 53--54
+Overfull \hbox (6.35016pt too wide) in paragraph at lines 54--55
 []\OT1/txr/m/n/10 Cool flames, gov-erned by low-temperature chem-istry, are clo
 sely re-lated to en-gine knock. Since the low-temperature
  []
 
-LaTeX Font Info:    Try loading font information for OMX+yhex on input line 61.
+LaTeX Font Info:    Try loading font information for OMX+yhex on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <10> on input line 61.
+(Font)              <10> on input line 62.
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <7> on input line 61.
+(Font)              <7> on input line 62.
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <5> on input line 61.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 61.
+(Font)              <5> on input line 62.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 61.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <8> on input line 61.
+(Font)              <8> on input line 62.
 LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <6> on input line 61.
+(Font)              <6> on input line 62.
  [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 <S-Curve.png, id=17, 771.1209pt x 590.205pt>
 File: S-Curve.png Graphic file (type png)
  <use S-Curve.png>
-Package pdftex.def Info: S-Curve.png used on input line 110.
+Package pdftex.def Info: S-Curve.png used on input line 111.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
  [4]
 <UV.png, id=22, 606.1044pt x 510.2262pt>
 File: UV.png Graphic file (type png)
  <use UV.png>
-Package pdftex.def Info: UV.png used on input line 122.
+Package pdftex.def Info: UV.png used on input line 123.
 (pdftex.def)             Requested size: 234.0pt x 200.3388pt.
 
 <cmp_demo.png, id=25, 771.1209pt x 590.205pt>
 File: cmp_demo.png Graphic file (type png)
  <use cmp_demo.png>
-Package pdftex.def Info: cmp_demo.png used on input line 135.
+Package pdftex.def Info: cmp_demo.png used on input line 136.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
  [5 <./S-Curve.png>] <HRR.png, id=32, 771.1209pt x 590.205pt>
 File: HRR.png Graphic file (type png)
  <use HRR.png>
-Package pdftex.def Info: HRR.png used on input line 150.
+Package pdftex.def Info: HRR.png used on input line 151.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <sp_a.png, id=34, 771.1209pt x 590.205pt>
 File: sp_a.png Graphic file (type png)
  <use sp_a.png>
-Package pdftex.def Info: sp_a.png used on input line 159.
+Package pdftex.def Info: sp_a.png used on input line 160.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <sp_b.png, id=36, 771.1209pt x 590.205pt>
 File: sp_b.png Graphic file (type png)
  <use sp_b.png>
-Package pdftex.def Info: sp_b.png used on input line 160.
+Package pdftex.def Info: sp_b.png used on input line 161.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <sp_c.png, id=38, 771.1209pt x 590.205pt>
 File: sp_c.png Graphic file (type png)
  <use sp_c.png>
-Package pdftex.def Info: sp_c.png used on input line 161.
+Package pdftex.def Info: sp_c.png used on input line 162.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
@@ -806,7 +806,7 @@ Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
 
-Overfull \hbox (0.26015pt too wide) in paragraph at lines 167--168
+Overfull \hbox (0.26015pt too wide) in paragraph at lines 168--169
 []\OT1/txr/m/n/10 The pro-files of three rep-re-sen-ta-tive species, namely met
 hoxymethylper-oxy (CH$[]$OCH$[]$O$[]$), formalde-hyde (CH$[]$O),
  []
@@ -815,14 +815,14 @@ hoxymethylper-oxy (CH$[]$OCH$[]$O$[]$), formalde-hyde (CH$[]$O),
 File: SA.png Graphic file (type png)
 
 <use SA.png>
-Package pdftex.def Info: SA.png used on input line 176.
+Package pdftex.def Info: SA.png used on input line 177.
 (pdftex.def)             Requested size: 234.0pt x 127.46896pt.
  [8 <./HRR.png>] [9 <./sp_a.png> <./sp_b.png> <./sp_c.png>]
 [10 <./SA.png>] <cmp_demo_mod.png, id=69, 771.1209pt x 590.205pt>
 File: cmp_demo_mod.png Graphic file (type png)
 
 <use cmp_demo_mod.png>
-Package pdftex.def Info: cmp_demo_mod.png used on input line 189.
+Package pdftex.def Info: cmp_demo_mod.png used on input line 190.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
  [11
 
@@ -830,66 +830,67 @@ Package pdftex.def Info: cmp_demo_mod.png used on input line 189.
 <eff_P.png, id=76, 771.1209pt x 590.205pt>
 File: eff_P.png Graphic file (type png)
  <use eff_P.png>
-Package pdftex.def Info: eff_P.png used on input line 211.
+Package pdftex.def Info: eff_P.png used on input line 214.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <cmp_P.png, id=78, 771.1209pt x 590.205pt>
 File: cmp_P.png Graphic file (type png)
  <use cmp_P.png>
-Package pdftex.def Info: cmp_P.png used on input line 220.
+Package pdftex.def Info: cmp_P.png used on input line 223.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <cmp_P_mod.png, id=80, 771.1209pt x 590.205pt>
 File: cmp_P_mod.png Graphic file (type png)
  <use cmp_P_mod.png>
-Package pdftex.def Info: cmp_P_mod.png used on input line 221.
+Package pdftex.def Info: cmp_P_mod.png used on input line 224.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <eff_O2.png, id=82, 771.1209pt x 590.205pt>
 File: eff_O2.png Graphic file (type png)
  <use eff_O2.png>
-Package pdftex.def Info: eff_O2.png used on input line 230.
+Package pdftex.def Info: eff_O2.png used on input line 233.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <cmp_O2.png, id=84, 771.1209pt x 590.205pt>
 File: cmp_O2.png Graphic file (type png)
  <use cmp_O2.png>
-Package pdftex.def Info: cmp_O2.png used on input line 239.
+Package pdftex.def Info: cmp_O2.png used on input line 242.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
 
 <cmp_O2_mod.png, id=86, 771.1209pt x 590.205pt>
 File: cmp_O2_mod.png Graphic file (type png)
  <use cmp_O2_mod.png>
-Package pdftex.def Info: cmp_O2_mod.png used on input line 240.
+Package pdftex.def Info: cmp_O2_mod.png used on input line 243.
 (pdftex.def)             Requested size: 234.0pt x 174.3983pt.
- [12 <./eff_P.png>]
+ [12]
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ú in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
- [13 <./cmp_P.png> <./cmp_P_mod.png>] [14 <./eff_O2.png>] [15 <./cmp_O2.png> <.
-/cmp_O2_mod.png>] (./CFP.bbl [16]) [17] (./CFP.aux) ) 
+
+[13 <./eff_P.png>] [14 <./cmp_P.png> <./cmp_P_mod.png>] (./CFP.bbl [15 <./eff_O
+2.png>] [16 <./cmp_O2.png> <./cmp_O2_mod.png>] [17]) [18] (./CFP.aux) ) 
 Here is how much of TeX's memory you used:
- 7411 strings out of 493328
- 114469 string characters out of 6140733
+ 7423 strings out of 493328
+ 114664 string characters out of 6140733
  195360 words of memory out of 5000000
- 10709 multiletter control sequences out of 15000+600000
+ 10721 multiletter control sequences out of 15000+600000
  39665 words of font info for 101 fonts, out of 8000000 for 9000
  953 hyphenation exceptions out of 8191
- 44i,10n,42p,2346b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/
-rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on CFP.pdf (17 pages, 2611836 bytes).
+ 44i,10n,42p,2342b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/sh
+are/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
+fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CFP.pdf (18 pages, 2614231 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

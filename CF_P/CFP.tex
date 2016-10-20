@@ -9,7 +9,8 @@
 \usepackage{multirow}
 \usepackage{cleveref}
 \usepackage{xcolor}
-\definecolor{Rev1}{rgb}{0,0,255}
+\definecolor{Rev1}{rgb}{0,0,0}
+\definecolor{Rev2}{rgb}{0,0,0}
 \usepackage{subdepth}
 %\usepackage[nomarkers,lists]{endfloat}
 
@@ -40,11 +41,12 @@
 
 \title{Ignition and extinction of strained nonpremixed cool flames at elevated pressures}
 
-\author{Sili~Deng}
-\author{Dong~Han\fnref{fn}}
+\author{Sili~Deng\fnref{fn1}}
+\author{Dong~Han\fnref{fn2}}
 \author{Chung K.~Law\corref{cor}}
 \cortext[cor]{Corresponding author: cklaw@princeton.edu}
-\fntext[fn]{Permanent address: Key Laboratory of Power Machinery and Engineering, Ministry of Education, Shanghai Jiao Tong University, Shanghai 200240, China.}
+\fntext[fn1]{Current address: Department of Mechanical Engineering, Stanford University, Stanford, CA 94305, USA.}
+\fntext[fn2]{Permanent address: Key Laboratory of Power Machinery and Engineering, Ministry of Education, Shanghai Jiao Tong University, Shanghai 200240, China.}
 
 \address{Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ 08544, USA}
 
@@ -100,7 +102,7 @@ In the computation, the nozzle separation distance was held at 2 cm to match the
 
 In the following discussion, the experimental affirmation of the distinctive ignition and extinction behavior of cool flame is first demonstrated, and thereby validate the computational prediction.  Furthermore, the thermal and chemical structures of the reacting layer in the counterflow at cool flame ignition, steady burning, and extinction conditions are demonstrated, elucidating the dominant chemical pathways for each condition.  Finally, the effects of ambient pressure and oxygen concentration on ignition and extinction are discussed.
 
-\subsection{Hysteretic ignition and extinction behavior}
+\subsection{Hysteretic ignition and extinction behavior}\label{sec:phenomenon}
 
 What differentiates a strained cool flame from a reacting mixture going through slow oxidation in a heated flow is the hysteretic ignition and extinction behavior.  Such hysteretic behavior is illustrated with an S-curve analysis shown in Fig.~\ref{fig:S-curve}.  \textcolor{Rev1}{Since the hot ignition of DME in the counterflow configuration has already been reported in the literature~\cite{zheng05}, only the cool flame portion of the S-curve is included.}  At a fixed strain rate, by gradually increasing the air boundary temperature and hence the reactivity and heat generation rate within the flow, at some point within the flow the temperature will exceed the boundary temperature and eventually lead to self-sustained burning.  Such a transition state I is defined as the ignition point, and the condition after ignition that is located on the upper steady branch of the S-curve is designated as point S, representing a steady cool flame.  The difference in the maximum temperatures between points S and I primarily results from the heat release from the cool flame.  As this temperature decreases from point S, the maximum temperature in the flow field also decreases, following the upper branch trajectory, until the flame extinguishes at point E.  The difference in the air boundary temperature between points I (or S) and E demonstrates the hysteresis between the ignition and extinction of the flame. 
 
@@ -199,9 +201,11 @@ To demonstrate the effects of such uncertainty and since the ignition temperatur
 
 Figure~\ref{fig:cmp_demo_mod} then shows that both qualitative and quantitative agreements between experiments and computations are achieved with the modified reaction parameters.  Specifically, although the magnitude of the ignition temperature is not very sensitive to the modifications, as expected, its sensitivity to increasing strain rate is enhanced, for the modifications essentially slow down the low-temperature chemistry such that the sensitivity to finite residence time is more pronounced.  More importantly, it is seen that good agreement is also achieved for the highly sensitive extinction temperatures, significantly boosting their values but without changing the sensitivity to the strain rate variation.
 
-\textcolor{Rev1}{While the above results appear to be encouraging, we hasten to clarify that we are not suggesting modified kinetic parameters for certain reactions. What we have demonstrated is the sensitive nature and potential uncertainty of the low-temperature chemistry, in that substantial change in the global response can result from even small changes in these preexponential factors. In this regard, we further note that, during the development of the low-temperature chemical model, the validation data is limited to those from homogeneous systems.  The current study aims at providing validation targets in inhomogeneous systems by substantiating the existence of the nonpremixed cool flame and revealing the evolution of low-temperature chemistry during ignition and extinction processes.  Clearly additional validation data on cool flames covering a wider range of conditions, which are inherently present in flame systems, is needed from the community.}
+\textcolor{Rev1}{While the above results appear to be encouraging, we hasten to clarify that we are not suggesting modified kinetic parameters for certain reactions. What we have demonstrated is the sensitive nature and potential uncertainty of the low-temperature chemistry, in that substantial change in the global response can result from even small changes in these preexponential factors.}  \textcolor{Rev2}{It is noted that while the Zhao \emph{et al.} model, based on which the adopted skeletal model was developed, was still the most well accepted, additional experimental data have become available recently to guide the modification of the low-temperature chemical pathways and kinetic parameters~\cite{burke15,rodriguez15}.  It is nevertheless also noted that, during the development of the low-temperature chemical model, the validation data is limited to those from homogeneous systems.  The current study aims at providing validation targets in inhomogeneous systems by substantiating the existence of the nonpremixed cool flame and revealing the evolution of low-temperature chemistry during the ignition and extinction processes.  Clearly, additional validation data on cool flames covering a wider range of conditions, which are inherently present in flame systems, is needed.}
 
 Another factor that could potentially affect the accuracy of the comparison between the experimental and computational results is the experimental detection limit of the UV camera, which could be too high compared to the chemiluminescence emission of the cool flame near extinction.  Since the hysteresis temperature window was observed in the experiment at various conditions, the detection threshold of the UV camera should be lower than the chemiluminescence intensity of the steady cool flame upon ignition.  Consequently, the ignition temperatures for these cases should be well captured.  However, the lower bound of the hysteresis temperature window could be limited by the detection threshold, and therefore, the actual extinction temperatures might not be captured accurately.
+
+\textcolor{Rev2}{It is further noted that Shan and Lu conducted a computational study on the ignition and extinction of DME/air mixtures at high pressures in a perfectly stirred reactor (PSR)~\cite{shan12b}.  In their work, eigen-analysis of the chemical Jacobian matrix was performed, and physically unstable segments were observed on the branches of an S-curve for DME/air corresponding to both strong and cool flames.  Oscillations were observed in the simulation for the unstable cases under perturbation.  In the present experiments, such oscillations were not observed when extinction occurred even in the presence of unavoidable system perturbations such as fluctuations from the heat supply and flow meters, with the repeatability of ignition and extinction temperature measurements within 2 K, as indicated in Sec.~\ref{sec:phenomenon}.  Consequently, oscillation was not observed when extinction occurred in the current study.  Therefore, we do not expect that the large discrepancy between the current experimental and computational cool flame extinction results is due to the instability of the cool flame.}
 
 \subsection{Effects of pressure and oxygen concentration}
 
